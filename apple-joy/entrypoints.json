@@ -1,0 +1,17 @@
+{
+  "entrypoints": {
+    "js/index": {
+      "css": [
+        "./js/index.b4340655.css"
+      ],
+      "js": [
+        "./js/index.dff9ea20.js"
+      ]
+    },
+    "css/index": {
+      "css": [
+        "./css/index.3ecd9d0d.css"
+      ]
+    }
+  }
+}
