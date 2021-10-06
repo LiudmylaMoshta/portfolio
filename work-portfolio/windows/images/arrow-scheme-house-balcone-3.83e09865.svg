@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75.399" height="68.739" viewBox="0 0 75.399 68.739">
+  <g id="Сгруппировать_150" data-name="Сгруппировать 150" transform="translate(75.399 60.899) rotate(138)">
+    <g id="Эллипс_463" data-name="Эллипс 463" transform="translate(0 0)" fill="#fff" stroke="#2792de" stroke-width="1">
+      <ellipse cx="5.5" cy="5.5" rx="5.5" ry="5.5" stroke="none"/>
+      <ellipse cx="5.5" cy="5.5" rx="5" ry="5" fill="none"/>
+    </g>
+    <g id="Эллипс_464" data-name="Эллипс 464" transform="translate(3 3)" fill="#2792de" stroke="#2792de" stroke-width="1">
+      <ellipse cx="2.5" cy="2.5" rx="2.5" ry="2.5" stroke="none"/>
+      <ellipse cx="2.5" cy="2.5" rx="2" ry="2" fill="none"/>
+    </g>
+    <path id="Контур_430" data-name="Контур 430" d="M0,0S2.332,24.467,5.555,43.416c.605,3.562,1.268,7.039,1.95,10.069C11.673,71.96,18.2,74.969,18.2,74.969" transform="translate(5.336 10.882)" fill="none" stroke="#2792de" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+.section-form{
+  //text-align: center;
+  p{
+    color: #121212;
+    font-weight: 300;
+  }
+  form{
+    justify-content: center;
+    input{
+      width: 290px;
+      border-bottom: 2px solid #2ecc71;
+      margin: 5px;
+    }
+    button{
+      width: 250px;
+      height: 40px;
+      background-color: #2ecc71;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: #2ecc71;
+      margin: 25px auto;
+    }
+  }
+}
+@media (min-width: 1300px) {
+  .section-form{
+    text-align: left;
+    p{
+      max-width: 340px;
+    }
+    form{
+      justify-content: space-between;
+      input{
+        width: 340px;
+        //border-bottom: 2px solid #2ecc71;
+      }
+      button{
+        margin: 0;
+      }
+    }
+  }
+}

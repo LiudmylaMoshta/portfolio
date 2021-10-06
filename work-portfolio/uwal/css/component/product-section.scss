@@ -1,0 +1,116 @@
+.bg-title-product{
+  background-image: url($images + "img-title-product.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+}
+.product-section{
+  .list-product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    .item-product{
+      width: 100%;
+      max-width: 375px;
+      padding-top: 25px;
+      .block{
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        img{
+          width: 100%;
+          max-height: 185px;
+        }
+        .info-product{
+          padding: 10px;
+          text-align: left;
+          text-transform: uppercase;
+          font-size: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          flex-grow: 1;
+          .name-product{
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+        .block-more{
+          text-align: right;
+          .more{
+            font-size: 14px;
+            font-weight: 700;
+          }
+        }
+      }
+      a:hover{
+        color: #2ecc71;
+      }
+    }
+  }
+
+}
+@media (min-width: 550px) {
+  .product-section{
+    .list-product{
+      .item-product{
+        width: 50%;
+        .block{
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+          margin: 13px;
+          img{
+
+          }
+          .info-product{
+          }
+          .more{
+          }
+        }
+        &:hover{
+          img{
+          }
+          .more{
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .product-section{
+    .list-product{
+      .item-product{
+        width: 33%;
+        padding-top: 0;
+        .block{
+          overflow: hidden;
+          .info-product {
+            margin-bottom: -13%;
+          }
+          img,
+          .info-product{
+            transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+            transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+            transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+          }
+        }
+        &:hover{
+          img,.info-product{
+            transform: translateY(-20%);
+          }
+          .more{
+            display: block;
+            color: #2ecc71;
+          }
+        }
+
+      }
+    }
+  }
+}

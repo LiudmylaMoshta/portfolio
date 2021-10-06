@@ -1,0 +1,43 @@
+.section-form p {
+  color: #121212;
+  font-weight: 300;
+}
+.section-form form {
+  justify-content: center;
+}
+.section-form form input {
+  width: 290px;
+  border-bottom: 2px solid #2ecc71;
+  margin: 5px;
+}
+.section-form form button {
+  width: 250px;
+  height: 40px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: #2ecc71;
+  margin: 25px auto;
+}
+
+@media (min-width: 1300px) {
+  .section-form {
+    text-align: left;
+  }
+  .section-form p {
+    max-width: 340px;
+  }
+  .section-form form {
+    justify-content: space-between;
+  }
+  .section-form form input {
+    width: 340px;
+  }
+  .section-form form button {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=form-section.css.map */

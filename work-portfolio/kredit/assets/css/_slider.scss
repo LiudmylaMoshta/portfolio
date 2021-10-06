@@ -1,0 +1,56 @@
+@import "~bootstrap-slider/src/sass/bootstrap-slider";
+
+.slider-handle {
+  background: radial-gradient($yellow, $yellow 50%, $black 100%);
+}
+.slider {
+  &.slider-horizontal {
+    width: 100%;
+    .slider-track {
+      height: 12px;
+      //background: transparent;
+      //box-shadow: none;
+      position: relative;
+      &::before, &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        display: block;
+
+      }
+    }
+    .slider-tick-container {
+      display: none;
+    }
+    .slider-tick-label-container {
+      width: 265px;
+      //display: flex;
+      //justify-content: space-between;
+      //margin-left: unset !important;
+      .slider-tick-label {
+        position: relative;
+        //width: auto !important;
+        &::before {
+          content: '|';
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          left: 50%;
+        }
+        &:first-child, &:last-child {
+          color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.slider-selection{
+  &.tick-slider-selection {
+    background: transparent;
+  }
+}
+
+.range-wrapper {
+  width: 100%;
+}

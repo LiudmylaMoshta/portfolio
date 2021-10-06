@@ -1,0 +1,136 @@
+@import "slider";
+
+.block-write{
+  background: rgba(#F0F0EE, .91);
+  .card-body {
+
+  }
+}
+
+.form-credit{
+  width: 283px;
+  max-width: 100%;
+  .card-header{
+    text-align: center;
+    h3{
+      font-size: 2.8rem;
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+  .card-body{
+    font-size: 1.4rem;
+    input{
+      font-size: 1.7rem;
+      font-weight: bold;
+      color: #FCB143;
+      width: 67px;
+      margin-right: 5px;
+      text-align: center;
+    }
+    input#range-days{
+      width: 36px;
+      margin-right: 5px;
+      text-align: center;
+    }
+    .slider.slider-horizontal .slider-tick-label-container .slider-tick-label{
+      font-size: 10px;
+    }
+  }
+  .card-footer{
+    text-align: center;
+    padding: 14px;
+    button{
+      font-size: 1.7rem;
+      background-color: #0A81F9;
+      color: white;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+}
+//568
+@include media-breakpoint-up(xs) {
+  .form-credit{
+    .card-body {
+      padding-left: 1.6667rem;
+      padding-right: 1.6667rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(ls) {
+  .form-credit{
+    margin: 0 auto;
+  }
+}
+// 1200
+@include media-breakpoint-up(xl) {
+  .form-credit{
+    width: 352px;
+    margin: 0;
+    margin-left: auto;
+    .card-header{
+      text-align: center;
+      h3{
+        font-size: 27px;
+        span{
+          font-weight: 700;
+        }
+      }
+    }
+    .card-body{
+      font-size: 14px;
+      input{
+        font-size: 17px;
+        width: 118px;
+        min-width: 118px;
+        margin-right: 5px;
+      }
+      input#range-days{
+        width: 66px;
+        min-width: 66px;
+        margin-right: 5px;
+      }
+      .slider.slider-horizontal .slider-tick-label-container .slider-tick-label{
+        font-size: 9px;
+      }
+    }
+    .card-footer{
+      button{
+        font-size: 17px;
+        color: white;
+        span{
+        }
+      }
+    }
+  }
+}
+// 1400
+@include media-breakpoint-up(xxl) {
+  .form-credit{
+    width: 518px;
+    .card-header{
+      h3{
+        font-size: 40px;
+      }
+    }
+    .card-body{
+      font-size: 20px;
+      input{
+        font-size: 25px;
+      }
+      .slider.slider-horizontal .slider-tick-label-container .slider-tick-label{
+        font-size: 13px;
+      }
+    }
+    .card-footer{
+      button{
+        font-size: 25px;
+
+      }
+    }
+  }
+}

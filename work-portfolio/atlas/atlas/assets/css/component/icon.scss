@@ -1,0 +1,377 @@
+$icons: '../../images/icon/';
+
+.icon {
+  &::before {
+    content: '';
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &+* {
+    margin-left: 5px;
+  }
+}
+.icon-18 {
+  &::before {
+    height: 1.125rem;
+    width: 1.125rem;
+  }
+}
+.icon-20 {
+  &::before {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+}
+.icon-22 {
+  &::before {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+.icon-40x22 {
+  &::before {
+    height: 1.5rem;
+    width: 2.5rem;
+  }
+}
+
+.icon-80 {
+  &::before {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.icon-service {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #F8F5F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  &::before {
+    width: 65%;
+    height: 65%;
+    background-size: contain;
+  }
+}
+
+
+.icon-phone {
+  &::before {
+    background-image: url($icons + "call.svg");
+  }
+}
+.icon-email-2 {
+  &::before {
+    background-image: url($icons + "icon-email.svg");
+    width: 17px;
+    height: 13px;
+  }
+}
+.icon-address-2 {
+  &::before {
+    background-image: url($icons + "icon-location.svg");
+    width: 17px;
+    height: 16px;
+  }
+}
+.icon-facebook {
+  &::before {
+    background-image: url($icons + "facebook.svg");
+  }
+}
+.icon-twitter {
+  &::before {
+    background-image: url($icons + "twitter.svg");
+  }
+}
+.icon-youtube {
+  &::before {
+    background-image: url($icons + "youtube.svg");
+  }
+}
+.icon-shopping-bag {
+  &::before {
+    background-image: url($icons + "shopping-bag.svg");
+  }
+}
+.icon-shopping-bag-primary {
+  &::before {
+    background-image: url($icons + "shopping-bag-primary.svg");
+  }
+}
+.icon-search {
+  &::before {
+    background-image: url($icons + "search.svg");
+  }
+}
+.icon-search-primary {
+  &::before {
+    background-image: url($icons + "search-primary.svg");
+  }
+}
+
+.icon-toggle-button {
+  &::before {
+    background-image: url($icons + "toggle-button.svg");
+  }
+}
+.icon-finance {
+  &::before {
+    background-image: url($icons + "icon-finance.svg");
+  }
+}
+.icon-banking{
+  &::before {
+    display: block;
+    background-image: url($icons + "icon-banking.svg");
+  }
+}
+.icon-business{
+  &::before {
+    background-image: url($icons + "icon-business.svg");
+  }
+}
+.icon-market{
+  &::before {
+    background-image: url($icons + "icon-market.svg");
+  }
+}
+.icon-strong{
+  &::before {
+    background-image: url($icons + "icon-strong.svg");
+  }
+}
+.icon-large{
+  &::before {
+    background-image: url($icons + "icon-large.svg");
+  }
+}
+.icon-support{
+  &::before {
+    background-image: url($icons + "icon-support.svg");
+  }
+}
+.icon-experience{
+  &::before {
+    background-image: url($icons + "icon-experience.svg");
+  }
+}
+.icon-creative{
+  &::before {
+    background-image: url($icons + "icon-creative.svg");
+  }
+}
+.icon-projects{
+  &::before {
+    background-image: url($icons + "icon-projects.svg");
+    width: 53px;
+    height: 53px;
+  }
+}
+.icon-team{
+  &::before {
+    background-image: url($icons + "icon-team.svg");
+    width: 53px;
+    height: 53px;
+  }
+}
+.icon-clients{
+  &::before {
+    background-image: url($icons + "icon-clients.svg");
+    width: 53px;
+    height: 53px;
+  }
+}
+.icon-years{
+  &::before {
+    background-image: url($icons + "icon-years.svg");
+    width: 61px;
+    height: 61px;
+  }
+}
+.icon-ask{
+  margin-left: 7px;
+  &::before {
+    background-image: url($icons + "icon-ask.svg");
+  }
+}
+.icon-call{
+  &::before {
+    display: block;
+    background-image: url($icons + "icon-call.svg");
+    width: 15px;
+    height: 15px;
+    margin-left: 7px;
+  }
+}
+.icon-email{
+  &::before {
+    display: block;
+    background-image: url($icons + "icon-footer-email.svg");
+    width: 18px;
+    height: 13px;
+    margin-left: 7px;
+  }
+}
+.icon-address{
+  &::before {
+    display: block;
+    background-image: url($icons + "icon-location.svg");
+    width: 16px;
+    height: 16px;
+    margin-left: 7px;
+  }
+}
+.icon-button-video{
+  z-index: 1;
+  padding: 10px;
+  background-color: #a6cc29;
+  position: absolute;
+  border-radius: 20px;
+  bottom: 5px;
+  right: 0;
+  &::before {
+    display: block;
+    background-image: url($icons + "button-green.svg");
+    width: 41px;
+    height: 30px;
+
+  }
+}
+
+.section-clients {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    right: 0;
+    height: 500px;
+    background: url($icons + "bg-trusted.svg");
+  }
+}
+
+@media (min-width: 768px){
+  .icon-projects{
+    &::before {
+      width: 83px;
+      height: 83px;
+    }
+  }
+  .icon-team{
+    &::before {
+      width: 83px;
+      height: 83px;
+    }
+  }
+  .icon-clients{
+    &::before {
+      width: 83px;
+      height: 83px;
+    }
+  }
+  .icon-years{
+    &::before {
+      width: 95px;
+      height: 95px;
+    }
+  }
+  .icon-ask{
+    &::before {
+      background-size: 100%;
+      width: 40px;
+      height: 30px;
+    }
+  }
+  .icon-call::before {
+    width: 25px;
+    height: 25px;
+  }
+  .icon-email::before {
+    width: 25px;
+    height: 25px;
+  }
+  .icon-address::before {
+    width: 27px;
+    height: 23px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-service {
+    width: 110px;
+    height: 110px;
+  }
+  .icon-button-video{
+    bottom: auto;
+    right: auto;
+    top: 0;
+    left: 0;
+    &::before {
+      width: 117px;
+      height: 90px;
+
+    }
+  }
+  .icon-80 {
+    &::before {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  .icon-projects{
+    &::before {
+      width: 54px;
+      height: 54px;
+    }
+  }
+  .icon-team{
+    &::before {
+      width: 54px;
+      height: 54px;
+    }
+  }
+  .icon-clients{
+    &::before {
+      width: 54px;
+      height: 54px;
+    }
+  }
+  .icon-years{
+    &::before {
+      width: 54px;
+      height: 54px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .icon-service {
+    width: 80px;
+    height: 80px;
+  }
+  .icon-button-video {
+    top: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .icon-service {
+    width: 150px;
+    height: 150px;
+  }
+  .icon-80 {
+    &::before {
+      height: 80px;
+      width: 80px;
+    }
+  }
+}
+

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="style/style_.css">
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg header-main">
+        <div class="container">
+            <div class="brand">
+                <a href="#">
+                    <img src="images/logo.svg" title="Tile-bay" alt="Tile-bay" class="img-responsive img-logo">
+                </a>
+            </div>
+            <div class="header-top">
+                <div class="contact-text">
+                    <i class="icon icon-phone"></i>
+                    <span>get in touch - </span>
+                    <a href="#" class="pl-1"> (877)-353-5310</a>
+                </div>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#" title="https://tile-bay.com/index.php?route=information/contact">
+                            <i class="icon icon-reply"></i>
+                            <span class="hidden-xs hidden-sm hidden-md">Contact Us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="wishlist-total" title="Wish List (0)">
+                            <i class="icon icon-heard"></i>
+                            <span class="hidden-xs hidden-sm hidden-md">Wish List (0)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Checkout">
+                            <i class="icon icon-reply"></i>
+                            <span class="hidden-xs hidden-sm hidden-md">Checkout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-bottom">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search product here">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-outline-secondary header-search-btn">
+                            <span class="icon-search"></span>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split dropdown-user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">login</a>
+                            <a class="dropdown-item" href="#">registration</a>
+                        </div>
+                        <button type="button" class="btn btn-bag">
+                            <i class="icon-shopping-bag"></i>
+                            <span class="p-1">(0) Items</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light menu">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span>MENU</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item d-none d-lg-flex">
+                        <a class="" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Room</a>
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarRoom" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarRoom">
+                            <a class="dropdown-item" href="#">Kitchen (31)</a>
+                            <a class="dropdown-item" href="#">Bathroom (19)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Application</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarApplication" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarApplication">
+                            <a class="dropdown-item" href="#">Wall (25)</a>
+                            <a class="dropdown-item" href="#">Backsplash (17)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Material</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarMaterial" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarMaterial">
+                            <a class="dropdown-item" href="#">Glass (17)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Shape</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarShape" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarShape">
+                            <a class="dropdown-item" href="#">Rectangle (25)</a>
+                            <a class="dropdown-item" href="#">Square (7)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Style</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarStyle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarStyle">
+                            <a class="dropdown-item" href="#">Contemporary (12)</a>
+                            <a class="dropdown-item" href="#">Traditional (2)</a>
+                            <a class="dropdown-item" href="#">Modern (6)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Color</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarColor" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarColor">
+                            <a class="dropdown-item" href="#">Black (5)</a>
+                            <a class="dropdown-item" href="#">Mirror (3)</a>
+                            <a class="dropdown-item" href="#">Bronze (4)</a>
+                            <a class="dropdown-item" href="#">Grey (8)</a>
+                            <a class="dropdown-item" href="#">Light Brown (4)</a>
+                            <a class="dropdown-item" href="#">White (5)</a>
+                            <a class="dropdown-item" href="#">Silver (2)</a>
+                            <a class="dropdown-item" href="#">Brown (2)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Featured</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarFeatured" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarFeatured">
+                            <a class="dropdown-item" href="#">Subway (11)</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+</header>
+    <div class="main">
+        <section class="section-welcome">
+            <div class="container">
+                <div class="text-logo">
+                    <div class="block-logo">
+                        <img src="images/logo.svg" class="logo" alt="logo">
+                    </div>
+                    <div class="block-custom">
+                        <button class="btn btn-custom"><a href="catalog.html"> Top Category</a></button>
+                        <button class="btn btn-custom">Bestsellers</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-list-category">
+            <div class="container">
+                <ul class="list-category">
+                    <li class="item-list-category"><a href="#"><img src="images/category-home.png" alt="img-category" class="img-fluid"> HOME</a> </li>
+                    <li class="item-list-category"><a href="#"><img src="images/category-room.png" alt="img-category" class="img-fluid">ROOM</a></li>
+                    <li class="item-list-category"><a href="#"><img src="images/category-application.png" alt="img-category" class="img-fluid">APPLICATION</a></li>
+                    <li class="item-list-category"><a href="#"><img src="images/category-material.png" alt="img-category" class="img-fluid">MATERIAL</a></li>
+                    <li class="item-list-category"><a href="#"><img src="images/category-shape.png" alt="img-category" class="img-fluid">SHAPE</a></li>
+                    <li class="item-list-category"><a href="#"><img src="images/category-style.png" alt="img-category" class="img-fluid">STYLE</a></li>
+                    <li class="item-list-category"><a href="#"><img src="images/category-color.png" alt="img-category" class="img-fluid">COLOR</a></li>
+                    <li class="item-list-category"><a href="#"><img src="images/category-featured.png" alt="img-category" class="img-fluid">FEATURED</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-catalog">
+            <div class="container">
+                <h3 class="title-section"><span class="icon icon-setting"></span>FEATURED</h3>
+                <ul class="list-catalog">
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/name-product.png" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/bg-welcom-section.svg" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/arrow-down.svg" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/name-product.png" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-catalog top-catalog">
+            <div class="container">
+                <h3 class="title-section"><span class="icon icon-setting"></span>BESTSELLERS</h3>
+                <ul class="list-catalog">
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/name-product.png" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/name-product.png" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/name-product.png" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                    <li class="item-list-catalog">
+                        <div class="wrap-img">
+                            <a href="#" class="icon icon-like"></a>
+                            <img src="images/name-product.png" alt="img-product" class="img-fluid">
+                        </div>
+                        <div class="info-product">
+                            <span class="name-product">10 X 3 Bronze Glass Mirror Tiles </span>
+                            <span class="price-product"><span class="strong-text">$4.50 </span>/ sq. ft.</span>
+                            <button class="btn-product">Add to cart</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-post">
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus vel eros eu mollis.
+                    Fusce gravida libero ex, a commodo mi porttitor nec. Sed in leo sem. In ullamcorper mauris a ex bibendum,
+                    vel pulvinar dui tincidunt. Praesent malesuada libero neque, ut blandit purus sodales sed.
+                    Nullam fringilla purus non auctor pulvinar. Praesent arcu mi, lobortis et commodo vitae, iaculis in nibh.
+                    Donec suscipit lectus porta dolor iaculis, vitae accumsan dui convallis. Aenean nisl turpis, scelerisque
+                    quis efficitur sed, auctor vitae lorem. Maecenas tristique finibus nisi. Morbi imperdiet ligula tempus dui
+                    posuere, id eleifend massa convallis. Phasellus viverra dolor eget odio laoreet, nec convallis justo ultrices.
+                    Morbi sagittis tincidunt est dignissim ullamcorper. Donec elementum finibus vulputate.
+                    Pellentesque dignissim eu est non congue.
+                </p>
+                <p>In facilisis turpis sit amet ex consectetur mollis. Duis sagittis, massa sit amet semper rutrum,
+                    elit magna sagittis eros, interdum sollicitudin nisl purus non lectus. Maecenas rutrum, arcu et blandit suscipit,
+                    ante magna fermentum ante, et pellentesque metus diam id odio. Sed pulvinar dignissim dolor, a pellentesque
+                    velit ullamcorper sit amet. Aliquam nec nulla sit amet massa efficitur varius ut nec felis.
+                    Vivamus tempor mauris libero, eu aliquet ligula pulvinar ut. Sed sed lacus nec turpis mollis eleifend nec non
+                    orci. Maecenas sed scelerisque felis, a imperdiet eros. Mauris convallis dui at risus convallis placerat.
+                    Ut aliquam consectetur egestas. Praesent euismod aliquam pretium. Vivamus risus sem, molestie consequat blandit
+                    sit amet, placerat eget lacus. Vivamus congue blandit auctor. Donec pellentesque tortor ex, rutrum feugiat arcu
+                    euismod et.
+                </p>
+                <p>Curabitur congue tortor vel enim scelerisque luctus. Vivamus interdum porta massa, et consectetur dolor.
+                    Pellentesque nunc nulla, mattis in velit suscipit, egestas tristique dui. Maecenas quis commodo nisl.
+                    Donec enim tortor, lacinia in dictum in, ultricies ut magna. Duis sit amet condimentum dui.
+                    Cras ultricies non nisl quis interdum.
+                </p>
+            </div>
+        </section>
+        <section class="section-info-icons">
+            <div class="container">
+                <ul class="list-info-icons">
+                    <li class="item-list-info-icon">
+                        <span class="icon icon-delivery"></span>
+                        <div class="info-icon">
+                            <span class="title">FREE DELIVERY</span>
+                            <span>Give The Perfect Gift</span>
+                        </div>
+                    </li>
+                    <li class="item-list-info-icon">
+                        <span class="icon icon-ship"></span>
+                        <div class="info-icon">
+                            <span class="title">FREE ONE-DAY SHIPPING</span>
+                            <span>On Orders Over $99</span>
+                        </div>
+                    </li>
+                    <li class="item-list-info-icon">
+                        <span class="icon icon-return"></span>
+                        <div class="info-icon">
+                            <span class="title">FREE 90-DAYS RETURNS</span>
+                            <span>Hours : 8am - 11pm</span>
+                        </div>
+                    </li>
+                    <li class="item-list-info-icon">
+                        <span class="icon icon-parcel"></span>
+                        <div class="info-icon">
+                            <span class="title">HEAVY-DUTY WOODEN CRATE PACKAGING</span>
+                            <span>For All Spices & Herbs</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="">
+                <div class="footer-blocks row">
+                    <div class="col-sm-3 block-1">
+                        <h5 class="title" data-toggle="collapse" href="#informasin-footer" role="button" aria-expanded="false" aria-controls="informasin-footer"><span>Information</span>
+                            <a class="mobile_togglemenu">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                                    <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+                                </svg>
+                            </a>
+                        </h5>
+                        <ul class="collapse list-unstyled" id="informasin-footer">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Returns</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 block-2">
+                        <h5 class="title"  data-toggle="collapse" href="#extras" role="button" aria-expanded="false" aria-controls="extras">Extras
+                            <a class="mobile_togglemenu">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                                    <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+                                </svg>
+                            </a>
+                        </h5>
+                        <ul class="collapse  list-unstyled"  id="extras">
+                            <li class="contact"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 block-3">
+                        <h5 class="title" data-toggle="collapse" href="#company-info" role="button" aria-expanded="false" aria-controls="company-info">company info
+                            <a class="mobile_togglemenu">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                                    <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+                                </svg>
+                            </a>
+                        </h5>
+                        <ul class="collapse list-unstyled" id="company-info">
+                            <li>
+                                <div class="address">
+                                    <i class="icon icon-maps"> </i>
+                                    <div class="address_content">
+                                        <div class="contact_address">20600 NW 47th Ave,<br/> Miami Gardens, FL 33055</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="phone">
+                                    <i class="icon icon-phone-footer"> </i>
+                                    <a href="tel:8773535310"><div class="contact_phone">8773535310</div></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="email">
+                                    <i class="icon icon-email"> </i>
+                                    <div class="contact_email"><a target="_blank" href="mailto:info@tilebay.com">info@tilebay.com</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3  block-4">
+                        <div class="social-cms">
+                            <img src="images/logo-footer.svg" class="logo-footer" alt="logo">
+                            <ul class="social">
+                                <li class="icon icon-facebook"><a href="#"></a></li>
+                                <li class="icon icon-twitter"><a href="#"></a></li>
+                                <li class="icon icon-gplus"><a href="#"></a></li>
+                                <li class="icon icon-linkedin"><a href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom_content ">
+                    <div class="bottomfooter">
+                        <ul class="d-flex footer-list">
+                            <li><a href="https://tile-bay.com/return-add">Returns</a></li>
+                            <li><a href="https://tile-bay.com/sitemap">Site Map</a></li>
+                            <li class="contact"><a href="https://www.tile-bay.com/contact">Contact Us</a></li>
+                        </ul>
+                        <p class="powered">Powered By <a href="http://www.opencart.com">OpenCart</a> Tile-bay © 2020</p>
+                    </div>
+                    <ul class="payment">
+                        <li class="icon visa"><a href="#"></a></li>
+                        <li class="icon paypal"><a href="#"></a></li>
+                        <li class="icon mastercard"><a href="#"></a></li>
+                        <li class="icon discover"><a href="#"></a></li>
+                        <li class="icon americanexpress"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>

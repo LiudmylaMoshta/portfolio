@@ -1,0 +1,54 @@
+Html Webpack Plugin:
+<pre>
+  Error: html-webpack-plugin could not minify the generated output.
+  In production mode the html minifcation is enabled by default.
+  If you are not generating a valid html output please disable it manually.
+  You can do so by adding the following setting to your HtmlWebpackPlugin config:
+  |
+  |    minify: false
+  |
+  See https://github.com/jantimon/html-webpack-plugin#options for details.
+  For parser dedicated bugs please create an issue here:
+  https://danielruf.github.io/html-minifier-terser/
+  Parse Error: < В наших каталогах представлены оконные профильные системы от ведущих производителей:/p> 
+                  <ul> 
+                      <li>·rehau;</li> 
+                      <li>·salamander;</li> 
+                      <li>·kbe;</li> 
+                      <li>·wds;</li> 
+                      <li>·veca;</li> 
+                      <li>·open teck и др.</li> 
+                  </ul> 
+                 <p>Мы готовы выехать на объект и осуществить необходимые замеры для будущей оконной конструкции стандартной и нестандартной формы.</p> 
+                  <h4 class="title-post">Стоимость</h4> 
+                  <p>Цена профильных систем ПВХ зависит от размера, количества камер и толщины профиля, цвета, ламинирования, дополнительных 
+                      элементов (контурных уплотнителей и конструктивных деталей).</p> 
+                  <p> Компания «Windows Group» предлагает заказать профильные системы окон в Украине по выгодной стоимости от производителя. 
+                      Узнать цены можно на сайте или позвонить по телефону.</p> 
+              </div> 
+          </div> 
+      </section> 
+  </div> 
+   <footer class=footer> <div class="container block-footer"> <div class=block-1> <a href=#><img src=./images/logo-footer.5eefe256.svg class=img-fluid alt=""></a> <p>Кредиты и рассрочка 0% от банков:</p> <ul class="list-bank d-f  lex"> <li class=item-bank> <a href=# class="bank-alfa block-item-brand"><img src=./images/bank-alfa.f1729244.png class=img-fluid alt=photo-bank></a> </li> <li class=item-bank> <a href=# class="block-item-brand bank-privat"><im  g src=./images/bank-privat-1.609f4586.svg class=img-fluid alt=photo-bank></a> </li> <li class=item-bank> <a href=# class="block-item-brand bank-mono"><img src=./images/bank-mono-1.d73bdf13.svg class=img-fluid alt=photo-bank></  a> </li> </ul> </div> <div class=block-2> <span class=title-footer>Компания </span> <ul class=menu-footer> <li><a href=#> Главная</a></li> <li><a href=#>О Нас</a></li> <li><a href=#>Служба поддержки</a></li> <li><a href=#>Част  ые вопросы</a></li> <li><a href=#>Правила и условия</a></li> <li><a href=# class="d-none d-md-block">Политика конфиденциальности</a></li> </ul> </div> <div class=block-3> <span class=title-footer>Свяжитесь с нами </span> <ul c  lass=info> <li><span class=icon-location></span>г. Киев ул. Коллекторная д. 3</li> <li><span class=icon-call></span>( 067 ) 818 - 00 - 51</li> <li><span class=icon-email></span>zakaz.windowsgroup@gmail.com</li> <li><span class  =clock-footer></span>Пн.–Пт.: 8:00 – 18:00<br/> Сб. - Вс: ВЫХОДНОЙ</li> </ul> <div class="d-md-flex top-icon-footer"> <div> <span class=title-footer-bottom>Всегда на связи</span> <ul class=list-contact> <li><a href=# class=vib  er></a></li> <li><a href=# class=telegram></a></li> <li><a href=# class=skype></a></li> <li><a href=# class=whatsapp></a></li> </ul> </div> <div class=block-soc> <span class=title-footer-bottom>Мы в соц. сетях</span> <ul class  =list-soc> <li><a href=# class=facebook></a></li> <li><a href=# class=instagram></a></li> <li><a href=# class=google-plus></a></li> </ul> </div> </div> </div> </div> <p class="container bottom-footer"> <span>© 1999-2020 Window  sgroup.com.ua </span> <span class=pl-lg-2>Все права защищены</span></p> </footer>  
+  <script src="./js/index.1c3f525f.js"></script></body> 
+  </html>
+  
+  - htmlparser.js:244 new HTMLParser
+    [windows]/[html-minifier-terser]/src/htmlparser.js:244:13
+  
+  - htmlminifier.js:993 minify
+    [windows]/[html-minifier-terser]/src/htmlminifier.js:993:3
+  
+  - htmlminifier.js:1354 Object.exports.minify
+    [windows]/[html-minifier-terser]/src/htmlminifier.js:1354:16
+  
+  - index.js:993 HtmlWebpackPlugin.minifyHtml
+    [windows]/[html-webpack-plugin]/index.js:993:46
+  
+  - index.js:422 HtmlWebpackPlugin.postProcessHtml
+    [windows]/[html-webpack-plugin]/index.js:422:40
+  
+  - index.js:247 
+    [windows]/[html-webpack-plugin]/index.js:247:25
+  
+</pre>

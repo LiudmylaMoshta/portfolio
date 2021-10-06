@@ -1,0 +1,310 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$purple: #4b1e5f;
+$teal: #a6cc29;
+
+$container-max-widths: (
+    sm: 400px,
+    md: 610px,
+    lg: 960px,
+    xl: 1140px
+);
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+$theme-colors: (primary: $purple, teal: $teal);
+
+@import "./component/reset";
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+@import "./component/font";
+@import "./component/dropdown";
+@import "./component/flag";
+@import "./component/icon";
+@import "./component/form";
+@import "./component/header";
+@import "./component/services";
+@import "./component/jumbotron";
+@import "./component/footer";
+@import "./component/about-us";
+@import "./component/said";
+@import "./component/choose-us";
+@import "./component/studies";
+@import "./component/news";
+@import "component/page";
+@import "./component/page-blog";
+@import "./component/portfolio";
+
+.form-control:focus {
+  box-shadow: none;
+}
+.fixed-totop{
+  display: none;
+  color: #83a220;
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  z-index: 2;
+  .fas{
+    font-size: 45px;
+  }
+}
+.arrow-top{
+
+}
+
+.slick-dots li {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 7px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #4b1e5f;
+  &.slick-active{
+    background-color: $purple;
+  }
+}
+.slick-dots li button:before{
+  display: none;
+}
+.top-block-section{
+  text-align: center;
+  color: $purple ;
+  .prew-title-section{
+    font-size: 1rem;
+  }
+  .title-section{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}
+.section-top-button{
+  padding: 0;
+  .button-group{
+    text-align: center;
+    margin-top: -25px;
+    .btn{
+      background-color: #ffffff;
+      width: 160px;
+      font-size: 20px;
+      margin: 0 7px;
+      &.active{
+        background-color: #a6cc29;
+      }
+
+    }
+  }
+}
+
+
+.section-clients{
+      .top-block-section{
+        max-width: 550px;
+
+      }
+  .btn{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.start-project{
+  background-image: url("../images/start-prog.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  h4{
+    font-weight: bold;
+  }
+  .block-start-project{
+    justify-content: center;
+    align-items: center;
+    min-height: 212px;
+  }
+}
+
+
+.section-form{
+  background-color: $purple;
+  color: #ffffff;
+
+  .top-block-section{
+    color: white;
+  }
+}
+
+
+
+.btn{
+  border-radius: 10px;
+  color: $purple;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.form-info{
+  label{
+    margin: 7px;
+  }
+  input{
+    border-radius: 10px;
+    &::placeholder{
+      color: #E5B0F6;
+      text-align: center;
+    }
+  }
+}
+.color-green{
+  color: #A6CC29;
+}
+@media (max-width: 600px) {
+  .fixed-totop {
+    right: 1%;
+  }
+}
+@media (min-width: 768px) {
+  p{
+    font-size: 20px;
+  }
+  .top-block-section{
+    text-align: center;
+    color: $purple ;
+    .prew-title-section{
+      font-size: 1.25rem;
+    }
+    .title-section{
+      font-size: 1.9rem;
+      font-weight: bold;
+    }
+  }
+  .btn{
+    font-size: 1.1rem;
+  }
+  .section-about-us:before,
+  .section-about-us:after,
+  .section-news:before{
+    height: 9px;
+
+  }
+  .start-project{
+    h4{
+      font-size: 1.8rem;
+      text-align: left;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .top-block-section{
+    text-align: center;
+    color: $purple ;
+    .prew-title-section{
+      font-size: 1.3rem;
+    }
+    .title-section{
+      font-size: 2.1rem;
+    }
+  }
+  section{
+    padding: 60px 0;
+    text-align: left;
+  }
+  p{
+    text-align: left;
+    font-size: 1.05rem;
+  }
+  .start-project{
+
+    h4{
+      font-size: 2.5rem;
+      text-align: left;
+    }
+  }
+
+  .section-form{
+    .top-block-section {
+      .title-section {
+        font-size: 3rem;
+      }
+    }
+  }
+  .form-info{
+    input {
+      &::placeholder{
+        color: #E5B0F6;
+        text-align: left;
+        font-size: 1rem;
+      }
+    }
+    label{
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+  .slick-dots li {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-info{
+    input {
+      width: 280px;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+  section {
+    padding: 80px 0;
+    text-align: left;
+  }
+  .top-block-section{
+    text-align: center;
+    color: $purple ;
+    .prew-title-section{
+      font-size: 1.6rem;
+    }
+    .title-section{
+      font-size: 2.8rem;
+    }
+  }
+  p{
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 170%;
+  }
+  .section-clients .top-block-section {
+    max-width: 600px;
+  }
+  .start-project{
+    h4{
+      font-size: 4rem;
+      text-align: left;
+    }
+  }
+  .section-form{
+    .top-block-section {
+      .title-section {
+        font-size: 4rem;
+      }
+    }
+  }
+  .form-info{
+    input {
+      &::placeholder{
+        font-size: 1rem;
+      }
+    }
+    label{
+      font-size: 1.2rem;
+      text-align: left;
+    }
+  }
+}

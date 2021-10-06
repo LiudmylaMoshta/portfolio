@@ -1,0 +1,59 @@
+.img-title-company{
+  background-image: url($images + "bg-title@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-position: center;
+  &.title-section-img {
+    margin-bottom: -50px;
+  }
+}
+.about-section{
+  .list-preference{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .item-preference{
+      margin: 15px 0;
+      &:before{
+        margin-bottom: 15px;
+      }
+      .block{
+        h4{
+          font-weight: 600;
+          margin-bottom: 5px;
+        }
+        p{
+          font-weight: 300;
+          max-width: 250px;
+          margin: 0 auto;
+        }
+
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .about-section{
+    .img-title-company{
+
+    }
+    .list-preference{
+
+      .item-preference{
+        margin: 7px 0;
+        width: 33%;
+        .block{
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+}

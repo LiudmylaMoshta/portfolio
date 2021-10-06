@@ -1,0 +1,70 @@
+.welcome-section-contact{
+  background:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url($images +"bg-welcome-contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+  .bg-welcome-opacity{
+
+  }
+}
+.section-contact {
+  color: #121212;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  .img-title-contact  {
+    background-image: url($images + "img-title-contact.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    margin-bottom: 0;
+  }
+  .block-contact{
+  }
+  .block-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 30px;
+    min-height: 270px;
+    .location,.phone,.mail  {
+      max-width: 260px;
+      font-size: 15px;
+      line-height: 32px;
+    }
+  }
+
+
+  .block-maps{
+
+      iframe{
+      height: 350px;
+    }
+  }
+}
+@media (min-width: 1300px) {
+  .section-contact {
+      padding: 60px 30px;
+    .img-title-contact  {
+        margin-bottom: 45px;
+    }
+    .block-info{
+      min-height: auto;
+      .location,.phone,.mail  {
+        font-size: 24px;
+      }
+    }
+
+
+    .block-maps{
+      padding: 0 40px;
+      iframe{
+
+      }
+    }
+  }
+}

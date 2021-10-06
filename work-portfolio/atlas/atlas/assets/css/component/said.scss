@@ -1,0 +1,166 @@
+.section-said{
+  &:before{
+    content: "";
+    display: block;
+    background-image: url("../../images/decor-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 7px;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+  .item-said{
+    margin: 10px;
+  }
+  .block-text-said{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 8px;
+  }
+  .block-user{
+    align-items: center;
+    justify-content: center;
+    .photo-user{
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      margin-right: 10px;
+      img{
+        border-radius: 50%;
+      }
+    }
+    .info-user{
+      h3{
+        font-size: 1rem;
+      }
+      h5{
+        font-size: 0.9rem;
+      }
+      .list-stars{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .item-star{
+          height: 15px;
+          width: 15px;
+          display: block;
+          background-image: url("../../images/stars.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+        }
+      }
+
+    }
+  }
+  .slick-dots{
+    bottom: -60px;
+  }
+}
+@media (min-width: 768px) {
+  .section-said {
+    .block-user{
+      .photo-user{
+        height: 134px;
+        width: 134px;
+      }
+      .info-user{
+        h3{
+          font-size: 1.6rem;
+        }
+        h5{
+          font-size: 1.25rem;
+        }
+        .list-stars{
+
+          .item-star{
+            height: 23px;
+            width: 23px;
+
+          }
+        }
+
+      }
+    }
+  }
+  .block-text-said{
+    background-image: url("../../images/email.svg");
+    background-repeat: no-repeat;
+    background-position: right 15px bottom 15px;;
+    padding: 20px;
+    background-size: 130px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-said{
+    .block-text-said{
+      padding: 25px 20px;
+      font-size: 15px;
+    }
+    .top-block-section{
+      .block-title{
+        text-align: center;
+      }
+    }
+    .block-user{
+      .photo-user{
+        height: 100px;
+        width: 100px;
+      }
+      .info-user{
+        h3{
+          font-size: 1.2rem;
+        }
+        h5{
+          font-size: 1.0rem;
+        }
+        .list-stars{
+
+          .item-star{
+            height: 23px;
+            width: 23px;
+
+          }
+        }
+
+      }
+    }
+  }
+  .section-said{
+    .block-user {
+      justify-content: left;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .section-said {
+    .block-text-said {
+      padding: 35px 40px;
+      font-size: 20px;
+    }
+    .block-user{
+      .photo-user{
+        height: 134px;
+        width: 134px;
+      }
+      .info-user{
+        h3{
+          font-size: 1.6rem;
+        }
+        h5{
+          font-size: 1.25rem;
+        }
+        .list-stars{
+
+          .item-star{
+            height: 23px;
+            width: 23px;
+
+          }
+        }
+
+      }
+    }
+  }
+}

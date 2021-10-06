@@ -2,60 +2,180 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style-main.css">
 </head>
 <body>
-    <header class="container">
-        <ul class="navbar">
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#section-portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </header>
+
     <section class="section-welcome">
+        <header class="menu">
+            <ul class="container navbar ">
+                <li><a href="#about-me">Коротко про мене</a></li>
+                <li><a href="#tehnologis">Технології</a></li>
+                <li><a href="#section-portfolio">Мої виконані проекти</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </header>
         <div class="container">
-
+            <p>Портфоліо </p>
         </div>
     </section>
-    <section id="about-me" class="about-me">
+    <section id="about-me" class="bg-white section-about-me">
         <div class="container">
-            <h3 class="title-section"> About me </h3>
-
+            <div class="block-about-me">
+                <h3 class="title-section"> Інформація про меня </h3>
+                <div class="block-float">
+                    <img src="images/girl.jpeg" alt="img" class="img-fluid">
+                    <div class="text-float">
+                        <h3 class="title-welcome">Привіт, я Людмила.</h3>
+                        <p> Займаюсь професійно верстанням сайтів останні два роки. Мої роботи створені з урахуванням адаптивного дизайну та семантичних особливостей.</p>
+                        <p>Детальніше ознайомитися з моїми роботами Ви можете у розділі <a href="#section-portfolio">"Мої виконані проекти"</a>.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <section id="section-portfolio" class="section-portfolio">
+    <div id="tehnologis" class="section-tehnologis">
         <div class="container">
-            <h3 class="title-section"> Portfolio </h3>
-            <ul class="list-portfolio">
-                <li class="item-list-portfolio">
-                    <a href="https://liudmylamoshta.github.io/portfolio/apple-joy/">
-                        <div class="wrapper-img">
-                            <img src="images/apple-joy.png" alt="img" class="img-fluid">
-                        </div>
-                        <span class="name-project">Інтернет Магазин техніки Apple </span>
-                    </a>
+            <h3 class="title-section">Технологии которые я использую в своей работе</h3>
+            <ul class="slider">
+                <li>
+                    <img src="images/scss.png" alt="img" class="img-fluid">
                 </li>
-                <li class="item-list-portfolio">
-                    <a href="https://liudmylamoshta.github.io/portfolio/vilarglo/">
-                        <div class="wrapper-img">
-                            <img src="images/vilarglo.png" alt="img" class="img-fluid">
-                        </div>
-                        <span class="name-project">Сонцезахистні системи (жалюзі та ролети)</span>
-                    </a>
+                <li>
+                    <img src="images/photoshop.png" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/bootstrap.png" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/github.png" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/xd.webp" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/figma.jpg" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/jquery.jpg" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/avocode.png" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/javascript.png" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/html.jpg" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/css.png" alt="img" class="img-fluid">
+                </li>
+                <li>
+                    <img src="images/gulp.png" alt="img" class="img-fluid">
                 </li>
             </ul>
+        </div>
+    </div>
+    <section id="section-portfolio" class="section-portfolio bg-white">
+        <div class="context">
+            <div class="container">
+                <h3 class="title-section"> Мої виконані проекти </h3>
+                <ul class="list-portfolio ">
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/apple-joy/">
+                            <div class="wrapper-img">
+                                <img src="images/apple-joy.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Інтернет Магазин техніки Apple </span>
+                        </a>
+                    </li>
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/vilarglo/">
+                            <div class="wrapper-img">
+                                <img src="images/vilarglo.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Сонцезахистні системи (жалюзі та ролети)</span>
+                        </a>
+                    </li>
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/moto/">
+                            <div class="wrapper-img">
+                                <img src="images/moto.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Інтернет Магазин товарів та аксесуарів для мотоциклістів</span>
+                        </a>
+                    </li>
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/uwal/index">
+                            <div class="wrapper-img">
+                                <img src="images/uwal-2.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Інтернет Магазин Uwal </span>
+                        </a>
+                    </li>
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/tile-bay/">
+                            <div class="wrapper-img">
+                                <img src="images/tile-bay.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Інтернет Магазин Tile-bay</span>
+                        </a>
+                    </li>
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/kredit/">
+                            <div class="wrapper-img">
+                                <img src="images/credit-2.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Калькулятор оформления займов</span>
+                        </a>
+                    </li>
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/dodo/">
+                            <div class="wrapper-img">
+                                <img src="images/dodo-2.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Інтернет аптека Добрый Доктор </span>
+                        </a>
+                    </li>
 
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/atlas/">
+                            <div class="wrapper-img">
+                                <img src="images/atlas-2.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Bissnes site Atlas</span>
+                        </a>
+                    </li>
+                    <li class="item-list-portfolio">
+                        <a href="https://liudmylamoshta.github.io/portfolio/Windows/">
+                            <div class="wrapper-img">
+                                <img src="images/windows.png" alt="img" class="img-fluid">
+                            </div>
+                            <span class="name-project">Windows-group</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </section>
-    <section id="contact" class="contact">
+    <section id="contact" class="section-contact">
         <div class="container">
-            <h3 class="title-section">Contact</h3>
+            <h3 class="title-section">Контакты</h3>
+            <ul class="list-contact">
+                <li><span class="icon icon-git"></span> <a href="https://github.com/LiudmylaMoshta/portfolio">github.com/LiudmylaMoshta</a></li>
+                <li><span class="icon icon-mail"></span> <a href="mailto:liudmyla.moshta@gmail.com">liudmyla.moshta@gmail.com</a></li>
+                <li><span class="icon icon-phone"></span> <a href="skype:zoon_ozon?call">Skype: zoon_ozon</a></li>
+            </ul>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js.js"></script>
 </body>
 </html>

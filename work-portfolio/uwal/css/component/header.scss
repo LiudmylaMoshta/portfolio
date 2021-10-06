@@ -1,0 +1,127 @@
+.dropdown-toggle::after{
+  content: none;
+}
+a{
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #2ecc71;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("../../images/button-collupsmenu.png");
+}
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+.header-hide {
+  transition: hidden .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  top: -96px;
+}
+header {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.navbar-expand-lg {
+  .navbar-nav {
+    .nav-link {
+      text-transform: uppercase;
+      font-size: 17px;
+      color: #292929;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  }
+}
+.navbar-collapse{
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.lang-wrapper{
+  padding-top: 25px;
+  width: 100%;
+}
+.language{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .lang-item{
+    margin: 0 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    a{
+      color: #292929;
+    }
+    &.active{
+      a{
+        color: #2ecc71;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .navbar-expand-lg {
+    .navbar-nav {
+      .nav-link {
+        font-size: 17px;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  .lang-wrapper{
+    padding-top: 0;
+    width: auto;
+  }
+  .navbar-expand-lg {
+    .navbar-nav {
+      .nav-link {
+        font-size: 12px;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-expand-lg {
+    .navbar-nav {
+      .nav-link {
+        font-size: 14px;
+      }
+    }
+  }
+  .lang-wrapper{
+    padding-top: 0;
+    width: auto;
+  }
+}
+@media (min-width: 1600px) {
+  .navbar-expand-lg {
+    .navbar-nav {
+      .nav-link {
+        font-size: 16px;
+      }
+    }
+  }
+  .language{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .lang-item{
+      font-size: 16px;
+    }
+  }
+}

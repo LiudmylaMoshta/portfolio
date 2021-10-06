@@ -1,0 +1,131 @@
+.section-about-us{
+  background-color: #F8F5F9;
+  margin: 0 auto;
+  text-align: center;
+  &:before{
+    content: "";
+    display: block;
+    background-image: url("../../images/decor-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 7px;
+    margin-top:-24px;
+    background-position: center;
+    margin-bottom: 27px;
+  }
+  &:after{
+    content: "";
+    display: block;
+    background-image: url("../../images/decor-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 7px;
+    margin-bottom:-24px;
+    background-position: center;
+    margin-top: 27px;
+  }
+
+  .btn{
+    margin: 0 auto;
+  }
+  .list-about-us{
+    margin-top: 10px;
+    .block-item{
+      padding: 15px;
+      text-align: center;
+      margin: 10px auto;
+      box-shadow:
+              -3px 3px 3px  rgba(235,210,246, 1),
+              28px 28px 3px -27px rgba(235,210,246, 1),
+              0 0 3px -27px rgba(235,210,246, 1);
+      //box-shadow: 1px 3px 3px 1px ;
+      max-width: 190px;
+      background-image: linear-gradient(225deg, transparent 37px, rgba(235,210,246, 1) 40px, #ffffff 40px);
+      p{
+        color: $purple;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 15px;
+      }
+      i:before{
+        margin: 0 auto;
+      }
+    }
+  }
+  .block-right{
+    align-items: center;
+    margin: 0 auto;
+    img{
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .section-about-us{
+    .list-about-us {
+      .block-item {
+        max-width: 608px;
+        padding: 25px 5px;
+        p {
+          font-size: 15px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px){
+  .section-about-us {
+    &:before {
+      height: 9px;
+      margin-top: -65px;
+      margin-bottom: 87px;
+    }
+
+    &:after {
+      height: 9px;
+      margin-bottom: -65px;
+      margin-top: 87px;
+    }
+    .list-about-us {
+      .block-item{
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+    .block-left{
+      text-align: left;
+    }
+    .block-right{
+      .img-top{
+        z-index: 1;
+        img{
+          margin-right: -55px;
+          display: block;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1600px){
+  .section-about-us {
+    &:before {
+      margin-top: -85px;
+    }
+
+    &:after {
+      margin-bottom: -85px;
+    }
+    .list-about-us {
+      .block-item{
+        padding: 20px;
+        p {
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+  }
+}

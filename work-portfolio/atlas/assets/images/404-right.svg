@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="607.637" height="179.813" viewBox="0 0 607.637 179.813">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="607.637" height="179.813" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_6" data-name="Repeat Grid 6" clip-path="url(#clip-path)">
+    <g transform="translate(-1106 -831.427)">
+      <path id="Path_112" data-name="Path 112" d="M-1519.057-2382.1l14.876-4.961h342.734s12.11-33.038,40.819-49.287c9.245-5.232,22.351-9.952,33.2-12.33a155.025,155.025,0,0,1,40.822-3.377,189.989,189.989,0,0,0-.244,19.781v0l.244,3.847v78.073s-.208,15.076,0,21.334c.286,8.625-.143,14.483,0,21.83.414,21.3,0,34.73,0,34.73s-42.694.371-71.4-15.877-43.436-49.116-43.436-49.116h-330.239l-10.088-8.8,15.979-10.388-15.979-7,15.979-11.517Z" transform="translate(2625.057 3283.695)" fill="#fff"/>
+      <rect id="Rectangle_45" data-name="Rectangle 45" width="120.499" height="38.791" rx="19.395" transform="translate(1593.138 841.552)" fill="#fff"/>
+      <rect id="Rectangle_46" data-name="Rectangle 46" width="120.499" height="38.791" rx="19.395" transform="translate(1593.138 954.623)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

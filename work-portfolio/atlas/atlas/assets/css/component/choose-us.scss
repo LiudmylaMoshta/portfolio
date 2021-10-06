@@ -1,0 +1,160 @@
+.section-choose-us{
+  .btn{
+    margin-bottom: 10px;
+  }
+  .nav-pills{
+    justify-content: center;
+    .nav-link{
+      border-radius: 10px;
+
+      font-weight: 600;
+      border: 2px solid #a6cc29;
+      width: 160px;
+      font-size: 0.75rem;
+      margin: 7px;
+      color: $purple;
+      font-weight: bold;
+      &.active{
+        background-color: #A6CC29;
+      }
+    }
+  }
+}
+.section-choose-us-2{
+  background-color: $purple;
+  color: #ffffff;
+  text-align: center;
+  .top-block-section{
+    color: #ffffff;
+  }
+  .list-item-choose{
+    text-align: center;
+    margin: 0 auto;
+    li{
+      margin: 17px auto;
+      i:before{
+        margin: 0 auto;
+      }
+      span{
+        font-size: 3.3rem;
+        font-weight: bold;
+      }
+      p{
+        font-size: 1.2rem ;
+        text-align: center;
+      }
+    }
+  }
+  .text-bottom{
+    border-bottom: 1px solid #ffffff;
+
+  }
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .section-choose-us{
+    .nav-pills{
+      .nav-link {
+        font-size: 1.1rem;
+        width: auto;
+      }
+    }
+  }
+  .section-choose-us-2{
+    .list-item-choose{
+      li{
+        span {
+          font-size: 5.2rem;
+          font-weight: bold;
+        }
+        p{
+          font-size: 1.25rem;
+        }
+      }
+    }
+    .block-bottom-choose{
+      padding-top: 20px;
+      border-top: 1px solid #ffffff;
+      .text-bottom {
+        border-bottom: none;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .section-choose-us{
+    .nav-pills{
+      .nav-link {
+        font-size: 0.8rem;
+        width: auto;
+      }
+    }
+    .top-block-section{
+      .block-title{
+        text-align: center;
+      }
+    }
+  }
+  .section-choose-us-2 {
+    .top-block-section{
+      .block-title{
+        text-align: center;
+      }
+    }
+    .list-item-choose {
+      li {
+        border-right: 1px solid #fff;
+        &:last-child{
+          border-right: none;
+        }
+        span {
+          font-size: 2.4rem;
+          font-weight: bold;
+        }
+      }
+    }
+    .block-bottom-choose{
+      justify-content: center;
+      .text-bottom {
+        text-align: left;
+      }
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .section-choose-us{
+    .nav-pills{
+      .nav-link {
+        font-size: 1.1rem;
+        width: auto;
+      }
+    }
+  }
+  .section-choose-us-2 {
+    .top-block-section{
+      .block-title{
+      }
+    }
+    .list-item-choose {
+      li {
+        &:last-child{
+        }
+        span {
+          font-size: 3.4rem;
+        }
+      }
+    }
+    .block-bottom-choose{
+      .text-bottom {
+      }
+    }
+  }
+}

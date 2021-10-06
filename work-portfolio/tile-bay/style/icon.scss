@@ -1,0 +1,373 @@
+.icon-search {
+  &::before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url($imagesPath + "icon-search.svg") no-repeat center center;
+    background-size: contain;
+  }
+}
+.icon-user {
+  &::before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url($imagesPath + "icon-user.svg") no-repeat center center;
+    background-size: contain;
+  }
+}
+.icon-shopping-bag {
+  &::before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url($imagesPath + "icon-shopping-bag.svg") no-repeat center center;
+    background-size: contain;
+  }
+}
+.icon-reply {
+  &::before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url($imagesPath + "icon-reply.svg") no-repeat center center;
+    background-size: contain;
+  }
+}
+.icon-heard {
+  &::before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url($imagesPath + "icon-heard.svg") no-repeat center center;
+    background-size: contain;
+  }
+}
+.icon-phone {
+  &::before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url($imagesPath + "get-in-touch.svg") no-repeat center center;
+    background-size: contain;
+  }
+  margin-right: 10px;
+}
+.icon{
+  &:before{
+    content: '';
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.icon-setting{
+  &:before{
+    background-image: url($imagesPath + "Settings.png");
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
+  }
+}
+.icon-like{
+  &:before{
+    background-image: url($imagesPath + "like.svg");
+    width: 16px;
+    height: 14px;
+  }
+}
+.icon-delivery{
+  &:before{
+    background-image: url($imagesPath + "icon-delivery.svg");
+    width: 28px;
+    height: 24px;
+    margin-right: 12px;
+  }
+}
+
+.icon-ship{
+  &:before{
+    background-image: url($imagesPath + "icon-ship.svg");
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+  }
+}
+
+.icon-return{
+  &:before{
+    background-image: url($imagesPath + "icon-return.svg");
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+}
+.icon-parcel{
+  &:before{
+    background-image: url($imagesPath + "icon-parcel.svg");
+    width: 26px;
+    height: 25px;
+    margin-right: 12px;
+  }
+}
+.icon-star{
+  &:before{
+    background-image: url($imagesPath + "stars.svg");
+    width: 18px;
+    height: 18px;
+  }
+}
+.icon-buy{
+  &:before{
+    background-image: url($imagesPath + "supermarket.svg");
+    width: 21px;
+    height: 19px;
+    margin-right: 10px;
+  }
+}
+
+.visa{
+  &:before{
+    background-image: url($imagesPath + "icon-viza.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 35px;
+  }
+}
+.paypal{
+  &:before{
+    background-image: url($imagesPath + "icon-pay-pal.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 35px;
+  }
+}
+.mastercard{
+  &:before{
+    background-image: url($imagesPath + "icon-master-card.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 35px;
+  }
+}
+.discover{
+  &:before{
+    background-image: url($imagesPath + "icon-discover.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 35px;
+  }
+}
+.americanexpress{
+  &:before{
+    background-image: url($imagesPath + "icon-ae.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 35px;
+  }
+}
+@media(max-width: 992px){
+  .bi-arrow-down-square{
+    font-size: 17px;
+  }
+  .icon-setting:before {
+    width: 18px;
+    height: 18px;
+  }
+  .icon-delivery:before {
+    width: 40px;
+    height: 40px;
+  }
+  .icon-ship:before {
+    width: 37px;
+    height: 37px;
+  }
+  .icon-return:before {
+    width: 34px;
+    height: 34px;
+  }
+  .icon-parcel:before {
+    width: 36px;
+    height: 35px;
+  }
+  .section-post{
+    p{
+      font-size: 14px;
+      text-align: justify;
+    }
+  }
+}
+.icon-facebook{
+  &:before{
+    background-image: url($imagesPath + "icon-faceebook.svg");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+  }
+}
+.icon-twitter{
+  &:before{
+    background-image: url($imagesPath + "icon-twitter.svg");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+  }
+}
+.icon-gplus{
+  &:before{
+    background-image: url($imagesPath + "icon-google+.svg");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+  }
+}
+.icon-linkedin{
+  &:before{
+    background-image: url($imagesPath + "icon-linkind.svg");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+  }
+}
+.icon-maps{
+  &:before{
+    background-image: url($imagesPath + "icon-maps.svg");
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+.icon-phone-footer{
+  &:before{
+    background-image: url($imagesPath + "icon-phone.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+}
+.icon-email{
+  &:before{
+    background-image: url($imagesPath + "icon-mail.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+}
+
+
+
+
+@media (min-width: 1300px)  {
+  .icon-shopping-bag::before {
+    width: 15px;
+    height: 20px;
+  }
+  .icon-phone::before {
+    width: 18px;
+    height: 19px;
+  }
+  .visa{
+    &:before{
+      background-image: url($imagesPath + "icon-viza.svg");
+      background-repeat: no-repeat;
+      width: 58px;
+      height: 39px;
+    }
+  }
+  .paypal{
+    &:before{
+      background-image: url($imagesPath + "icon-pay-pal.svg");
+      background-repeat: no-repeat;
+      width: 58px;
+      height: 39px;
+    }
+  }
+  .mastercard{
+    &:before{
+      background-image: url($imagesPath + "icon-master-card.svg");
+      background-repeat: no-repeat;
+      width: 58px;
+      height: 39px;
+    }
+  }
+  .discover{
+    &:before{
+      background-image: url($imagesPath + "icon-discover.svg");
+      background-repeat: no-repeat;
+      width: 58px;
+      height: 39px;
+    }
+  }
+  .americanexpress{
+    &:before{
+      background-image: url($imagesPath + "icon-ae.svg");
+      background-repeat: no-repeat;
+      width: 61px;
+      height: 39px;
+    }
+  }
+
+  .icon-like:before {
+    width: 21px;
+    height: 18px;
+  }
+  .icon-delivery{
+    &:before{
+      width: 33px;
+      height: 29px;
+    }
+  }
+  .icon-ship{
+    &:before{
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .icon-return{
+    &:before{
+      width: 29px;
+      height: 29px;
+    }
+  }
+  .icon-parcel{
+    &:before{
+      width: 31px;
+      height: 30px;
+    }
+  }
+  .icon-setting:before {
+    width: 16px;
+    height: 16px;
+  }
+  .icon-star{
+    &:before{
+      width: 22px;
+      height: 22px;
+    }
+  }
+  .icon-buy:before {
+    width: 28px;
+    height: 25px;
+  }
+}
+@media (min-width: 992px)  {
+  .container h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 27px;
+  }
+  .container h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+}

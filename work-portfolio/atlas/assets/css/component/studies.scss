@@ -1,0 +1,81 @@
+.section-case-studies{
+  margin: 0 auto;
+  text-align: center;
+  .btn{
+    padding: 5px 30px;
+  }
+  .list-studies{
+
+    .block-item{
+      box-shadow: 3px 2px 0 0 rgba(235,210,246, 1);
+      border-radius: 30px;
+      margin-top: 20px;
+      padding: 5px 0 20px;
+      img{
+        border-radius: 30px;
+      }
+      h6{
+        font-size: 20px;
+        padding-top: 15px;
+      }
+      h4{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $purple;
+      }
+      p{
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 768px){
+  .section-case-studies{
+    .list-studies {
+      .block-item {
+        h4{
+          font-size: 1.9rem;
+        }
+        img{
+          width: 100%;
+          height: 217px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .section-case-studies{
+    .top-block-section{
+      .block-title{
+        text-align: center;
+      }
+    }
+    .list-studies {
+      .block-item{
+        //margin-top: 20px;
+        margin: 0 15px;
+        h4{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+}
+@media (min-width: 1600px) {
+  .section-case-studies{
+    .list-studies {
+      .block-item{
+        h4,h6{
+          font-size: 25px;
+        }
+      }
+      }
+    }
+  }
+

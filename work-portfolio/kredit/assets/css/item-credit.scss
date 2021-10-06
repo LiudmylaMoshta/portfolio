@@ -1,0 +1,277 @@
+.item-credit{
+  position: relative;
+  .block-item-credit{
+    text-align: center;
+    margin: 9px auto;
+    font-size: 2.1rem;
+    padding-top: 35px;
+    //border: 1px solid #B1A7A7;
+    .block-1{
+      .name-bank{
+        font-size: 2.2rem;
+        margin-top: 0.5rem;
+      }
+      .rating,.bales{
+        font-size: 1.6rem;
+      }
+      .rating{
+        padding-top: 7px;
+      }
+      .bales{
+        padding-top: 3px;
+      }
+    }
+    .block-2{
+      .info-credit-1{
+        //margin-top: 1.5rem;
+        border-bottom: 1px solid #E4D7D7;
+        margin: 0 35px;
+        div{
+          margin: 15px 0;
+        }
+        h4{
+          font-size: 2.2rem;
+          margin-bottom: 0;
+        }
+        p{
+          font-size: 2.2rem;
+          .sum{
+            font-size: 3.7rem;
+            color: #0A81F9;
+            font-weight: bold;
+            margin-right: 3px;
+          }
+          .sum-1{
+            color: #FCB143;
+          }
+          .currency{
+            font-weight: 500;
+          }
+        }
+      }
+      .info-credit-2{
+        margin-top: 1.5rem;
+        font-size: 1.9rem;
+        h4{
+          font-size: 1.9rem;
+        }
+        p{
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .block-3{
+      .btn{
+        font-size: 2.4rem;
+        color: white;
+        background-color: #0A81F9;
+        padding: 2rem 3.7rem;
+        line-height: normal;
+        border-radius: 0;
+        span{
+          font-weight: bold;
+          display: block;
+        }
+      }
+    }
+  }
+  .accordion{
+    background-color: #F0F8FF;
+    text-align: center;
+    margin-top: 21px;
+    padding: 10px;
+    h2{
+      font-size: 2.2rem;
+      //padding: 10px 0;
+    }
+    p{
+      font-size: 1.5rem;
+
+    }
+  }
+  .img-sale{
+    position: absolute;
+    left: 13px;
+    top: 9px;
+  }
+}
+
+
+
+
+
+  // 1200
+  @include media-breakpoint-up(xl) {
+    .item-credit{
+      .block-item-credit{
+        padding: 20px 30px 0;
+        .block-1{
+          >img{
+            margin-left: -10px;
+          }
+          .name-bank{
+            margin: 1rem 0;
+          }
+          .rating,.bales{
+
+          }
+        }
+        .block-2{
+          flex-grow: 1;
+          padding: 0 30px;
+          span {
+            width: 9px;
+          }
+          .info-credit-item {
+            width: 126px;
+            padding: 0;
+          }
+          .info-credit-1{
+            margin: 0;
+            margin-top: -10px;
+            display: flex;
+            justify-content: space-between;
+
+            h4{
+              margin-bottom: 1rem;
+              font-size: 2rem;
+            }
+            p{
+
+              .sum{
+                font-size: 3.5rem;
+              }
+              .sum-1{
+
+              }
+              .currency{
+              }
+            }
+          }
+          .info-credit-2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            font-size: 1.7rem;
+            p{
+
+            }
+            span {
+              color: transparent;
+            }
+          }
+        }
+        .block-3{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .btn{
+
+            span{
+
+            }
+          }
+        }
+      }
+      .accordion{
+        margin-right: -30px;
+        margin-left: -30px;
+        h2{
+
+        }
+        p{
+
+        }
+      }
+    }
+
+  }
+  // 1440
+  @include media-breakpoint-up(xxl) {
+    .item-credit {
+      .block-item-credit {
+        font-size: 17px;
+
+        .block-1 {
+          > img {
+
+          }
+
+          .name-bank {
+            font-size: 17px;
+          }
+
+          .rating, .bales {
+            font-size: 17px;
+          }
+        }
+
+        .block-2 {
+          padding: 0 20px;
+
+          span {
+            width: 12px;
+          }
+          .info-credit-item {
+            width: 160px;
+            padding: 0;
+          }
+          .info-credit-1 {
+            h4 {
+              font-size: 17px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+          }
+
+          .info-credit-2 {
+            h4 {
+              font-size: 17px;
+            }
+
+            div {
+              font-size: 17px;
+            }
+
+            p {
+              font-size: 17px;
+            }
+          }
+        }
+
+        .block-3 {
+
+          .btn {
+            font-size: 25px;
+
+            span {
+              font-size: 3.7rem;
+            }
+          }
+        }
+      }
+
+      .accordion {
+
+        h2 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+
+// 1920
+@include media-breakpoint-up(xxxl) {
+  .item-credit .block-item-credit .block-2 {
+    padding: 0 60px;
+  }
+}

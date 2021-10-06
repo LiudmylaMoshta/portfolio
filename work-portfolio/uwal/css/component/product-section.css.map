@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,4CAAa;EACX,KAAK,EAAE,GAAG;;AACV,mDAAM;EACJ,UAAU,EAAE,4BAA4B",
+"sources": ["product-section.scss"],
+"names": [],
+"file": "product-section.css"
+}

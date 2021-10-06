@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-image: url("images/it-4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-white {
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.menu {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.menu .navbar {
+  margin-bottom: 0;
+  justify-content: center;
+  padding-left: 0;
+}
+.menu .navbar > li {
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  line-height: 130%;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+.slider li {
+  text-align: center;
+  margin: 10px;
+}
+.slider img {
+  padding: 10px;
+  background-color: #fff;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.name-project {
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  display: block;
+  margin-top: 20px;
+  color: #344062;
+}
+
+.item-list-portfolio .wrapper-img {
+  display: block;
+  box-shadow: 0 3px 5px rgba(18, 133, 148, 0.25);
+  padding: 10px;
+  overflow: hidden;
+}
+.item-list-portfolio .wrapper-img:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.title-section {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 0 30px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #344062;
+}
+
+.section-tehnologis {
+  padding: 50px 0;
+  background-color: #3d3d3d;
+}
+.section-tehnologis .title-section {
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.section-welcome {
+  min-height: 75vh;
+}
+.section-welcome p {
+  font-size: 50px;
+  line-height: 130%;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.section-contact {
+  min-height: 200px;
+  font-size: 20px;
+}
+.section-contact a {
+  color: #fff;
+  cursor: pointer;
+}
+.section-contact .list-contact li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.section-contact .list-contact li .icon {
+  margin-right: 5px;
+}
+.section-contact .title-section {
+  color: #fff;
+}
+.section-contact .icon:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+.section-contact .icon-git:before {
+  background-image: url("images/git.png");
+  width: 20px;
+  height: 20px;
+}
+.section-contact .icon-mail:before {
+  background-image: url("images/icon-mail.svg");
+  width: 25px;
+  height: 15px;
+}
+.section-contact .icon-phone:before {
+  background-image: url("images/icon-phone.svg");
+  width: 20px;
+  height: 25px;
+}
+
+.section-portfolio {
+  position: relative;
+}
+.section-portfolio .list-portfolio li {
+  margin-bottom: 20px;
+}
+
+.section-about-me {
+  color: #344062;
+}
+.section-about-me .block-float .text-float {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+@media (min-width: 768px) {
+  .menu a {
+    font-size: 17px;
+  }
+  .menu .navbar {
+    justify-content: space-between;
+  }
+  .menu .navbar > li {
+    padding: 0;
+  }
+
+  .list-portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+  }
+
+  .slider {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+  }
+
+  .section-welcome p {
+    text-align: left;
+  }
+
+  .section-about-me .block-float .img-fluid {
+    width: 30%;
+  }
+  .section-about-me .block-float .text-float {
+    float: right;
+    width: 70%;
+  }
+
+  .section-contact {
+    font-size: 22px;
+    line-height: 150%;
+  }
+}
+@media (min-width: 1300px) {
+  .list-portfolio li .img-fluid {
+    min-height: 250px;
+  }
+
+  .section-about-me .block-float .text-float {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .list-portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+  }
+
+  .title-section {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .section-block-type-balcone .list-page-disc {
+    margin-left: 430px;
+  }
+
+  .section-block-type-balcone {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .section-benefits-instructions p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .list-section-benefits-instructions .text {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .list-section-benefits-instructions .item-list p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .name-project {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 20px 0 0;
+  }
+
+  .slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+#home-anim {
+  position: absolute;
+}
+
+.section-tehnologis {
+  background: linear-gradient(-45deg, #3485BB, #040A16, #3485BB, #040A16);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*# sourceMappingURL=style-main.css.map */

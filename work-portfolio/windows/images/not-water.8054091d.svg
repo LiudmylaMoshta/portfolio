@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.644" height="47.747" viewBox="0 0 42.644 47.747">
+  <g id="Сгруппировать_771" data-name="Сгруппировать 771" transform="translate(-841.927 -6678.655)">
+    <g id="construction-and-tools" transform="translate(832.382 6684.654)">
+      <g id="Сгруппировать_635" data-name="Сгруппировать 635" transform="translate(8.382 0.001)">
+        <g id="Сгруппировать_634" data-name="Сгруппировать 634" transform="translate(0 0)">
+          <path id="Контур_1475" data-name="Контур 1475" d="M197.663,13.542a5.815,5.815,0,0,0,5.815-5.815c0-2.714-3.489-6.2-4.458-7.172a1.938,1.938,0,0,0-2.714,0c-.969.969-4.458,4.458-4.458,7.172A5.815,5.815,0,0,0,197.663,13.542ZM199.6,5.788a1.938,1.938,0,1,1-1.938,1.938A1.938,1.938,0,0,1,199.6,5.788Z" transform="translate(-175.178 -6.001)" fill="#fff"/>
+          <circle id="Эллипс_631" data-name="Эллипс 631" cx="1.938" cy="1.938" r="1.938" transform="translate(32.177 1.911)" fill="#fff"/>
+          <circle id="Эллипс_632" data-name="Эллипс 632" cx="1.938" cy="1.938" r="1.938" transform="translate(32.177 9.664)" fill="#fff"/>
+          <circle id="Эллипс_633" data-name="Эллипс 633" cx="1.938" cy="1.938" r="1.938" transform="translate(39.931 1.911)" fill="#fff"/>
+          <circle id="Эллипс_634" data-name="Эллипс 634" cx="1.938" cy="1.938" r="1.938" transform="translate(39.931 9.664)" fill="#fff"/>
+          <circle id="Эллипс_635" data-name="Эллипс 635" cx="1.938" cy="1.938" r="1.938" transform="translate(39.931 17.418)" fill="#fff"/>
+          <circle id="Эллипс_636" data-name="Эллипс 636" cx="1.938" cy="1.938" r="1.938" transform="translate(8.917 1.911)" fill="#fff"/>
+          <circle id="Эллипс_637" data-name="Эллипс 637" cx="1.938" cy="1.938" r="1.938" transform="translate(8.917 9.664)" fill="#fff"/>
+          <circle id="Эллипс_638" data-name="Эллипс 638" cx="1.938" cy="1.938" r="1.938" transform="translate(1.163 1.911)" fill="#fff"/>
+          <circle id="Эллипс_639" data-name="Эллипс 639" cx="1.938" cy="1.938" r="1.938" transform="translate(1.163 9.664)" fill="#fff"/>
+          <circle id="Эллипс_640" data-name="Эллипс 640" cx="1.938" cy="1.938" r="1.938" transform="translate(1.163 17.418)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="heating" transform="translate(847.803 6694.414)">
+      <path id="Контур_1476" data-name="Контур 1476" d="M30.629,14.731,16.033,1.58a.843.843,0,0,0-1.128,0L.279,14.73A.843.843,0,0,0,.842,16.2H3.334L14.9,5.9a.843.843,0,0,1,1.139,0L27.6,16.2h2.463a.843.843,0,0,0,.564-1.469Z" fill="#fff"/>
+      <path id="Контур_1477" data-name="Контур 1477" d="M42.077,71.829V85.443a.843.843,0,0,0,.843.843H63.414a.843.843,0,0,0,.843-.843V71.829l-11.09-9.861-11.09,9.861Z" transform="translate(-37.699 -54.298)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

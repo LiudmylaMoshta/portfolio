@@ -1,0 +1,27 @@
+.dropdown-toggle{
+  &:hover {
+    text-decoration: none;
+  }
+  &::after {
+    content: none;
+  }
+  .caret {
+    transition: all .3s;
+  }
+}
+
+.dropdown {
+  &.show {
+
+    .dropdown-toggle {
+      .caret {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+.dropdown-item {
+  &:active {
+    background-color: $purple;
+  }
+}
