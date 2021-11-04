@@ -1,0 +1,81 @@
+.section-welcome.page.page-post-panoramn {
+  background-image: url("../images/bg-welcome-post-panor-mob.png");
+  background-position-x: center;
+  @include media-breakpoint-up (md) {
+    background-image: url("../images/bg-welcome-post-panor.png");
+  }
+}
+
+.section-welcome.bg-welcome-post-masandra{
+  background-image: url("../images/bg-welcome-post-masandra.png");
+  background-position-x: center;
+}
+.section-welcome.bg-welcome-post-balcony{
+  background-image: url("../images/bg-welcome-balcony-mob.png");
+  background-position-x: center;
+  @include media-breakpoint-up (md) {
+    background-image: url("../images/bg-welcome-balcony.png");
+  }
+}
+.section-welcome.bg-welcome-post-kitchen{
+  background-image: url("../images/bg-welcome-post-kitchen-mob.png");
+  background-position-x: center;
+  @include media-breakpoint-up (md) {
+    background-image: url("../images/bg-welcome-post-kitchen.png");
+  }
+}
+.section-welcome.page-post-kidsroom{
+  background-image: url("../images/bg-welcome-post-kidsroom-mob.png");
+  background-position-x: center;
+  @include media-breakpoint-up (md) {
+    background-image: url("../images/bg-welcome-post-kidsroom.png");
+  }
+}
+.section-welcome.page-post-ofice{
+  background-image: url("../images/bg-welcome-post-ofice-mob.png");
+  background-position-x: center;
+  @include media-breakpoint-up (md) {
+    background-image: url("../images/bg-welcome-post-ofice.png");
+  }
+}
+.section-welcome.page-product-metal-stand{
+  background-image: url("../images/bg-welcome-product-stand.png");
+  background-position-x: center;
+  @include media-breakpoint-up (md) {
+    background-image: url("../images/bg-welcome-product-stand.png");
+  }
+}
+//  .section-welcome.page-post{
+//  margin-bottom: 0;
+//  .left-block-welcome {
+//    padding-top: 180px;
+//    @include media-breakpoint-up (lg) {
+//      margin-bottom: 0;
+//      padding-top: 0;
+//      margin-top: 0;
+//      display: flex;
+//      flex-direction: column;
+//      justify-content: center;
+//      height: 425px;
+//    }
+//  }
+//  .group-button{
+//    .custom-button{
+//      width: 170px;
+//      padding: 7px 20px;
+//      margin-bottom: 10px;
+//      @include media-breakpoint-up (lg) {
+//        width: 100%;
+//      }
+//    }
+//  }
+//}
+.breadcrumb.marg-x{
+  margin:  5px 0 20px;
+}
+.section-idea.interior.post-panoram{
+  @include media-breakpoint-up (lg) {
+    background-image: url("../images/bg-inter-panor-windows.png");
+    background-position-y: 120px;
+  }
+}

@@ -1,0 +1,402 @@
+.main-personal-page-options{
+  padding-bottom: 15px;
+
+  .block-personal-page-options{
+    padding-top: 37px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .my-address{
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    .title-page{
+      //margin-top: 20px;
+      margin-bottom: 15px;
+      color: #606060;
+    }
+    .table-address{
+      border: 0.5px solid #C4C4C4;
+      max-width: 617px;
+      margin: 0 auto;
+      .block{
+        border-bottom: 0.5px solid #C4C4C4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 17px;
+        &:last-child{
+          border-bottom: none;
+        }
+      }
+    }
+    button{
+      width: 118px;
+      margin: 30px auto 10px;
+    }
+  }
+  .my-orders{
+    .title-page {
+      margin-bottom: 33px;
+      //padding-top: 20px;
+    }
+    .name-product{
+      margin-right: 10px;
+    }
+  }
+  .table-orders{
+    border: 0.5px solid #C4C4C4;
+    color: #000000;
+    max-width: 347px;
+    margin: 0 auto;
+  }
+  .pills-personal{
+    .title-page {
+      margin-bottom: 15px;
+      padding-top: 15px;
+    }
+  }
+  .form-new-password{
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 auto;
+    max-width: 270px;
+    .block-button{
+      text-align: center;
+    }
+    .form-group{
+      padding-top: 7px;
+    }
+    .user-info{
+      //display: flex;
+      //justify-content: space-between;
+      padding-bottom: 25px;
+      .form-group{
+        width: 100%;
+      }
+    }
+    .title-page{
+      color: #606060;
+      padding-top: 0;
+    }
+    .form-control{
+      border-radius: 0;
+      background-color: #fff;
+      border: 1px solid #9B9B9B;
+      max-width: 270px;
+      &::placeholder{
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+      }
+    }
+    .password-email{
+      text-decoration: underline;
+      padding-top: 10px;
+      display: block;
+    }
+    button{
+      width: 120px;
+      margin-top: 20px;
+      font-size: 14px;
+      padding: 3px;
+    }
+  }
+}
+.block-order{
+  display: grid;
+  grid-template-areas:
+          "date date price"
+          "product product ."
+          "product product button"
+;
+
+
+  border-bottom: 0.5px solid #C4C4C4;
+  padding: 10px;
+  &:last-child{
+    border-bottom: none;
+  }
+
+  .data{
+    margin-bottom: 10px;
+    grid-area: date;
+  }
+  .price{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+    grid-area: price;
+  }
+  .block-button{
+    grid-area: button;
+  }
+  button{
+    font-size: 14px;
+    height: 24px;
+    padding: 0 5px;
+  }
+  .name-product{
+    grid-area: product;
+    //display: list-item;
+    //list-style-type: disc;
+    >li{
+      color: #ff0000;
+      display: flex;
+      align-items: baseline;
+      margin: 7px 0;
+      span{
+        color: #000;
+      }
+      &:before{
+        //width: 0;
+        //height: 0;
+        content: '';
+        //background-color: #ff0000;
+        margin-right: 7px;
+        //padding: 2.5px;
+        border-radius: 50%;
+        //display: block;
+        background-image: url("../images/icon/cycle.svg");
+        background-size: unset;
+        background-repeat: no-repeat;
+        display: block;
+        width: 5px;
+        min-width: 5px;
+        height: 5px;
+        min-height: 5px;
+      }
+    }
+  }
+}
+
+.block-group-button-personal{
+  justify-content: center;
+  text-align: center;
+  .title-page {
+    margin-bottom: 26px;
+  }
+  .nav-item{
+    .nav-link{
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 100%;
+      max-width: 270px;
+      height: 40px;
+      margin: 10px auto;
+      background: #68BF5F;
+      border-radius: 0;
+      padding: 8px 0;
+      &:hover{
+        background-color: #219653;
+      }
+      &.active{
+        background-color: #219653;
+      }
+    }
+  }
+}
+.main-personal-page{
+  width: 100%;
+  padding: 10px;
+  max-width: 334px;
+  margin: 0 auto;
+  margin-top: 28px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  label{
+    width: 100%;
+  }
+  .form-control{
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid #606060;
+    border-radius: 0;
+    padding-left: 0;
+    font-size: 14px;
+    color: #000000;
+    &::placeholder{
+      font-size: 14px;
+      line-height: 17px;
+      color: #000;
+    }
+  }
+  form.sing-in{
+    margin-top: 20px;
+  }
+  button.btn-success{
+    margin-top: 20px;
+  }
+  .form-check {
+    padding-left: 0;
+  }
+  .title-page{
+    margin-bottom: 0;
+    color: #606060;
+  }
+  .help-password{
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding-top: 20px;
+    display: block;
+    text-decoration: underline;
+  }
+  .sing-in{
+  margin-bottom: 50px;
+  }
+}
+.block-img-personal{
+  display: none;
+}
+button{
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 8px;
+  width: 100%;
+  &.btn-success{
+    background: #68BF5F;
+    color: #ffffff;
+    padding: 0 8px;
+  }
+  &.btn-secondary{
+    background: #606060;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px){
+  .block-group-button-personal .nav-item .nav-link{
+    font-size: 15px;
+    padding: 8px 0;
+  }
+}
+@media (min-width: 992px){
+
+  .block-order{
+    padding: 42px 20px 12px;
+    .name-product > li {
+      padding: 3px;
+    }
+    .block-button {
+      width: 110px;
+    }
+
+    grid-template-areas:
+            ". product ."
+            "date product price"
+            ". . button";
+
+    grid-template-columns: 1fr auto auto;
+    .price{
+      margin-bottom: 27px;
+    }
+
+  }
+  .main-personal-page-options {
+    .pills-personal{
+      .title-page {
+        margin-bottom: 13px;
+        padding-top: 0;
+      }
+    }
+    .form-new-password{
+      margin: 0;
+      max-width: 100%;
+      .block-button{
+        text-align: left;
+      }
+      .user-info {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        .form-group{
+          margin-left: 15px;
+          &:first-child{
+            margin-left: 0;
+          }
+        }
+        .form-control {
+          max-width: 217px;
+        }
+      }
+    }
+    .table-orders {
+      max-width: 620px;
+      margin: 0 ;
+
+    }
+    .my-orders .name-product {
+      margin: 0 10px;
+    }
+    .my-address {
+      p {
+        text-align: left;
+      }
+      .block-button{
+        text-align: left;
+        button{
+          font-size: 14px;
+          line-height: 17px;
+          height: 28px;
+          margin-top: 15px;
+          padding: 0;
+        }
+      }
+      .table-address{
+        margin: 0;
+      }
+    }
+    .block-personal-page-options{
+      display: flex;
+      align-items: self-start;
+      justify-content: space-between;
+      max-width: 100%;
+      margin: 0;
+    }
+
+  }
+  .block-group-button-personal{
+    width: 42%;
+
+  }
+  .tab-content{
+    width: 52%;
+  }
+
+  .main-personal-page{
+    padding: 10px 0;
+  }
+  .block-img-personal{
+
+    min-height: 200px;
+    height: 285px;
+    background-image: url("../images/img-personal-page.png") ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin: 18px;
+    .text{
+      width: 73%;
+      margin-left: auto;
+      >span{
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+      }
+    }
+  }
+
+}

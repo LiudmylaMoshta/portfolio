@@ -1,0 +1,451 @@
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: transform .4s ease-in;
+  >:not(:first-child) {
+    display: block;
+    padding-left: 1rem;
+    flex: 1 1 auto;
+  }
+}
+.icon-instagram-write, .icon-clockwise-write, .icon-phone-write{
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+}
+.logo-footer{
+  width: 97px;
+  height: 58px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 17px;
+}
+.icon-bank-footer{
+  width: 147px;
+  height: 55px;
+  margin: 0 auto;
+}
+.icon-instagram {
+  justify-content: start;
+  min-height: 24px;
+  &::before {
+    @include icon('instagram', map_merge($default-icon-options, (width: 24px, height: 24px)));
+  }
+}
+.icon-facebook {
+  justify-content: start;
+  min-height: 22px;
+  &::before {
+    @include icon('facebook', map_merge($default-icon-options, (width: 22px, height: 22px)));
+  }
+}
+.icon-google {
+  justify-content: start;
+  min-height: 22px;
+  &::before {
+    @include icon('google', map_merge($default-icon-options, (width: 22px, height: 22px)));
+  }
+}
+.icon-clockwise {
+  justify-content: start;
+  min-height: 15px;
+  &::before {
+    @include icon('icon-clockwise', map_merge($default-icon-options, (width: 15px, height: 15px)));
+    margin-right: 5px;
+  }
+}
+.icon-phone{
+  justify-content: start;
+  min-height: 15px;
+  &::before {
+    @include icon('icon-phone', map_merge($default-icon-options, (width: 15px, height: 15px)));
+    margin-right: 7px;
+  }
+}
+.icon-phone-inactive{
+  &::before {
+    @include icon('icon-phone-inactive', map_merge($default-icon-options, (width: 15px, height: 15px)));
+  }
+}
+.icon-instagram-header{
+  justify-content: start;
+  min-height: 17px;
+  &::before {
+    @include icon('icon-instagram-header', map_merge($default-icon-options, (width: 17px, height: 17px)));
+    //margin-right: 5px;
+  }
+}
+
+.icon-shopping-cart{
+  justify-content: start;
+  min-height: 18px;
+  &::before {
+    @include icon('icon-shopping-cart', map_merge($default-icon-options, (width: 18px, height: 18px)));
+  }
+}
+.icon-loupe{
+  justify-content: start;
+  min-height: 18px;
+  &::before {
+    @include icon('icon-loupe', map_merge($default-icon-options, (width: 18px, height: 18px)));
+  }
+}
+.icon-loupe-2{
+  justify-content: start;
+  min-height: 18px;
+  &::before {
+    @include icon('loupe', map_merge($default-icon-options, (width: 18px, height: 18px)));
+  }
+}
+.icon-user{
+  justify-content: start;
+  min-height: 16px;
+  &::before {
+    @include icon('icon-user', map_merge($default-icon-options, (width: 16px, height: 16px)));
+  }
+}
+.icon-menu {
+  justify-content: start;
+  min-height: 16px;
+  color: #393177;
+  font-weight: 500;
+  align-items: center;
+  line-height: normal;
+  &::before {
+    @include icon('icon-menu', map_merge($default-icon-options, (width: 22px, height: 16px)));
+    margin: 0 7px 0 0;
+  }
+  &:hover{
+    color: #393177;
+  }
+}
+.icon-quit {
+  &::before {
+    @include icon('quit', map_merge($default-icon-options, (width: 11px, height: 11px)));
+  }
+}
+.icon-delete {
+  &::before {
+    @include icon('icon-delete', map_merge($default-icon-options, (width: 13px, height: 17px)));
+  }
+}
+//.icon-google {
+//  &::before {
+//    @include icon('icon-google', map_merge($default-icon-options, (width: 16px, height: 16px)));
+//  }
+//}
+.icon-google-modal {
+  &::before {
+    @include icon('icon-google', map_merge($default-icon-options, (width: 16px, height: 16px)));
+  }
+}
+//.icon-facebook {
+//  &::before {
+//    @include icon('icon-facebook', map_merge($default-icon-options, (width: 8px, height: 15px)));
+//  }
+//}
+
+.icon-mob-filter {
+  &::before {
+    @include icon('icon-mob-filter', map_merge($default-icon-options, (width: 14px, height: 13px)));
+  }
+}
+.icon-close {
+  &::before {
+    @include icon('icon-close-gray', map_merge($default-icon-options, (width: 9px, height: 9px)));
+  }
+  cursor: pointer;
+  padding: 3px;
+}
+.icon-prev {
+  &::before {
+    @include icon('icon-arrrow-prev', map_merge($default-icon-options, (width: 11px, height: 11px)));
+  }
+}
+.icon-user-black {
+  &::before {
+    @include icon('icon-user-black', map_merge($default-icon-options, (width: 13px, height: 13px)));
+  }
+}
+.icon-like-black {
+  &::before {
+    @include icon('icon-like-black', map_merge($default-icon-options, (width: 15px, height: 13px)));
+  }
+}
+.icon-phone-purple {
+  &::before {
+    @include icon('icon-phone-purple', map_merge($default-icon-options, (width: 12px, height: 14px)));
+  }
+}
+.instagram-purple {
+  &::before {
+    @include icon('instagram-purple', map_merge($default-icon-options, (width: 13px, height: 13px)));
+  }
+}
+.facebook-white {
+  &::before {
+    @include icon('facebook-white', map_merge($default-icon-options, (width: 8px, height: 15px)));
+  }
+}
+.icon-facebook-feedback {
+  position: relative;
+  &::before {
+    @include icon('icon-facebook-feedback', map_merge($default-icon-options, (width: 26px, height: 26px)));
+    position: absolute;
+    top: -7px;
+    right: 0;
+  }
+}
+.icon-close-card {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  &::before {
+    @include icon('icon-close', map_merge($default-icon-options, (width: 11px, height: 11px)));
+  }
+}
+
+.icon-star-active{
+  &:before{
+    content: '';
+    @include icon('icon-star-active', map_merge($default-icon-options, (width: 12px, height: 12px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 18px;
+    height: 17px;
+  }
+}
+.icon-arrow-select{
+  &:after{
+    content: '';
+    @include icon('icon-arrow-select', map_merge($default-icon-options, (width: 7px, height: 11px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+  }
+}
+
+.icon-star-not-active{
+  &:before{
+    content: '';
+    @include icon('star-not-active', map_merge($default-icon-options, (width: 12px, height: 12px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 18px;
+    height: 17px;
+  }
+}
+.icon-like-purple{
+  &:before{
+    content: '';
+    @include icon('icon-like-purple', map_merge($default-icon-options, (width: 18px, height: 17px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+  }
+}
+.icon-novaposhta{
+  &:before{
+    content: '';
+    @include icon('icon-novaposhta', map_merge($default-icon-options, (width: 37px, height: 37px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+  }
+}
+.icon-delivery{
+  &:before{
+    content: '';
+    @include icon('icon-food-delivery', map_merge($default-icon-options, (width: 35px, height: 35px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+  }
+}
+.icon-location{
+  &:before{
+    content: '';
+    @include icon('icon-location', map_merge($default-icon-options, (width: 29px, height: 37px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+
+  }
+}
+.icon-online-shopping{
+  &:before{
+    content: '';
+    @include icon('icon-online-shopping', map_merge($default-icon-options, (width: 31px, height: 29px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+
+  }
+}
+.icon-liqpay-logo{
+  &:before{
+    content: '';
+    @include icon('icon-liqpay_logo', map_merge($default-icon-options, (width: 112px, height: 53px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+  }
+}
+.icon-warranty-used{
+  &:before{
+    content: '';
+    @include icon('icon-warranty', map_merge($default-icon-options, (width: 34px, height: 35px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+  }
+}
+.icon-exchange{
+  &:before{
+    content: '';
+    @include icon('icon-exchange', map_merge($default-icon-options, (width: 33px, height: 32px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+  }
+}
+.icon-shopping-items{
+  &:before{
+    content: '';
+    @include icon('icon-shopping-items', map_merge($default-icon-options, (width: 31px, height: 35px)));
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 16px;
+  }
+}
+.icon-like{
+  &:before{
+    content: '';
+    background-image: url("../images/icons/icon-like.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 18px;
+    height: 17px;
+
+  }
+  &.active{
+    justify-content: start;
+    min-height: 17px;
+    &::before {
+      @include icon('icon-like-active', map_merge($default-icon-options, (width: 19px, height: 17px)));
+    }
+  }
+  &:hover{
+    &:before{
+      content: '';
+      background-image: url("../images/icons/icon-like-active.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: block;
+      width: 18px;
+      height: 17px;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .logo-footer {
+    width: 110px;
+    height: 80px;
+  }
+  .icon-menu {
+    justify-content: start;
+    min-height: 12px;
+    &::before {
+      @include icon('icon-menu', map_merge($default-icon-options, (width: 12px, height: 12px)));
+    }
+  }
+  .icon-close-card {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    &::before {
+      @include icon('icon-close', map_merge($default-icon-options, (width: 13px, height: 13px)));
+    }
+  }
+  .icon-facebook-feedback {
+    &::before {
+      @include icon('icon-facebook-feedback', map_merge($default-icon-options, (width: 26px, height: 26px)));
+    }
+  }
+  .facebook-white {
+    &::before {
+      @include icon('facebook-white', map_merge($default-icon-options, (width: 10px, height: 18px)));
+    }
+  }
+  .icon-google-modal {
+    &::before {
+      @include icon('icon-google', map_merge($default-icon-options, (width: 20px, height: 20px)));
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .lang{
+    &:after{
+      @include icon('icon-lang', map_merge($default-icon-options, (width: 5px, height: 8px)));
+      margin-left: 4px;
+      margin-bottom: 5px;
+    }
+  }
+  .icon-novaposhta{
+    &:before{
+      margin-right: 22px;
+      @include icon('icon-novaposhta', map_merge($default-icon-options, (width: 42px, height: 42px)));
+    }
+  }
+  .icon-delivery{
+    &:before{
+      margin-right: 22px;
+      @include icon('icon-food-delivery', map_merge($default-icon-options, (width: 40px, height: 40px)));
+    }
+  }
+  .icon-location{
+    &:before{
+      margin-right: 22px;
+      @include icon('icon-location', map_merge($default-icon-options, (width: 30px, height: 40px)));
+    }
+  }
+  .icon-liqpay-logo{
+    &:before{
+      @include icon('icon-liqpay_logo', map_merge($default-icon-options, (width: 139px, height: 65px)));
+      margin-right: 22px;
+    }
+  }
+  .icon-shopping-items{
+    &:before{
+      @include icon('icon-shopping-items', map_merge($default-icon-options, (width: 43px, height: 48px)));
+      margin-right: 22px;
+    }
+  }
+  .icon-warranty-used{
+    &:before{
+      @include icon('icon-warranty', map_merge($default-icon-options, (width: 40px, height: 41px)));
+      margin-right: 22px;
+    }
+  }
+  .icon-exchange{
+    &:before{
+      content: '';
+      @include icon('icon-exchange', map_merge($default-icon-options, (width: 42px, height: 42px)));
+      margin-right: 22px;
+    }
+  }
+}

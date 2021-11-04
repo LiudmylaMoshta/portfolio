@@ -1,0 +1,111 @@
+.main-contact{
+  .title-page {
+    margin: 0 0 30px;
+  }
+}
+.section-maps{
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  .title-maps{
+    color: #ff0000;
+    text-transform: uppercase;
+  }
+  span{
+    display: block;
+  }
+
+}
+.section-form-contact{
+  background-color: #F5F5F5;
+  color: #000;
+  padding: 40px;
+  .form-control{
+    color: #000000;
+    &::placeholder{
+      color: #000;
+    }
+  }
+  form{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .title-page{
+    color: #606060;
+
+  }
+  .form-control:not(textarea){
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #606060;
+    border-radius: 0;
+    padding-left: 0;
+  }
+  textarea.form-control{
+    border: 1px solid #606060;
+    border-radius: 0;
+    &::placeholder{
+      color: #000;
+    }
+  }
+  .block-button{
+    text-align: center;
+    margin-top: 20px;
+    button{
+      width: 335px;
+      padding: 8px;
+    }
+  }
+
+}
+.section-maps{
+    #map, #map2 {
+      width: 100%;
+      height: 500px;
+      margin: 30px 0 60px;
+    }
+}
+
+.main-contact{
+  .title-page{
+    padding-top: 30px;
+  }
+}
+@media (max-width: 992px){
+  .section-maps #map, .section-maps #map2 {
+    margin: 30px 0 30px;
+  }
+  .section-maps {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px){
+  .section-form-contact{
+    .title-page {
+      margin-bottom: 0px;
+      padding-top: 0;
+    }
+    .form-group {
+      margin-bottom: 0;
+    }
+    textarea{
+      margin-top: 14px;
+    }
+  }
+  .section-maps{
+    display: flex;
+    justify-content: space-between;
+    .block{
+      text-align: center;
+      margin: 0;
+      width: 48%;
+      #map, #map2 {
+        width: 100%;
+        height: 510px;
+        margin: 30px 0 60px;
+      }
+    }
+  }
+}

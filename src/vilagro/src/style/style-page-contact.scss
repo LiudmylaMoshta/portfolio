@@ -1,0 +1,86 @@
+.section-contact{
+  .block-contact-1,.block-contact-2, .block-contact-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+    line-height: 160%;
+    padding: 30px 25px;
+    margin-bottom: 20px;
+    min-height: 200px;
+    p{
+      width: 70%;
+      margin-right: auto;
+    }
+    .title{
+      font-size: 15px;
+      display: block;
+      font-family: 'Bitter', serif;
+      margin-bottom: 7px;
+    }
+    .phone{
+      font-size: 16px;
+      font-weight: 700;
+      font-family: "Segoe UI", sans-serif;
+      li{
+        margin-top: 5px;
+      }
+    }
+    .custom-button{
+      width: 155px;
+      padding: 7px 10px;
+      margin: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .block-contact-1{
+    background-image: url("../images/bg-contact-1.png");
+  }
+  .block-contact-2{
+    background-image: url("../images/bg-contact-2.png");
+  }
+  .block-contact-3{
+    background-image: url("../images/bg-contact-3.png");
+  }
+  .list-icon{
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+    li{
+      margin-right: 20px;
+    }
+  }
+  @include media-breakpoint-up (md){
+    .list-contact{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+    }
+  }
+  @include media-breakpoint-up (lg){
+    .block-contact-1,.block-contact-2, .block-contact-3{
+      font-size: 12px;
+      min-height: 250px;
+      padding: 40px 30px;
+      .custom-button{
+        width: 186px;
+        //margin-top: 20px;
+      }
+      .title{
+        font-size: 20px;
+      }
+      .phone{
+        font-size: 16px;
+        margin-top: 20px;
+      }
+    }
+    .list-contact{
+      grid-gap: 17px;
+    }
+    .list-icon{
+        margin-top: 45px;
+    }
+  }
+}

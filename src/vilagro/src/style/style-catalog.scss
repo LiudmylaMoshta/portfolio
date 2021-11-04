@@ -1,0 +1,585 @@
+.bg-color-light-gray{
+    background-color: #F7F4F8;
+}
+.bg-color-gray{
+    background-color: #EDEAED;
+}
+.bg-color-FFD971{
+  background-color: #FFD971;
+}
+.section-price{
+  .title-section{
+    margin-bottom: 10px;
+  }
+  @include media-breakpoint-up (xl){
+    padding-bottom: 0;
+    .text{
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+}
+.wrapper-table{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+.table-price{
+  font-size: 9px;
+  margin-top: 30px;
+  &.table-price-mini{
+    thead{
+      color: #fff;
+      td:nth-child(even){
+        background-color: #DC6C29;
+      }
+      td:nth-child(odd){
+        background-color: #CE5329;
+      }
+    }
+    td{
+      width: auto;
+      max-width: 57px;
+      padding: 15px 12px;
+      text-align: center;
+      font-size: 10px;
+      &:first-child{
+        width: auto;
+        text-align: left;
+        max-width: 100%;
+      }
+    }
+    tr:nth-child(even){
+      td:nth-child(even){
+        background-color: #F7F4F8;
+      }
+      td:nth-child(odd){
+        background-color: #EDEAED;
+      }
+    }
+  }
+  thead{
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    td{
+      background-color: #DC6C29;
+      padding: 10px;
+      vertical-align: middle;
+    }
+    td:first-child{
+      background-color: #E78B2D;
+      border-top-left-radius: 10px;
+    }
+    td:last-child{
+      background-color: #CE5329;
+      border-top-right-radius: 10px;
+    }
+  }
+  tbody{
+    td{
+      padding: 10px;
+      vertical-align: middle;
+
+    }
+    td:first-child{
+      font-weight: 700;
+      padding: 5px ;
+    }
+  }
+  @include media-breakpoint-up (xs){
+    font-size: 10px;
+    thead{
+      font-size: 14px;
+    }
+  }
+  @include media-breakpoint-up (md){
+    font-size: 12px;
+  }
+  @include media-breakpoint-up (lg){
+    &.table-price-mini{
+      td{
+        font-size: 14px;
+      }
+    }
+  }
+  @include media-breakpoint-up (xl){
+    tbody{
+      font-size: 15px;
+      td{
+        line-height: 150%;
+        padding: 15px 25px;
+      }
+      td:first-child{
+        font-size: 17px;
+        line-height: 130%;
+        padding: 10px 25px;
+      }
+    }
+    thead{
+      font-size: 17px;
+      line-height: 150%;
+      font-weight: 700;
+      td{
+        height: 70px;
+        padding: 10px 25px;
+      }
+    }
+  }
+}
+.section-welcome.page-textile-zhalyuzi{
+  background-image: url(../images/bg-welcome-textile.png);
+  background-position-x: center;
+}
+.section-welcome.page-rim-zhalyuzi{
+  background-image: url(../images/bg-welcome-rim.png);
+  background-position-x: center;
+}
+.section-welcome.page-goriz-zhalyuzi {
+  background-position: right;
+  background-image: url(../images/goriz-zhalyuzi.png);
+}
+.section-welcome.page-product-venus {
+  background-position: center;
+  background-image: url(../images/bg-welcome-prroduct-venus.png);
+}
+
+.section-welcome.page-product-venus {
+  background-position: center;
+  background-image: url(../images/bg-welcome-prroduct-venus.png);
+}
+.section-welcome.page-product-tree {
+  background-position: center;
+  background-image: url(../images/bg-welcome-tree-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-tree.png);
+  }
+}
+.section-welcome.page-product-vertical {
+  background-position: center;
+  background-image: url(../images/bg-welcome-vertical-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-vertical.png);
+  }
+}
+
+.section-welcome.page-product-textil-open {
+  background-position: center;
+  background-image: url(../images/bg-welcome-textil-open-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-textil-open.png);
+    background-position: bottom;
+  }
+}
+.section-welcome.page-product-textil-close {
+  background-position: center;
+  background-image: url(../images/bg-welcome-textil-close-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-textil-close.png);
+    background-position: bottom;
+  }
+}
+.section-welcome.page-product-textil-day {
+  background-position: center;
+  background-image: url(../images/bg-welcome-textil-day-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-textil-day.png);
+    background-position: bottom;
+  }
+}
+.section-welcome.page-product-textil-blackout {
+  background-position: center;
+  background-image: url(../images/bg-welcome-textil-blackout-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-textil-blackout.png);
+    background-position: bottom;
+  }
+}
+.section-welcome.page-product-textil-bambuk {
+  background-position: center;
+  background-image: url(../images/bg-welcome-textil-bambuk-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-textil-bambuk.png);
+    background-position: bottom;
+  }
+}
+
+.section-welcome.page-product-textil-plisse {
+  background-position: center;
+  background-image: url(../images/bg-welcome-textil-plisse-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-plisse.png);
+    background-position: bottom;
+  }
+}
+.section-welcome.page-product-rim-day {
+  background-position: center;
+  background-image: url(../images/bg-welcome-rim-day-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-rim-day.png);
+  }
+}
+.section-welcome.page-product-rim-panoram {
+  background-position: center;
+  background-image: url(../images/bg-welcome-rim-panoram-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-rim-panoram.png);
+  }
+}
+
+.section-welcome.page {
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 440px;
+  margin-bottom: 0;
+  &.m-bottom{
+    margin-bottom: 60px;
+  }
+  .wrapper-welcome-header {
+    margin-top: auto;
+  }
+  &:before{
+    background: none;
+  }
+  .list-card-welcome {
+    margin-bottom: -80px;
+  }
+  .wrapper-welcome-header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    min-height: 240px;
+    display: flex;
+    &:before{
+      background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0.8) 100%, transparent 100%, transparent 100%);
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      display: block;
+      top: 0;
+      left: 0;
+    }
+    @include media-breakpoint-up(lg) {
+      min-height: 440px;
+      padding-top: 40px;
+    }
+  }
+  .left-block-welcome {
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+    @include media-breakpoint-up(md) {
+      padding: 20px 0;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+      padding: 0;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 425px;
+      .title-welcome{
+        margin-right: 55px;
+      }
+    }
+  }
+  .list-card-welcome {
+    max-width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    .card-welcome{
+      padding: 20px 9px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      .info-text{
+        font-family: 'Bitter', serif;
+      }
+      .icon{
+        margin-right: 0;
+        margin-bottom: 14px;
+      }
+      .title {
+        margin-right: 0;
+        font-size: 9px;
+        line-height: 140%;
+        margin-bottom: 7px;
+        display: block;
+        text-align: left;
+      }
+      .number{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 5px;
+      }
+    }
+    span{
+      display: inline-block;
+    }
+  }
+  .left-block-welcome{
+    .title-welcome{
+      padding-top: 10px;
+    }
+  }
+  @include media-breakpoint-up (md){
+    background-position-y: top;
+    &.m-bottom{
+      margin-bottom: 0;
+    }
+    margin-bottom: 0;
+    .list-card-welcome{
+      .card-welcome {
+        font-size: 17px;
+        .title{
+          font-size: 13px;
+          line-height: 30px;
+        }
+        .number{
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+    .left-block-welcome{
+      font-size: 15px;
+      .card-welcome {
+        flex-direction: row;
+      }
+    }
+  }
+  @include media-breakpoint-up (lg){
+    background-position-y: center;
+    .left-block-welcome{
+      min-height: 200px;
+      padding-top: 0;
+
+    }
+  }
+  @include media-breakpoint-up (xl){
+    .left-block-welcome .title-welcome {
+      padding-top: 10px;
+    }
+    .list-card-welcome{
+      max-width: 120%;
+      width: 120%;
+      margin-top: 15px;
+      .card-welcome {
+        font-size: 20px;
+        .title{
+          font-size: 16px;
+          line-height: 30px;
+          margin-bottom: 11px;
+        }
+        .number{
+          font-size: 27px;
+          font-weight: 700;
+        }
+      }
+    }
+    .left-block-welcome {
+      padding-top: 0;
+    }
+  }
+  .group-button{
+    .custom-button{
+      width: 170px;
+      padding: 7px 20px;
+      margin-bottom: 10px;
+      @include media-breakpoint-up (lg) {
+        width: 100%;
+      }
+    }
+  }
+  @include media-breakpoint-up (md) {
+    .list-card-welcome {
+      margin-bottom: 0;
+    }
+  }
+  @include media-breakpoint-up (lg) {
+    .wrapper-welcome-header {
+      &:before {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0.8) 50%, transparent 50%, transparent 100%);
+      }
+    }
+  }
+}
+
+
+
+
+
+.section-welcome.page.page-post {
+  background-position: center;
+  background-image: url(../images/bg-welcome-post-mob.png);
+  .wrapper-welcome-header{
+    margin-top: 0;
+    min-height: auto;
+    &:before{
+      background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0.8) 100%, transparent 100%, transparent 100%);
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      display: block;
+      top: 0;
+      left: 0;
+    }
+  }
+  @include media-breakpoint-up (lg) {
+    background-image: url(../images/bg-welcome-post.png);
+    .wrapper-welcome-header {
+      justify-content: start;
+      &:before {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0.8) 50%, transparent 50%, transparent 100%);
+      }
+    }
+  }
+}
+
+.section-info-orders{
+  .img-info-orders.page-textil-zhalyuz{
+    background-image: url(../images/section-info-orders-textil.png);
+  }
+}
+.img-info-orders.page-rim-zhalyuzi{
+  .img-info-orders.page-textil-zhalyuz{
+    background-image: url(../images/section-orders-rim.png);
+  }
+}
+
+.wrapper-info-orders.page-goriz-zhalyuzi{
+  .img-info-orders.page-goriz-zhalyuzi{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    &:before{
+      content: none;
+    }
+    @include media-breakpoint-up (md){
+      width: 50%;
+    }
+    @include media-breakpoint-up (lg){
+      margin-bottom: 0;
+    }
+  }
+  @include media-breakpoint-up (md){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @include media-breakpoint-up (lg){
+    flex-direction: row;
+    .list-info-orders li {
+      margin-bottom: 21px;
+    }
+  }
+}
+.section-info-orders{
+  .img-info-orders.page-textil-zhalyuzi:before{
+    content: '';
+    background-image: url(../images/section-info-orders-textil.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 265px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+  }
+  .wrapper-info-orders.page-textil-zhalyuzi,
+  .wrapper-info-orders.page-rim-zhalyuzi{
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  .img-info-orders.page-rim-zhalyuzi:before{
+    content: '';
+    background-image: url(../images/section-orders-rim.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  @include media-breakpoint-up (md){
+    .img-info-orders.page-textil-zhalyuzi:before{
+      width: 400px;
+      height: 300px;
+    }
+  }
+  @include media-breakpoint-up (lg){
+    .wrapper-info-orders.page-textil-zhalyuzi,
+    .wrapper-info-orders.page-rim-zhalyuzi{
+      margin: 0;
+      max-width: 100%;
+    }
+  }
+  @include media-breakpoint-up (xl) {
+    .img-info-orders.page-textil-zhalyuzi:before{
+      width: 600px;
+      height: 400px;
+      margin: 0;
+    }
+    .img-info-orders.page-rim-zhalyuzi:before{
+      width: 485px;
+      height: 385px;
+      margin: 0;
+    }
+  }
+}
+.section-form.page-goriz-zhalyuzi{
+  .custom-button {
+    max-width: 530px;
+    margin: 20px auto 30px;
+  }
+  .form-ordering {
+    width: 100%;
+  }
+  @include media-breakpoint-up (md){
+    .form-check-custom .form-check {
+      text-align: center;
+    }
+  }
+  @include media-breakpoint-up (lg){
+    .wrapper-form {
+      padding-bottom: 35px;
+    }
+  }
+}
+
+.block-welcome-info.page-goriz-zhalyuz{
+  .list-card-welcome{
+    margin-bottom: 0;
+  }
+}
+.section-catalog{
+  @include media-breakpoint-up (lg) {
+    .list-item-catalog.page-rim {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      grid-gap: 16px;
+      margin: 0 90px;
+    }
+  }
+}
+
+.section-welcome.page-product-textil-zhgutovyye {
+  background-position: center;
+  background-image: url(../images/bg-welcome-textil-zhgutovyye-mob.png);
+  @include media-breakpoint-up (lg){
+    background-image: url(../images/bg-welcome-textil-zhgutovyye.png);
+    background-position-y: bottom;
+  }
+}

@@ -1,0 +1,213 @@
+.list-icon-welcome-block{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  &.list-gallery-icon {
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+}
+.icon-welcome{
+  &::before {
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+  }
+}
+.icon-clean{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/icon-clean.png");
+  }
+}
+
+.icon-not-fade{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/welcome-not-fade.png");
+  }
+}
+.icon-mater-alum{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/mater-alum.png");
+  }
+}
+.icon-protective-coating{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/protective-coating.png");
+  }
+}
+.icon-palitra{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/big-palitrra.png");
+  }
+}
+.icon-carniz{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/carniz.png");
+  }
+}
+.icon-not-deform{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/not-deform.png");
+  }
+}
+.icon-convenient-control{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/convenient-control.png");
+  }
+}
+.icon-protective-varnish{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/protective-varnish.png");
+  }
+}
+.icon-kanada-lipa{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/kanada-lipa.png");
+  }
+}
+.icon-eco{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/eco.png");
+  }
+}
+.icon-fabric-protected{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/fabric-protected.png");
+  }
+}
+
+.icon-room{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/room.png");
+  }
+}
+.icon-not-iron{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/not-iron.png");
+  }
+}
+.icon-not-wash{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/not-wash.png");
+  }
+}
+
+.icon-big-price{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/big-price.png");
+  }
+}
+.icon-other{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/other.png");
+  }
+}
+.icon-all-windows{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/all-windows.png");
+  }
+}
+
+.icon-light-protection{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/light-protection.png");
+  }
+}
+.icon-110{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/110.png");
+  }
+}
+.icon-super{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/super.png");
+  }
+}
+.icon-wash30{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/wash30.png");
+  }
+}
+.icon-different-density{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/different-density.png");
+  }
+}
+.icon-all-size{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/all-size.png");
+  }
+}
+.icon-alum-material{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/alum-material.png");
+  }
+}
+.icon-pvh-windows{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/pvh-windows.png");
+  }
+}
+
+.icon-blackout100{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/blackout100.png");
+  }
+}
+.icon-light-reflection{
+  &::before {
+    background-image: url("../images/icon/icon-welcome/light-reflection.png");
+  }
+}
+
+
+@include media-breakpoint-up(md){
+  .icon-welcome{
+    &::before {
+      width: 110px;
+      height: 110px;
+    }
+  }
+  .list-icon-welcome-block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    &.list-gallery-icon{
+      justify-content: center;
+      margin-top: 35px;
+      >li{
+        margin: 0 20px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg){
+  .section-welcome.page .left-block-welcome {
+    height: 100%;
+  }
+  .list-icon-welcome-block{
+    &.list-gallery-icon{
+      margin-top: 75px;
+      //.icon-welcome{
+      //  &::before {
+      //    width: 150px;
+      //    height: 150px;
+      //  }
+      //}
+    }
+  }
+}
+
+@include media-breakpoint-up(xl){
+  .section-welcome.page .left-block-welcome {
+    min-height: 100%;
+  }
+}

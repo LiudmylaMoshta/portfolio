@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/mixins";
+@function in_list($value, $list) {
+  @return (null != index($list, $value));
+}
+
+@mixin icon ($name, $options: $default-icon-options) {
+  $width: map_get($options, width);
+  $height: map_get($options, height);
+  content: '';
+  display: block;
+  width: $width;
+  min-width: $width;
+  height: $height;
+  min-height: $height;
+  margin: map_get($options, margin-top) map_get($options, margin-right) map_get($options, margin-bottom) map_get($options, margin-left);
+  background: url($icons-path + $name + '.' + map_get($options, format)) no-repeat center;
+
+  @if map_get($options, landscape) {
+    background-size: 100% auto;
+  } @else {
+    background-size: auto 100%;
+  }
+}
+
+@mixin make-promo($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
+  @each $breakpoint, $container-max-width in $max-widths {
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
+      @if (null != index($content-full-with-list, $breakpoint)) {
+        max-width: $container-max-width;
+        flex-basis: $container-max-width;
+        margin: 0 auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      } @else {
+        max-width: $container-max-width / 2 - 5px;
+        flex-basis: $container-max-width / 2 - 5px;
+        margin: unset;
+      }
+    }
+  }
+}
+@mixin cover-img () {
+  height: 100%;
+  width:auto;
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}

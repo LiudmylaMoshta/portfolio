@@ -1,0 +1,425 @@
+$dropdown-gap: 10px;
+.section-text{
+  .card-order{
+    margin-bottom: 0;
+    .card-header{
+      &:after {
+        content: none;
+      }
+      .btn-link {
+        font-weight: 500;
+        color: #282A29;
+        text-align: left;
+        align-items: baseline;
+        .icon-arrow-down{
+          &:before{
+            background-image: url($images-path + "icon-arrow-up.svg");
+            color: #282A29;
+            display: block;
+            content: '';
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 11px;
+            height: 7px;
+          }
+        }
+        &.collapsed{
+          .icon-arrow-down{
+            &:before{
+              background-image: url($images-path + "icon-arrow-down.svg");
+              display: block;
+              color: #282A29;
+              content: '';
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 11px;
+              height: 7px;
+            }
+          }
+          //.total-number{
+          //  display: inline-block;
+          //}
+          //.total-sum{
+          //  display: inline-block;
+          //}
+        }
+        .block-header-order{
+          &:after{
+            border-bottom: 3px solid #393177;
+            width: 87px;
+            margin-bottom: -8px;
+            display: block;
+            padding-bottom: 10px;
+          }
+        }
+      }
+      .btn-link:not(.collapsed ){
+        .block-header-order{
+          color: #393177;
+          &:after{
+            content: '';
+          }
+        }
+      }
+    }
+    .card-body{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.section-trade{
+  background-color: rgba(219,219,219,.21);
+}
+.block-trade-in {
+  .block-images{
+    order: 2;
+    .wrapper-img{
+      width: 327px;
+      height: auto;
+      max-width: 100%;
+    }
+    .text-result{
+      font-size: 16px;
+    }
+  }
+  .table-result{
+    margin-top: 35px;
+    .item-table-result{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 17px;
+      &.new-price{
+        font-weight: 500;
+      }
+    }
+  }
+  .block-info-device{
+    order: 1;
+  }
+  .block-device-buy{
+    order: 3;
+    padding-top: 0;
+  }
+  .block-trade-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 30px 1fr auto;
+    grid-gap: 10px;
+
+    @include media-breakpoint-up(lg) {
+      grid-template-rows: 30px 1fr 1fr;
+    }
+    .title {
+      grid-column: span 2;
+      display: flex;
+      padding-bottom: 10px;
+    }
+    &.block-info-device {
+      @include media-breakpoint-up(md) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .text-result {
+    grid-column: span 2;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+.section-anketa.trade{
+  padding: 30px 0;
+  .form-anketa{
+    .btn-custom-project{
+      margin: 0 15px;
+      font-weight: 400;
+      margin-top: 10px;
+      box-shadow: none;
+    }
+  }
+}
+.block-trade-in{
+  padding: 40px 0;
+  .title{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 150%;
+    display: block;
+  }
+  .block-images{
+    padding-top: 40px;
+    @include media-breakpoint-up(md) {
+      padding-top: unset;
+      margin: 0 auto;
+    }
+  }
+  .block-device-buy{
+    padding-top: 30px;
+    @include media-breakpoint-up(md) {
+      padding-top: unset;
+    }
+  }
+}
+.section-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .title-section{
+    padding-top: 10px;
+  }
+  .title-text{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 150%;
+    padding-bottom: 10px;
+  }
+}
+.img-iphone-trade{
+  background-image: url($images-path + "images-iphone.webp");
+  background-position-x: -17px;
+}
+.img-iphone-use-trade{
+  background-image: url($images-path + "use-phone.webp");
+}
+.img-ipad-trade{
+  background-image: url($images-path + "images-ipad.webp");
+}
+.img-imac-trade{
+  background-image: url($images-path + "images-imac-trade.webp");
+}
+.img-iwatch-trade{
+  background-image: url($images-path + "images-iwatch-trade.webp");
+}
+.img-other-trade{
+  background-image: url($images-path + "images-other-trade.webp");
+}
+.img-gadgets-trade{
+  background-image: url($images-path + "img-gadgets-trade.webp");
+}
+.img-ipods-trade{
+  background-image: url($images-path + "img-ipods-trade.webp");
+}
+.list-btn-trade{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $dropdown-gap;
+  margin-bottom: 0;
+  grid-auto-rows: max-content;
+
+  li{
+    .block-selector{
+      &.show{
+        width: 100%;
+      }
+    }
+  }
+}
+.btn-trade{
+  min-height: 56px;
+  background-color: #fff;
+  background-size: 67%;
+  background-position-y: bottom ;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  >span{
+    width: 60%;
+    display: block;
+    text-align: center;
+    margin-left: 15px;
+  }
+}
+.dropdown-wrapper {
+  padding-top: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  .dropdown-wrapper-item {
+    display: block;
+    position: relative;
+    min-height: 35px;
+    .btn-selector {
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #FFFFFF;
+      border: unset;
+      padding: 7px $dropdown-gap;
+      transition: height .3s linear;
+
+      &[aria-expanded="true"] {
+        position: absolute;
+        width: calc(200% + 10px);
+        padding-left: calc(2 * #{$dropdown-gap});
+        padding-right: calc(2 * #{$dropdown-gap});
+        border-bottom-left-radius: unset;
+        border-bottom-right-radius: unset;
+      }
+    }
+    .dropdown-menu {
+      margin-top: 0;
+      border: unset;
+      padding: 3px $dropdown-gap $dropdown-gap;
+      left: 0;
+      right: auto;
+
+      &.show {
+        width: calc(200% + #{$dropdown-gap});
+      }
+      .list-model {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: $dropdown-gap;
+        .form-check-label {
+          font-size: 14px;
+          line-height: 27px;
+          align-items: center;
+        }
+      }
+    }
+
+    &.mobile-right {
+      .btn-selector {
+        &[aria-expanded="true"] {
+          left: auto !important;
+          right: 0 !important;
+          @include media-breakpoint-up(md) {
+            left: 0 !important;
+            right: auto !important;
+          }
+        }
+      }
+      .dropdown-menu {
+        left: auto !important;
+        right: 0 !important;
+        @include media-breakpoint-up(md) {
+          left: 0 !important;
+          right: auto !important;
+        }
+      }
+    }
+    &.mobile-right-md {
+      .btn-selector {
+        &[aria-expanded="true"] {
+          left: auto !important;
+          right: 0 !important;
+        }
+      }
+    }
+  }
+}
+
+.block-selector .form-control {
+  min-height: 67px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 150%;
+  border: unset;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .block-trade-in{
+    display: block;
+    max-width: 450px;
+    margin: 0 auto;
+    .block-trade-grid.block-info-device {
+      display: grid;
+    }
+  }
+}
+@media (max-width: 767px){
+  .section-anketa.trade{
+    .form-anketa{
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 992px){
+  .section-text {
+    font-size: 16px;
+    line-height: 30px;
+    .card-body{
+      font-size: 16px;
+    }
+
+    .title-section {
+      padding: 0;
+      margin-top: -10px;
+      text-align: left;
+    }
+
+  }
+}
+
+
+@media (min-width: 992px) {
+  .block-trade-in {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr 2fr;
+    .title{
+      font-size: 22px;
+
+    }
+    .block-trade-grid .title {
+      padding-bottom: 0;
+    }
+    .block-images {
+      margin: 0 20px;
+    }
+    .table-result .item-table-result {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 19px;
+      &.new-price{
+        font-size: 24px;
+      }
+    }
+  }
+  .btn-trade{
+    background-size: 54%;
+    font-size: 18px;
+    &.new{
+      min-height: 60px;
+    }
+  }
+  .section-text .card-order .btn-link{
+    //padding-bottom: 0;
+    .block-header-order{
+      display: block;
+    }
+  }
+  .section-text .card-order .card-header .btn-link .block-header-order:after {
+    margin-bottom: -20px;
+  }
+  .section-text {
+    font-size: 16px;
+    line-height: 30px;
+    .title-text{
+      font-size: 20px;
+    }
+    .card-body, .block-header-order {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .btn-trade {
+    font-size: 13px;
+
+  }
+}

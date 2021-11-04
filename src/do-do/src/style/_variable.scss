@@ -1,0 +1,52 @@
+$images-path: './../images/';
+$icons-path: $images-path + 'icon/';
+
+// colors
+$light: #FFFFFF;
+$red: #FF0000;
+$success: #68BF5F;
+$input-bg: #F5F5F5;
+$dark: #606060;
+
+// icon
+$default-icon-options: (
+        width: 2.15rem,
+        height: 2.15rem,
+        format: 'svg',
+        margin-top: 0,
+        margin-right: 0,
+        margin-bottom: 0,
+        margin-left: 0,
+        landscape: false,
+) !default;
+
+$grid-breakpoints: (
+        xxxs: 0,
+        xxs: 320px,
+        //xs: 568px,
+        xs: 414px,
+        sm: 667px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1440px,
+);
+$container-max-widths: (
+        xxxs: 0,
+        xxs: 320px,
+        //xs: 568px,
+        xs: 414px,
+        sm: 667px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1390px,
+);
+
+// font
+$default-font-size: 12px;
+$default-line-height: 15px;
+$default-font-family: 'Montserrat';
+
+// shadow
+$box-shadow-color: rgba(0, 0, 0, 0.1);

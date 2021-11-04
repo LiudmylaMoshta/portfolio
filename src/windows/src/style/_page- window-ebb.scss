@@ -1,0 +1,236 @@
+.block-color-edd{
+  span{
+    color: #ffffff;
+  }
+}
+//.block-color{
+//  span{
+//    color: #ffffff;
+//  }
+//}
+
+
+.page-window-ebb {
+  font-size: 11px;
+  line-height: 17px;
+  .title-post-top{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 17px;
+  }
+  section{
+    padding: 25px 0;
+  }
+  .list-item-catalog{
+    margin-bottom: 0;
+  }
+  .item-catalog.page{
+    margin-bottom: 0;
+    .block-item-catalog {
+      margin: 0;
+    }
+    .title{
+      font-size: 11px;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 11px;
+    }
+    .text-list-img{
+      display: block;
+      padding: 0;
+      margin-bottom: 8px;
+    }
+    .footer-item-catalog .price{
+      margin: 0 auto;
+      width: 125px;
+    }
+  }
+  .section-other-section{
+    border-top: 8px solid #2792de;
+    .item-catalog.page{
+      margin-bottom: 15px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      .footer-item-catalog .price {
+        margin-top: -17px;
+      }
+    }
+  }
+}
+.bg-window-ebb{
+  background-image: url("../images/bg-window-ebb.png");
+}
+.section-color-window-edd{
+  ul{
+    margin-bottom: 0;
+  }
+  .block-color{
+    margin-bottom: 27px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  .block-color-edd{
+    width: 71px;
+    height: 22px;
+    margin: 2px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+      font-size: 9px;
+      font-weight: 400;
+      //color: #ffffff;
+    }
+  }
+}
+.section-scheme-works.roller.windows-ebb{
+  .list-scheme-works{
+    background-position-y: 35%;
+    background-size: 47%;
+    li:last-child {
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .page-window-ebb {
+    font-size: 13px;
+    line-height: 19px;
+
+    .title-post-top {
+      font-size: 15px;
+      line-height: 19px;
+    }
+    section {
+      padding: 35px 0;
+    }
+    .item-catalog.page .title {
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .item-catalog .block-img {
+      width: 295px;
+      height: 220px;
+    }
+    .section-other-section .item-catalog .block-img {
+      height: 150px;
+      width: 33%;
+    }
+  }
+  .section-color-window-edd{
+    .block-color-edd {
+    width: 95px;
+    height: 25px;
+    }
+    .block-color{
+      display: flex;
+    }
+  }
+  .button-wrapper.window-ebb::before {
+    background: url(../images/img-form-windows-ebb.png) no-repeat center center;
+    background-size: contain;
+    background-position-x: center;
+    position: relative;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .section-top-page-window-ebb{
+    .item-catalog .block-img img {
+      max-width: 480px;
+      height: auto;
+    }
+  }
+  .page-window-ebb {
+    font-size: 15px;
+    line-height: 24px;
+
+    .title-post-top {
+      font-size: 20px;
+      line-height: 27px;
+      text-align: left;
+    }
+    section {
+      padding: 35px 0;
+    }
+    .section-top-page-window-ebb{
+      padding-top: 5px;
+    }
+    .item-catalog.page{
+      .title {
+        font-size: 15px;
+      }
+      .block-img {
+        width: 295px;
+        height: 220px;
+      }
+      .footer-item-catalog .price {
+        margin: 0 auto;
+        width: 307px;
+      }
+    }
+    .section-form-page-windowsill .title-section {
+      margin-left: 255px;
+    }
+    .section-form-page-windowsill{
+      padding: 13px 0;
+    }
+  }
+  .section-color-window-edd .block-color-edd {
+    width: 120px;
+    span{
+      font-size: 13px;
+    }
+  }
+  .page-window-ebb .section-other-section .item-catalog.page {
+    .block-img{
+      width: 100%;
+      height: 250px;
+    }
+    .footer-item-catalog .price {
+      margin: 0 auto;
+      width: auto;
+      max-width: 90%;
+      margin-top: -25px;
+    }
+  }
+}
+@media (min-width: 1300px){
+  .page-window-ebb {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .page-window-ebb .item-catalog.page{
+    .block-img {
+      width: 500px;
+      height: 300px;
+      max-width: 500px;
+    }
+    .title {
+      font-size: 20px;
+      padding: 10px 0 5px;
+    }
+    .text-list-img {
+      margin: 0 auto 15px;
+    }
+  }
+  .section-color-window-edd .block-color-edd {
+    width: 155px;
+    height: 32px;
+    span{
+      font-size: 14px;
+    }
+  }
+}
+
+
+
+
+

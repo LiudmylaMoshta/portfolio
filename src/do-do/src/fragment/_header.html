@@ -1,0 +1,193 @@
+<header>
+        <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="icon icon-logo"></i>
+                </a>
+                <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target=".menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="icon icon-toggler"></i>
+                </button>
+                <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#mob-search" aria-expanded="false" aria-controls="mob-search">
+                    <i class="icon icon-mob-search"></i>
+                </button>
+
+                <form class="search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Пошук товару" aria-label="Recipient's username"    >
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="button">
+                                <i class="icon icon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="location">
+                    <a href="contact.html">
+                        <i class="icon icon-location"></i>
+                    </a>
+                    <ul class="phone">
+                        <li class="phone-item">
+                            <a href="tel:+380445016922">+38 (044) 501-69-22</a>
+                        </li>
+                        <li class="phone-item">
+                            <a href="tel:+380445016922">+38 (044) 537-32-46</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="list-menu-top">
+                    <li><a href="personal-page-my.html" class="m_title">Мій кабінет</a></li>
+                    <li><a href="info-ordering.html" class="m_title">Як зробити замовлення</a></li>
+                    <li><a href="info-delivery.html" class="m_title">Доставка та оплата</a></li>
+                </ul>
+                <div class="basket">
+                    <a href="basket.html">
+                        <i class="icon icon-basket"></i>
+                        <span class="icon-sum">2</span>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+</header>
+<div id="menu" class="menu collapse d-lg-block navbar-collapse">
+    <div class="container">
+        <ul class="d-flex flex-column flex-lg-row">
+            <li class="d-lg-none title-menu-mob">Каталог Товарів</li>
+            <li class="menu-item">
+                <a class="menu-link" data-toggle="collapse" href="#medicamentnts" role="button" aria-expanded="false" aria-controls="medicamentnts" >
+                    Медикаменти
+                </a>
+                <div class="collapse menu-wrap" id="medicamentnts" data-parent="#menu">
+                    <a class="dropdown-item" href="#">Гормональні препарати</a>
+                    <a class="dropdown-item" href="#">Засоби для лікування інфекцій</a>
+                    <a class="dropdown-item" href="#">Протипухлинні препарати та імуномодулятори</a>
+                    <a class="dropdown-item" href="#">Препарати для кістково-м'язової системи</a>
+                    <a class="dropdown-item" href="#">Препарати для нервової системи</a>
+                    <a class="dropdown-item" href="#">Протипаразитарні препарати</a>
+                    <a class="dropdown-item" href="#">Препарати для травної системи і обміну речовин</a>
+                    <a class="dropdown-item" href="#">Препарати для респіраторної системи</a>
+                    <a class="dropdown-item" href="#">Препарати що впливають на кровотворення і кров</a>
+                    <a class="dropdown-item" href="#">Препарати для серцево-судинної системи</a>
+                    <a class="dropdown-item" href="#">Препарати для лікування захворювань шкіри</a>
+                    <a class="dropdown-item" href="#">Препарати для сечостатевої системи</a>
+                    <a class="dropdown-item" href="#">Препарати для органів почуттів</a>
+                    <a class="dropdown-item" href="#">Інші лікарські засоби</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" data-toggle="collapse" href="#cosmetic" role="button" aria-expanded="false" aria-controls="cosmetic">
+                    Косметика
+                </a>
+                <div class="collapse" id="cosmetic" data-parent="#menu">
+                    <a class="dropdown-item" href="#">Догляд за обличчям</a>
+                    <a class="dropdown-item" href="#">Догляд за тілом</a>
+                    <a class="dropdown-item" href="#">Догляд за волоссям</a>
+                    <a class="dropdown-item" href="#">Догляд за шкірою рук і ніг</a>
+                    <a class="dropdown-item" href="#">Лікувальна косметика для чоловіків</a>
+                    <a class="dropdown-item" href="#">Дерматологічні засоби</a>
+                    <a class="dropdown-item" href="#">Набори косметики</a>
+                </div>
+            </li>
+            <li class="menu-item">
+
+                <a class="menu-link" data-toggle="collapse" href="#kids" role="button" aria-expanded="false" aria-controls="kids">
+                    Ентеральне  харчування
+                </a>
+                <div class="collapse" id="kids"  data-parent="#menu">
+                    <a class="dropdown-item" href="#">Nestle (Нестле)</a>
+                    <a class="dropdown-item" href="#">Fresubin (Фрезубин)</a>
+                    <a class="dropdown-item" href="#">Nutricia (Нутриция)</a>
+                    <a class="dropdown-item" href="#">Nutricomp (Нутрикомп)</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" data-toggle="collapse" href="#clinic" role="button" aria-expanded="false" aria-controls="clinic">
+                    Медичні вироби
+                </a>
+                <div class="collapse menu-wrap" id="clinic"  data-parent="#menu">
+                    <a class="dropdown-item" href="#">Беруші</a>
+                    <a class="dropdown-item" href="#">Інгалятори</a>
+                    <a class="dropdown-item" href="#">Тонометри</a>
+                    <a class="dropdown-item" href="#">Термометри</a>
+                    <a class="dropdown-item" href="#">Глюкометри</a>
+                    <a class="dropdown-item" href="#">Тести</a>
+                    <a class="dropdown-item" href="#">Підгузки для дорослих</a>
+                    <a class="dropdown-item" href="#">Шприци Системи Голки</a>
+                    <a class="dropdown-item" href="#">Компресійний трикотаж</a>
+                    <a class="dropdown-item" href="#">Бандажі, еластичні бинти</a>
+                    <a class="dropdown-item" href="#">Пов'язки Бинти Пластир</a>
+                    <a class="dropdown-item" href="#">Грілки електричні</a>
+                    <a class="dropdown-item" href="#">Аптечки і Таблетніци</a>
+                    <a class="dropdown-item" href="#">Пісочний годинник</a>
+                    <a class="dropdown-item" href="#">Товари для догляду за лежачими хворими</a>
+                    <a class="dropdown-item" href="#">Товари для реабілітації</a>
+                    <a class="dropdown-item" href="#">Песарії і спіралі</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" data-toggle="collapse" href="#kids-product" role="button" aria-expanded="false" aria-controls="kids-product">
+                    Дитячі товари
+                </a>
+                <div class="collapse" id="kids-product"  data-parent="#menu">
+                    <a class="dropdown-item" href="#">Дитяча гігієна</a>
+                    <a class="dropdown-item" href="#">Товари для мам</a>
+                    <a class="dropdown-item" href="#">Дитяче харчування</a>
+                    <a class="dropdown-item" href="#">Товари для новонароджених</a>
+                </div>
+            </li>
+            <li class="menu-item">
+
+                <a class="menu-link" data-toggle="collapse" href="#vitamin" role="button" aria-expanded="false" aria-controls="vitamin">
+                    Вітаміни і БАДи
+                </a>
+                <div class="collapse menu-wrap" id="vitamin"  data-parent="#menu">
+                    <a class="dropdown-item" href="#">Вітаміни та добавки різних груп</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для дітей</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для вагітних</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для жінок</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для чоловіків</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для підвищення енергії</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для серця і судин</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для кісток і м'язів</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для травної системи</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для сечостатевої системи</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для органів дихання</a>
+                    <a class="dropdown-item" href="#"> Вітаміни та добавки для імунітету</a>
+                    <a class="dropdown-item" href="#">Вітаміни та добавки для схуднення</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" data-toggle="collapse" href="#oral-cavity" role="button" aria-expanded="false" aria-controls="oral-cavity">
+                    Догляд за порожниною рота
+                </a>
+                <div class="collapse" id="oral-cavity"  data-parent="#menu">
+                    <a class="dropdown-item" href="#">Догляд за зубними протезами</a>
+                    <a class="dropdown-item" href="#">Зубні нитки і флоси</a>
+                    <a class="dropdown-item" href="#">Зубні пасти та гелі</a>
+                    <a class="dropdown-item" href="#">Зубні щітки</a>
+                    <a class="dropdown-item" href="#">Засоби для відбілювання зубів</a>
+                    <a class="dropdown-item" href="#">Засоби фіксації зубних протезів</a>
+                </div>
+
+            </li>
+            <li class="menu-item">
+                Акції та знижки
+            </li>
+        </ul>
+        <ul class="list-menu-top d-lg-none">
+            <li><a href="#">Доставка та оплата</a></li>
+            <li><a href="#">Мій кабінет</a></li>
+            <li><a href="#">Як зробити замовлення</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<form class="mob-search collapse d-lg-none" id="mob-search">
+    <form class="search-form">
+        <div class="input-group">
+            <i class="icon icon-mob-search"></i>
+            <input type="text" class="form-control" placeholder="Пошук товару" aria-label="Recipient's username"    >
+        </div>
+    </form>
+</form>

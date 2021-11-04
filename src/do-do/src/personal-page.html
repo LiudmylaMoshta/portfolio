@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<%=require('html-loader?!./fragment/_header.html')%>
+<div class="block-ask-me-container">
+    <div class="block-ask-me container">
+        <button class="btn ask-me icon icon-ask-me"></button>
+    </div>
+</div>
+   <div class="main main-personal-page">
+       <div>
+           <h4 class="title-page">увійти</h4>
+           <form class="sing-in">
+               <div class="form-group">
+                   <label for="exampleInputEmail"><input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Логін або e-mail"></label>
+
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword"><input type="password" class="form-control" id="exampleInputPassword" placeholder="Пароль"></label>
+
+               </div>
+               <div class="form-check">
+                   <input type="checkbox" class="form-check-input" id="1">
+                   <label class="form-check-label" for="1">Запам’ятати мене</label>
+               </div>
+               <a href="#" class="help-password">Забули свій пароль?</a>
+               <button class="btn-success">Авторизація</button>
+           </form>
+           <h4 class="title-page ">реєстрація</h4>
+           <form class="registration">
+
+               <div class="form-group">
+                   <label for="first-name"></label>
+                   <input type="text" class="form-control" id="first-name" placeholder="Ім’я">
+               </div>
+               <div class="form-group">
+                   <label for="phone"><input type="email" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Телефон"></label>
+
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputEmail1"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Логін Email e-mail"></label>
+
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword1"><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль"></label>
+
+               </div>
+               <button class="btn-success">Зареєструватися</button>
+           </form>
+       </div>
+   </div>
+<%=require('html-loader?!./fragment/_footer.html')%>
+
+<!--<script src="js/stepper.min.js"></script>-->
+</body>
+</html>

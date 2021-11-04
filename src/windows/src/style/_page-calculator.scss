@@ -1,0 +1,36 @@
+.page-calculator{
+  .breadcrumb{
+    background-color: #F4F9FC;
+  }
+}
+.section-post.section-post-windows.page-calculator{
+  &::before {
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.85) 100%, transparent 100%), url(../images/bg-post-calculator.jpg) no-repeat left center;
+    background-size: 100%, auto 100%;
+  }
+  .title-post {
+    font-size: 12px;
+  }
+}
+
+
+@media (min-width: 992px){
+  .page-calculator{
+    .section-calculator{
+      padding: 0;
+      .title-section{
+        padding: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+  .section-post.section-post-windows.page-calculator{
+    &::before {
+      background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.85) 100%, transparent 100%), url(../images/bg-post-calculator.jpg) no-repeat left center;
+      background-size: 100%, auto 100%;
+    }
+    .title-post {
+      font-size: 17px;
+    }
+  }
+}

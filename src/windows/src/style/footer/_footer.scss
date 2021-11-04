@@ -1,0 +1,244 @@
+.footer{
+  background-color: #03143b;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-top: 53px;
+
+  .title-footer{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  .title-footer-bottom{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  .block-1,
+  .block-2,
+  .block-3{
+    max-width: 225px;
+    margin: 0 auto;
+  }
+  a{
+    color: #ffffff;
+  }
+  .block-1{
+    .bank-alfa{
+      width: 70px;
+      display: block;
+      img{
+        height: 35px;
+      }
+    }
+    .list-bank{
+      .bank-mono{
+        background-color: #FFFFFF;
+        display: block;
+        margin: 0 -1px;
+        img{
+          //width: 37px;
+          height: 32px;
+        }
+      }
+      .bank-privat{
+        background-color: #FFFFFF;
+        display: block;
+        img{
+          height: 32px;
+          padding: 2px;
+        }
+      }
+    }
+    >span{
+      font-size: 11px;
+    }
+    p{
+      font-weight: 300;
+      margin-bottom: 0;
+      padding-top: 5px;
+    }
+    ul{
+      li{
+        margin-left: 10px;
+        &:first-child{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .block-3{
+    margin-top: 20px;
+    .info{
+      margin-bottom: 5px;
+      li{
+        display: flex;
+        line-height: 22px;
+        align-items: baseline;
+        span{
+          margin-right: 7px;
+        }
+      }
+    }
+    .list-contact , .list-soc{
+      display: flex;
+      li{
+        margin-right: 17px;
+      }
+    }
+  }
+
+  .bottom-footer{
+    text-align: center;
+    padding: 15px 0 10px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(white, 0.3);
+    span{
+      display: block;
+      line-height: normal;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .block-footer{
+    display: flex;
+    .block-3 {
+      margin-top: 0;
+    }
+    .block-1{
+      .bank-alfa{
+        width: 60px;
+        height: 32px;
+      }
+      p{
+        padding: 15px 0 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .footer{
+    padding-top: 36px;
+    line-height: 25px;
+    .block-1, .block-2, .block-3{
+      margin: 0;
+    }
+    .block-2{
+      max-width: 240px;
+      margin-right: 50px;
+      width: 100%;
+    }
+    .block-3{
+      max-width: 100% ;
+      .clock, .icon-email{
+        padding-top: 5px;
+      }
+    }
+    .block-1{
+      width: 210px;
+      margin-right: 50px;
+      .bank-alfa img {
+        height: 40px;
+      }
+      .list-bank{
+        .bank-mono{
+          width: 39px;
+          img{
+            height: 40px;
+          }
+        }
+        .bank-privat{
+          img{
+            height: 40px;
+          }
+        }
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+    .block-footer{
+      //justify-content: space-between;
+      font-size: 15px;
+      .title-footer{
+        font-size: 15px;
+      }
+     }
+    .bottom-footer {
+      margin-top: 85px;
+      font-size: 15px;
+      span{
+        display: inline-block;
+      }
+    }
+    .top-icon-footer{
+      margin-top: 10px;
+      .title-footer{
+        margin-bottom: 7px;
+        display: block;
+      }
+    }
+    .block-soc{
+      margin-left: 35px;
+    }
+
+  }
+}
+@media (min-width: 1360px){
+  .footer{
+    .top-icon-footer {
+      margin-top: 0;
+    }
+    .menu-footer{
+      white-space: nowrap;
+    }
+    .block-1{
+      width: 250px;
+      max-width: 250px;
+      .list-bank{
+        max-width: 90%;
+        img{
+          height: 38px;
+        }
+      }
+      .bank-alfa{
+        width: 80px;
+        height: 42px;
+        img{
+          height: 42px;
+
+        }
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+    .block-2 , .block-3{
+      font-size: 17px;
+      line-height: 27px;
+    }
+    .block-footer {
+      justify-content: space-around;
+      .title-footer {
+        font-size: 18px;
+      }
+      .title-footer-bottom{
+        font-size: 15px;
+      }
+    }
+    .bottom-footer {
+      font-size: 18px;
+    }
+    .block-3 .info{
+      margin-bottom: 0;
+      li {
+        line-height: 27px;
+      }
+    }
+  }
+}

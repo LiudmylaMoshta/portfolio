@@ -1,0 +1,133 @@
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: transform .4s ease-in;
+  >:not(:first-child) {
+    display: block;
+    padding-left: 1rem;
+    flex: 1 1 auto;
+  }
+}
+
+.icon-toggler{
+  &::before {
+    @include icon('toggler');
+  }
+}
+.icon-logo {
+  justify-content: center;
+  min-height: 65px;
+  &::before {
+    @include icon('logo', map_merge($default-icon-options, (width: 250px, height: 65px)));
+  }
+}
+.icon-instagram {
+  &::before {
+    @include icon('instagram');
+  }
+}
+.icon-facebook {
+  &::before {
+    @include icon('facebook');
+  }
+}
+.icon-search {
+  &::before {
+    @include icon('search', map_merge($default-icon-options, (width: 29px, height: 29px)));
+  }
+}
+.icon-mob-search {
+  &::before {
+    @include icon('mob-search');
+  }
+}
+.icon-location {
+  &::before {
+    @include icon('map', map_merge($default-icon-options, (width: 28px, height: 40px)));
+  }
+}
+
+.icon-basket {
+  &::before {
+    @include icon('basket', map_merge($default-icon-options, (width: 29px, height: 33px)));
+  }
+}
+.icon-buy {
+  &::before {
+    @include icon('buy', map_merge($default-icon-options, (width: 19px, height: 16px)));
+  }
+}
+.icon-ask-me {
+  &::before {
+    @include icon('ask-me', map_merge($default-icon-options, (width: 60px, height: 60px)));
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .icon-location {
+    &::before {
+      //@include icon('map', map_merge($default-icon-options, (width: 18.5px, height: 27px)));
+      @include icon('map', map_merge($default-icon-options, (width: 27px, height: 33px)));
+    }
+  }
+.icon-basket {
+    &::before {
+      @include icon('basket', map_merge($default-icon-options, (width: 20px, height: 23px)));
+    }
+  }
+}
+.icon-arrow-down {
+    &::before {
+      @include icon('arrow-down', map_merge($default-icon-options, (width: 10px, height: 5px)));
+    }
+  }
+.icon-bag-info {
+    &::before {
+      @include icon('korzina', map_merge($default-icon-options, (width: 25px, height: 25px)));
+    }
+  }
+.icon-phone-info {
+  &::before {
+    @include icon('phone-info', map_merge($default-icon-options, (width: 18px, height: 33px)));
+  }
+}
+.icon-help-info {
+  &::before {
+    @include icon('help-info', map_merge($default-icon-options, (width: 21px, height: 22px)));
+  }
+}
+.icon-house-info {
+  &::before {
+    @include icon('house', map_merge($default-icon-options, (width: 25px, height: 20px)));
+  }
+}
+.icon-new-info {
+  &::before {
+    @include icon('new', map_merge($default-icon-options, (width: 25px, height: 24px)));
+  }
+}
+.icon-delivery-info {
+  &::before {
+    @include icon('delivery', map_merge($default-icon-options, (width: 30px, height: 20px)));
+  }
+}
+.icon-cash-info {
+  &::before {
+    @include icon('cash', map_merge($default-icon-options, (width: 34px, height: 26px)));
+  }
+}
+.icon-pencil {
+  &::before {
+    @include icon('pencil', map_merge($default-icon-options, (width: 20px, height: 19px)));
+  }
+}
+@media (min-width: 1360px){
+  .menu ul > li .menu-link {
+    &::after {
+      @include icon('cycle', map_merge($default-icon-options, (width: 7px, height: 7px)));
+      margin-left: 15px;
+      border-radius: 50%;
+    }
+  }
+}

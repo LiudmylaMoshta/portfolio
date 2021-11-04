@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<%=require('html-loader?!./fragment/_header.html')%>
+<div class="block-ask-me-container">
+    <div class="block-ask-me container">
+        <button class="btn ask-me icon icon-ask-me"></button>
+    </div>
+</div>
+   <div class="main main-personal-page-options">
+       <div class="container">
+           <div class="block-personal-page-options">
+               <div class="block-group-button-personal">
+                   <h4 class="title-page">мій кабінет</h4>
+                   <ul class=" row nav nav-pills mb-3" id="pills-tab" role="tablist">
+                       <li class="col-md-6 nav-item">
+                           <a class="nav-link active" id="pills-orders-tab" data-toggle="pill" href="#pills-orders" role="tab" aria-controls="pills-orders" aria-selected="true">Мої замовлення </a>
+                       </li>
+                       <li class="col-md-6 nav-item">
+                           <a class="nav-link" id="pills-address-tab" data-toggle="pill" href="#pills-address" role="tab" aria-controls="pills-address" aria-selected="false">Моя адреса доставки</a>
+                       </li>
+                       <li class="col-md-6 nav-item">
+                           <a class="nav-link" id="pills-personal-tab" data-toggle="pill" href="#pills-personal" role="tab" aria-controls="pills-personal" aria-selected="false">Мій обліковий запис</a>
+                       </li>
+                       <li class="col-md-6 nav-item">
+                           <a class="nav-link" id="pills-out-tab" data-toggle="pill" href="#pills-out" role="tab" aria-controls="pills-out" aria-selected="false">Вийти</a>
+                       </li>
+                       <li class="block-img-personal"><span class="text"><span>аптека 24/7</span></span></li>
+                   </ul>
+               </div>
+               <div class="tab-content" id="pills-tabContent">
+                   <div class="tab-pane fade show active" id="pills-orders" role="tabpanel" aria-labelledby="pills-orders-tab">
+                       <div class="my-orders">
+                           <h4 class="title-page">мої замовлення</h4>
+                           <div class="table-orders">
+                               <div class="block-order">
+                                   <div class="data">22.06.2020</div>
+                                   <ul class="name-product">
+                                       <li><span>ABCDerm Шанш Інтенсив 75 г Bioderma (Біодерма)</span></li>
+                                       <li><span>Атодерм SOS спрей 200 мл Bioderma  (Біодерма)</span></li>
+                                   </ul>
+                                   <div class="price">1230.00 грн</div>
+                                   <div class="block-button"><button class="btn-success">Повторити</button></div>
+                               </div>
+                               <div class="block-order">
+                                   <div class="data">03.06.2020</div>
+                                   <ul class="name-product">
+                                       <li><span>ABCDerm Шанш Інтенсив 75 г Bioderma (Біодерма)</span></li>
+                                       <li><span>Атодерм SOS спрей 200 мл Bioderma  (Біодерма)</span></li>
+                                   </ul>
+                                   <div class="price">1230.00 грн</div>
+                                   <div class="block-button"><button class="btn-success">Повторити</button></div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="tab-pane fade" id="pills-address" role="tabpanel" aria-labelledby="pills-address-tab">
+                       <div class="my-address">
+                           <h4 class="title-page">моя адреса доставки</h4>
+                           <p>Наступні адреси будуть використані при оформленні замовлень</p>
+                           <div class="table-address">
+                               <div class="block">
+                                   <span> М. Київ вул. Назва, 44 кв. 123</span><a href="#" class="icon icon-pencil"></a>
+                               </div>
+                               <div class="block">
+                                   <span> м. Київ вул. Назва, 11 кв. 321</span><a href="#" class="icon icon-pencil"></a>
+                               </div>
+                           </div>
+                           <div class="block-button"><button class="btn-success">Додати</button></div>
+                       </div>
+                   </div>
+                   <div class="tab-pane fade pills-personal" id="pills-personal" role="tabpanel" aria-labelledby="pills-personal-tab">
+                       <h4 class="title-page">
+                           мій обліковий запис
+                       </h4>
+                       <form class="form-new-password">
+                           <div class="user-info">
+                               <div class="form-group">
+                                   <label for="first-name">Ім’я</label>
+                                   <input type="text" class="form-control" id="first-name" placeholder="Людмила">
+                               </div>
+                               <div class="form-group">
+                                   <label for="phone">Телефон</label>
+                                   <input type="text" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="+380671234567">
+                               </div>
+                               <div class="form-group">
+                                   <label for="email">Е-mail</label>
+                                   <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="ludmyla@gmail.com">
+                               </div>
+                           </div>
+
+                           <h4 class="title-page">
+                               зміна паролю
+                           </h4>
+                           <div class="form-group">
+                               <label for="Password">Дійсний пароль</label>
+                               <input type="password" class="form-control" id="Password" placeholder="">
+                           </div>
+                           <div class="form-group">
+                               <label for="newPassword">Новий пароль</label>
+                               <input type="password" class="form-control" id="newPassword" placeholder="">
+                           </div>
+                           <div class="form-group">
+                               <label for="repitPassword">Повторіть новий пароль</label>
+                               <input type="password" class="form-control" id="repitPassword" placeholder="">
+                           </div>
+                           <span class="password-email">Змінити пароль через E-mail</span>
+                           <div class="block-button">
+                               <button class="btn-success">Зберегти</button>
+                           </div>
+                       </form>
+                   </div>
+                   <div class="tab-pane fade" id="pills-out" role="tabpanel" aria-labelledby="pills-out-tab">...</div>
+               </div>
+           </div>
+       </div>
+   </div>
+<%=require('html-loader?!./fragment/_footer.html')%>
+
+<!--<script src="js/stepper.min.js"></script>-->
+</body>
+</html>

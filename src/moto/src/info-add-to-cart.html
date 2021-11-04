@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="<%=require('./favicon.png')%>"/>
+    <title>Title</title>
+</head>
+<body>
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Товар в корзине
+</button>
+<button data-target="#buyOneClickModal" data-toggle="modal">
+    Придбати в 1 клік
+</button>
+<!-- Modal -->
+<div class="modal fade" id="buyOneClickModal" tabindex="-1" role="dialog" aria-labelledby="buyOneClickModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header mt-0">
+                <span class="icon icon-hand"></span>
+                <h5 class="modal-title">Швидке замовлення</h5>
+                <p>Залиште Ваш номер телефону і ми зв'яжемося з Вами для підтвердження замовлення</p>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group row">
+                        <div class=" col-sm-12">
+                            <input type="text" class="form-control" placeholder="Ваше ім'я" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class=" col-sm-12">
+                            <input type="text" class="form-control" placeholder="Ваш телефон*" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <div class="form-check terms">
+                                <input type="checkbox" class="" id="terms-check2">
+                                <label for="terms-check2">
+                                    <span class="d-inline-block">Я згоден на <a href="#">обробку персональних данних</a></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-custom-project">Відправити замовлення</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal modal-info-add-to-cart fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Товар доданий до кошика</h5>
+            </div>
+            <div class="modal-body">
+                <div class="page-cart-ordering">
+                    <div class="section-cart">
+                        <div class="item-card-product">
+                            <h2 class="title-product">ALPINESTARS Мотокомбинезон кожаный ATEM V3 LEATHER SUIT 2 PC</h2>
+                            <span class="article">Артікул: 01234567891011</span>
+                            <div class="block-img">
+                                <img src="<%=require('./images/product-1.png')%>" alt="photo-product" class="img">
+                            </div>
+                            <span class="label-product sale mt-lg-2">% Скидка</span>
+                            <div class="price py-lg-2">
+                                <span class="old-price">8555.00 грн.</span>
+                                <span class="new-price">8200.00 грн.</span>
+                            </div>
+                            <div class="block-add-product py-lg-2">
+                                <div class="add-product">
+                                    <span class="minus">-</span><input value="1"><span class="plus">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-btn">
+                            <ul class="d-md-flex">
+                                <li><a href="#" class="btn-custom-project btn-to-catalog">Продовжити купувати</a></li>
+                                <li><a href="#" class="btn-custom-project">Перейти до кошика</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

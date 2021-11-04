@@ -1,0 +1,30 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@symfony/webpack-encore": "^0.30.2",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^8.0.2",
+    "slick-carousel": "^1.8.1",
+    "svg-sprite-loader": "^6.0.5",
+    "webpack-notifier": "^1.8.0"
+  },
+  "engines": {
+    "node": ">= 8.1.0",
+    "npm": ">= 3.5.0"
+  },
+  "scripts": {
+    "dev": "yarn encore dev-server --config config/webpack.conf.js --port 3001",
+    "prod": "yarn encore prod --config config/webpack.conf.js"
+  }
+}

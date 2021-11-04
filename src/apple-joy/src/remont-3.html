@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+<div class="page-header">
+    <%=require('html-loader?!./fragment/_header.html')%>
+</div>
+<%=require('html-loader?!./fragment/_sprite.html')%>
+<div class="main page-repair page-list-price">
+    <nav aria-label="breadcrumb" class="container block-breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Головна сторіка </a></li>
+            <li class="breadcrumb-item"><a href="#">Ремонт </a></li>
+            <li class="breadcrumb-item"><a href="#"> Ремонт iPhone </a></li>
+            <li class="breadcrumb-item active" aria-current="page">iPhone 12 Pro Max</li>
+        </ol>
+    </nav>
+    <section class="section-text section-price-repair container">
+        <h1 class="title-section">Ремонт iPhone 12 Pro Max</h1>
+        <span class="title-section text-center small">Оберіть будь ласка вашу несправність</span>
+        <div id="accordion-1" class="accordion">
+            <div class="card card-order">
+                <div class="card-header" id="headingOne">
+                    <button class="btn btn-link" >
+                             <span class="block-header-order">
+                                Загальні проблеми
+                            </span>
+                    </button>
+                </div>
+                <div class="">
+                    <div class="card-body wrap">
+                        <ul class="list-price-repair">
+                            <li><div class="list-price-repair-title"><span class="name-repair">Діагностика</span></div><div class="list-price-repair-value"><span class="price-repair">Безкоштовно</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Відновлення після води</span></div><div class="list-price-repair-value"><span class="price-repair">від 499</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Ремонт Face ID</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Заміна датчика наближення</span></div><div class="list-price-repair-value"><span class="price-repair">1799</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Заміна вібромотора</span></div><div class="list-price-repair-value"><span class="price-repair">1299</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Відновлення герметичності</span></div><div class="list-price-repair-value"><span class="price-repair">999</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Відновлення imei</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Ремонт NFC</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Заміна тачконтроллера тачскрін</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Заміна мікросхеми (USB фільтр, U2, Трістар)</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                        </ul>
+                        <ul class="list-price-repair">
+                            <li><div class="list-price-repair-title"><span class="name-repair">Заміна компаса, гіроскопа</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Пересадка пар </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Заміна флеш пам’яті </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Відновлення підсвічування на материнській платі</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Обмін по гарантії </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Ремонт помилки 9 </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                            <li><div class="list-price-repair-title"><span class="name-repair">Зняття iCloud </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-price">
+            <div class="block">
+                <div id="accordion-2" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-2">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                         <span class="block-header-order">
+                           Екран / Дисплей
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-2">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна дисплея</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна скла дисплея </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна скла із сенсором</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна рамки дисплея </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion-4" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-4">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                         <span class="block-header-order">
+                           Батарея / Зарядка
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordion-4">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна акумулятора</span></div><div class="list-price-repair-value"><span class="price-repair">2299</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна порта зарядки</span></div><div class="list-price-repair-value"><span class="price-repair">1199</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Ремонт бездротової зарядки </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна контролера живлення</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна коннектора акумулятора </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion-6" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-6">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                         <span class="block-header-order">
+                           Звук / Динаміки
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#accordion-6">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна слухового динаміка</span></div><div class="list-price-repair-value"><span class="price-repair">1199</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна поліфонічного динаміка</span></div><div class="list-price-repair-value"><span class="price-repair">1249</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна аудіо кодека</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion-8" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-8">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
+                         <span class="block-header-order">
+                           Зв'язок / Мережа
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-8" class="collapse" aria-labelledby="heading-8" data-parent="#accordion-8">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна антенн GSM</span></div><div class="list-price-repair-value"><span class="price-repair">від 1049</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна Wi-Fi модуля</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div id="accordion-3" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-3">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                         <span class="block-header-order">
+                            Камери
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-3">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна передньої камери</span></div><div class="list-price-repair-value"><span class="price-repair">1799</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна задньої камери </span></div><div class="list-price-repair-value"><span class="price-repair">2849</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна скла камери</span></div><div class="list-price-repair-value"><span class="price-repair">(1шт.) 1399</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Ремонт спалаху </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Відновлення живлення камери </span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion-5" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-5">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                         <span class="block-header-order">
+                           Кнопки
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#accordion-5">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна кнопки гучності</span></div><div class="list-price-repair-value"><span class="price-repair">1149</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна кнопки включення</span></div><div class="list-price-repair-value"><span class="price-repair">1149</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна перемикача режимів</span></div><div class="list-price-repair-value"><span class="price-repair">1349</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion-7" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-7">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+                         <span class="block-header-order">
+                           Корпус
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-7" class="collapse" aria-labelledby="heading-7" data-parent="#accordion-7">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна кришки / корпусу</span></div><div class="list-price-repair-value"><span class="price-repair">Уточнюйте</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна заднього скла </span></div><div class="list-price-repair-value"><span class="price-repair">2849</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion-9" class="accordion">
+                    <div class="card card-order">
+                        <div class="card-header" id="heading-9">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
+                         <span class="block-header-order">
+                           Розмови
+                        </span>
+                                <span class="icon icon-arrow-down"></span>
+                            </button>
+                        </div>
+                        <div id="collapse-9" class="collapse" aria-labelledby="heading-9" data-parent="#accordion-9">
+                            <div class="card-body">
+                                <ul class="list-price-repair">
+                                    <li><div class="list-price-repair-title"><span class="name-repair">Заміна нижнього мікрофона</span></div><div class="list-price-repair-value"><span class="price-repair">1349</span><button class="btn btn-custom-project" data-toggle="modal" data-target="#modal-repair">Замовити</button></div></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-text container">
+        <h3 class="title-section text-center">Найпоширеніші запитання</h3>
+        <div id="accordion-11">
+            <div class="card card-order">
+                <div class="card-header" id="heading-11">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-11" aria-expanded="false" aria-controls="collapse-11">
+                             <span class="block-header-order">
+                                Скільки часу займає ремонт ?
+                            </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapse-11" class="collapse show" aria-labelledby="heading-11" data-parent="#accordion-11">
+                    <p class="card-body">
+                        Ремонт займає від 2 годин до 4-5 днів. Все залежить від поломки і пристрої. Терміни ремонту можна дізнатися в розділах ремонту або вже у менеджера.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="accordion-12">
+            <div class="card card-order">
+                <div class="card-header" id="heading-12">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-12" aria-expanded="false" aria-controls="collapse-12">
+                         <span class="block-header-order">
+                           Яку гарантію на ремонт надає магазин ?
+                        </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapse-12" class="collapse" aria-labelledby="heading-12" data-parent="#accordion-12">
+                    <p class="card-body">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="accordion-13">
+            <div class="card card-order">
+                <div class="card-header" id="heading-13">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-13" aria-expanded="false" aria-controls="collapse-13">
+                         <span class="block-header-order">
+                            Які пристрої ремонтує сервіс ?
+                        </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapse-13" class="collapse" aria-labelledby="heading-13" data-parent="#accordion-13">
+                    <p class="card-body">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="accordion-14">
+            <div class="card card-order">
+                <div class="card-header" id="heading-14">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-14" aria-expanded="false" aria-controls="collapse-14">
+                         <span class="block-header-order">
+                           Де знаходиться Сервісний центр?
+                        </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapse-14" class="collapse" aria-labelledby="heading-14" data-parent="#accordion-14">
+                    <p class="card-body">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h3 class="title-text mt-4">Ремонт техніки Apple</h3>
+        <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </section>
+</div>
+<%=require('html-loader?!./fragment/_footer.html')%>
+<%=require('html-loader?!./modals/_repair.html')%>
+</body>
+</html>

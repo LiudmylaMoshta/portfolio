@@ -1,0 +1,141 @@
+.form{
+  width: 286px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 13px 30px;
+  text-align: center;
+  color: #78838a;
+  font-size: 11px;
+  margin: 0 auto;
+  .title-form{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 7px 35px;
+    display: block;
+  }
+  label{
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .form-group{
+    margin-bottom: 0;
+  }
+  input{
+    height: 27px;
+  }
+  .form-control{
+    width: 100%;
+    border: 1px solid #2d85b8;
+    background-color: #ffffff;
+    line-height: 15px;
+    font-size: 11px;
+    &::placeholder{
+      color: #aaaaaa;
+      font-size: 11px;
+      vertical-align: middle;
+      line-height: 15px;
+      font-weight: 300;
+    }
+  }
+  input[type='text']::-webkit-input-placeholder {
+    vertical-align: middle;
+  }
+  button{
+    background-color: #7ED32D;
+    width: 100%;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: uppercase;
+    padding: 9px 37px;
+  }
+  .phone{
+    //color: #848484;
+    color: #404040;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    display: block;
+    padding: 3px 0 7px;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  .text-bottom{
+    //color: #848484;
+    color: #404040;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    margin: 0 30px;
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .form{
+    width: 365px;
+    padding: 20px 38px;
+    .form-control{
+      line-height: 20px;
+      font-size: 15px;
+      &::placeholder{
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+    .title-form{
+      font-size: 20px;
+      line-height: 30px;
+      margin: 0 35px 10px;
+    }
+    input[type='text']::-webkit-input-placeholder {
+      vertical-align: middle;
+    }
+    input {
+      height: 37px;
+    }
+    label{
+      margin-bottom: 10px;
+    }
+    button{
+      padding: 12px 37px;
+      font-size: 15px;
+    }
+    .text-form{
+      font-size: 13px;
+    }
+    .text-bottom{
+      font-size: 10px;
+      padding: 0 35px;
+    }
+    .phone{
+      font-size: 20px;
+      margin: 0 auto;
+    }
+  }
+}
+@media (min-width: 1360px){
+  .form {
+    width: 400px;
+    padding: 25px 38px;
+    font-size: 13px;
+    .text-form {
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .text-bottom {
+      font-size: 12px;
+      padding: 0 35px;
+      line-height: 15px;
+      font-weight: 500;
+    }
+  }
+  textarea.form-control {
+    padding-top: 0.5rem;
+  }
+}

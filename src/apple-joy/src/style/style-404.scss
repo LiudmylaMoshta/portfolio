@@ -1,0 +1,153 @@
+
+
+.page-404{
+  background-color: #F5F6FB;
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-align: center;
+  padding-bottom: 60px;
+  .title-404{
+    display: block;
+    font-size: 35px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: -40px;
+  }
+  .text-404{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    width: 100%;
+  }
+  .info-404{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 0;
+    display: block;
+  }
+  .btn-group{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-custom-project-2,
+  .btn-custom-project{
+    width: 261px;
+    margin: 15px auto;
+  }
+}
+.wrapper-404{
+  overflow: hidden;
+  max-height: 300px;
+  max-width: 100%;
+}
+.wrapper-text-404{
+  max-width: 310px;
+  margin: 0 auto;
+}
+.bg-404{
+  background-image: url($images-path + "img-404.png");
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  background-size: cover;
+  height: 250px;
+  background-position: center;
+
+}
+@media(min-width: 400px){
+  .bg-404 {
+    background-size: contain;
+    height: 300px;
+  }
+}
+@media(min-width: 540px){
+  .bg-404 {
+    background-size: contain;
+  }
+}
+@media(min-width: 768px){
+  .wrapper-text-404 {
+    max-width: 70%;
+  }
+  .page-404 {
+    .title-404{
+      font-size: 60px;
+      line-height: 55px;
+    }
+    .text-404 {
+      font-size: 17px;
+      line-height: 25px;
+      width: 70%;
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+    .info-404{
+      font-size: 25px;
+      line-height: 45px;
+    }
+  }
+}
+
+@media(min-width: 1300px){
+  .block-404{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 550px;
+    background-image: url("../images/img-404-desktop.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .bg-404{
+    background-image: none;
+  }
+  .page-404{
+    text-align: left;
+    padding-bottom: 0;
+    .text-404{
+      margin: 0;
+      width: 50%;
+    }
+    .btn-custom-project-2 {
+      width: 120px;
+      margin: 0;
+      margin-right: 10px;
+    }
+    .btn-custom-project{
+      width: auto;
+      margin: 0;
+    }
+    .btn-group-block {
+      display: flex;
+      justify-content: flex-start;
+
+    }
+  }
+  .wrapper-text-404{
+    padding-top: 96px;
+  }
+  .wrapper-404{
+    width: 50%;
+  }
+}
+
+@media(min-width: 1500px){
+  .block-404 {
+    background-position-y: -100px;
+  }
+}
+@media(min-width: 1920px){
+  .block-404 {
+    background-position-y: -136px;
+    min-height: 650px;
+    background-position-x: 150px;
+  }
+}
+@media (min-width: 2500px){
+  .block-404 {
+    min-height: 70vh;
+  }
+}

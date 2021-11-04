@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <%=require('html-loader?!./fragment/_header.html')%>
+    <div class="block-ask-me-container">
+        <div class="block-ask-me container">
+            <button class="btn ask-me icon icon-ask-me"></button>
+        </div>
+    </div>
+        <div class="container">
+            <div class="main main-catalog">
+                <div class="aside">
+                    <div class="block-aside">
+                        <h5 class="title-aside">ЦІНА</h5>
+                        <div class="flex justify-content-center">
+
+                            <input
+                                    id="price-range"
+                                    type="text"
+                                    name="somename"
+                                    data-provide="slider"
+                                    data-slider-min="1"
+                                    data-slider-max="15000"
+                                    data-slider-step="1"
+                                    data-slider-value="[1,15000]"
+                                    data-slider-tooltip="hide"
+                            >
+                        </div>
+                        <label for="price-range">
+                            <span class="price-label">1</span>
+                            <span class="price-label">15000</span>
+                        </label>
+                    </div>
+                    <div class="block-aside">
+                        <span class="title-aside">КАТЕГОРІЯ</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="category-1">
+                                    <label class="form-check-label" for="category-1">Ліки від алергії  </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="category-2">
+                                    <label class="form-check-label" for="category-2"> Препарати для стоматології </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="category-3">
+                                    <label class="form-check-label" for="category-3"> Ліки для шлунка </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="category-4">
+                                    <label class="form-check-label" for="category-4"> Ліки для кишківника </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="category-5">
+                                    <label class="form-check-label" for="category-5"> Препарати для підшлункової
+                                        залози </label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+                    <div class="block-aside">
+                        <span class="title-aside">ФОРМА ТОВАРУ</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="form-1">
+                                    <label class="form-check-label" for="form-1">Ампули </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="form-2">
+                                    <label class="form-check-label" for="form-2"> Аплікатор </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="form-3">
+                                    <label class="form-check-label" for="form-3"> Аспіратор </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="form-4">
+                                    <label class="form-check-label" for="form-4"> Аерозоль </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="form-5">
+                                    <label class="form-check-label" for="form-5"> Баллон </label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+                    <div class="block-aside">
+                        <span class="title-aside">ПРИЗНАЧЕННЯ</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="function-1">
+                                    <label class="form-check-label" for="function-1">Гігієна та догляд</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="function-2">
+                                    <label class="form-check-label" for="function-2">Для роботи з грибком</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="function-3">
+                                    <label class="form-check-label" for="function-3">Для дітей</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="function-4">
+                                    <label class="form-check-label" for="function-4"> Для заживлення ран, порізів </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="function-5">
+                                    <label class="form-check-label" for="function-5">Для здоров’я очей </label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+                    <div class="block-aside">
+                        <span class="title-aside">СКЛАД</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="complement-1">
+                                    <label class="form-check-label" for="complement-1">Вітаміни</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="complement-2">
+                                    <label class="form-check-label" for="complement-2"> Комплекси </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="complement-3">
+                                    <label class="form-check-label" for="complement-3"> Мінерали </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="complement-4">
+                                    <label class="form-check-label" for="complement-4"> Поліненасичені жирні кислоти </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="complement-5">
+                                    <label class="form-check-label" for="complement-5"> Рослини </label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+
+
+                    <div class="block-aside">
+                        <span class="title-aside">Кількість в упаковці</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="quantity-1">
+                                    <label class="form-check-label" for="quantity-1">1</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="quantity-2">
+                                    <label class="form-check-label" for="quantity-2"> 5 </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="quantity-3">
+                                    <label class="form-check-label" for="quantity-3"> 10 </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="quantity-4">
+                                    <label class="form-check-label" for="quantity-4"> 20 </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="quantity-5">
+                                    <label class="form-check-label" for="quantity-5"> 100 </label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+                    <div class="block-aside">
+                        <span class="title-aside">Об’єм</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="volume-1">
+                                    <label class="form-check-label" for="volume-1">0,15 мл</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="volume-2">
+                                    <label class="form-check-label" for="volume-2"> 0,2 мл </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="volume-3">
+                                    <label class="form-check-label" for="volume-3"> 0,3 мл </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="volume-4">
+                                    <label class="form-check-label" for="volume-4">0,35 мл </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="volume-5">
+                                    <label class="form-check-label" for="volume-5"> 0,4 мл</label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+                    <div class="block-aside">
+                        <span class="title-aside">головний медикамент</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="component-1">
+                                    <label class="form-check-label" for="component-1">5-Фторурацил</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="component-2">
+                                    <label class="form-check-label" for="component-2"> L тироксин </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="component-3">
+                                    <label class="form-check-label" for="component-3"> L-ЦЕТ </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="component-4">
+                                    <label class="form-check-label" for="component-4">А-Дистон </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="component-5">
+                                    <label class="form-check-label" for="component-5">Абактал</label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+                    <div class="block-aside">
+                        <span class="title-aside">ВИРОБНИК</span>
+                        <ul>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="country-1">
+                                    <label class="form-check-label" for="country-1">ЗМ (США)</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="country-2">
+                                    <label class="form-check-label" for="country-2"> Abbott (Німеччина) </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="country-3">
+                                    <label class="form-check-label" for="country-3"> Abbot Biologicals (Нідерланди) </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="country-4">
+                                    <label class="form-check-label" for="country-4">Abbot Lab. (Швейцарія) </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="country-5">
+                                    <label class="form-check-label" for="country-5">ABC Farmaceutici (Італія)</label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-block-aside"><a href="#"><span>Показати все</span><span class="icon icon-arrow-down"></span></a></div>
+                    </div>
+                </div>
+                <section class="section-top-product">
+                    <div class="">
+                        <h4 class="title-page">
+                            НАЙМЕНУВАННЯ РОЗДІЛУ ТОВАРІВ
+                        </h4>
+                        <ul class="list-product">
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-2.png')%>" class="img-fluid" alt="photo-product1"></a>
+                                    <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                                    <div class="block-price"><div class="price">230.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li  class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-3.png')%>" class="img-fluid" alt="photo-product2"></a>
+                                    <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                                    <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-4.png')%>" class="img-fluid" alt="photo-product3"></a>
+                                    <span class="title-product">Труси для вагітних 9902Nera Tonus Elast...</span>
+                                    <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-5.png')%>" class="img-fluid"  alt="photo-product5"></a>
+                                    <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                                    <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-7.png')%>" class="img-fluid"  alt="photo-product6"></a>
+                                    <span class="title-product">ABCDerm Шанш Інтенсив 75 г Bioderma (Біодерма)</span>
+                                    <div class="block-price"><div class="price">200.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-8.png')%>"  class="img-fluid" alt="photo-product7"></a>
+                                    <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                                    <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-9.png')%>"  class="img-fluid" alt="photo-product8"></a>
+                                    <span class="title-product">Труси для вагітних 9902 Nera Tonus Elast...</span>
+                                    <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-10.png')%>"  class="img-fluid" alt="photo-product9"></a>
+                                    <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                                    <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-2.png')%>" class="img-fluid" alt="photo-product1"></a>
+                                    <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                                    <div class="block-price"><div class="price">230.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li  class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-3.png')%>" class="img-fluid" alt="photo-product2"></a>
+                                    <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                                    <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-4.png')%>" class="img-fluid" alt="photo-product3"></a>
+                                    <span class="title-product">Труси для вагітних 9902Nera Tonus Elast...</span>
+                                    <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-5.png')%>" class="img-fluid"  alt="photo-product5"></a>
+                                    <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                                    <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-7.png')%>" class="img-fluid"  alt="photo-product6"></a>
+                                    <span class="title-product">ABCDerm Шанш Інтенсив 75 г Bioderma (Біодерма)</span>
+                                    <div class="block-price"><div class="price">200.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-8.png')%>"  class="img-fluid" alt="photo-product7"></a>
+                                    <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                                    <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-9.png')%>"  class="img-fluid" alt="photo-product8"></a>
+                                    <span class="title-product">Труси для вагітних 9902 Nera Tonus Elast...</span>
+                                    <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-10.png')%>"  class="img-fluid" alt="photo-product9"></a>
+                                    <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                                    <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-2.png')%>" class="img-fluid" alt="photo-product1"></a>
+                                    <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                                    <div class="block-price"><div class="price">230.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li  class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-3.png')%>" class="img-fluid" alt="photo-product2"></a>
+                                    <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                                    <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-4.png')%>" class="img-fluid" alt="photo-product3"></a>
+                                    <span class="title-product">Труси для вагітних 9902Nera Tonus Elast...</span>
+                                    <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-5.png')%>" class="img-fluid"  alt="photo-product5"></a>
+                                    <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                                    <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-7.png')%>" class="img-fluid"  alt="photo-product6"></a>
+                                    <span class="title-product">ABCDerm Шанш Інтенсив 75 г Bioderma (Біодерма)</span>
+                                    <div class="block-price"><div class="price">200.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-8.png')%>"  class="img-fluid" alt="photo-product7"></a>
+                                    <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                                    <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-9.png')%>"  class="img-fluid" alt="photo-product8"></a>
+                                    <span class="title-product">Труси для вагітних 9902 Nera Tonus Elast...</span>
+                                    <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                            <li class="item-list-product">
+                                <div class="block-product">
+                                    <a href="#" class="block-img"><img src="<%=require('./images/product-10.png')%>"  class="img-fluid" alt="photo-product9"></a>
+                                    <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                                    <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    </ul>
+                </section>
+
+            </div>
+
+        </div>
+
+    <%=require('html-loader?!./fragment/_footer.html')%>
+</body>
+</html>

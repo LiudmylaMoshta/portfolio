@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=description content="Put your description here.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>Title</title>
+</head>
+<body>
+<%=require('html-loader?!./fragment/_header.html')%>
+<nav aria-label="breadcrumb" class=" container">
+    <ol class="breadcrumb marg-x">
+        <li class="breadcrumb-item"><a href="#">Главная</a></li>
+        <li class="breadcrumb-item active" aria-current="page"> Наши работы </li>
+    </ol>
+</nav>
+<section class="section-portfolio pt-0">
+    <span class="title-section">Наши работы в интерьере</span>
+    <div class="dropdown panel-sort panel-sort-portfolio container">
+                <span class="btn-sort"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Сортировка по типу
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2.967" height="5.495" viewBox="0 0 2.967 5.495"><g id="Group_496" data-name="Group 496" transform="translate(0 0)"><path id="Path_3089" data-name="Path 3089" d="M2.9,2.6.363.062a.213.213,0,0,0-.3.3l2.39,2.384L.063,5.131a.213.213,0,0,0,.3.3L2.9,2.9a.213.213,0,0,0,0-.3Z" transform="translate(0 0)" fill="#303030"/></g></svg>
+                </span>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item active" href="#"> Сортировка по типу </a>
+            <a class="dropdown-item" href="#">Горизонтальные жалюзи</a>
+            <a class="dropdown-item" href="#">Вертикальные шторы</a>
+            <a class="dropdown-item" href="#">Римские шторы</a>
+            <a class="dropdown-item" href="#">День-ночь жалюзи</a>
+            <a class="dropdown-item" href="#">Тканевые ролеты</a>
+        </div>
+    </div>
+    <ul class="list-portfolio">
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio.png')%>">
+                <img src="<%=require('./images/portfolio.png')%>" alt="image" class="img-fluid" data-fancybox="">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-1.png')%>">
+                <img src="<%=require('./images/portfolio-1.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-4.png')%>">
+                <img src="<%=require('./images/portfolio-4.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-5.png')%>">
+                <img src="<%=require('./images/portfolio-5.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-6.png')%>">
+                <img src="<%=require('./images/portfolio-6.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-7.png')%>">
+                <img src="<%=require('./images/portfolio-7.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-8.png')%>">
+                <img src="<%=require('./images/portfolio-8.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-9.png')%>">
+                <img src="<%=require('./images/portfolio-9.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-11.png')%>">
+                <img src="<%=require('./images/portfolio-11.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-12.png')%>">
+                <img src="<%=require('./images/portfolio-12.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <button class="btn custom-button">Больше наших работ</button>
+</section>
+<section class="section-idea ">
+    <span class="title-section">Идеи для вашего интерьера</span>
+    <div class="slider-interior-wrapper">
+        <div class="slider-number-item">
+            <div class="block-number"><span>0</span><span class="number3">1</span></div>
+            <span class="border-custom"></span>
+            <span>08</span>
+        </div>
+        <ul class="slider-idea">
+        <li>
+            <div class="card-post">
+                <span class="title-post d-lg-none">Жалюзи в веранду и беседку</span>
+                <div class="wrapper-post">
+                    <div class="block-img ">
+                        <img src="<%=require('./images/img-post-1.jpg')%>" alt="image" class="img-fluid">
+                    </div>
+                    <div class="post">
+                        <div class="text-post">
+                            <span class="title-post ">Жалюзи в веранду и беседку</span>
+                            <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                        </div>
+                        <span class="more">Читать статью</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="card-post">
+                <span class="title-post d-lg-none">Рулонные шторы и жалюзи для кухни</span>
+                <div class="wrapper-post">
+                    <div class="block-img">
+                        <img src="<%=require('./images/img-post-2.jpg')%>" alt="image" class="img-fluid">
+                    </div>
+                    <div class="post">
+                        <div class="text-post">
+                            <span class="title-post">Рулонные шторы и жалюзи для кухни</span>
+                            <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                        </div>
+                        <span class="more">Читать статью</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="card-post">
+                <span class="title-post d-lg-none">Рулонные шторы и жалюзи для кухни</span>
+                <div class="wrapper-post">
+                    <div class="block-img">
+                        <img src="<%=require('./images/img-post-3.jpg')%>" alt="image" class="img-fluid">
+                    </div>
+                    <div class="post">
+                        <div class="text-post">
+                            <span class="title-post">Рулонные шторы и жалюзи для кухни</span>
+                            <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                        </div>
+                        <span class="more">Читать статью</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    </div>
+    <button class="btn custom-button">Посмотреть все статьи</button>
+</section>
+<section class="section-form-order page">
+    <div class="container">
+        <span class="title-section">Заказать бесплатный замер</span>
+        <p>Наш специалист по каталогу и материалами поможет определиться с выбором и выполнит точные замеры по вашему желанию.</p>
+    </div>
+    <div class="background-form wrapper-form">
+        <div class="container">
+            <span class="img-form-mob"></span>
+            <form class="form-order">
+                <div class="">
+                    <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                    <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                    <textarea class="form-control" placeholder="Коментарий"></textarea>
+                    <button class="btn custom-button fw-700">Отправить заявку</button>
+                    <div class="form-check-custom">
+                        <div class="form-group form-check form-check-custom">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+<section class="section-post container">
+    <h3 class="title-section">Длинное название для статьи</h3>
+    <p>
+        <span class="fw-700 d-block">Сроки изготовления и установка</span>
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</section>
+<%=require('html-loader?!./fragment/_footer.html')%>
+<a id="button" class="show icon button-top"></a>
+
+<!-- Modal Вызвать замерщика-->
+<div class="modal fade" id="zamerModal" tabindex="-1" aria-labelledby="zamerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <span class="title-modal">Вызвать замерщика</span>
+                <p>Наш специалист с каталогом  и материалами поможет определиться с выбором и выполнит точные замеры.</p>
+                <form class="form-order">
+                    <div class="">
+                        <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                        <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                        <textarea class="form-control" placeholder="Коментарий"></textarea>
+                        <button class="btn custom-button fw-700">Отправить заявку</button>
+                        <div class="form-check-custom">
+                            <div class="form-group form-check form-check-custom">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                <label class="form-check-label" for="exampleCheck3"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Задать вопрос-->
+<div class="modal fade" id="questionsModal" tabindex="-1" aria-labelledby="questionsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <span class="title-modal">Задать вопрос</span>
+                <p>Если у Вас остались вопросы, наш специалист перезвонит вам для консультации.</p>
+                <form class="form-order">
+                    <div class="">
+                        <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                        <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                        <textarea class="form-control" placeholder="Коментарий"></textarea>
+                        <button class="btn custom-button fw-700">Отправить вопрос</button>
+                        <div class="form-check-custom">
+                            <div class="form-group form-check form-check-custom">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                <label class="form-check-label" for="exampleCheck4"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Заказать звонок-->
+<div class="modal fade" id="callmeModal" tabindex="-1" aria-labelledby="callmeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <span class="title-modal">Заказать звонок</span>
+                <form class="form-order">
+                    <div class="">
+                        <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                        <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                        <button class="btn custom-button fw-700">Заказать звонок</button>
+                        <div class="form-check-custom">
+                            <div class="form-group form-check form-check-custom">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                <label class="form-check-label" for="exampleCheck5"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,280 @@
+.section-post.bg-post-unlinking {
+  &{
+    content: '';
+    display: block;
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.8) 100%, transparent 100%), url($images-path + 'bg-post-unlinking.jpg') no-repeat left center;
+    background-position-x: center, -650px;
+  }
+  .title-post{
+    padding-bottom: 0;
+    font-size: 12px;
+    text-align: left;
+  }
+}
+.unlinking-profil{
+  .list-img-profil {
+    display: flex;
+    flex-wrap: wrap;
+    .item{
+      width: 50%;
+      .img-block{
+        margin: 10px auto;
+        display: block;
+      }
+      img{
+        height: 105px;
+        width: auto;
+
+      }
+    }
+  }
+  .block-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 10px 5px 20px;
+    .title-name-profile{
+      display: flex;
+      align-items: center;
+      width: 80%;
+      padding: 5px;
+      border: 1px solid #2792DE;
+      color: #081A44;
+      font-size: 10px;
+      font-weight: 500;
+      border-radius: 5px;
+      justify-content: center;
+      margin-bottom: -12px;
+      background-color: #fff;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    }
+  }
+}
+.section-unlinking{
+  .list-link-unlinking{
+    display: flex;
+    flex-wrap: wrap;
+    .item{
+      width: 50%;
+    }
+    .block-item-unlinking{
+      margin: 10px;
+      .img-block{
+        height: 100px;
+        display: block;
+        overflow: hidden;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        img{
+          -moz-border-radius-topleft: 5px;
+          -moz-border-radius-topright: 5px;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          width: auto;
+          height: 100%;
+          margin: 0px auto;
+          display: block;
+        }
+      }
+      .title-name{
+        display: block;
+        -moz-border-radius-bottomleft: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: #081A44;
+        font-size: 10px;
+        font-weight: 500;
+        border: 1px solid #2792DE;
+        border-top: none;
+        text-align: center;
+        padding: 5px 2px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      }
+    }
+  }
+}
+@media (min-width: 425px){
+  .section-unlinking .list-link-unlinking .block-item-unlinking .img-block{
+    height: 120px;
+  }
+  .unlinking-profil .list-img-profil .item img {
+    height: 125px;
+    width: auto;
+  }
+}
+@media (min-width: 768px){
+  .section-post.bg-post-unlinking {
+    background-position-x: center;
+  }
+  .unlinking-profil {
+    .list-img-profil .item {
+      width: 33.33%;
+      img {
+        height: 155px;
+      }
+    }
+    .block-item{
+      margin: 10px 7px 35px;
+      .title-name-profile {
+        padding: 9px;
+        font-size: 17px;
+        margin-bottom: -20px;
+      }
+    }
+  }
+  .section-unlinking .list-link-unlinking{
+    .block-item-unlinking .title-name{
+      font-size: 12px;
+    }
+    .item {
+      width: 25%;
+    }
+  }
+  .section-unlinking .list-link-unlinking.repair .block-item-unlinking .title-name {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-unlinking .list-link-unlinking.partition{
+    .item {
+      width: 50%;
+    }
+    .block-item-unlinking{
+      .img-block {
+        height: 220px;
+      }
+      .title-name {
+        font-size: 17px;
+        padding: 15px 2px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 992px){
+  .section-profil{
+    box-shadow: none;
+    padding-top: 0;
+    .title-section {
+      padding-bottom: 15px;
+    }
+  }
+  .section-post.bg-post-unlinking {
+    background-position-x: 300px;
+  }
+  .section-post.bg-post-unlinking{
+    .title-post{
+      font-size: 17px;
+    }
+  }
+  .unlinking-profil{
+    .block-item {
+      margin: 10px 10px 35px;
+    }
+    .list-img-profil .item {
+      width: 25%;
+      img{
+        height: 170px;
+        image-rendering: auto;
+      }
+    }
+  }
+  .section-unlinking{
+    box-shadow: none;
+    padding-top: 0;
+    .list-link-unlinking{
+      .item{
+        width: 25%;
+      }
+      .block-item-unlinking{
+        margin: 10px;
+        .img-block{
+          height: 150px;
+          img{
+            width: auto;
+            height: 100%;
+
+          }
+        }
+        .title-name{
+          font-size: 15px;
+          line-height: 22px;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+  .section-unlinking .list-link-unlinking.repair .block-item-unlinking .title-name {
+    padding: 10px 35px;
+    min-height: 66px;
+  }
+  .section-unlinking .list-link-unlinking.partition .block-item-unlinking .img-block {
+    height: 273px;
+  }
+}
+
+@media (min-width: 1300px){
+  .unlinking-profil {
+    .block-item {
+      margin: 10px 10px 50px;
+      .title-name-profile{
+        font-size: 20px;
+      }
+    }
+    .list-img-profil .item img {
+      height: 190px;
+    }
+  }
+  .section-unlinking{
+    .title-section{
+      margin-bottom: 0;
+      line-height: normal;
+    }
+    .list-link-unlinking{
+      margin: 15px auto 25px;
+      .block-item-unlinking{
+        margin: 22px 15px;
+        .img-block{
+          height: 220px;
+          .img-rendering{
+            image-rendering: unset ;
+          }
+        }
+        .title-name{
+          font-size: 20px;
+        }
+      }
+    }
+    .list-link-unlinking.services{
+      .block-item-unlinking .title-name{
+        padding: 10px 22px;
+      }
+    }
+  }
+  .section-unlinking .list-link-unlinking.partition .block-item-unlinking{
+    .img-block {
+      height: 300px;
+    }
+    .title-name{
+      font-size: 20px;
+      padding: 20px 2px;
+    }
+  }
+  .section-unlinking .list-link-unlinking.windows .block-item-unlinking .img-block {
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img-custom-window{
+      width: 110%;
+      height: auto;
+    }
+  }
+}

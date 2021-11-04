@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<%=require('html-loader?!./fragment/_header.html')%>
+<div class="block-ask-me-container">
+    <div class="block-ask-me container">
+        <button class="btn ask-me icon icon-ask-me"></button>
+    </div>
+</div>
+<div class="main">
+    <section class="section-welcome">
+        <div class="text-welcome"><h1>аптека 24/7</h1></div>
+
+    </section>
+    <section class="section-top-product">
+        <div class="container">
+            <h4 class="title-page">
+                топ товарів
+            </h4>
+            <ul class="list-product slider-product">
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-1.png')%>" class="img-fluid" alt="photo-product1"></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-price"><div class="price">230.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li  class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-2.png')%>" class="img-fluid" alt="photo-product2"></a>
+                        <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                        <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-3.png')%>" class="img-fluid" alt="photo-product3"></a>
+                        <span class="title-product">Труси для вагітних 9902Nera Tonus Elast...</span>
+                        <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-5.png')%>" class="img-fluid"  alt="photo-product5"></a>
+                        <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                        <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-6.png')%>" class="img-fluid"  alt="photo-product6"></a>
+                        <span class="title-product">ABCDerm Шанш Інтенсив 75 г Bioderma (Біодерма)</span>
+                        <div class="block-price"><div class="price">200.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-7.png')%>"  class="img-fluid" alt="photo-product7"></a>
+                        <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                        <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-8.png')%>"  class="img-fluid" alt="photo-product8"></a>
+                        <span class="title-product">Труси для вагітних 9902 Nera Tonus Elast...</span>
+                        <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-9.png')%>"  class="img-fluid" alt="photo-product9"></a>
+                        <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                        <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-sale-product">
+        <div class="container">
+            <h4 class="title-page">
+                знижки
+            </h4>
+            <ul class="list-product slider-sales-product">
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-6.png')%>"  class="img-fluid" alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-price"><div class="price">230.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-7.png')%>"  class="img-fluid" alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                        <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-8.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Труси для вагітних 9902 Nera Tonus Elast...</span>
+                        <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-9.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                        <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-10.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">ABCDerm Шанш Інтенсив 75 г Bioderma (Біодерма)</span>
+                        <div class="block-price"><div class="price">200.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-1.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-price"><div class="price">230.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-2.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Одноразова маска для обличчя професійна... </span>
+                        <div class="block-price"><div class="price">15.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-3.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Труси для вагітних 9902 Nera Tonus Elast...</span>
+                        <div class="block-price"><div class="price">500.00 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-4.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div></a>
+                        <span class="title-product">Тонометр механічний LD-81 комбінованого...</span>
+                        <div class="block-price"><div class="price">571.98 грн</div><button class="buy icon icon-buy"></button></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-reviews-product">
+        <div class="container">
+            <h4 class="title-page">
+                Відгуки наших покупців
+            </h4>
+            <ul class="list-product slider-reviews-product">
+                <li class="item-list-product">
+                    <div class="block-product block-product-reviews">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-1.png')%>" class="img-fluid"  alt="photo-product"></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-stars">
+                            <ul class="list-stars">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <p class="reviews">
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                        </p>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product block-product-reviews">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-2.png')%>"  class="img-fluid" alt="photo-product"></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-stars">
+                            <ul class="list-stars">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <p class="reviews">
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                        </p>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product block-product-reviews">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-3.png')%>" class="img-fluid"  alt="photo-product"></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-stars">
+                            <ul class="list-stars">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <p class="reviews">
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                        </p>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product block-product-reviews">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-4.png')%>" class="img-fluid"  alt="photo-product"></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-stars">
+                            <ul class="list-stars">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <p class="reviews">
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                        </p>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product block-product-reviews">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-5.png')%>" class="img-fluid"  alt="photo-product"></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-stars">
+                            <ul class="list-stars">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <p class="reviews">
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                        </p>
+                    </div>
+                </li>
+                <li class="item-list-product">
+                    <div class="block-product block-product-reviews">
+                        <a href="#" class="block-img"><img src="<%=require('./images/product-5.png')%>" class="img-fluid"  alt="photo-product"></a>
+                        <span class="title-product">Рукавички медичні нітрилові чорні Medicom</span>
+                        <div class="block-stars">
+                            <ul class="list-stars">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <p class="reviews">
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                            Текст відгуку Текст відгуку Текст відгуку Текст відгуку...
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-about-us">
+        <h4 class="title-page-about-us">Мережа аптек «Добрий Доктор»</h4>
+        <div class="text-about-us container">
+            <div>
+                <p>
+                    <span class="d-block">Наша мережа аптек «Добрий Доктор» почала свою роботу в г. Киев в 2003 році.</span>
+                    Протягом п'ятнадцяти років ми стабільно розвивалися і розширювали свій асортимент. На даний момент у
+                    нас представлено більше десяти тисяч найменувань різних ліків і медикаментів. Можете бути впевнені,
+                    в наших аптеках Ви неодмінно знайдете те, що так довго шукали в інших місцях і ніяк не могли
+                    знайти.
+                </p>
+                <p>Для Вашої зручності на сайті «Добрий Доктор» доступне замовлення ліків через нашу інтернет аптеку. Ви
+                    можете вибрати абсолютно будь-який товар і отримати замовлення зручним для Вас способом.
+                </p>
+
+                <span class="strong-text mb-0">На даний момент ми пропонуємо наступні варіанти доставки:</span>
+                <ul>
+                    <li>• Замовити доставку на будинок</li>
+                    <li>• Оформити доставку поштовою службою Нова Пошта</li>
+                    <li> • Забрати самостійно з найближчої до вас аптеки</li>
+                </ul>
+
+                <p> Доставку ми здійснюємо по Києву кур'єром або Новою Поштою по Україні, в максимально короткі сроки.
+                    Ми працюємо тільки з професіоналами, тому можете бути впевнені, замовлений вами товар надійде цілим
+                    і неушкодженим і буде отриманий Вами в обумовлений час.
+                </p>
+
+                <p>Крім ліків і медикаментів ми здійснюємо продаж косметики, дитячого харчування, медичних виробів,
+                    дитячих товарів, та ін.
+                </p>
+            </div>
+            <div>
+                <p> З повним переліком нашого асортименту Ви можете ознайомитися самостійно на нашому сайті в розділі
+                    «Каталог товарів». Впевнені, Ви будете приємно здивовані його різноманітністю.</p>
+
+                <p> Наша мережа аптек «Добрий Доктор» працює за програмами <span class="strong-text"> «Медікард», «Байєр», «Еббот»</span>.
+                    <span class="d-block">Також ми здійснюємо роботу зі страховими компаніями.</span>
+                    Самі аптеки доступні для наших улюблених клієнтів <span class="strong-text">24/7</span>, ми працюємо для вас без перерв і
+                    вихідних.</p>
+
+                <p>У нас працюють тільки дипломовані провізори. Ми постійно стежимо за ринком фармацевтики і не
+                    пропускаємо вихід нових ліків і методик, тому наші фахівці часто відвідують тренінги для підвищення
+                    своєї кваліфікації.</p>
+
+                <p>Для наших улюблених клієнтів у нас постійно проводяться різні акції, також на деякі види товару
+                    завжди є знижки.
+                    На нашому сайті «Добрий Доктор» є відповідний розділ, де ви можете ознайомитися з повним переліком
+                    акційних моделей.</p>
+
+                <p>Ви можете поставити будь-яке запитання, зателефонувавши за одним з номерів телефонів.
+                    <span class="d-block">Наші фармацевти допоможуть вам обрати ліки або медикаменти.</span></p>
+                <p><span class="strong-text">Заходьте, ми будемо раді бачити вас</span>!</p>
+            </div>
+        </div>
+    </section>
+</div>
+<%=require('html-loader?!./fragment/_footer.html')%>
+</body>
+</html>

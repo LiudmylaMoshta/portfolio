@@ -1,0 +1,904 @@
+.page-glass{
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 17px;
+  .title-post-top{
+    text-transform: inherit;
+  }
+  .title-section {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 17px;
+  }
+}
+.bg-welcome-page-glass {
+  background-image: url("../images/bg-welcome-page-glass.jpg");
+}
+.page-servises-glass .bg-servises-glass.bg-furniture {
+  background-image: url("../images/bg-furniture.jpg");
+  background-position-y: center ;
+}
+.page-servises-glass .bg-servises-glass.bg-adjustment {
+  background-image: url("../images/img-unlinking-repair-2.webp");
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+}
+.page-servises-glass .bg-servises-glass.bg-repair {
+  background-image: url("../images/img-unlinking-repair.jpg");
+  background-position-y: center;
+  background-position-x: center;
+}
+.page-servises-glass .bg-servises-glass.bg-replacement-windows-glass {
+  background-image: url("../images/img-unlinking-repair-3.jpg");
+  background-position-y: center;
+  background-position-x: center;
+}
+.price-type-glass{
+  //padding-top: 12px;
+}
+.section-top-page-glass{
+  border-bottom: none;
+  padding: 25px 0;
+  .text-custom-page{
+    margin-bottom: 0;
+  }
+}
+
+.section-scheme-works .list-scheme-works .item-scheme-top .block-scheme-works{
+  margin-top: -100px;
+}
+.list-type-glass-page-glass{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  .item-glass{
+    width: calc(50% - 6px);
+    margin-bottom: 18px;
+
+    .header-item-glass {
+      height: 32px;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 12px;
+      color: #ffffff;
+      background-color: #2792de;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      text-align: center;
+    }
+    .block-img{
+      border-radius: 5px;
+      width: 50%;
+      height: 110px;
+      overflow: hidden;
+      display: block;
+      min-width: 100%;
+      margin: 7px auto 4px;
+      img{
+        margin: 0 auto;
+        display: block;
+        width: auto;
+        height: 110px;
+      }
+    }
+    .footer-item-glass {
+      border-radius: 5px;
+      .price {
+        color: #081a44;
+        width: 90%;
+        margin: 0 auto;
+        height: 26px;
+        background-color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        border-radius: 5px;
+        position: relative;
+        padding: 3px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        border: 1px solid  #2792de;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text {
+          font-size: 10px;
+          font-weight: 400;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+  .wrapper-table{
+    overflow-x: auto;
+    width: 100%;
+  }
+}
+.table-page-glass{
+  margin-bottom: 25px;
+  thead{
+    td{
+      font-size: 11px;
+      vertical-align: middle;
+      height: 68px;
+      &:first-child{
+        text-align: center;
+      }
+    }
+  }
+  td{
+    padding: 7px 3px 7px 13px;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    min-width: 135px;
+  }
+  td:first-child{
+    text-align: left;
+    font-weight: 500;
+    min-width: 220px;
+  }
+}
+.block-buttton{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-custom-project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 31px;
+  color: #ffffff;
+  background-image: linear-gradient(180deg, #7ed32d 0%, #5a9523 100%);
+  font-size: 11px;
+  text-transform: uppercase;
+  width: 235px;
+  padding: 0.44rem 0.75rem;
+  border: none;
+  border-radius: 6px;
+  &:hover{
+    color: #ffffff;
+  }
+}
+.btn-more-details{
+  width: 109px;
+}
+.btn-call-me-page-glass{
+  width: 168px;
+}
+.item-type-glass{
+  margin-bottom: 30px;
+  .title-block{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+  }
+  img{
+    width: auto;
+    height: 185px;
+    margin: 20px auto 10px;
+    display: block;
+  }
+  .price{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 13px;
+    .text{
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+}
+
+.slider-color-glass, .slider-color-glass-2{
+  margin-bottom: 15px;
+  .slick-prev {
+    left: -2px;
+  }
+  .slick-list{
+    margin: 0 10px;
+  }
+  .slick-next {
+    right: -15px;
+  }
+  .slick-prev, .slick-next{
+    top: 40%;
+  }
+  .block-item-slider-color-glass{
+    span{
+      font-size: 8px;
+      font-weight: 400;
+      color: #707070;
+      padding-top: 5px;
+      text-align: center;
+      display: block;
+    }
+}
+  .item-slider-color-glass{
+    width: 57px;
+    height: 60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 0 auto;
+    &.C1B8B3{
+      background-color: #C1B8B3;
+    }
+    &.B7B79F{
+      background-color: #B7B79F;
+    }
+    &.c695851{
+       background-color: #695851;
+     }
+    &.A7967A{
+      background-color: #A7967A;
+    }
+    &.EBE5CF{
+      background-color: #EBE5CF;
+    }
+  }
+}
+.block-other-glass{
+  .bottom-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+.section-other-glass,
+.section-soundproofing{
+  background-color: #F0F0F0;
+  .block-other-glass ,
+  .block-item-soundproofing{
+    background-color: #FFFFFF;
+    padding: 15px;
+
+    img{
+      width: auto;
+      height: 228px;
+      margin: 0 auto;
+      display: block;
+    }
+    .price{
+      font-size: 15px;
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 13px;
+      padding-right: 10px;
+      .text{
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+    .btn{
+      margin: 0 auto;
+      width: 140px;
+    }
+  }
+}
+.section-other-glass .block-other-glass .btn{
+  margin: 0;
+}
+.nav-justified{
+  .nav-link{
+    height: 44px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.34);
+  }
+}
+.section-banner{
+  padding-bottom: 0;
+  .title{
+    color: #7ED32D;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+  }
+  .title-2{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  .phone{
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    margin: 10px 0;
+  }
+  .text-banner{
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-size: 12px;
+    .text{
+      width: 75%;
+      margin: 10px auto;
+      display: block;
+    }
+    .btn{
+      margin: 10px auto;
+      border-radius: 6px;
+    }
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}
+.section-buy-from-us{
+  .list-item-catalog{
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .item-catalog{
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    .block-img{
+      img{
+        min-width: auto;
+        height: 85%;
+        width: auto;
+        display: block;
+        margin: 10px auto;
+      }
+    }
+  }
+}
+.page-servises-glass .section-scheme-works .list-scheme-works-lg.windowsill.servises-3 li:nth-child(even){
+  margin-top: 200px;
+}
+.section-scheme-works{
+  .list-scheme-works.windowsill.furniture {
+    background-size: 190px;
+  }
+  .list-scheme-works-lg.windowsill.servises-3{
+    background-image: url('../images/bg-welcome-page-servises.png');
+    background-size: 52%;
+  }
+  .list-scheme-works.windowsill.servises-3{
+    background-image: url('../images/bg-welcome-page-servises-mob.png');
+    background-size: 52%;
+
+  }
+}
+.page-servises-glass .section-post-windows.bg-post-servises:before {
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.9) 100%, transparent 73%),
+  url('../images/bg-post-servises.png') no-repeat left center;
+  left: 0;
+  background-size: cover;
+}
+
+@media (min-width: 768px){
+  .page-servises-glass .bg-servises-glass.bg-adjustment {
+    background-position-y: top;
+    background-size: auto 130%;
+    background-position-x: right;
+  }
+  .page-servises-glass .bg-servises-glass.bg-repair {
+    background-position-x: right;
+  }
+  .page-servises-glass .bg-servises-glass.bg-replacement-windows-glass {
+    background-position-x: right;
+    background-size: auto 142%;
+  }
+  .section-other-glass .block-other-glass .block-img,
+  .section-other-glass .block-item-soundproofing .block-img,
+  .section-soundproofing .block-other-glass .block-img,
+  .section-soundproofing .block-item-soundproofing .block-img{
+    margin-right: 10px;
+  }
+  .bg-welcome-page-glass {
+    background-size: auto 118%;
+    background-position-x: right;
+    background-position-y: center;
+  }
+  .bg-welcome-page-glass{
+    &:before {
+      content: "";
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.81) 55%, rgba(255, 255, 255, 0.39) 65%, rgba(255, 255, 255, 0) 100%);
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      max-width: 85%;
+      width: 85%;
+      height: 100%;
+    }
+  }
+  .page-glass{
+    font-size: 13px;
+    line-height: 20px;
+    .title-post-top{
+      //text-transform: uppercase;
+      font-size: 20px;
+    }
+    section{
+      padding: 35px 0;
+      .title-section{
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+  }
+  .item-type-glass{
+    display: flex;
+    .title-block{
+      text-align: left;
+    }
+    .bottom{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .btn{
+        margin: 0 15px;
+      }
+    }
+    .block-img{
+      width: 30%;
+      min-width: 30%;
+      margin-right: 15px;
+      img{
+        width: auto;
+        height: 170px;
+        //margin: 10px 20px 10px 0;
+      }
+    }
+  }
+  .section-other-glass .block-other-glass{
+    display: flex;
+    padding: 40px 20px;
+    .block-img{
+      min-width: 30%;
+    }
+    .title-block {
+      text-align: left;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .bottom-block{
+      justify-content: center;
+      align-items: baseline;
+      .price{
+        //margin: 0 25px;
+        margin-right: 20px;
+      }
+      .btn{
+        //margin: 0 25px;
+      }
+    }
+  }
+  .list-type-glass-page-glass {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px 20px;
+
+    .item-glass {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .section-buy-from-us .item-catalog{
+    width: calc(50% - 5px);
+    font-size: 11px;
+    line-height: 15px;
+
+  }
+  .section-soundproofing .block-item-soundproofing{
+    display: flex;
+    .block-img{
+      min-width: 45%;
+    }
+    img {
+      width: 207px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+
+@media (min-width: 992px){
+  .page-glass{
+    font-size: 15px;
+    line-height: 25px;
+    section{
+      padding: 45px 0;
+      .title-section{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .list-type-glass-page-glass{
+    .item-glass {
+      margin: 0;
+      .header-item-glass {
+        font-size: 17px;
+        line-height: 22px;
+        height: 53px;
+      }
+      .block-img {
+        width: 276px;
+        height: 207px;
+        margin: 25px 0 25px;
+        img{
+          width: auto;
+          height: 200px;
+          margin: 0 auto;
+        }
+      }
+      .footer-item-glass{
+        .price {
+          font-size: 20px;
+          width: 202px;
+          height: 40px;
+          .text {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  .table-page-glass{
+    thead{
+      &:first-child {
+        font-size: 12px;
+      }
+    }
+    td {
+      padding: 8px 15px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+    .td-100{
+      width: 100px;
+    }
+  }
+  .item-type-glass{
+    .title-block {
+      font-size: 20px;
+    }
+    .block-img{
+      margin-right: 20px;
+      img {
+        width: auto;
+        height: 255px;
+      }
+    }
+  }
+  section.section-banner {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    max-height: 345px;
+    align-items: center;
+    .text-banner{
+      text-align: left;
+      margin: 0;
+      margin-right: 35px;
+      font-size: 16px;
+      line-height: 24px;
+      .text{
+        margin: 0;
+        width: 90%;
+      }
+      .title {
+        text-align: left;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 35px;
+      }
+      .title-2{
+        font-size: 16px;
+      }
+      .btn {
+        margin: 0;
+        width: 235px;
+      }
+    }
+    img{
+      width: 50%;
+    }
+  }
+
+  .section-soundproofing{
+    .block-item-soundproofing{
+      padding: 27px 15px;
+      .title-block{
+        font-size: 20px;
+        margin-bottom: 17px;
+        font-weight: 700;
+      }
+      img {
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .item-type-glass{
+    .price {
+      margin-bottom: 0;
+    }
+    .title-section{
+      padding-bottom: 17px;
+    }
+  }
+
+  .section-buy-from-us{
+    .item-catalog .header-item-catalog.max{
+      font-size: 17px;
+      line-height: 22px;
+      padding: 12px;
+    }
+    .list-item-catalog {
+      max-width: 100%;
+      margin: 0 auto;
+      .item-catalog {
+        width: calc(25% - 5px);
+        font-size: 13px;
+        line-height: 19px;
+        img {
+          width: auto;
+          min-width: auto;
+          height: 174px;
+          margin: 20px auto;
+        }
+      }
+    }
+  }
+  .slider-color-glass, .slider-color-glass-2{
+    .item-slider-color-glass {
+      width: 100px;
+      height: 65px;
+    }
+  }
+  .btn-custom-project{
+     font-size: 18px;
+     height: 39px;
+   }
+}
+
+
+@media (min-width: 1200px){
+  .page-servises-glass.servises{
+    .section-top-page{
+      .text-custom-page{
+        font-weight: 400;
+      }
+    }
+    .section-scheme-works.windowsill{
+      padding-top: 30px;
+      padding-bottom: 20px;
+      .title-section {
+        padding-bottom: 18px;
+      }
+    }
+    .block-portfolio{
+      padding-top: 5px;
+    }
+  }
+  .page-servises-glass .bg-servises-glass.bg-adjustment {
+    background-size: auto 148%;
+  }
+  .section-top-page-glass {
+    padding: 5px 0;
+  }
+  .page-glass{
+    font-size: 18px;
+    line-height: 30px;
+    section{
+      padding: 41px 0;
+      .title-section{
+        margin-bottom: 25px;
+      }
+    }
+    .title-post-top {
+      font-size: 24px;
+    }
+  }
+    .price-type-glass{
+    padding: 41px 0;
+    .title-section{
+      margin-bottom: 37px;
+    }
+  }
+
+  .list-type-glass-page-glass .item-glass{
+    .header-item-glass {
+      font-size: 21px;
+      line-height: 27px;
+      height: 60px;
+    }
+    .block-img {
+      width: 250px;
+      height: 260px;
+      img{
+        min-height: 100%;
+      }
+    }
+    .footer-item-glass .price {
+      font-size: 24px;
+      width: 250px;
+      height: 48px;
+      .text{
+        font-size: 18px;
+      }
+    }
+  }
+  table.table-windows.table-page-glass{
+    width: 100%;
+    thead td {
+      font-size: 17px;
+      height: 85px;
+    }
+    td:first-child {
+      min-width: 290px;
+    }
+    td {
+      padding: 11px 15px;
+      font-size: 15px;
+      line-height: 20px;
+      min-width: 195px;
+    }
+  }
+  .item-type-glass{
+    margin-bottom: 50px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    .block-img img {
+      width: auto;
+      height: 285px;
+    }
+    .title-block{
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+    .bottom {
+      .price{
+        font-size: 24px;
+        .text{
+          font-size: 18px;
+        }
+      }
+      .btn {
+        margin: 0 15px;
+        height: 46px;
+        font-size: 18px;
+        width: auto;
+        padding: 0 35px;
+        border-radius: 6px;
+      }
+    }
+  }
+  .slider-color-glass, .slider-color-glass-2 {
+    .item-slider-color-glass {
+      width: 130px;
+      height: 80px;
+    }
+  }
+  .slider-color-glass, .slider-color-glass-2{
+    .block-item-slider-color-glass span{
+      font-size: 15px;
+    }
+  }
+  .nav-justified .nav-link{
+    font-size: 20px;
+    height: 62px;
+  }
+  .section-other-glass .block-other-glass{
+    .block-img {
+      min-width: 300px;
+      img{
+        width: auto;
+        height: 330px;
+      }
+    }
+    .price{
+      padding-right: 25px;
+    }
+  }
+  .section-other-glass .block-other-glass,
+  .section-other-glass .block-item-soundproofing,
+  .section-soundproofing .block-other-glass,
+  .section-soundproofing .block-item-soundproofing{
+    .price{
+      font-size: 23px;
+      .text{
+        font-size: 18px;
+      }
+    }
+    .btn{
+      width: 180px;
+      height: 43px;
+      font-size: 18px;
+      border-radius: 6px;
+    }
+  }
+  section.section-banner {
+    max-height: 423px;
+    overflow: hidden;
+    img{
+      width: 67%;
+    }
+    .text-banner{
+      margin-right: 0;
+      margin-left: 20px;
+      .title {
+        font-size: 43px;
+        line-height: 50px;
+      }
+      .title-2{
+        font-size: 19px;
+        padding: 10px 0;
+      }
+      .text{
+        font-size: 19px;
+        width: 70%;
+      }
+      .phone {
+        font-size: 22px;
+        padding: 30px 0 10px;
+      }
+      .btn {
+        width: 265px;
+        font-size: 17px;
+        height: 43px;
+      }
+    }
+  }
+  .section-soundproofing .block-item-soundproofing{
+    padding: 35px 20px;
+    .title-block{
+      font-size: 24px;
+    }
+    img {
+      width: 360px;
+    }
+  }
+  .section-buy-from-us .list-item-catalog .item-catalog{
+    width: calc(25% - 20px);
+    font-size: 15px;
+    line-height: 24px;
+    .header-item-catalog.max {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 0 25px;
+      min-height: 83px;
+    }
+    .block-item-catalog{
+      margin-bottom: 10px;
+    }
+  }
+  .section-other-section.furniture .item-catalog .block-img .img-all {
+    height: auto;
+  }
+}
+
+@media (min-width: 1440px){
+  .page-servises-glass .bg-servises-glass.bg-adjustment {
+    background-position-y: center;
+    background-size: auto 156%;
+    background-position-x: right;
+  }
+  .page-servises-glass .bg-servises-glass.bg-repair {
+    background-size: auto 168%;
+  }
+  .page-servises-glass .bg-servises-glass.bg-replacement-windows-glass {
+    background-size: auto 155%;
+  }
+}

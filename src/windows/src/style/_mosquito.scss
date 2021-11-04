@@ -1,0 +1,592 @@
+.page-mosquito{
+  font-size: 11px;
+  line-height: 17px;
+  section{
+    padding: 25px 0;
+  }
+  .section-post{
+    border-bottom: 8px solid #2792de;
+    .title-post {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      text-transform: inherit;
+    }
+  }
+  .top-post-page .title-post {
+    text-transform: capitalize;
+  }
+  .section-top-post{
+    position: relative;
+  }
+  section.section-form-page-windowsill{
+    padding: 25px 0 3px;
+    border-bottom: none;
+    &:after {
+      box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16);
+      content: '';
+      display: block;
+      width: 100%;
+      height: 7px;
+      margin-top: 25px;
+    }
+  }
+}
+
+.block-video{
+  width: 100%;
+}
+
+.section-calculator-page{
+  background-color: #F4F9FC;
+  .top-block-form-mosquito{
+    margin-bottom: 15px;
+  }
+  .img-calc{
+    width: 122px;
+    height: auto;
+    margin: 0 auto 15px;
+    text-align: center;
+    display: block;
+  }
+  .chooseСolor, .type{
+    display: flex;
+    align-items: baseline;
+    .input-label{
+      color: #2792DE;
+    }
+  }
+}
+
+.section-type-mosquito{
+  .list{
+    margin-bottom: 0;
+    li{
+      margin-bottom: 30px;
+    }
+  }
+  .title-block{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .img-mosquito{
+    width: 60%;
+    text-align: center;
+    margin-right: 12px;
+    img{
+      width: auto;
+      height: 152px;
+    }
+  }
+  .block-info{
+    font-weight: 500;
+    h5{
+      font-size: 11px;
+      font-weight: 700;
+    }
+    dl{
+      display: flex;
+      margin-bottom: 0;
+      line-height: normal;
+      dt,dd{
+        font-size: 10px;
+      }
+      dd{
+        margin-left: 15px;
+      }
+    }
+    span{
+     color: #081A44;
+    }
+    .price{
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+  .text{
+    margin-top: 15px;
+    .btn{
+      margin: 0 auto;
+      width: auto;
+      padding: 0 55px;
+    }
+  }
+}
+
+.section-scheme-works.mosquito{
+  .list-scheme-works {
+    background: url($images-path + "arrow-mob-roller.png") no-repeat;
+    background-position-y: 47%;
+    background-size: 42%;
+    background-position-x: center;
+    width: 300px;
+  }
+}
+
+.section-other-section.mosquito{
+  border-bottom: none;
+  .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+      width: calc(50% - 5px);
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      margin-bottom: 10px;
+      .block-img{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        position: relative;
+        img{
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+        }
+      }
+      .block-title{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 1px solid #2792DE;
+        border-top: none;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        display: block;
+        color: #081A44;
+        font-size: 11px;
+        text-align: center;
+        font-weight: 400;
+        padding: 6px;
+      }
+    }
+  }
+}
+.block-img-post-left{
+  float: left;
+  margin-left: 10px;
+}
+.block-img-post-left{
+  float: left;
+  margin-right: 20px;
+  width: 23%;
+  height: auto;
+}
+.block-img-post-right{
+  float: right;
+  margin-left: 20px;
+  width: 23%;
+  height: auto;
+}
+.type-mosquito{
+  .section-color-selection{
+    padding-top: 25px;
+  }
+  .section-other-section .item-catalog .block-img img {
+    width: auto;
+    height: 100px;
+  }
+}
+.section-post-windows.bg-mosquito::before {
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.85) 100%, transparent 100%), url('../images/bg-mosquito.png') no-repeat left center;
+  background-size: 100%, auto 100%;
+}
+
+
+.type-mosquito{
+  .section-other-section.section-other-type-windows{
+    padding-bottom: 5px;
+    .item-catalog .block-img img.img-all {
+      width: 110%;
+      height: 100%;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .page-mosquito.type-mosquito{
+    .form-windowsill-wrapper {
+      grid-template-columns: 2.4fr 1fr;
+    }
+    .button-wrapper.mosquito::before {
+      width: 83%;
+    }
+    .section-type-mosquito .text {
+      margin-top: -8px;
+    }
+  }
+}
+
+
+
+@media (min-width: 768px){
+  .section-other-section.mosquito .list li {
+    width: calc(25% - 5px);
+  }
+  .page-mosquito{
+    font-size: 14px;
+    line-height: 22px;
+    section{
+      padding: 30px 0;
+    }
+  }
+  .section-type-mosquito{
+    .title-block{
+      font-size: 18px;
+    }
+    .text {
+      margin-top: 0;
+    }
+    .img-mosquito img {
+      width: auto;
+      height: 200px;
+    }
+    .block-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h5{
+        font-size: 15px;
+      }
+    }
+    .list{
+
+      .block-type-mosquito{
+        display: flex;
+      }
+      .img-block{
+        min-width: 50%;
+      }
+    }
+  }
+  .section-scheme-works.mosquito{
+    .list-scheme-works-lg {
+      background: url($images-path + "arrow-arrow-roller.png") no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      background-size: 70%;
+      li{
+        width: 33%;
+      }
+    }
+  }
+  .page-mosquito.type-mosquito{
+    //.section-form-page-windowsill .form-windowsill-wrapper .form-group input.form-control {
+    //  min-height: 51px;
+    //}
+    .button-wrapper.mosquito::before {
+      background: url(../images/img-form-mosquito.png) no-repeat center center;
+      background-size: contain;
+      background-position-x: center;
+      position: relative;
+      width: 95%;
+      background-position-y: 45px;
+      height: 100%;
+    }
+    //.mosquito-btn .btn-custom-project {
+    //  height: 51px;
+    //}
+  }
+  .section-buy-our-company.mosquito{
+    background-image: url("../images/img-mosquito.png"), linear-gradient(119deg, #2894e1 0%, #247bca 29%, #1a4296 45%, #193f93 61%, #193e92 80%, #193c91 100%);
+    background-position: 40px, center;
+    background-size: 40% , 100%;
+    background-position-y: center;
+    .info-buy-our-company{
+      padding-top: 0;
+    }
+  }
+  .block-video {
+    width: 100%;
+    height: 300px;
+  }
+  .type-mosquito .section-other-section .item-catalog .block-img img {
+    width: auto;
+    height: 130px;
+  }
+}
+
+@media (max-width: 991px){
+  .section-other-section .item-catalog{
+    .footer-item-catalog.page-type-mosquito{
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+      .price {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        margin-top: -3px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px){
+  .page-mosquito{
+    font-size: 15px;
+    line-height: 25px;
+    section{
+      padding: 25px 0;
+    }
+    .section-calculator-page .top-block-form-mosquito{
+      .block-calc-img{
+        min-width: 350px;
+      }
+    }
+  }
+  .section-calculator-page{
+    .form-control{
+      border-radius: 6px;
+      height: 43px;
+      &::placeholder{
+        font-size: 17px;
+      }
+    }
+    .input-label{
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    .form-check input[type=radio] + .form-check-label{
+      line-height: 29px;
+      align-items: baseline;
+    }
+    .form-check-label{
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .title-section{
+      text-align: left;
+      width: 70%;
+      margin-bottom: 0;
+      padding-bottom: 20px;
+      line-height: 34px;
+      padding-top: 20px;
+    }
+    .top-block-form-mosquito {
+      margin-bottom: 15px;
+      display: flex;
+    }
+    .block-choose{
+      margin-right: 35px;
+    }
+    .chooseСolor,.type {
+      display: flex;
+      align-items: baseline;
+      flex-direction: column;
+      width: 50%;
+      border-bottom: 1.4px solid rgba(39, 146, 222, 0.7);
+      border-top: 1.4px solid rgba(39, 146, 222, 0.7);
+      padding: 20px 0 25px;
+      margin: 40px 0 0;
+      .input-label{
+        margin-bottom: 0;
+        font-size: 18px;
+      }
+    }
+    .img-calc {
+      width: 255px;
+      margin: 15px 65px 0;
+    }
+    .bottom-section-form {
+      border-top: none;
+      padding: 15px 20px 0;
+      .block-right{
+        border-left: 1.4px solid rgba(39, 146, 222, 0.7);
+      }
+    }
+  }
+  .section-type-mosquito{
+    .list{
+      li{
+        margin-bottom: 60px;
+      }
+    }
+    .title-block{
+      font-size: 20px;
+      line-height: 40px;
+    }
+    .block-info{
+      .price{
+        font-size: 20px;
+      }
+      dl dt{
+        font-size: 13px;
+      }
+    }
+    .img-mosquito img {
+      width: auto;
+      height: 220px;
+    }
+  }
+  .section-measurement-rules{
+    .block-video{
+      float: left;
+      width: 45%;
+      min-width: 45%;
+      margin-right: 15px;
+    }
+    .block-fix {
+      clear: both;
+      padding-bottom: 15px;
+    }
+  }
+  .section-other-section.mosquito .list li {
+    width: calc(25% - 5px);
+    max-width: 200px;
+    .block-img{
+      height: 140px;
+    }
+    .block-title{
+      font-size: 17px;
+    }
+  }
+  .form-windowsill-description.mosquito-description .mosquito-btn{
+    .btn-custom-project{
+      height: 42px;
+    }
+  }
+  .type-mosquito .section-other-section .item-catalog .block-img img {
+    width: auto;
+    height: 161px;
+  }
+  .page-mosquito.type-mosquito{
+    .section-form-page-windowsill .form-windowsill-wrapper .form-group input.form-control {
+      min-height: 51px;
+    }
+    //.button-wrapper.mosquito::before {
+    //  background: url(../images/img-form-mosquito.png) no-repeat center center;
+    //  background-size: contain;
+    //  background-position-x: center;
+    //  position: relative;
+    //  width: 95%;
+    //  background-position-y: 45px;
+    //  height: 100%;
+    //}
+    .mosquito-btn .btn-custom-project {
+      height: 51px;
+    }
+  }
+}
+
+@media (min-width: 1300px){
+  .page-mosquito .top-post-page .title-post{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .page-mosquito{
+    font-size: 18px;
+    line-height: 33px;
+    section{
+      padding: 30px 0;
+    }
+    .section-top-post{
+      padding-top: 0;
+    }
+    .block-portfolio{
+      margin: 0;
+    }
+  }
+  .section-type-mosquito{
+    .img-mosquito{
+      margin-right: 30px;
+      img {
+        width: auto;
+        height: 300px;
+      }
+    }
+    .title-block {
+      font-size: 24px;
+      line-height: 48px;
+    }
+    .block-info{
+      h5 {
+        font-size: 18px;
+      }
+      dl {
+        dt,dd {
+          font-size: 15px;
+        }
+      }
+      .price {
+        font-size: 24px;
+        padding-left: 5px;
+      }
+    }
+  }
+  .section-measurement-rules{
+    .title-section{
+      padding-bottom: 25px;
+    }
+    .block-video{
+      width: 50%;
+      min-width: 50%;
+      margin-right: 35px;
+    }
+  }
+  .section-buy-our-company.mosquito{
+    background-position: 125px, center;
+    background-size: 50% , 100%;
+    background-position-y: center;
+    .block-buy-our-company {
+      width: 37%;
+    }
+    .title-section{
+      padding: 5px 35px 0 0;
+    }
+  }
+  .section-other-section.mosquito{
+    .title-section {
+      margin-bottom: 25px;
+    }
+    .list li {
+      max-width: 250px;
+      .block-img{
+        height: 195px;
+
+      }
+      .block-title{
+        font-size: 20px;
+      }
+    }
+  }
+  .type-mosquito .section-other-section.section-other-type-windows{
+    padding-top: 40px;
+    .item-catalog .block-img img {
+      width: auto;
+      height: 182px;
+    }
+  }
+  .page-mosquito.type-mosquito{
+    section {
+      padding: 40px 0;
+    }
+    section.section-form-page-windowsill{
+      padding-bottom: 0;
+    }
+    section.section-top-post{
+      padding-top: 0;
+    }
+    .section-other-section .item-catalog .footer-item-catalog .price {
+      font-size: 20px;
+    }
+    .section-type-mosquito{
+      padding-top: 10px;
+    }
+
+  }
+}
+
+@media (min-width: 1920px){
+  .section-buy-our-company.mosquito {
+    background-position: 125px, center;
+    background-size: auto 80% , 100%;
+    background-position-y: center;
+    background-position-x: 30%;
+  }
+}
+//----------------------------------------------------------------------------------
+
+

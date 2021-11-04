@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<%=require('html-loader?!./fragment/_header.html')%>
+<div class="block-ask-me-container">
+    <div class="block-ask-me container">
+        <button class="btn ask-me icon icon-ask-me"></button>
+    </div>
+</div>
+   <div class="main main-delivery">
+       <div class="container">
+           <div class="text-main-delivery">
+               <h4 class="title-page">Доставка та оплата</h4>
+               <span class="title-page-info  d-flex align-items-center"><span class="icon icon-house-info"></span>самовивіз</span>
+               <p>Самовивіз здійснюється з наших аптек за попереднім замовленням за адресами:</p>
+               <ul class="mt-2">
+                   <li>Київ, вул. Юрія Іллєнка, 10</li>
+                   <li>Київ, бул. Дружби Народів, 21</li>
+               </ul>
+               <span class="title-page-info  d-flex align-items-center"><span class="icon icon-new-info"></span>Доставка по Україні</span>
+               <p>Доставка по Україні здійснюється компанією-перевізником «Нова Пошта» в перебігу
+                   <span class="d-block">2 днів за тарифами компанії.</span>
+               </p>
+
+               <p class="mb-0">Товар відправляється після внесення передоплати на розрахунковий рахунок, який вкаже оператор при прийомі замовлення.</p>
+               <span class="title-page-info  d-flex align-items-center"><span class="icon icon-delivery-info"></span>Доставка в межах Києва</span>
+
+               <p>Ваше замовлення буде доставлений кур'єрською службою з 9:00 до 21:00, точний час доставки з Вами узгодять при оформленні замовлення.</p>
+
+               <p>Оформити замовлення можна на сайті або за телефонами:</p>
+               <div class="d-flex flex-column">
+                   <a href="tel:+380445016922">+38 (044) 501-69-22</a>
+                   <a href="tel:+380445016922">+38 (044) 537-32-46</a>
+                   <a href="tel:+380683097899">+38 (068) 309-78-99</a>
+                   <a href="tel:+380964603243">+38 (096) 460-32-43</a>
+               </div>
+
+               <span class="title-page-info  d-flex align-items-center"><span class="icon  icon-cash-info"></span>Способи оплати покупок</span>
+               <ul class="mb-3 mb-lg-5">
+                   <li>Оплата готівкою. Розрахунок при доставці кур'єром або самовивіз.</li>
+                   <li>Оплата банківською картою Visa, MasterCard.</li>
+                   <li>On-line переказ на карту Приватбанку. Ціна товару збільшується на 1%.</li>
+                   <li>Безготівковий розрахунок. Ціна товару збільшується на 3%.</li>
+               </ul>
+
+
+               <p class="strong-text">Медикаменти і товари мед. призначення обміну та поверненню не підлягають!</p>
+               <p>Постановою Кабінету Міністрів України «Про реалізацію окремих положень Закону України« Про захист прав споживачів »від 19 березня 1994 № 172
+                   Затверджено Перелік товарів належної якості які не підлягають обміну (поверненню), якщо вони не задовольняють споживачів з будь-яких причин.
+                   До переліку, окрім інших, включені наступні групи товарів, які можуть реалізовувати аптечними установами: лікарські препарати та засоби;
+                   предмети санітарії та гігієни; світлочутливі товари (наприклад, рентгенівська плівка) корсетні товари; парфюмерно-косметичні вироби; товари в аерозольній упаковці.</p>
+           </div>
+
+       </div>
+   </div>
+<%=require('html-loader?!./fragment/_footer.html')%>
+
+<!--<script src="js/stepper.min.js"></script>-->
+</body>
+</html>

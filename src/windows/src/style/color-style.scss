@@ -1,0 +1,846 @@
+
+
+
+.color-bg- {
+  &yellow{background-color: #FFF700;}
+  &orange {background-color: #FFAA00;}
+  &red {background-color: #F30303;}
+  &purple {background-color: #B400FF;}
+  &blue {background-color: #1152B2;}
+  &green {background-color: #7ED32D;}
+  &gray {background-color: #8F8F8F;}
+  &brown {background-color: #8E4802;}
+  &black {background-color: #000000;}
+}
+
+
+
+.block-color-edd{
+  span{
+    color: #ffffff;
+  }
+}
+.block-color{
+  border-radius: 5px;
+  span{
+    color: #ffffff;
+    text-align: center;
+  }
+
+}
+.color-RAL-2000,
+.color-RAL-2001,
+.color-RAL-2002,
+.color-RAL-2004,
+.color-RAL-2008{
+  .title-color{
+    color: #ffffff;
+    text-align: center;
+    >.span{
+      color: #ffffff;
+    }
+    .title-name{
+      color: #fff;
+    }
+  }
+}
+
+
+.color-RAL-1035{
+  background-color: #A29985 ;
+}
+.color-RAL-1036{
+  background-color: #927549 ;
+}
+.color-RAL-1037{
+  background-color: #EEA205 ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-2005{
+  background-color: #FF2300 ;
+}
+.color-RAL-2007{
+  background-color: #FFA421 ;
+}
+.color-RAL-2013{
+  background-color: #954527 ;
+}
+.color-RAL-3024{
+  background-color: #F70000 ;
+}
+.color-RAL-3026{
+  background-color: #FF0000 ;
+}
+.color-RAL-3028{
+  background-color: #CB3334 ;
+}
+.color-RAL-3032{
+  background-color: #711521 ;
+}
+.color-RAL-3033{
+  background-color: #B24C43 ;
+}
+
+.color-RAL-4010{
+  background-color: #C63678 ;
+}
+.color-RAL-4011{
+  background-color: #8773A1 ;
+}
+.color-RAL-4012{
+  background-color: #6B6880 ;
+}
+.color-RAL-5025{
+  background-color: #296478 ;
+}
+.color-RAL-5026{
+  background-color: #102C54 ;
+}
+.color-RAL-6035{
+  background-color: #1B542C ;
+}
+.color-RAL-6036{
+  background-color: #005D4C ;
+}
+.color-RAL-6037{
+  background-color: #008F39 ;
+}
+.color-RAL-6038{
+  background-color: #00BB2E ;
+}
+
+
+.color-RAL-7045{
+  background-color: #91969A ;
+}
+.color-RAL-7046{
+  background-color: #82898E ;
+}
+.color-RAL-7047{
+  background-color: #CFD0CF ;
+}
+.color-RAL-7048{
+   background-color: #888175 ;
+ }
+.color-RAL-8029{
+  background-color: #503B28 ;
+}
+.color-RAL-9006{
+  background-color: #A5A8A6 ;
+}
+.color-RAL-9007{
+  background-color: #8F8F8C ;
+}
+.color-RAL-9022{
+  background-color: #9C9C9C ;
+}
+.color-RAL-9023{
+  background-color: #7E8182 ;
+}
+
+
+
+
+.color-RAL-1000{
+  background-color: #CFC184 ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1001{
+  background-color: #D0B281 ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1002{
+  background-color: #CDB17A;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1003{
+  background-color: #EBB208 ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1004{
+  background-color: #EA9F17 ;
+}
+.color-RAL-1005{
+  background-color: #C79800;
+}
+.color-RAL-1006{
+  background-color: #DD9400 ;
+}
+.color-RAL-1007{
+  background-color: #F29005;
+}
+.color-RAL-1011{
+  background-color: #AD8854;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1012{
+  background-color: #DDB925;
+}
+.color-RAL-1013{
+  background-color: #E5E0CD;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1014{
+  background-color: #D4D49E;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1015{
+  background-color: #E8D7C3;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1016{
+  background-color: #E9EC5A;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1017{
+  background-color: #F7B44A ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1018{
+  background-color: #FEDE22;
+  span{
+    color: #000;
+  }
+}
+
+.color-RAL-1019{
+  background-color: #A3937C;
+}
+.color-RAL-1020{
+  background-color: #A09366;
+}
+.color-RAL-1021{
+  background-color: #FBC01C;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1023{
+  background-color: #F8B728;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1024{
+  background-color: #B9935D ;
+}
+.color-RAL-1027{
+  background-color: #A6871B;
+}
+.color-RAL-1028{
+  background-color: #FFA601;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1032{
+  background-color: #DCB107 ;
+}
+
+
+
+.color-RAL-1033{
+  background-color: #F5A833 ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-1034{
+  background-color: #E9A856;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-2000{
+  background-color: #D77603;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-2001{
+  background-color: #B5541F;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-2002{
+  background-color: #BC3B1C ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-2003{
+  background-color: #F9843E;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-2004{
+  background-color: #DF591F;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-2008{
+  background-color: #F97738;
+  span{
+    color: #000;
+  }
+}
+
+
+.color-RAL-2009{
+  background-color: #DC530C;
+}
+.color-RAL-2010{
+  background-color: #D75930;
+}
+.color-RAL-2011{
+  background-color: #E6762A;
+}
+.color-RAL-2012{
+  background-color: #D76645;
+}
+.color-RAL-3000{
+  background-color: #A42A25;
+}
+.color-RAL-3001{
+  background-color: #AE0418;
+}
+.color-RAL-3002{
+  background-color: #9B0F21;
+}
+.color-RAL-3003{
+  background-color: #860524;
+}
+
+
+
+.color-RAL-3004{
+  background-color: #671D2A;
+}
+.color-RAL-3005{
+  background-color: #5D1B2A;
+}
+.color-RAL-3007{
+  background-color: #412429;
+}
+.color-RAL-3009{
+  background-color: #792429;
+}
+.color-RAL-3011{
+  background-color: #7B1F22;
+}
+.color-RAL-3012{
+  background-color: #C68772;
+}
+.color-RAL-3013{
+  background-color: #A22525;
+}
+.color-RAL-3014{
+  background-color: #D3717A;
+}
+
+
+.color-RAL-3015{
+  background-color: #E2A0AD ;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-3016{
+  background-color: #AF3932;
+}
+.color-RAL-3017{
+  background-color: #BE575E;
+}
+.color-RAL-3018{
+  background-color: #CC3F4F;
+}
+.color-RAL-3020{
+  background-color: #C80C12;
+}
+.color-RAL-3022{
+  background-color: #D26B58;
+}
+.color-RAL-3027{
+  background-color: #A72142;
+}
+.color-RAL-3031{
+  background-color: #A72F42;
+}
+//------------------------------------------------------------------------------------
+
+
+.color-RAL-4001{
+  background-color: #845E89;
+}
+.color-RAL-4002{
+  background-color: #973B51 ;
+}
+.color-RAL-4003{
+  background-color: #D35891;
+}
+.color-RAL-4004{
+  background-color:  #611D3C;
+}
+.color-RAL-4005{
+  background-color: #815FAB;
+}
+.color-RAL-4006{
+  background-color: #8D3075;
+}
+.color-RAL-4007{
+  background-color: #46243C ;
+}
+.color-RAL-4008{
+  background-color: #873B7C;
+}
+.color-RAL-4009{
+  background-color: #9F8392;
+}
+.color-RAL-5000{
+  background-color: #2F4A75;
+}
+.color-RAL-5001{
+  background-color: #0D466B;
+}
+.color-RAL-5002{
+  background-color: #182C82;
+}
+.color-RAL-5003{
+  background-color: #183062;
+}
+.color-RAL-5004{
+  background-color: #1C1B29;
+}
+.color-RAL-5005{
+  background-color:  #014783;
+}
+.color-RAL-5007{
+  background-color: #3D618A;
+}
+
+.color-RAL-5008{
+  background-color: #2D383E;
+}
+.color-RAL-5009{
+  background-color: #28557C;
+}
+.color-RAL-5010{
+  background-color: #004379;
+}
+.color-RAL-5011{
+  background-color: #192741;
+}
+.color-RAL-5012{
+  background-color:  #2781BC;
+}
+.color-RAL-5013{
+  background-color: #203052 ;
+}
+.color-RAL-5014{
+  background-color: #657D99;
+}
+.color-RAL-5015{
+  background-color:  #076DB5;
+}
+
+
+
+.color-RAL-5017{
+  background-color: #054899 ;
+}
+.color-RAL-5018{
+  background-color: #138A91;
+}
+.color-RAL-5019{
+  background-color: #075384;
+}
+.color-RAL-5020{
+  background-color: #02767D;
+}
+.color-RAL-5021{
+  background-color: #007A77;
+}
+.color-RAL-5022{
+  background-color: #242A5C;
+}
+.color-RAL-5023{
+  background-color: #49648F;
+}
+.color-RAL-5024{
+  background-color: #6591B6;
+}
+
+
+.color-RAL-6000{
+  background-color: #307862;
+}
+.color-RAL-6001{
+  background-color: #2F6937;
+}
+.color-RAL-6002{
+  background-color: #2F6937;
+}
+.color-RAL-6003{
+  background-color: #50553E;
+}
+.color-RAL-6004{
+  background-color: #06424A;
+}
+.color-RAL-6005{
+  background-color: #0C453A;
+}
+.color-RAL-6006{
+  background-color: #3B3C34;
+}
+.color-RAL-6007{
+  background-color: #2B3626;
+}
+
+
+
+.color-RAL-6008{
+  background-color: #302E22;
+}
+.color-RAL-6009{
+  background-color: #21352A;
+}
+.color-RAL-6010{
+  background-color: #486B41;
+}
+.color-RAL-6011{
+  background-color: #687E62;
+}
+.color-RAL-6012{
+  background-color: #2C3836;
+}
+.color-RAL-6013{
+  background-color: #757859;
+}
+.color-RAL-6014{
+  background-color: #433F33;
+}
+.color-RAL-6015{
+  background-color: #393A35;
+}
+
+
+.color-RAL-6016{
+  background-color: #066652;
+}
+.color-RAL-6017{
+  background-color: #54833F;
+}
+.color-RAL-6018{
+  background-color: #4CA040;
+}
+.color-RAL-6019{
+  background-color: #B5D8B7;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-6020{
+  background-color: #3A483A;
+}
+.color-RAL-6021{
+  background-color: #87A37D;
+}
+.color-RAL-6022{
+  background-color: #3D382C;
+}
+.color-RAL-6024{
+  background-color: #048356;
+}
+//------------------------------------------------------------------------------------
+
+.color-RAL-6025{
+  background-color: #055C4B;
+}
+.color-RAL-6026{
+  background-color:  #025B55;
+}
+.color-RAL-6027{
+  background-color: #7EB7BC;
+}
+.color-RAL-6028{
+  background-color:  #32544D;
+}
+.color-RAL-6029{
+  background-color: #017246;
+}
+.color-RAL-6032{
+  background-color: #088359;
+}
+.color-RAL-6033{
+  background-color: #418884;
+}
+.color-RAL-6034{
+  background-color: #74AFAB;
+}
+
+
+.color-RAL-7000{
+  background-color: #7A8791;
+}
+.color-RAL-7001{
+  background-color: #8B979F;
+}
+.color-RAL-7002{
+  background-color: #837D64;
+}
+.color-RAL-7003{
+  background-color: #77796C;
+}
+.color-RAL-7004{
+  background-color: #9A9A9B;
+}
+.color-RAL-7005{
+  background-color: #6D7170;
+}
+.color-RAL-7006{
+  background-color:  #766A5C;
+}
+.color-RAL-7008{
+  background-color:#756543;
+}
+
+.color-RAL-7009{
+  background-color: #555B4F;
+}
+.color-RAL-7010{
+  background-color: #575958;
+}
+.color-RAL-7011{
+  background-color: #525864;
+}
+.color-RAL-7012{
+  background-color: #50535B;
+}
+.color-RAL-7013{
+  background-color:  #565543;
+}
+.color-RAL-7015{
+  background-color: #4E5158;
+}
+.color-RAL-7016{
+  background-color: #363D43;
+}
+.color-RAL-7021{
+  background-color:  #303338;
+}
+
+
+
+.color-RAL-7022{
+  background-color: #474745 ;
+}
+.color-RAL-7023{
+  background-color: #7F8372;
+}
+.color-RAL-7024{
+  background-color: #494A51;
+}
+.color-RAL-7026{
+  background-color: #353E43;
+}
+.color-RAL-7030{
+  background-color: #919189;
+}
+.color-RAL-7031{
+  background-color: #5E6871;
+}
+.color-RAL-7032{
+  background-color: #B4B5A7;
+}
+.color-RAL-7033{
+  background-color: #7A8177;
+}
+
+
+.color-RAL-7034{
+  background-color: #948C77;
+}
+.color-RAL-7035{
+  background-color: #C4CACA;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-7036{
+  background-color: #949295;
+}
+.color-RAL-7037{
+  background-color: #7F8082;
+}
+.color-RAL-7038{
+  background-color: #B1B3B2;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-7039{
+  background-color: #6F6A64;
+}
+.color-RAL-7040{
+  background-color: #9C9FA6;
+}
+.color-RAL-7042{
+  background-color: #93979B;
+}
+
+
+
+.color-RAL-7043{
+  background-color: #505455;
+}
+.color-RAL-7044{
+  background-color: #BBB8B1;
+  span{
+    color: #000;
+  }
+}
+.color-RAL-8000{
+  background-color: #8C6D45;
+}
+.color-RAL-8001{
+  background-color: #A26630;
+}
+.color-RAL-8002{
+  background-color: #764D3C;
+}
+.color-RAL-8003{
+  background-color: #7C5627;
+}
+.color-RAL-8004{
+  background-color: #914F3F;
+}
+.color-RAL-8007{
+  background-color: #6C412D;
+}
+
+
+.color-RAL-8008{
+  background-color: #754D2A;
+}
+.color-RAL-8011{
+  background-color: #583B2D;
+}
+.color-RAL-8012{
+  background-color: #65312B;
+}
+.color-RAL-8014{
+  background-color: #4A3728;
+}
+.color-RAL-8015{
+  background-color: #542F2E;
+}
+.color-RAL-8016{
+  background-color: #55352A;
+}
+.color-RAL-8017{
+  background-color: #462E2A;
+}
+.color-RAL-8019{
+  background-color: #3B3331;
+}
+//----------------------------------------------------------------------------------------------
+
+.color-RAL-8022{
+  background-color: #1C1B19;
+}
+.color-RAL-8023{
+  background-color: #A85B31;
+}
+.color-RAL-8024{
+  background-color: #80514C;
+}
+.color-RAL-8025{
+  background-color: #765E4D;
+}
+
+
+
+.color-RAL-8028{
+  background-color: #503B28;
+}
+.color-RAL-9000{
+  background-color: #F7F6F2 ;
+  span{
+    color: #000000;
+  }
+}
+.color-RAL-9001{
+  background-color: #F0E9D9;
+  span{
+    color: #000000;
+  }
+}
+.color-RAL-9002{
+  background-color: #DADBD6;
+  span{
+    color: #000000;
+  }
+}
+
+.color-RAL-9003{
+  background-color: #F9F9F9;
+  span{
+    color: #000000;
+  }
+}
+.color-RAL-9004{
+  background-color: #252527;
+}
+.color-RAL-9005{
+  background-color: #151618;
+}
+.color-RAL-9010{
+  background-color: #F3F3EB;
+  span{
+    color: #000000;
+  }
+}
+
+.color-RAL-9011{
+  background-color: #212028;
+}
+.color-RAL-9016{
+  background-color: #F5F6F8;
+  span{
+    color: #000000;
+  }
+}
+.color-RAL-9017{
+  background-color: #1C1A1D;
+}
+.color-RAL-9018{
+  background-color: #CAD3D0;
+  span{
+    color: #000000;
+  }
+}

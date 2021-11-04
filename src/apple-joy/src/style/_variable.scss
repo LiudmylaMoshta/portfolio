@@ -1,0 +1,71 @@
+$images-path: './../images/';
+$icons-path: $images-path + 'icons/';
+
+// colors
+$light: #FFFFFF;
+$black: #000;
+$red: #FF0000;
+$success: #68BF5F;
+$input-bg: #F5F5F5;
+$dark: #606060;
+$calculator-bg: #F4F9FC;
+$purple: #393177;
+//$gray-600: #868B91;
+
+// icon
+$default-icon-options: (
+        width: 2.15rem,
+        height: 2.15rem,
+        format: 'svg',
+        //margin-top: 0,
+        //margin-right: 0,
+        //margin-bottom: 0,
+        //margin-left: 0,
+        landscape: false,
+) !default;
+
+$grid-breakpoints: (
+        xxxs: 0,
+        xxs: 320px,
+        //xs: 568px,
+        xs: 414px,
+        sm: 667px,
+        md: 768px,
+        lg: 992px,
+        xl: 1300px,
+        xxl: 1440px,
+        xxxl: 1920px,
+);
+$container-max-widths: (
+        xxxs: 0,
+        xxs: 320px,
+        //xs: 568px,
+        xs: 414px,
+        sm: 420px,
+        md: 720px,
+        lg: 890px,
+        xl: 1140px,
+        //xxl: 1140px,
+);
+
+$content-full-with-list: xxs, xs, sm, md;
+
+// font
+$default-font-size: 15px;
+$default-line-height: 25px;
+$default-font-family: 'Rubik';
+
+// shadow
+$box-shadow-color: rgba(0, 0, 0, 0.1);
+
+
+//.container{
+//  max-width: 290px;
+//  margin: 0 auto;
+//}
+
+//@media (min-width: 768px) {
+//  .container{
+//    max-width: 750px;
+//  }
+//}

@@ -1,0 +1,10 @@
+
+
+<!--<svg height="100" width="100">-->
+<!--    <circle cx="50" cy="50" r="40" stroke-width="3"  />-->
+<!--    <circle cx="25" cy="75" r="20" fill="#ff0000" />-->
+<!--</svg>-->
+
+<svg>
+<circle r="5mm" cx="5mm" cy="5mm" />
+</svg>

@@ -1,0 +1,937 @@
+<h3 class="title-section">Оконный Калькулятор</h3>
+<form class="form-calculator">
+    <ul class="form-category">
+       <li class="form-category-item d-none" data-category="category-window-label">
+           <input type="radio" id="category-window" name="category" checked="checked" class="category" data-default-type=1>
+           <label
+                   id="category-window-label"
+                   for="category-window"
+                   class="btn btn-category category-window-label"
+                   data-toggle="collapse"
+                   data-target=".category-window"
+                   aria-expanded="false"
+                   aria-controls="category-window"
+           >
+               <i class="icon icon-category-window"></i>
+               <span>Окна</span>
+               <i class="fa fa-chevron-down"></i>
+           </label>
+       </li>
+       <li class="form-category-item d-none"  data-category="category-balcony-label">
+           <input type="radio" id="category-balcony" name="category" class="category" data-default-type=4>
+           <label
+                   id="category-balcony-label"
+                   for="category-balcony"
+                   class="btn btn-category category-balcony-label collapsed"
+                   data-toggle="collapse"
+                   data-target=".category-balcony"
+                   aria-expanded="false"
+                   aria-controls="category-balcony"
+           >
+               <i class="icon icon-category-balcony"></i>
+               <span>Балкон и лоджия</span>
+               <i class="fa fa-chevron-down"></i>
+           </label>
+       </li>
+       <li class="form-category-item d-none"  data-category="category-french-balcony-label">
+           <input type="radio" id="category-french-balcony" name="category" class="category" data-default-type=7>
+           <label
+                   id="category-french-balcony-label"
+                   for="category-french-balcony"
+                   class="btn btn-category category-french-balcony-label collapsed"
+                   data-toggle="collapse"
+                   data-target=".category-french-balcony"
+                   aria-expanded="false"
+                   aria-controls="category-french-balcony"
+           >
+               <i class="icon icon-category-french-balcony"></i>
+               <span>Французкий балкон</span>
+               <i class="fa fa-chevron-down"></i>
+           </label>
+       </li>
+       <li class="form-category-item d-none"  data-category="category-exit-label">
+           <input type="radio" id="category-exit-balcony" name="category" class="category" data-default-type=10>
+           <label
+                   id="category-exit-balcony-label"
+                   for="category-exit-balcony"
+                   class="btn btn-category category-exit-balcony-label collapsed"
+                   data-toggle="collapse"
+                   data-target=".category-exit-balcony"
+                   aria-expanded="false"
+                   aria-controls="category-exit-balcony"
+           >
+               <i class="icon icon-category-exit-balcony"></i>
+               <span>Выход на балкон</span>
+               <i class="fa fa-chevron-down"></i>
+           </label>
+       </li>
+    </ul>
+
+    <div class="row">
+        <div class="col-12 col-lg">
+            <div id="preview" class="furniture-type-1"></div>
+        </div>
+        <div class="col-12 col-lg" id="product-accordion">
+            <h5 class="text-center text-lg-left">Тип окна:</h5>
+            <ul class="tab-type-row">
+                <li class="form-product-type-item collapse category-window show" aria-labelledby="category-window-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-1" name="product-type" class="product-type" value="1" checked="checked">
+                    <label
+                            id="product-type-label-1"
+                            for="product-type-1"
+                            class="product-type-label img-scheme img-scheme-1"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-window-1"
+                            aria-expanded="true"
+                            aria-controls="furniture-category-window-1"
+                    >
+                        <span class="tab-type">1 - створчатое окно</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-window show" aria-labelledby="category-window-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-2" name="product-type" class="product-type" value="2">
+                    <label
+                            id="product-type-label-2"
+                            for="product-type-2"
+                            class="product-type-label collapsed img-scheme img-scheme-2"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-window-2"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-window-2"
+                    >
+                        <span class="tab-type ">2 - створчатое окно</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-window show" aria-labelledby="category-window-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-3" name="product-type" class="product-type" value="3">
+                    <label
+                            id="product-type-label-3"
+                            for="product-type-3"
+                            class="product-type-label collapsed img-scheme-3 img-scheme"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-window-3"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-window-3"
+                    >
+                        <span class="tab-type">3 - створчатое окно</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-balcony" aria-labelledby="category-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-4" name="product-type" class="product-type" value="4">
+                    <label
+                            id="product-type-label-4"
+                            for="product-type-4"
+                            class="product-type-label img-scheme loggia"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-balcony-1"
+                            aria-expanded="true"
+                            aria-controls="furniture-category-balcony-1"
+                    >
+                        <span class="tab-type ">лоджия</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-balcony" aria-labelledby="category-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-5" name="product-type" class="product-type" value="5">
+                    <label
+                            id="product-type-label-5"
+                            for="product-type-5"
+                            class="product-type-label collapsed img-scheme loggia-2"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-balcony-2"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-balcony-2"
+                    >
+                        <span  class="tab-type">Г-образный</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-balcony" aria-labelledby="category-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-6" name="product-type" class="product-type" value="6">
+                    <label
+                            id="product-type-label-6"
+                            for="product-type-6"
+                            class="product-type-label collapsed img-scheme loggia-3"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-balcony-3"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-balcony-3"
+                    >
+                        <span  class="tab-type">П-образный</span>
+                    </label>
+                </li>
+
+                <li class="form-product-type-item collapse category-french-balcony" aria-labelledby="category-french-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-7" name="product-type" class="product-type" value="7">
+                    <label
+                            id="product-type-label-7"
+                            for="product-type-7"
+                            class="product-type-label img-scheme loggiaFranc-1"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-french-balcony-1"
+                            aria-expanded="true"
+                            aria-controls="furniture-category-french-balcony-1"
+                    >
+                        <span class="tab-type">Французское остекление лоджии</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-french-balcony" aria-labelledby="category-french-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-8" name="product-type" class="product-type" value="8">
+                    <label
+                            id="product-type-label-8"
+                            for="product-type-8"
+                            class="product-type-label collapsed img-scheme loggiaFranc-2"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-french-balcony-2"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-french-balcony-2"
+                    >
+                        <span class="tab-type">Г-образный французский балкон</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-french-balcony" aria-labelledby="category-french-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-9" name="product-type" class="product-type" value="9">
+                    <label
+                            id="product-type-label-9"
+                            for="product-type-9"
+                            class="product-type-label collapsed img-scheme loggiaFranc-3"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-french-balcony-3"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-french-balcony-3"
+                    >
+                        <span  class="tab-type">П-образный французский балкон</span>
+                    </label>
+                </li>
+
+                <li class="form-product-type-item collapse category-exit-balcony" aria-labelledby="category-exit-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-10" name="product-type" class="product-type" value="10">
+                    <label
+                            id="product-type-label-10"
+                            for="product-type-10"
+                            class="product-type-label img-scheme door-1"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-exit-balcony-1"
+                            aria-expanded="true"
+                            aria-controls="furniture-category-exit-balcony-1"
+                    >
+                        <span  class="tab-type">Балконный блок с 1 окном</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-exit-balcony" aria-labelledby="category-exit-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-11" name="product-type" class="product-type" value="11">
+                    <label
+                            id="product-type-label-11"
+                            for="product-type-11"
+                            class="product-type-label collapsed img-scheme door-2"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-exit-balcony-2"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-exit-balcony-2"
+                    >
+                        <span  class="tab-type">Балконный блок с 2 окном</span>
+                    </label>
+                </li>
+                <li class="form-product-type-item collapse category-exit-balcony" aria-labelledby="category-exit-balcony-label" data-parent="#product-accordion">
+                    <input type="radio" id="product-type-12" name="product-type" class="product-type" value="12">
+                    <label
+                            id="product-type-label-12"
+                            for="product-type-12"
+                            class="product-type-label collapsed img-scheme door-3"
+                            data-toggle="collapse"
+                            data-target="#furniture-category-exit-balcony-3"
+                            aria-expanded="false"
+                            aria-controls="furniture-category-exit-balcony-3"
+                    >
+                        <span  class="tab-type">Балконная дверь</span>
+                    </label>
+                </li>
+            </ul>
+
+            <h5 class="my-4 text-center text-lg-left">Тип открытия:</h5>
+            <ul class="form-furniture-type" id="furniture-type-accordion">
+                <li class="form-furniture-type-item collapse show category-window" aria-labelledby="category-window-label" data-parent="#product-accordion">
+                    <div id="furniture-category-window-1" class="collapse show" aria-labelledby="product-type-label-1" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-1" name="furniture-type" class="furniture-type" value="1" checked="checked">
+                                <label for="furniture-type-1" class="furniture-type-label img-scheme scheme-1-type-1">
+                                    <span  class="tab-type ">глухое окно</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-2" name="furniture-type" class="furniture-type" value="2">
+                                <label for="furniture-type-2" class="furniture-type-label img-scheme scheme-1-type-2">
+                                    <span  class="tab-type">окно с открыванием</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="furniture-category-window-2" class="collapse" aria-labelledby="product-type-label-2" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-3" name="furniture-type" class="furniture-type" value="3">
+                                <label for="furniture-type-3" class="furniture-type-label  img-scheme scheme-2-type-1">
+                                    <span  class="tab-type">окно с одним открыванием</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <input type="radio" id="furniture-type-4" name="furniture-type" class="furniture-type" value="4">
+                                <label for="furniture-type-4" class="furniture-type-label img-scheme scheme-2-type-2">
+                                    <span  class="tab-type">окно с двумя открываниями</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="furniture-category-window-3" class="collapse" aria-labelledby="product-type-label-3" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-5" name="furniture-type" class="furniture-type" value="5">
+                                <label for="furniture-type-5" class="furniture-type-label img-scheme scheme-3-type-1">
+                                    <span  class="tab-type">окно с одним открыванием</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-6" name="furniture-type" class="furniture-type" value="6">
+                                <label for="furniture-type-6" class="furniture-type-label img-scheme scheme-3-type-2">
+                                    <span  class="tab-type">окно с двумя открываниями</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-7" name="furniture-type" class="furniture-type" value="7">
+                                <label for="furniture-type-7" class="furniture-type-label img-scheme scheme-3-type-3">
+                                    <span  class="tab-type">окно с тремя открываниями</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </li>
+                <li class="form-furniture-type-item collapse category-balcony" aria-labelledby="category-balcony-label" data-parent="#product-accordion">
+                    <div id="furniture-category-balcony-1" class="collapse show" aria-labelledby="product-type-label-4" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-8" name="furniture-type" class="furniture-type" value="8">
+                                <label for="furniture-type-8" class="furniture-type-label img-scheme loggia-1-type-1">
+                                    <span  class="tab-type">лоджия</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="furniture-category-balcony-2" class="collapse" aria-labelledby="product-type-label-5" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-9" name="furniture-type" class="furniture-type" value="9">
+                                <label for="furniture-type-9" class="furniture-type-label img-scheme loggia-2-type-1">
+                                    <span  class="tab-type">балкон с глухой боковой створкой</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-10" name="furniture-type" class="furniture-type" value="10">
+                                <label for="furniture-type-10" class="furniture-type-label img-scheme loggia-2-type-2">
+                                    <span  class="tab-type">балкон с открывающейся боковой створкой</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="furniture-category-balcony-3" class="collapse" aria-labelledby="product-type-label-6" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-11" name="furniture-type" class="furniture-type" value="11">
+                                <label for="furniture-type-11" class="furniture-type-label img-scheme loggia-3-type-1">
+                                    <span  class="tab-type">Балкон с двумя глухими боковыми створками</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-12" name="furniture-type" class="furniture-type" value="12">
+                                <label for="furniture-type-12" class="furniture-type-label img-scheme loggia-3-type-2">
+                                    <span  class="tab-type">Балкон с одной открывающейся боковой створкой</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-13" name="furniture-type" class="furniture-type" value="13">
+                                <label for="furniture-type-13" class="furniture-type-label img-scheme loggia-3-type-3">
+                                    <span  class="tab-type">Балкон с двумя открывающимися боковыми створками</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="form-furniture-type-item collapse category-french-balcony" aria-labelledby="category-french-balcony-label" data-parent="#product-accordion">
+                    <div id="furniture-category-french-balcony-1" class="collapse show" aria-labelledby="product-type-label-7" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-14" name="furniture-type" class="furniture-type" value="14">
+                                <label for="furniture-type-14" class="furniture-type-label img-scheme loggiaFranc-1-type-1">
+                                    <span  class="tab-type">Французское остекление лоджии</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="furniture-category-french-balcony-2" class="collapse" aria-labelledby="product-type-label-8" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-15" name="furniture-type" class="furniture-type" value="15">
+                                <label for="furniture-type-15" class="furniture-type-label img-scheme loggiaFranc-2-type-1">
+                                    <span  class="tab-type">Балкон с глухой боковой створкой</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-16" name="furniture-type" class="furniture-type" value="16">
+                                <label for="furniture-type-16" class="furniture-type-label img-scheme loggiaFranc-2-type-2">
+                                    <span  class="tab-type">Балкон с открывающейся боковой створкой</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div  id="furniture-category-french-balcony-3" class="collapse" aria-labelledby="product-type-label-9" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-17" name="furniture-type" class="furniture-type" value="17">
+                                <label for="furniture-type-17" class="furniture-type-label img-scheme loggiaFranc-3-type-1">
+                                    <span  class="tab-type">Балкон с двумя глухими боковыми створками</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-18" name="furniture-type" class="furniture-type" value="18">
+                                <label for="furniture-type-18" class="furniture-type-label img-scheme loggiaFranc-3-type-2">
+                                    <span class="tab-type">Балкон с одной открывающейся боковой створкой</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="furniture-type-19" name="furniture-type" class="furniture-type" value="19">
+                                <label for="furniture-type-19" class="furniture-type-label img-scheme loggiaFranc-3-type-3">
+                                    <span class="tab-type">Балкон с двумя открывающимися боковыми створками</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="form-furniture-type-item collapse category-exit-balcony" aria-labelledby="category-exit-balcony" data-parent="#product-accordion">
+                    <div id="furniture-category-exit-balcony-1" class="collapse show" aria-labelledby="product-type-label-10" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-20" name="furniture-type" class="furniture-type" value="20">
+                                <label for="furniture-type-20" class="furniture-type-label img-scheme door-1-type-1">
+                                    <span class="tab-type">Балконный блок с глухим окном</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="furniture-category-exit-balcony-2" class="collapse" aria-labelledby="product-type-label-11" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-21" name="furniture-type" class="furniture-type" value="21">
+                                <label for="furniture-type-21" class="furniture-type-label img-scheme door-2-type-1">
+                                    <span class="tab-type">Балконный блок с двумя окнами</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="furniture-category-exit-balcony-3" class="collapse" aria-labelledby="product-type-label-12" data-parent="#furniture-type-accordion">
+                        <ul class="flex-wrapper">
+                            <li>
+                                <input type="radio" id="furniture-type-22" name="furniture-type" class="furniture-type" value="22">
+                                <label for="furniture-type-22" class="furniture-type-label img-scheme door-3-type-1">
+                                    <span class="tab-type">Балконная дверь</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="row ml-lg-3">
+                <div class="col-12 col-lg-6">
+                    <div class="form-group">
+                        <label class="input-label" for="width">Ширина мм:</label>
+                        <input type="text" class="form-control" id="width" aria-describedby="widthHelp" placeholder="600">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="form-group">
+                        <label class="input-label" for="height">Высота мм:</label>
+                        <input type="text" class="form-control" id="height" aria-describedby="heightHelp" placeholder="600">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Profile -->
+    <div class="row block-type-profile">
+        <div class="col-12">
+            <h6
+                    class="title-section-profile border-mob collapsed collapse-toggler"
+                    data-toggle="collapse"
+                    data-target=".profile-drop"
+                    aria-expanded="false"
+            ><span class="cursor-custom">Профиль</span></h6>
+        </div>
+    </div>
+
+    <div class="row profile-drop collapse">
+        <div class="col-12 d-lg-none">
+            <div class="select-wrapper">
+                <label class="d-lg-none input-label" for="brands">Бренд:</label>
+
+                <ul class="brands mobile-select" id="brands">
+                    <li class="form-check d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-1" value="1" checked="checked"/>
+                        <label class="form-check-label" for="brand-1">Aluplast</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-2" value="2" />
+                        <label class="form-check-label" for="brand-2">Salamander</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-3" value="3" />
+                        <label class="form-check-label" for="brand-3">Rehau</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-4" value="4" />
+                        <label class="form-check-label" for="brand-4">WDS</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-5" value="5" />
+                        <label class="form-check-label" for="brand-5">Veka</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-6" value="6" />
+                        <label class="form-check-label" for="brand-6">KBE</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-7" value="7" />
+                        <label class="form-check-label" for="brand-7">Viknaland</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-8" value="8" />
+                        <label class="form-check-label" for="brand-8">Windoff's</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" name="brand" id="brand-9" value="9" />
+                        <label class="form-check-label" for="brand-9">Open Teck</label>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-12">
+            <div class="select-wrapper">
+                <label class="d-lg-none input-label">Модель:</label>
+                <ul class="profile-brand mobile-select" id="models">
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block aluplast">
+                                <h6 class="title-section-profile">Aluplast</h6>
+                            </li>
+                            <li class="form-check d-lg-block aluplast">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-1" value="1" data-brand="1" checked="checked">
+                                <label class="form-check-label" for="brand-model-1">Aluplast Ideal 2000</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block aluplast">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-2" value="2" data-brand="1">
+                                <label class="form-check-label" for="brand-model-2">Aluplast Ideal 4000</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block aluplast">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-3" value="3" data-brand="1">
+                                <label class="form-check-label" for="brand-model-3">Aluplast Ideal 8000</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block aluplast">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-4" value="4" data-brand="1">
+                                <label class="form-check-label" for="brand-model-4">Aluplast Energetto 4000</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block aluplast">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-5" value="5" data-brand="1">
+                                <label class="form-check-label" for="brand-model-5">Aluplast Energetto 8000</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block salamander">
+                                <h6 class="title-section-profile">Salamander</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-block salamander">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-6" value="6" data-brand="2">
+                                <label class="form-check-label" for="brand-model-6">Salamander 2D</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block salamander">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-7" value="7" data-brand="2">
+                                <label class="form-check-label" for="brand-model-7">Salamander Streamline</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block salamander">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-8" value="8" data-brand="2">
+                                <label class="form-check-label" for="brand-model-8">Salamander BluEvolution</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block rehau">
+                                <h6 class="title-section-profile">Rehau</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-block rehau">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-9" value="9" data-brand="3">
+                                <label class="form-check-label" for="brand-model-9">Rehau Euro-Design 60</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block rehau">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-10" value="10" data-brand="3">
+                                <label class="form-check-label" for="brand-model-10">Rehau Euro-Design 70</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block rehau">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-11" value="11" data-brand="3">
+                                <label class="form-check-label" for="brand-model-11">Rehau Synego</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block rehau">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-12" value="12" data-brand="3">
+                                <label class="form-check-label" for="brand-model-12">Rehau Streamline</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block wds">
+                                <h6 class="title-section-profile">WDS</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-block wds">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-13" value="13" data-brand="4">
+                                <label class="form-check-label" for="brand-model-13">WDS 400</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block wds">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-14" value="14" data-brand="4">
+                                <label class="form-check-label" for="brand-model-14">WDS 5S</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block wds">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-15" value="15" data-brand="4">
+                                <label class="form-check-label" for="brand-model-15">WDS 6S</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block wds">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-16" value="16" data-brand="4">
+                                <label class="form-check-label" for="brand-model-16"><span class="d-inline-block">WDS 7S</span></label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block veka">
+                                <h6 class="title-section-profile">Veka</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-block veka">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-17" value="17" data-brand="5">
+                                <label class="form-check-label" for="brand-model-17">Veka Proline</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block veka">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-18" value="18" data-brand="5">
+                                <label class="form-check-label" for="brand-model-18">Veka Softline</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block veka">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-19" value="19" data-brand="5">
+                                <label class="form-check-label" for="brand-model-19">Veka Softline 70</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block veka">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-20" value="20" data-brand="5">
+                                <label class="form-check-label" for="brand-model-20">Veka Softline 82</label>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block kbe">
+                                <h6 class="title-section-profile">KBE</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-block kbe">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-21" value="21" data-brand="6">
+                                <label class="form-check-label" for="brand-model-21">KBE 58</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block kbe">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-22" value="22" data-brand="6">
+                                <label class="form-check-label" for="brand-model-22">KBE 76AD</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block kbe">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-23" value="23" data-brand="6">
+                                <label class="form-check-label" for="brand-model-23">KBE 76ST plus</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block viknaland">
+                                <h6 class="title-section-profile">Viknaland</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-blockviknaland">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-24" value="24" data-brand="7">
+                                <label class="form-check-label" for="brand-model-24">Viknaland</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block viknaland">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-25" value="25" data-brand="7">
+                                <label class="form-check-label" for="brand-model-25">Viknaland B58</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block viknaland">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-26" value="26" data-brand="7">
+                                <label class="form-check-label" for="brand-model-26">Viknaland B70</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block viknaland">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-27" value="27" data-brand="7">
+                                <label class="form-check-label" for="brand-model-27">Viknaland B85Pro</label>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block windoffs">
+                                <h6 class="title-section-profile">Windoff's</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-block windoffs">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-28" value="28" data-brand="8">
+                                <label class="form-check-label" for="brand-model-28">Windoff's 3 камерный</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block windoffs">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-29" value="29" data-brand="8">
+                                <label class="form-check-label" for="brand-model-29">Windoff's 5 камерный</label>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <ul>
+                            <li class="d-none d-lg-block openteck">
+                                <h6 class="title-section-profile">Open Teck</h6>
+                            </li>
+                            <li class="form-check d-none d-lg-block openteck">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-30" value="30" data-brand="9">
+                                <label class="form-check-label" for="brand-model-30">Open Teck Teck De-lux 60</label>
+                            </li>
+                            <li class="form-check d-none d-lg-block openteck">
+                                <input type="radio" class="form-check-input" name="brand-model" id="brand-model-31" value="31" data-brand="9">
+                                <label class="form-check-label" for="brand-model-31">Open Teck Tesk Elite 70</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- furniture -->
+
+    <div class="row  profile-drop collapse">
+        <div class="col-12 col-lg-6">
+            <div class="select-wrapper">
+                <label class="input-label" for="chambers">Стеклопакет:</label>
+                <ul class="mobile-select" id="chambers">
+                    <li class="form-check d-lg-block">
+                        <input type="radio" class="form-check-input" id="chamber-1" name="chamber" value=1 checked="checked">
+                        <label class="form-check-label" for="chamber-1">1 камерный</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" id="chamber-3" name="chamber" value=3>
+                        <label class="form-check-label" for="chamber-3">2 камерный</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" id="chamber-2" name="chamber" value=2>
+                        <label class="form-check-label" for="chamber-2"><span>1 камерный энергосберегающий</span></label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" id="chamber-4" name="chamber" value=4>
+                        <label class="form-check-label" for="chamber-4">2 камерный энергосберегающий</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="select-wrapper">
+                <label class="input-label" for="furniture-brands">Фурнитура:</label>
+                <ul class="mobile-select" id="furniture-brands">
+                    <li class="form-check d-lg-block">
+                        <input type="radio" class="form-check-input" id="furniture-brand-1" name="furniture-brand" value=1 checked>
+                        <label class="form-check-label" for="furniture-brand-1">Axor</label>
+                    </li>
+                    <li class="form-check d-none d-lg-block">
+                        <input type="radio" class="form-check-input" id="furniture-brand-2" name="furniture-brand" value=2>
+                        <label class="form-check-label" for="furniture-brand-2">Maco</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- additional equipment -->
+    <div class="row">
+        <div class="col">
+            <h6
+                    class="title-section-profile collapsed collapse-toggler"
+                    data-toggle="collapse"
+                    data-target=".additional-drop"
+                    aria-expanded="false"
+            ><span class="cursor-custom">Дополнительная комплектация</span></h6>
+        </div>
+    </div>
+
+    <div class="row collapse additional-drop">
+        <div class="col-12 col-lg-9">
+            <h6 class="title-section-sec">Комплектующие:</h6>
+            <ul id="equipments">
+                <li class="select-wrapper">
+                    <label class="input-label">Подоконник:</label>
+                    <ul class="mobile-select" id="windowsills">
+                        <li class="form-check d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-1" name="windowsill" value=1 checked="checked">
+                            <label class="form-check-label" for="windowsill-1">Без подоконника</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-2" name="windowsill" value=2>
+                            <label class="form-check-label" for="windowsill-2">OpenTeck</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-3" name="windowsill" value=3>
+                            <label class="form-check-label" for="windowsill-3">Kraft</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-4" name="windowsill" value=4>
+                            <label class="form-check-label" for="windowsill-4">Danke</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-5" name="windowsill" value=5>
+                            <label class="form-check-label" for="windowsill-5">Plastolit</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-6" name="windowsill" value=6>
+                            <label class="form-check-label" for="windowsill-6">Werzalit</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-7" name="windowsill" value=7>
+                            <label class="form-check-label" for="windowsill-7">Crystalit</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-8" name="windowsill" value=8>
+                            <label class="form-check-label" for="windowsill-8">WDS</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="windowsill-9" name="windowsill" value=9>
+                            <label class="form-check-label" for="windowsill-9">Sauberg</label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="select-wrapper">
+                    <label class="input-label">Отлив:</label>
+                    <ul class="mobile-select" id="low-tides">
+                        <li class="form-check d-lg-block">
+                            <input type="radio" class="form-check-input" id="low-tide-1" name="low-tide" value=1 checked="checked">
+                            <label class="form-check-label" for="low-tide-1">Без отлива</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="low-tide-2" name="low-tide" value=2>
+                            <label class="form-check-label" for="low-tide-2">Оцинкованый белый</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="low-tide-3" name="low-tide" value=3>
+                            <label class="form-check-label" for="low-tide-3">Оцинкованый цветной</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="low-tide-4" name="low-tide" value=4>
+                            <label class="form-check-label" for="low-tide-4">Алюминиевый</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="low-tide-5" name="low-tide" value=5>
+                            <label class="form-check-label" for="low-tide-5">Пластиковый</label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="select-wrapper">
+                    <label class="input-label" for="nets">Москитная сетка:</label>
+                    <ul id="nets" class="mobile-select">
+                        <li class="form-check d-lg-block">
+                            <input type="radio" class="form-check-input" id="net-1" name="net" value=1 checked>
+                            <label class="form-check-label" for="net-1">Без москитной сетки</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="net-2" name="net" value=2>
+                            <label class="form-check-label" for="net-2">Москитная сетка</label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 col-lg-3">
+            <h6 class="title-section-sec">Услуги:</h6>
+            <ul id="services">
+                <li class="select-wrapper">
+                    <label class="input-label" for="develops">Монтаж</label>
+                    <ul id="develops" class="mobile-select">
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="develop-2" name="develop" value=2 checked="checked">
+                            <label class="form-check-label" for="develop-2">Без установки </label>
+                        </li>
+                        <li class="form-check d-lg-block">
+                            <input type="radio" class="form-check-input" id="develop-1" name="develop" value=1>
+                            <label class="form-check-label" for="develop-1">С установкой</label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="select-wrapper">
+                    <label class="input-label" for="slopes">Откосы</label>
+                    <ul class="mobile-select" id="slopes">
+                        <li class="form-check d-lg-block">
+                            <input type="radio" class="form-check-input" id="slope-1" name="slope" value=1 checked="checked">
+                            <label class="form-check-label" for="slope-1">Без откосов</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="slope-2" name="slope" value=2>
+                            <label class="form-check-label" for="slope-2">Гипсокартонные</label>
+                        </li>
+                        <li class="form-check d-none d-lg-block">
+                            <input type="radio" class="form-check-input" id="slope-3" name="slope" value=3>
+                            <label class="form-check-label" for="slope-3">Пластиковые</label>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-section-form">
+        <div class="row block-bottom-section-form">
+            <div class="col-lg-4">
+                <button class="btn-calculate-section-bottom">Рассчитать стоимость</button>
+                <div class="block-sum-calculate"><div><span class="price">Цена:</span><span>от*</span></div><div><span class="sum-calculate">100 000 <span class="currency">грн</span></span></div></div>
+                <p>Цена является ориентировочной. Окончательную стоимость уточнять у менеджера.</p>
+            </div>
+            <div class="col-lg-8 ">
+                <div class=" block-right border-left-form">
+                    <div class="form-group">
+                        <label for="exampleInputName"><input type="text" class="form-control" id="exampleInputName" placeholder="Ваше имя*"></label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPhone"><input type="text" class="form-control" id="exampleInputPhone" placeholder="Телефон*"></label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail"><input type="email" class="form-control" id="exampleInputEmail" placeholder="Е-mail"></label>
+                    </div>
+                    <div class="form-group">
+                        <button class="send-request">Отправить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

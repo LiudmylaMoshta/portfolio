@@ -1,0 +1,197 @@
+.bg-welcome-page-sales{
+  background-image: url("../images/bg-welcome-page-sales.jpg");
+  background-position-y: -30px;
+  background-position-x: right;
+  background-size: cover;
+  align-items: flex-end;
+  min-height: 300px;
+  &:before {
+    background: linear-gradient(rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0.9) 62%, white 95%, rgba(255, 255, 255, 0.65) 75%, rgba(255, 255, 255, 0) 100%);
+  }
+  .text-welcome {
+    margin-bottom: 15px;
+  }
+}
+.section-other-section.sales{
+  padding: 20px 0 0;
+  .list-item-catalog{
+    margin-bottom: 0;
+  }
+  .item-catalog .footer-item-catalog .price{
+    font-size: 11px;
+    font-weight: 500;
+  }
+}
+.block-section-sales{
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center ;
+  .title-block{
+    color: #081A44;
+    font-weight: 900;
+  }
+  .info-sales{
+    p{
+      font-weight: 400;
+    }
+  }
+}
+.block-img-sales{
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+  &:before{
+    content: "";
+    background-image: url("../images/windows-sales.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    display: block;
+    min-width: 200px;
+    min-height: 167px;
+    max-width: 80%;
+    //margin: 0 auto;
+  }
+  &:after{
+    content: "";
+    background-image: url("../images/windows-sales-men.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    display: block;
+    min-width: 149px;
+    min-height: 148px;
+    max-width: 80%;
+    margin: 0;
+    bottom: 0;
+    right: -25px;
+  }
+}
+@media (min-width: 768px){
+  .bg-welcome-page-sales{
+    align-items: center;
+    background-position-y: 0;
+    &:before {
+      content: "";
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.81) 55%, rgba(255, 255, 255, 0.39) 65%, rgba(255, 255, 255, 0) 100%);
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      max-width: 85%;
+      width: 85%;
+      height: 100%;
+    }
+  }
+  .section-other-section.sales {
+    padding: 30px 0;
+    .list-item-catalog{
+      margin-bottom: 0;
+      .item-catalog{
+        margin-bottom: 0;
+      }
+    }
+  }
+  .block-section-sales{
+    flex-direction: row;
+    .info-sales{
+      text-align: left;
+      margin-left: 20px;
+    }
+
+  }
+}
+
+@media (min-width: 992px){
+  .page-sales{
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .section-other-section.sales{
+    padding: 50px 0 40px;
+    .item-catalog .footer-item-catalog .price{
+      font-size: 17px;
+      line-height: 22px;
+      height: 50px;
+      margin-top: -25px;
+      &.price-1{
+        height: 40px;
+        margin-top: -20px;
+      }
+    }
+  }
+  .list-item-catalog.colum-4 .item-catalog .block-img {
+    height: 195px;
+  }
+  .block-section-sales .info-sales {
+    margin-left: auto;
+    width: 40%;
+    .title-block{
+      font-size: 25px;
+      line-height: 32px;
+    }
+  }
+  .block-img-sales{
+    margin: 0;
+    max-width: 50%;
+    &:before {
+      min-width: 376px;
+      min-height: 300px;
+      max-width: 80%;
+    }
+    &:after {
+      min-width: 266px;
+      min-height: 256px;
+      right: -130px;
+    }
+  }
+}
+
+@media (min-width: 1300px){
+  .bg-welcome-page-sales {
+    background-position-y: center;
+    min-height: 435px;
+    background-position-x: 50px;
+    &:before{
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.81) 45%, rgba(255, 255, 255, 0.19) 48%, rgba(255, 255, 255, 0) 100%);
+    }
+  }
+  .page-sales{
+    font-size: 21px;
+    line-height: 29px;
+    section{
+      padding: 25px 0 ;
+    }
+    .section-sales{
+      padding: 5px 0 0;
+    }
+  }
+  .list-item-catalog.colum-4 .item-catalog .block-img {
+    height: 250px;
+  }
+  .section-other-section .item-catalog .block-img img {
+    height: 200px;
+    margin: 15px auto;
+  }
+  .block-section-sales .info-sales{
+    margin-left: auto;
+    width: 42%;
+    padding-top: 40px;
+    .title-block {
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .block-img-sales{
+    &:after {
+      min-width: 310px;
+      min-height: 290px;
+      right: -150px;
+    }
+    &:before {
+      min-width: 450px;
+      min-height: 360px;
+      max-width: 80%;
+    }
+  }
+}

@@ -1,0 +1,696 @@
+.item-price-custom{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  border: 1px solid #2792DE;
+  font-weight: 400;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  .sum{
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0 2px;
+  }
+}
+
+.page-aluminum-product{
+  font-size: 11px;
+  line-height: 17px;
+  section{
+    padding: 25px 0;
+  }
+  .section-welcome-page::before {
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1%, white 40%, rgba(255, 255, 255, 0.7) 75%, rgba(255, 255, 255, 0) 100%);
+  }
+  .section-top-page{
+    padding-top: 25px;
+    .block-img-flout{
+      .block-img{
+        width: 227px;
+        height: auto;
+        margin: 10px auto;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        .img-door-top{
+          width: 80%;
+          margin-left: auto;
+          display: block;
+        }
+      }
+    }
+    .list-type-standart-lux{
+      .item{
+        width: 220px;
+        margin: 0 auto;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        margin-bottom: 30px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+        .item-header{
+          background-color: #2792DE;
+          color: #fff;
+          //text-transform: uppercase;
+          height: 34px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          font-weight: 700;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        .img-block{
+          width: 100%;
+          height: 160px;
+          overflow: hidden;
+          img{
+            width: 60%;
+            height: auto;
+          }
+          .img-standart{
+            width: 50%;
+          }
+        }
+        .info{
+          font-weight: 400;
+          li{
+            padding: 2px 20px;
+            &:nth-child(even){
+              background-color: #F4F9FC;
+            }
+            .strong-text{
+
+            }
+          }
+        }
+        .btn-custom-project{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.list-type-standart-lux{
+  .item{
+    width: 100%;
+  }
+}
+
+.bg-aluminum-windows{
+  background-image: url($images-path +"alyuminievye-konstrukcii-header.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+.section-scheme-works .list-scheme-works.aluminum-windows{
+  background-image: url($images-path +"list-scheme-works-alum-windows.png");
+  background-size: 127px;
+  background-position-x: center;
+  background-position-y: 60px;
+  padding-top: 30px;
+  width: 290px;
+  li {
+    width: calc(50% - 5px);
+  }
+}
+.section-scheme-works .list-scheme-works-lg.aluminum-windows{
+  background-position-y: 200px;
+  li p{
+    min-height: 115px;
+  }
+}
+
+#color-list {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  li {
+    display: block;
+    margin: 2px;
+    //&:not(:first-child) {
+    //  margin-left: 5px;
+    //}
+    label{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.checkbox-color {
+  display: none;
+  &+.checkbox-color-label {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    &::before {
+      content: '';
+      display: block;
+      min-width: 50px;
+      min-height: 50px;
+    }
+  }
+
+  &:checked+.checkbox-color-label {
+    border-color: #2792DE;
+    box-shadow: 0 3px 6px #2792DE;
+    &::before {
+      background: url($icons-path + "checkmark.svg") no-repeat center center;
+      background-size: 33.3%;
+    }
+  }
+}
+.block-colors {
+  height: 300px;
+  overflow-y: auto;
+  background-color: #F4F9FC;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  .title-block{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+.section-color-selection{
+  .block-prev-color-selection{
+    .block-img{
+      width: 190px;
+      height: 165px;
+      margin: 0 auto;
+      img{
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .block-color-selection{
+    .list-colors{
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      flex-wrap: wrap;
+      .block-color{
+        width: 61px;
+        height: 22px;
+        margin: 2px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .title-block{
+          text-align: center;
+          font-size: 15px;
+        }
+        .title-color{
+          font-size: 9px;
+          font-weight: 400;
+          .title-name{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-type-alum-profile.section-profile-type{
+  .profile-type-item{
+    display: block;
+    margin-bottom: 0;
+    .profile-type-preferences{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 16px;
+    }
+  }
+  .list-type-alum{
+    .item-type-alum-profile{
+      margin-bottom: 20px;
+      .img-block {
+        height: 225px;
+        margin: 10px auto;
+        img{
+          width: 75%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+
+  }
+  .item-type-alum-profile{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    .header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 34px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      &.color-gradient-blue{
+        background-image: linear-gradient(to bottom, #2894E1 0%, #193C91 100%);
+      }
+      &.color-gradient-red{
+        background-image: linear-gradient(to bottom, #EB4E08 0%, #AA3907 100%);
+      }
+    }
+    .img-block{
+      width: 245px;
+      height: 275px;
+      overflow: hidden;
+      position: relative;
+      margin: 20px auto;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+.section-other-section.windows{
+  border-bottom: none;
+  .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+      width: calc(50% - 5px);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-bottom: 10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      .block-img{
+        width: 100%;
+        height: 110px;
+        overflow: hidden;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        position: relative;
+        img{
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+
+        }
+        .img-door{
+          width: 75%;
+          margin-left: auto;
+          padding: 5px 0;
+          display: block;
+          position: relative;
+        }
+      }
+      .block-title{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 1px solid #2792DE;
+        border-top: none;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        display: block;
+        color: #081A44;
+        font-size: 11px;
+        text-align: center;
+        font-weight: 400;
+        padding: 6px 35px;
+        line-height: 14px;
+      }
+    }
+  }
+}
+.section-post.section-post-windows{
+  border-bottom: 8px solid #2792de;
+}
+@media (min-width: 414px) {
+  .section-other-section.windows .list li .block-img {
+    height: 130px;
+  }
+}
+@media (min-width: 768px){
+  .page-aluminum-product{
+    .bg-aluminum-windows{
+      &:before {
+        content: "";
+        background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.41) 55%, rgba(255, 255, 255, 0.39) 65%, rgba(255, 255, 255, 0) 100%);
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-width: 85%;
+        width: 85%;
+        height: 100%;
+      }
+    }
+    font-size: 14px;
+    line-height: 21px;
+    .title-section{
+      padding-bottom: 15px;
+    }
+    .section-top-page{
+      .block-img-flout{
+        @include clearfix();
+        .block-img{
+          width: 357px;
+          float: left;
+          height: auto;
+          margin-right: 10px;
+          img{
+
+          }
+        }
+      }
+      .list-type-standart-lux{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 0;
+        .item{
+          width: calc(33% - 3px) ;
+          margin-bottom: 0;
+        }
+      }
+      .list-type-standart-lux .item .info li {
+        padding: 7px 14px;
+      }
+    }
+  }
+
+  .block-color-selection{
+    margin-top: 27px;
+    .list-colors .block-color{
+      width: calc(20% - 6px);
+      height: 50px;
+      margin: 3px;
+    }
+  }
+
+  .section-type-alum-profile.section-profile-type{
+    .list-type-alum {
+      display: flex;
+      justify-content: space-between;
+      .item-type-alum-profile{
+        width: calc(50% - 10px);
+        .img-block {
+          height: 225px;
+          img{
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  .checkbox-color + .checkbox-color-label::before {
+    content: '';
+    display: block;
+    min-width: 70px;
+    min-height: 70px;
+  }
+  .section-color-selection .block-prev-color-selection{
+    @include clearfix();
+    .block-img{
+      width: 290px;
+      height: auto;
+      margin: 0 auto;
+      float: left;
+      margin-right: 15px;
+    }
+  }
+  .section-type-alum-profile.section-profile-type{
+    .list-type-alum {
+      .item-type-alum-profile{
+        .img-block img {
+          width: 80%;
+        }
+      }
+    }
+    .profile-type-item .profile-type-preferences h6 {
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+  .section-other-section.windows .list li {
+    width: calc(25% - 5px);
+  }
+  .block-colors {
+    height: 130px;
+  }
+}
+
+
+@media (min-width: 992px){
+  .bg-aluminum-windows {
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: auto 125%;
+  }
+  .page-aluminum-product {
+    font-size: 15px;
+    line-height: 25px;
+    .title-section {
+      //padding-bottom: 15px;
+    }
+  }
+  .page-aluminum-product{
+    .section-top-page {
+      .list-type-standart-lux {
+        .item{
+          width: calc(33% - 23px);
+          margin: 0;
+          .item-header{
+            font-size: 17px;
+            height: 56px;
+          }
+          .img-block {
+            height: 185px;
+            .img-standart{
+              width: 50%;
+            }
+          }
+          .btn-custom-project {
+            min-width: 100%;
+            margin-top: 4px;
+          }
+        }
+      }
+    }
+  }
+  .section-color-selection .block-color-selection  .list-colors .block-color{
+    width: calc(16.63% - 8px);
+    height: 60px;
+    margin: 4px;
+    justify-content: flex-start;
+    .title-color{
+      font-size: 11px;
+      line-height: 13px;
+      text-align: left;
+      padding: 10px;
+      .title-name {
+        font-size: 11px;
+        display: block;
+        text-align: left;
+      }
+    }
+  }
+  #color-list {
+    justify-content: space-between;
+  }
+  .checkbox-color + .checkbox-color-label::before {
+    min-width: 89px;
+    min-height: 84px;
+  }
+  .section-type-alum-profile.section-profile-type{
+    .profile-type-item .profile-type-preferences{
+      padding: 16px 48px;
+    }
+    .list-type-alum  .item-type-alum-profile {
+      width: calc(50% - 30px);
+      .header{
+        font-size: 20px;
+        height: 67px;
+      }
+      .img-block{
+        width: 410px;
+        height: 310px;
+        img{
+          width: 65%;
+          height: auto;
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    }
+  }
+  .section-color-selection{
+    .block-color-selection{
+      .list-colors .block-color {
+        width: 134px;
+        height: 50px;
+        margin: 3px 2px;
+      }
+    }
+  }
+  .section-other-section.windows{
+    .title-section {
+      margin-bottom: 25px;
+    }
+    .list li {
+      max-width: 250px;
+      .block-img{
+        height: 170px;
+        img{
+          image-rendering: optimizeQuality;
+          image-rendering: -webkit-optimize-contrast;
+        }
+      }
+      .block-title{
+        font-size: 20px;
+        line-height: 23px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px){
+  .page-aluminum-product {
+    font-size: 18px;
+    line-height: 30px;
+    .title-section {
+      //padding-bottom: 15px;
+    }
+    section{
+      padding: 40px 0;
+    }
+    .block-portfolio {
+      margin: 0;
+    }
+  }
+  .checkbox-color {
+    & + .checkbox-color-label {
+      &::before {
+        min-width: 115px;
+        min-height: 101px;
+      }
+    }
+  }
+  .page-aluminum-product{
+    .section-top-page {
+      padding-top: 5px;
+      .block-img-flout {
+        .block-img {
+          width: 420px;
+          margin-right: 30px;
+        }
+      }
+      .list-type-standart-lux {
+        padding-top: 24px;
+        margin-bottom: 20px;
+        .item{
+          width: calc(33% - 45px);
+          margin: 0;
+          .item-header{
+            font-size: 20px;
+            height: 65px;
+          }
+          .img-block {
+            height: 230px;
+            .img-standart{
+              //width: 50%;
+            }
+          }
+          .btn-custom-project {
+            //min-width: 100%;
+          }
+          .info li {
+            padding: 5px 37px;
+            font-size: 15px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  .section-type-alum-profile.section-profile-type{
+    .title-section{
+      padding: 0 0 20px;
+    }
+    .profile-type-item .profile-type-preferences{
+      padding: 16px 48px;
+      h6 {
+        font-size: 18px;
+        font-weight: normal;
+      }
+      .list-type-alum  .item-type-alum-profile {
+        width: calc(50% - 30px);
+        .header{
+          font-size: 20px;
+          height: 67px;
+        }
+      }
+    }
+  }
+
+  .block-colors {
+    height: 284px;
+    margin-bottom: 35px;
+    padding: 20px 15px;
+    .title-block {
+      font-size: 19px;
+    }
+  }
+  .section-color-selection{
+    .block-prev-color-selection .block-img{
+      width: 315px;
+      margin-right: 15px;
+      img{
+        width: 95%;
+        height: auto;
+      }
+    }
+    .block-color-selection  .list-colors .block-color{
+      width: 173px;
+      height: 60px;
+      margin: 3px 2px;
+      justify-content: flex-start;
+      .title-color{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 15px;
+        font-weight: 400;
+        .title-name {
+          font-size: 13px;
+          line-height: 15px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .page-aluminum-product .section-preference .list-preference li {
+    width: 24%;
+  }
+  .section-other-section.windows .list li .block-img {
+    height: 195px;
+  }
+}
+
+//--------------------------------------------------------

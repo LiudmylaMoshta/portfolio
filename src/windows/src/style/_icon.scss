@@ -1,0 +1,1910 @@
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: transform .4s ease-in;
+  >:not(:first-child) {
+    display: block;
+    padding-left: 1rem;
+    flex: 1 1 auto;
+  }
+}
+.map{
+  image-rendering: pixelated;
+}
+.icon-logo {
+  justify-content: center;
+  min-height: 45px;
+  &::before {
+    @include icon('logo-12', map_merge($default-icon-options, (width: 128px, height: 38px)));
+  }
+}
+.icon-nova_poshta {
+  &::before {
+    content: '';
+    background-image: url("../images/icon/nova-poshta-new.svg");
+    background-size: cover;
+    display: block;
+    width: 35.5px;
+    height: 35px;
+  }
+}
+.icon-delivery {
+  &::before {
+    @include icon('delivery-new', map_merge($default-icon-options, (width: 33px, height: 29px)));
+  }
+}
+.icon-shipping {
+  &::before {
+    @include icon('shipping-new', map_merge($default-icon-options, (width: 33px, height: 31px)));
+  }
+}
+.icon-team::before {
+  content: '';
+  display: block;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  margin: 0 0 0 0;
+  @include icon('icon-team', map_merge($default-icon-options, (width: 44px, height: 44px)));
+  background-size: auto 100%;
+}
+.measure_tape {
+  &::before {
+    @include icon('measure_tape', map_merge($default-icon-options, (width: 26px, height: 24px)));
+  }
+}
+.icon-discount {
+  &::before {
+    @include icon('icon-discount', map_merge($default-icon-options, (width: 23px, height: 25px)));
+  }
+}
+.icon-gift {
+  &::before {
+    @include icon('icon-gift', map_merge($default-icon-options, (width: 20px, height: 21px)));
+  }
+}
+.icon-calculate {
+  &::before {
+    @include icon('icon-calculate', map_merge($default-icon-options, (width: 19px, height: 22px)));
+  }
+}
+.icon-header-call {
+  &::before {
+    @include icon('icon-header-call', map_merge($default-icon-options, (width: 22px, height: 22px)));
+  }
+}
+.icon-category-window {
+  &::before {
+    @include icon('category-window');
+  }
+}
+.icon-category-balcony {
+  &::before {
+    @include icon('category-balcony');
+  }
+}
+.icon-category-french-balcony {
+  &::before {
+    @include icon('category-french-balcony');
+  }
+}
+.icon-category-exit-balcony {
+  &::before {
+    @include icon('category-exit-balcony');
+  }
+}
+
+
+.icon-location {
+  &::before {
+    @include icon('maps-and-flags', map_merge($default-icon-options, (width: 9px, height: 12px)));
+  }
+}
+
+.icon-call {
+  &::before {
+    @include icon('icon-call', map_merge($default-icon-options, (width: 10px, height: 11px)));
+  }
+}
+.icon-email {
+  &::before {
+    @include icon('email', map_merge($default-icon-options, (width: 11px, height: 9px)));
+  }
+}
+.clock {
+  &::before {
+    @include icon('clock', map_merge($default-icon-options, (width: 11px, height: 11px)));
+  }
+}
+.viber {
+  &::before {
+    @include icon('viber', map_merge($default-icon-options, (width: 16px, height: 17px)));
+  }
+}
+.telegram{
+  &::before {
+    @include icon('telegram', map_merge($default-icon-options, (width: 18px, height: 16px)));
+  }
+}
+.skype{
+  &::before {
+    @include icon('skype', map_merge($default-icon-options, (width: 16px, height: 16px)));
+  }
+}
+.whatsapp{
+  &::before {
+    @include icon('whatsapp', map_merge($default-icon-options, (width: 17px, height: 17px)));
+  }
+}
+.facebook{
+  &::before {
+    @include icon('facebook', map_merge($default-icon-options, (width: 15px, height: 15px)));
+  }
+}
+.instagram{
+  &::before {
+    @include icon('instagram', map_merge($default-icon-options, (width: 15px, height: 15px)));
+  }
+}
+.google-plus{
+  &::before {
+    @include icon('google-plus', map_merge($default-icon-options, (width: 22px, height: 14px)));
+  }
+}
+
+.slick-prev:before {
+  content: "";
+  background-image: url("../images/icon/arrow-prev.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 8px;
+  height: 15px;
+  color: #5a9523;
+  display: block;
+}
+.slick-next:before {
+  content: "";
+  background-image: url("../images/icon/arrow-next.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 8px;
+  height: 15px;
+  color: #5a9523;
+  display: block;
+}
+
+.phone-toggle{
+  ::after{
+    border: none;
+    @include icon('arrow-down', map_merge($default-icon-options, (width: 14px, height: 7px)));
+    margin-left: 7px;
+  }
+  .phone-item{
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.icon-block {
+  background: url($images-path + 'square-bg.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 95px;
+  margin: 0 auto;
+}
+.icon-factory {
+  &::before {
+    @include icon('factory', map_merge($default-icon-options, (width: 51px, height: 51px)))
+  }
+}
+.icon-graphic {
+  &::before {
+    @include icon('graphic', map_merge($default-icon-options, (width: 48px, height: 50px)))
+  }
+}
+.icon-list {
+  &::before {
+    @include icon('list', map_merge($default-icon-options, (width: 40px, height: 43px)))
+  }
+}
+.icon-target {
+  &::before {
+    @include icon('target', map_merge($default-icon-options, (width: 40px, height: 40px)))
+  }
+}
+.icon-shield {
+  &::before {
+    @include icon('shield', map_merge($default-icon-options, (width: 43px, height: 46px)))
+  }
+}
+.icon-like {
+  &::before {
+    @include icon('like', map_merge($default-icon-options, (width: 40px, height: 34px)))
+  }
+}
+.icon-save-money {
+  &::before {
+    @include icon('save-money', map_merge($default-icon-options, (width: 48px, height: 53px)));
+  }
+}
+.icon-surface-1 {
+  &::before {
+    @include icon('surface-1', map_merge($default-icon-options, (width: 48px, height: 45px)));
+  }
+}
+.icon-gift-card {
+  &::before {
+    @include icon('gift-card', map_merge($default-icon-options, (width: 45px, height: 35px)));
+  }
+}
+.icon-rocket {
+  &::before {
+    @include icon('rocket', map_merge($default-icon-options, (width: 42px, height: 36px)))
+  }
+}
+.icon-rocket-write {
+  &::before {
+    @include icon('icon-rocket-write', map_merge($default-icon-options, (width: 46px, height: 40px)))
+  }
+}
+
+.icon-form-pre {
+  &::before {
+    @include icon('icon-form-pre', map_merge($default-icon-options, (width: 44px, height: 52px)))
+  }
+}
+.icon-painting {
+  &::before {
+    @include icon('icon-painting', map_merge($default-icon-options, (width: 39px, height: 39px)))
+  }
+}
+.icon-strength {
+  &::before {
+    @include icon('icon-strength', map_merge($default-icon-options, (width: 42px, height: 42px)))
+  }
+}
+.icon-plant {
+  &::before {
+    @include icon('icon-plant', map_merge($default-icon-options, (width: 40px, height: 38px)))
+  }
+}
+.icon-security {
+  &::before {
+    @include icon('icon-security', map_merge($default-icon-options, (width: 45px, height: 40px)))
+  }
+}
+.icon-feather {
+  &::before {
+    @include icon('icon-feather', map_merge($default-icon-options, (width: 44px, height: 44px)))
+  }
+}
+.icon-outline {
+  &::before {
+    @include icon('icon-outline', map_merge($default-icon-options, (width: 47px, height: 46px)))
+  }
+}
+.icon-pre-window {
+  &::before {
+    @include icon('icon-pre-window', map_merge($default-icon-options, (width: 45px, height: 52px)))
+  }
+}
+.decor-cycle {
+  &::before {
+    @include icon('decor-cycle', map_merge($default-icon-options, (width: 24px, height: 24px)))
+  }
+}
+@media (min-width: 992px){
+  .icon-form-pre {
+    &::before {
+      @include icon('icon-form-pre', map_merge($default-icon-options, (width: 53px, height: 62px)))
+    }
+  }
+  .icon-painting {
+    &::before {
+      @include icon('icon-painting', map_merge($default-icon-options, (width: 53px, height: 53px)))
+    }
+  }
+  .icon-strength {
+    &::before {
+      @include icon('icon-strength', map_merge($default-icon-options, (width: 52px, height: 52px)))
+    }
+  }
+  .icon-plant {
+    &::before {
+      @include icon('icon-plant', map_merge($default-icon-options, (width: 48px, height: 46px)))
+    }
+  }
+  .icon-security {
+    &::before {
+      @include icon('icon-security', map_merge($default-icon-options, (width: 59px, height: 53px)))
+    }
+  }
+  .icon-feather {
+    &::before {
+      @include icon('icon-feather', map_merge($default-icon-options, (width: 56px, height: 56px)))
+    }
+  }
+  .icon-outline {
+    &::before {
+      @include icon('icon-outline', map_merge($default-icon-options, (width: 57px, height: 55px)))
+    }
+  }
+  .icon-pre-window {
+    &::before {
+      @include icon('icon-pre-window', map_merge($default-icon-options, (width: 55px, height: 61px)))
+    }
+  }
+}
+
+
+
+
+.icon-payment-2 {
+  &::before {
+    @include icon('payment-2', map_merge($default-icon-options, (width: 43px, height: 40px)))
+  }
+}
+.icon-phone-table {
+  &::before {
+    @include icon('icon-phone-table', map_merge($default-icon-options, (width: 10px, height: 10px)));
+    text-align: center;
+    margin-right: 7px;
+  }
+}
+.icon-measuring-tape {
+  &::before {
+    @include icon('measuring-tape', map_merge($default-icon-options, (width: 25px, height: 16px)));
+    text-align: center;
+    margin-right: 7px;
+  }
+}
+
+.icon-mobile-phone {
+  &::before {
+    @include icon('mobile-phone', map_merge($default-icon-options, (width: 18px, height: 18px)));
+    text-align: center;
+    margin-right: 7px;
+  }
+}
+.icon-percentage-discount {
+  &::before {
+    @include icon('percentage-discount', map_merge($default-icon-options, (width: 13px, height: 13px)));
+    text-align: center;
+    margin-right: 7px;
+  }
+}
+.icon-back {
+  &::before {
+    @include icon('back', map_merge($default-icon-options, (width: 4px, height: 8px)));
+    margin-left: 7px;
+  }
+}
+.ukrgaz-pref {
+  &::before {
+    @include icon('ukrgaz-pref-1', map_merge($default-icon-options, (width: 160px, height: 29px)));
+  }
+}
+.privat-pref {
+  &::before {
+    @include icon('privat-pref-1', map_merge($default-icon-options, (width: 165px, height: 30px)));
+  }
+}
+.pref-exim {
+  &::before {
+    @include icon('pref-exim-1', map_merge($default-icon-options, (width: 68px, height: 41px)));
+  }
+}
+.pref-ochad {
+  &::before {
+    @include icon('pref-ochad-1', map_merge($default-icon-options, (width: 100px, height: 41px)));
+  }
+}
+.decor-li-pref{
+  padding-bottom: 10px ;
+  &::before {
+    @include icon('decor-li-pref', map_merge($default-icon-options, (width: 24px, height: 24px)));
+    margin-right: 7px;
+  }
+
+}
+.icon-guarantee{
+  &::before {
+    @include icon('guarantee', map_merge($default-icon-options, (width: 45px, height: 39px)));
+  }
+}
+.icon-standards{
+  &::before {
+    @include icon('icon-standards', map_merge($default-icon-options, (width: 45px, height: 43px)));
+  }
+}
+.icon-quality{
+  &::before {
+    @include icon('quality', map_merge($default-icon-options, (width: 42px, height: 39px)));
+  }
+}
+.icon-stars{
+  &::before {
+    @include icon('stars', map_merge($default-icon-options, (width: 50px, height: 41px)));
+  }
+}
+.icon-worker{
+  &::before {
+    @include icon('worker', map_merge($default-icon-options, (width: 33px, height: 41px)));
+  }
+}
+.icon-project{
+  &::before {
+    @include icon('project', map_merge($default-icon-options, (width: 34px, height: 41px)));
+  }
+}
+
+
+.icon-color-palette{
+  &::before {
+    @include icon('color-palette', map_merge($default-icon-options, (width: 37px, height: 46px)));
+  }
+}
+.icon-hands{
+  &::before {
+    @include icon('icon-hands', map_merge($default-icon-options, (width: 42px, height: 42px)));
+  }
+}
+.icon-profi-worker{
+  &::before {
+    @include icon('profi-worker', map_merge($default-icon-options, (width: 35px, height: 43px)));
+  }
+}
+
+
+.icon-repairs{
+  &::before {
+    @include icon('icon-repairs', map_merge($default-icon-options, (width: 52px, height: 52px)));
+    margin-right: 10px;
+  }
+}
+.icon-service-contact{
+  &::before {
+    @include icon('icon-service-contact', map_merge($default-icon-options, (width: 62px, height: 62px)));
+    margin-right: 10px;
+  }
+}
+.icon-sales{
+  &::before {
+    @include icon('icon-sales', map_merge($default-icon-options, (width: 52px, height: 52px)));
+    margin-right: 10px;
+  }
+}
+.icon-present-installments{
+    &::before {
+    @include icon('icon-present-installments', map_merge($default-icon-options, (width: 37px, height: 37px)));
+  }
+}
+.icon-calendar{
+    &::before {
+    @include icon('calendar', map_merge($default-icon-options, (width: 35px, height: 33px)));
+  }
+}
+.icon-no-cach{
+  &::before {
+    @include icon('icon-no-cach', map_merge($default-icon-options, (width: 47px, height: 47px)));
+  }
+}
+.icon-doc{
+  &::before {
+    @include icon('icon-doc', map_merge($default-icon-options, (width: 47px, height: 47px)));
+  }
+}
+.icon-rocket{
+  &::before {
+    @include icon('icon-rocket', map_merge($default-icon-options, (width: 37px, height: 37px)));
+  }
+}
+.icon-skype{
+  &::before {
+    @include icon('icon-skype', map_merge($default-icon-options, (width: 55px, height: 55px)));
+  }
+}
+.icon-telegram{
+  &::before {
+    @include icon('icon-telegram', map_merge($default-icon-options, (width: 55px, height: 55px)));
+  }
+}
+.icon-viber{
+  &::before {
+    @include icon('icon-viber', map_merge($default-icon-options, (width: 55px, height: 55px)));
+  }
+}
+.icon-logo-privat{
+  &::before {
+    @include icon('icon-logo-privat', map_merge($default-icon-options, (width: 48px, height: 42px)));
+    background-color: #ffffff;
+    margin-right: 5px;
+    background-size: cover;
+  }
+}
+.icon-logo-alfabank{
+  &::before {
+    @include icon('icon-logo-alfabank', map_merge($default-icon-options, (width: 46px, height: 42px)));
+    background-color: #ffffff;
+    margin-right: 5px;
+    background-size: cover;
+  }
+}
+.icon-logo-mono{
+  &::before {
+    @include icon('icon-logo-mono', map_merge($default-icon-options, (width: 45px, height: 42px)));
+    margin-right: 5px;
+    background-color: #ffffff;
+    background-size: cover;
+  }
+}
+.icon-privat{
+  &::before {
+    content: '';
+    display: block;
+    background-image: url($images-path + "privat-bank.svg");
+    background-repeat: no-repeat;
+    width: 162px;
+    height: 35px;
+    margin: 23px auto 18px;
+  }
+}
+.icon-alfabank{
+  &::before {
+    content: '';
+    display: block;
+    background-image: url($images-path + "alfa-bank.svg");
+    background-repeat: no-repeat;
+    width: 169px;
+    height: 50px;
+    margin: 13px auto 13px;
+  }
+}
+.icon-monobank{
+  &::before {
+    content: '';
+    display: block;
+    background-image: url($images-path + "monobank-new.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 189px;
+    height: 45px;
+    margin: 15px auto 16px;
+  }
+}
+
+
+.icon-small-skype{
+  &::before {
+    @include icon('icon-small-skype', map_merge($default-icon-options, (width: 15px, height: 15px)));
+  }
+}
+.icon-small-telegram{
+  &::before {
+    @include icon('icon-small-telegram', map_merge($default-icon-options, (width: 16px, height: 14px)));
+  }
+}
+.icon-small-viber{
+  &::before {
+    @include icon('icon-small-viber', map_merge($default-icon-options, (width: 16px, height: 14px)));
+  }
+}
+.icon-doc-bti{
+  &::before {
+    @include icon('icon-doc-bti', map_merge($default-icon-options, (width: 31px, height: 31px)));
+  }
+}
+
+.block-scheme-house-balcone-lg{
+  .icon-arrow-after{
+    display: flex;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      display: block;
+      left: 90%;
+      top: 10px;
+    }
+  }
+  .icon-arrow-before{
+    display: flex;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      display: block;
+      right: 105%;
+      top: 30px;
+    }
+  }
+  .icon-arrow-before-block{
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      display: block;
+      right: 50%;
+      top: -30px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-1{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-1', map_merge($default-icon-options, (width: 144px, height: 66px)));
+    }
+  }
+  .icon-arrow-scheme-house-balcone-2{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-2', map_merge($default-icon-options, (width: 100px, height: 60px)));
+    }
+  }
+  .icon-arrow-scheme-house-balcone-3{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-3', map_merge($default-icon-options, (width: 60px, height: 60px)));
+      top: -5px;
+      left: 100%;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-4{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-4', map_merge($default-icon-options, (width: 95px, height: 77px)));
+      top: -60px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-5{
+    &:before{
+      @include icon('arrow-scheme-house-balcone-5', map_merge($default-icon-options, (width: 70px, height: 48px)));
+      top: -50px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-6{
+    &:before{
+      @include icon('arrow-scheme-house-balcone-6', map_merge($default-icon-options, (width: 173px, height: 95px)));
+    }
+  }
+  .icon-arrow-scheme-house-balcone-7{
+    &:before{
+      @include icon('arrow-scheme-house-balcone-7', map_merge($default-icon-options, (width: 113px, height: 34px)));
+      top: 15px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-8{
+    &:before{
+      @include icon('arrow-scheme-house-balcone-8', map_merge($default-icon-options, (width: 138px, height: 46px)));
+      top: 15px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-9{
+    &:before{
+      @include icon('arrow-scheme-house-balcone-9', map_merge($default-icon-options, (width: 257px, height: 103px)));
+      right: 10%;
+      top: -90px;
+    }
+  }
+}
+
+.block-like-type{
+  .icon-scheme-works{
+    &:before{
+      content: '';
+      background-size: cover;
+      background-repeat: no-repeat;
+      //width: 88px;
+      //height: 88px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .heating{
+    &::before {
+      background-image: url($images-path + "heating.svg");
+      width: 27px;
+      height: 27px;
+    }
+  }
+  .technology{
+    &::before {
+      background-image: url($images-path + "technology.svg");
+      width: 28px;
+      height: 22px;
+    }
+  }
+  .pig{
+    &::before {
+      background-image: url($images-path + "pig.png");
+      width: 37px;
+      height: 26px;
+    }
+  }
+  .not-water{
+    &::before {
+      background-image: url($images-path + "not-water.svg");
+      width: 30px;
+      height: 33px;
+    }
+  }
+  .ecology{
+    &::before {
+      background-image: url($images-path + "ecology-and-environment.svg");
+      width: 28px;
+      height: 28px;
+    }
+  }
+  .practic{
+    &::before {
+      background-image: url($images-path + "practic.svg");
+      width: 29px;
+      height: 29px;
+    }
+  }
+  .trees{
+    &::before {
+      background-image: url($images-path + "trees.svg");
+      width: 37px;
+      height: 23px;
+    }
+  }
+  .money{
+    &::before {
+      background-image: url($images-path + "money.svg");
+      width: 27px;
+      height: 32px;
+    }
+  }
+  .colors{
+    &::before {
+      background-image: url($images-path + "colors.svg");
+      width: 27px;
+      height: 28px;
+    }
+  }
+  .window{
+    &::before {
+      background-image: url($images-path + "window.svg");
+      width: 25px;
+      height: 27px;
+    }
+  }
+  .floor{
+    &::before {
+      background-image: url($images-path + "floor.svg");
+      width: 25px;
+      height: 28px;
+    }
+  }
+  .not-fire{
+    &::before {
+      background-image: url($images-path + "no-fire.svg");
+      width: 33px;
+      height: 33px;
+    }
+  }
+  .open-window{
+    &::before {
+      background-image: url($images-path + "open-window.svg");
+      width: 28px;
+      height: 28px;
+    }
+  }
+  .construction{
+    &::before {
+      background-image: url($images-path + "construction.svg");
+      width: 31px;
+      height: 31px;
+    }
+  }
+  .bigS{
+    &::before {
+      background-image: url($images-path + "bigS.svg");
+      width: 28px;
+      height: 25px;
+    }
+  }
+  .sign{
+    &::before {
+      background-image: url($images-path + "sign.svg");
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .roof{
+    &::before {
+      background-image: url($images-path + "roof.svg");
+      width: 29px;
+      height: 28px;
+    }
+  }
+  .likes{
+    &::before {
+      background-image: url($images-path + "likes.svg");
+      width: 24px;
+      height: 23px;
+    }
+  }
+  .roof-2{
+    &::before {
+      background-image: url($images-path + "roof-2.svg");
+      width: 26px;
+      height: 28px;
+    }
+  }
+  .production-plant{
+    &::before {
+      background-image: url($images-path + "production-plant.svg");
+      width: 39px;
+      height: 31px;
+    }
+  }
+  .surface1{
+    &::before {
+      background-image: url($images-path + "surface1.svg");
+      width: 30px;
+      height: 35px;
+    }
+  }
+  .quality-like{
+    &::before {
+      background-image: url($images-path + "quality-like.svg");
+      width: 38px;
+      height: 38px;
+    }
+  }
+  .sport{
+    &::before {
+      background-image: url($images-path + "sport.svg");
+      width: 37px;
+      height: 33px;
+    }
+  }
+  .sport-top{
+    &::before {
+      background-image: url($images-path + "sport-top.svg");
+      width: 37px;
+      height: 35px;
+    }
+  }
+}
+.likes{
+  &::before {
+    background-image: url($images-path + "likes.svg");
+    width: 27px;
+    height: 27px;
+  }
+}
+.icon-read-more{
+  &::before {
+    @include icon('icon-read-more', map_merge($default-icon-options, (width: 5px, height: 10px)));
+    margin-left: 7px;
+  }
+}
+.icon-one-glass{
+  &::before {
+    content: '';
+    background-image: url($images-path + "one-glass.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 14px;
+    height: 18px;
+  }
+}
+.one-glass-open{
+  &::before {
+    content: '';
+    background-image: url($images-path + "one-glass-open.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 15px;
+    height: 19px;
+  }
+}
+.two-glass{
+  &::before {
+    content: '';
+    background-image: url($images-path + "two-glass.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 43px;
+    height: 19px;
+  }
+}
+.sratch-resistant{
+  &::before {
+    background-image: url($images-path + "sratch-resistant.svg");
+    width: 40px;
+    height: 40px;
+  }
+}
+.bucket{
+  &::before {
+    background-image: url($images-path + "bucket.svg");
+    width: 37px;
+    height: 37px;
+  }
+}
+.two-glass-T-open{
+  &::before {
+    content: '';
+    background-image: url($images-path + "two-glass-T-open.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 43px;
+    height: 20px;
+  }
+}
+.three-glass-one-open{
+  &::before {
+    content: '';
+    background-image: url($images-path + "3-glass-one-open.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 55px;
+    height: 18px;
+  }
+}
+.three-glass-two-open{
+  &::before {
+    content: '';
+    background-image: url($images-path + "three-glass-two-open.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 55px;
+    height: 18px;
+  }
+}
+@media (min-width: 414px){
+  .two-glass{
+    &::before {
+      width: 43px;
+      height: 24px;
+    }
+  }
+  .two-glass-T-open{
+    &::before {
+      width: 43px;
+      height: 25px;
+    }
+  }
+  .three-glass-one-open{
+    &::before {
+      width: 55px;
+      height: 23px;
+    }
+  }
+  .three-glass-two-open{
+    &::before {
+      width: 55px;
+      height: 22px;
+    }
+  }
+
+}
+
+
+
+
+
+.list-preference-roller{
+  .icon-preference-roller{
+    background-image: url($images-path + "mejlforvarder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:before{
+      content: '';
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+
+    }
+    &.safety{
+      &:before{
+        background-image: url("../images/icon/icon-safety.svg");
+        width: 43px;
+        height: 43px;
+      }
+    }
+    &.icon-snow{
+      &:before{
+        background-image: url("../images/icon/icon-snow.svg");
+        width: 39px;
+        height: 39px;
+      }
+    }
+    &.icon-wind{
+      &:before{
+        background-image: url("../images/icon/icon-wind.svg");
+        width: 37px;
+        height: 30px;
+      }
+    }
+    &.icon-sun{
+      &:before{
+        background-image: url("../images/icon/icon-sun.svg");
+        width: 44px;
+        height: 44px;
+      }
+    }
+    &.icon-like-roller{
+      &:before{
+        background-image: url("../images/icon/icon-like-roller.svg");
+        width: 33px;
+        height: 30px;
+      }
+    }
+    &.icon-enable-sound{
+      &:before{
+        background-image: url("../images/icon/icon-enable-sound.svg");
+        width: 37px;
+        height: 37px;
+      }
+    }
+  }
+}
+.icon-flag-germany{
+  &:before{
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/icon/germ.jpg");
+    width: 57px;
+    height: 34px;
+    position: absolute;
+    right: 0;
+    margin-right: -25px;
+  }
+}
+.icon-flag-ukraine{
+  &:before{
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/icon/flag-ukraini.jpg");
+    width: 57px;
+    height: 34px;
+    position: absolute;
+    right: 0;
+    margin-right: -25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon-flag-germany:before {
+    margin-right: 0;
+  }
+  .icon-flag-ukraine:before {
+    margin-right: 0;
+  }
+}
+@media (max-width: 991px) {
+  .icon-arrow-after{
+    display: flex;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      display: block;
+      left: 90%;
+      top: 10px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-1{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-1-mob', map_merge($default-icon-options, (width: 67px, height: 30px)));
+      top: -8px;
+      left: 85px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-2{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-2-mob', map_merge($default-icon-options, (width: 115px, height: 37px)));
+      left: 50%;
+      top: -12px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-3{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-3-mob', map_merge($default-icon-options, (width: 80px, height: 70px)));
+      left: 100px;
+      top: 5px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-4{
+    &:after {
+      @include icon('arrow-scheme-house-balcone-4-mob', map_merge($default-icon-options, (width: 50px, height: 13px)));
+      left: 90px;
+      top: 7px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-5{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-5-mob', map_merge($default-icon-options, (width: 98px, height: 14px)));
+      left: 95%;
+      top: 3px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-6{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-6-mob', map_merge($default-icon-options, (width: 91px, height: 75px)));
+      top: -5px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-7{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-7-mob', map_merge($default-icon-options, (width: 190px, height: 80px)));
+      left: 30px;
+      top: -15px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-8{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-8-mob', map_merge($default-icon-options, (width: 150px, height: 180px)));
+      top: -23px;
+      left: 70px;
+    }
+  }
+  .icon-arrow-scheme-house-balcone-9{
+    &:after{
+      @include icon('arrow-scheme-house-balcone-6-mob', map_merge($default-icon-options, (width: 130px, height: 85px)));
+      left: 65px;
+      top: -7px;
+    }
+  }
+
+}
+@media (min-width: 992px) {
+  .icon-flag-germany{
+    &:before{
+      right: 0;
+      margin-right: 15px;
+    }
+  }
+  .icon-flag-ukraine{
+    &:before{
+      right: 0;
+      margin-right: 15px;
+    }
+  }
+  .likes{
+    &::before {
+      width: 40px;
+      height: 37px;
+    }
+  }
+  .sratch-resistant{
+    &::before {
+      background-image: url($images-path + "sratch-resistant.svg");
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .bucket{
+    &::before {
+      background-image: url($images-path + "bucket.svg");
+      width: 37px;
+      height: 37px;
+    }
+  }
+  .icon-doc-bti{
+    &::before {
+      @include icon('icon-doc-bti', map_merge($default-icon-options, (width: 42px, height: 42px)));
+    }
+  }
+  .icon-measuring-tape {
+    &::before {
+      @include icon('measuring-tape', map_merge($default-icon-options, (width: 31px, height: 20px)));
+      margin-right: 12px;
+    }
+  }
+  .icon-mobile-phone {
+    &::before {
+      @include icon('mobile-phone', map_merge($default-icon-options, (width: 21px, height: 21px)));
+      margin-right: 12px;
+    }
+  }
+  .icon-percentage-discount {
+    &::before {
+      @include icon('percentage-discount', map_merge($default-icon-options, (width: 17px, height: 18px)));
+      margin-right: 12px;
+    }
+  }
+  .icon-location {
+  &::before {
+    @include icon('maps-and-flags', map_merge($default-icon-options, (width: 13px, height: 18px)));
+  }
+}
+
+.icon-call {
+  &::before {
+    @include icon('icon-call', map_merge($default-icon-options, (width: 14px, height: 16px)));
+  }
+}
+.icon-email {
+  &::before {
+    @include icon('email', map_merge($default-icon-options, (width: 15px, height: 12px)));
+  }
+}
+.clock {
+  &::before {
+    @include icon('clock', map_merge($default-icon-options, (width: 15px, height: 15px)));
+  }
+}
+  .clock-footer {
+    &::before {
+      @include icon('clock-footer', map_merge($default-icon-options, (width: 15px, height: 15px)));
+    }
+  }
+.icon-factory {
+  &::before {
+    @include icon('icon-factory', map_merge($default-icon-options, (width: 45px, height: 45px)));
+  }
+}
+.icon-team {
+  &::before {
+    @include icon('icon-team', map_merge($default-icon-options, (width: 44px, height: 44px)));
+  }
+}
+.icon-like {
+  &::before {
+    @include icon('icon-like', map_merge($default-icon-options, (width: 48px, height: 39px)));
+  }
+}
+  .icon-save-money {
+  &::before {
+    @include icon('save-money', map_merge($default-icon-options, (width: 48px, height: 53px)));
+  }
+}
+  .icon-gift-card {
+  &::before {
+    @include icon('gift-card', map_merge($default-icon-options, (width: 50px, height: 40px)));
+  }
+}
+
+
+  .icon-gift{
+    &:before{
+      margin-left: 15px;
+    }
+  }
+  .slick-prev:before {
+    width: 15px;
+    height: 28px;
+  }
+  .slick-next:before {
+    width: 15px;
+    height: 28px;
+  }
+  .icon-logo::before {
+    width: 146px;
+    min-width: 146px;
+    height: 43px;
+    min-height: 43px;
+  }
+
+
+
+
+  .icon-discount::before {
+    width: 25px;
+    min-width: 25px;
+    height: 28px;
+    min-height: 28px;
+  }
+  .icon-gift::before {
+    width: 23px;
+    min-width: 23px;
+    height: 24px;
+    min-height: 24px;
+  }
+  .measure_tape::before {
+    width: 29px;
+    min-width: 29px;
+    height: 27px;
+    min-height: 27px;
+  }
+  .icon-calculate::before {
+    width: 22px;
+    min-width: 22px;
+    height: 25px;
+    min-height: 25px;
+  }
+  .icon-header-call::before {
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    min-height: 25px;
+  }
+  .icon-phone-table {
+    &::before {
+      @include icon('icon-phone-table', map_merge($default-icon-options, (width: 14px, height: 14px)));
+      margin-right: 12px;
+    }
+  }
+  .block-like-type{
+    .icon-scheme-works{
+      &:before{
+        content: '';
+        background-size: cover;
+        background-repeat: no-repeat;
+        //width: 88px;
+        //height: 88px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .heating{
+      &::before {
+        background-image: url($images-path + "heating.svg");
+        width: 35px;
+        height: 35px;
+      }
+    }
+    .technology{
+      &::before {
+        background-image: url($images-path + "technology.svg");
+        width: 35px;
+        height: 27px;
+      }
+    }
+    .pig{
+      &::before {
+        width: 55px;
+        height: 42px;
+      }
+    }
+    .not-water{
+      &::before {
+        background-image: url($images-path + "not-water.svg");
+        width: 36px;
+        height: 35px;
+      }
+    }
+    .ecology{
+      &::before {
+        background-image: url($images-path + "ecology-and-environment.svg");
+        width: 35px;
+        height: 35px;
+      }
+    }
+    .practic{
+      &::before {
+        background-image: url($images-path + "practic.svg");
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .trees{
+      &::before {
+        background-image: url($images-path + "trees.svg");
+        width: 53px;
+        height: 33px;
+      }
+    }
+    .money{
+      &::before {
+        background-image: url($images-path + "money.svg");
+        width: 41px;
+        height: 49px;
+      }
+    }
+    .colors{
+      &::before {
+        background-image: url($images-path + "colors.svg");
+        width: 37px;
+        height: 38px;
+      }
+    }
+    .colors{
+      &::before {
+        background-image: url($images-path + "colors.svg");
+        width: 33px;
+        height: 35px;
+        margin-left: 35px;
+      }
+    }
+    .window{
+      &::before {
+        background-image: url($images-path + "window.svg");
+        width: 33px;
+        height: 35px;
+      }
+    }
+    .floor{
+      &::before {
+        background-image: url($images-path + "floor.svg");
+        width: 32px;
+        height: 36px;
+      }
+    }
+    .not-fire{
+      &::before {
+        background-image: url($images-path + "no-fire.svg");
+        width: 44px;
+        height: 44px;
+      }
+    }
+    .open-window{
+      &::before {
+        background-image: url($images-path + "open-window.svg");
+        width: 44px;
+        height: 44px;
+      }
+    }
+    .construction{
+      &::before {
+        background-image: url($images-path + "construction.svg");
+        width: 38px;
+        height: 38px;
+      }
+    }
+    .bigS{
+      &::before {
+        background-image: url($images-path + "bigS.svg");
+        width: 40px;
+        height: 37px;
+      }
+    }
+    .sign{
+      &::before {
+        background-image: url($images-path + "sign.svg");
+        width: 48px;
+        height: 48px;
+      }
+    }
+    .roof{
+      &::before {
+        background-image: url($images-path + "roof.svg");
+        width: 29px;
+        height: 28px;
+      }
+    }
+    .likes{
+      &::before {
+        background-image: url($images-path + "likes.svg");
+        width: 34px;
+        height: 33px;
+      }
+    }
+    .sratch-resistant{
+      &::before {
+        background-image: url($images-path + "sratch-resistant.svg");
+        width: 55px;
+        height: 55px;
+      }
+    }
+    .bucket{
+      &::before {
+        background-image: url($images-path + "bucket.svg");
+        width: 55px;
+        height: 55px;
+      }
+    }
+    .roof-2{
+      &::before {
+        background-image: url($images-path + "roof-2.svg");
+        width: 36px;
+        height: 38px;
+      }
+    }
+    .production-plant{
+      &::before {
+        width: 54px;
+        height: 45px;
+      }
+    }
+    .surface1{
+      &::before {
+        width: 42px;
+        height: 49px;
+      }
+    }
+    .quality-like{
+      &::before {
+        width: 51px;
+        height: 51px;
+      }
+    }
+    .sport{
+      &::before {
+        width: 55px;
+        height: 50px;
+      }
+    }
+    .sport-top{
+      &::before {
+        width: 55px;
+        height: 50px;
+      }
+    }
+  }
+  .list-preference-roller{
+    .icon-preference-roller{
+      width: 98px;
+      height: 98px;
+      &.safety{
+        &:before{
+          width: 65px;
+          height: 65px;
+        }
+      }
+      &.icon-snow{
+        &:before{
+          width: 63px;
+          height: 63px;
+        }
+      }
+      &.icon-wind{
+        &:before{
+          width: 57px;
+          height: 46px;
+        }
+      }
+      &.icon-sun{
+        &:before{
+          width: 66px;
+          height: 66px;
+        }
+      }
+      &.icon-like-roller{
+        &:before{
+          width: 50px;
+          height: 45px;
+        }
+      }
+      &.icon-enable-sound{
+        &:before{
+          width: 55px;
+          height: 55px;
+        }
+      }
+    }
+  }
+  .icon-nova_poshta {
+    &::before {
+      width: 52px;
+      height: 51px;
+    }
+  }
+  .icon-delivery {
+    &::before {
+      @include icon('delivery-new', map_merge($default-icon-options, (width: 48px, height: 42px)));
+    }
+  }
+  .icon-shipping {
+    &::before {
+      @include icon('shipping-new', map_merge($default-icon-options, (width: 51px, height: 44px)));
+    }
+  }
+
+
+
+  .icon-one-glass{
+    &::before {
+      width: 37px;
+      min-width: 37px;
+      height: 48px;
+      min-height: 48px;
+    }
+  }
+  .one-glass-open{
+    &::before {
+      width: 38px;
+      height: 49px;
+      min-width: 38px;
+      min-height: 49px;
+    }
+  }
+  .two-glass{
+    &::before {
+      width: 60px;
+      height: 48px;
+      min-width: 60px;
+      min-height: 48px;
+    }
+  }
+  .two-glass-T-open{
+    &::before {
+      width: 60px;
+      height: 48px;
+      min-width: 60px;
+      min-height: 48px;
+    }
+  }
+  .three-glass-one-open{
+    &::before {
+      width: 80px;
+      height: 49px;
+      min-width: 80px;
+      min-height: 49px;
+    }
+  }
+  .three-glass-two-open{
+    &::before {
+      width: 80px;
+      height: 50px;
+      min-width: 80px;
+      min-height: 50px;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .decor-li-pref {
+    padding-bottom: 15px;
+  }
+  .block-scheme-house-balcone-lg{
+    .icon-arrow-scheme-house-balcone-1{
+      &:after{
+        @include icon('arrow-scheme-house-balcone-1', map_merge($default-icon-options, (width: 174px, height: 78px)));
+      }
+    }
+    .icon-arrow-scheme-house-balcone-2{
+      &:after{
+        @include icon('arrow-scheme-house-balcone-2', map_merge($default-icon-options, (width: 120px, height: 72px)));
+        top: 7px;
+        left: 80%;
+      }
+    }
+    .icon-arrow-scheme-house-balcone-3{
+      &:after{
+        @include icon('arrow-scheme-house-balcone-3', map_merge($default-icon-options, (width: 135px, height: 83px)));
+        top: -5px;
+        left: 90%;
+      }
+    }
+    .icon-arrow-scheme-house-balcone-4{
+      &:after{
+        @include icon('arrow-scheme-house-balcone-4', map_merge($default-icon-options, (width: 63px, height: 100px)));
+        top: -80px;
+        left: 100%;
+      }
+    }
+    .icon-arrow-scheme-house-balcone-5{
+      &:before{
+        @include icon('arrow-scheme-house-balcone-5', map_merge($default-icon-options, (width: 64px, height: 50px)));
+        top: -50px;
+      }
+    }
+    .icon-arrow-scheme-house-balcone-6{
+      &:before{
+        @include icon('arrow-scheme-house-balcone-6', map_merge($default-icon-options, (width: 213px, height: 115px)));
+      }
+    }
+    .icon-arrow-scheme-house-balcone-7{
+      &:before{
+        @include icon('arrow-scheme-house-balcone-7', map_merge($default-icon-options, (width: 133px, height: 40px)));
+        top: 35px;
+      }
+    }
+    .icon-arrow-scheme-house-balcone-8{
+      &:before{
+        @include icon('arrow-scheme-house-balcone-8', map_merge($default-icon-options, (width: 158px, height: 52px)));
+        top: 35px;
+      }
+    }
+    .icon-arrow-scheme-house-balcone-9{
+      &:before{
+        @include icon('arrow-scheme-house-balcone-9', map_merge($default-icon-options, (width: 307px, height: 103px)));
+        right: 70%;
+        top: -83px;
+      }
+    }
+  }
+
+  .block-like-type{
+    .icon-scheme-works{
+      &:before{
+        content: '';
+        background-size: cover;
+        background-repeat: no-repeat;
+        //width: 88px;
+        //height: 88px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .heating{
+      &::before {
+        width: 43px;
+        height: 43px;
+      }
+    }
+    .technology{
+      &::before {
+        width: 45px;
+        height: 35px;
+      }
+    }
+    .not-water{
+      &::before {
+        width: 52px;
+        height: 58px;
+      }
+    }
+    .ecology{
+      &::before {
+        width: 43px;
+        height: 43px;
+      }
+    }
+    .practic{
+      &::before {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .trees{
+      &::before {
+        width: 65px;
+        height: 42px;
+      }
+    }
+    .money{
+      &::before {
+        width: 49px;
+        height: 61px;
+      }
+    }
+    .colors{
+      &::before {
+        width: 46px;
+        height: 46px;
+      }
+    }
+    .colors{
+      &::before {
+        width: 50px;
+        height: 51px;
+      }
+    }
+    .window{
+      &::before {
+        width: 40px;
+        height: 43px;
+      }
+    }
+    .floor{
+      &::before {
+        width: 38px;
+        height: 44px;
+      }
+    }
+    .not-fire{
+      &::before {
+        width: 54px;
+        height: 54px;
+      }
+    }
+    .open-window{
+      &::before {
+        width: 53px;
+        height: 53px;
+      }
+    }
+    .construction{
+      &::before {
+        width: 47px;
+        height: 47px;
+      }
+    }
+    .bigS{
+      &::before {
+        width: 50px;
+        height: 46px;
+      }
+    }
+    .sign{
+      &::before {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    .roof{
+      &::before {
+        width: 47px;
+        height: 47px;
+      }
+    }
+    .likes{
+      &::before {
+        width: 42px;
+        height: 42px;
+      }
+    }
+    .roof-2{
+      &::before {
+        width: 45px;
+        height: 47px;
+      }
+    }
+    .roof-2{
+      &::before {
+        width: 45px;
+        height: 47px;
+      }
+    }
+  }
+  .icon-target::before {
+    width: 55px;
+    height: 55px;
+  }
+  .icon-list::before {
+    width: 40px;
+    height: 48px;
+  }
+  .icon-standards{
+    &::before {
+      @include icon('icon-standards', map_merge($default-icon-options, (width: 54px, height: 48px)));
+    }
+  }
+  .icon-quality{
+    &::before {
+      @include icon('quality', map_merge($default-icon-options, (width: 50px, height: 46px)));
+    }
+  }
+  .icon-present-installments{
+    &::before {
+      @include icon('icon-present-installments', map_merge($default-icon-options, (width: 45px, height: 45px)));
+    }
+  }
+  .icon-calendar{
+    &::before {
+      @include icon('calendar', map_merge($default-icon-options, (width: 45px, height: 43px)));
+    }
+  }
+  .icon-no-cach{
+    &::before {
+      @include icon('icon-no-cach', map_merge($default-icon-options, (width: 55px, height: 55px)));
+    }
+  }
+  .icon-doc{
+    &::before {
+      @include icon('icon-doc', map_merge($default-icon-options, (width: 55px, height: 55px)));
+    }
+  }
+  .icon-rocket{
+    &::before {
+      @include icon('icon-rocket', map_merge($default-icon-options, (width: 45px, height: 45px)));
+    }
+  }
+  .icon-quality{
+    &::before {
+      @include icon('quality', map_merge($default-icon-options, (width: 50px, height: 47px)));
+    }
+  }
+  .icon-stars{
+    &::before {
+      @include icon('stars', map_merge($default-icon-options, (width: 57px, height: 46px)));
+    }
+  }
+  .icon-worker{
+    &::before {
+      @include icon('worker', map_merge($default-icon-options, (width: 41px, height: 50px)));
+    }
+  }
+  .icon-project{
+    &::before {
+      @include icon('project', map_merge($default-icon-options, (width: 47px, height: 50px)));
+    }
+  }
+}
+
+

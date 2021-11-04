@@ -1,0 +1,579 @@
+.section-table-price-brand{
+  .block-content .block-img {
+    width: 60%;
+    margin: 15px auto;
+  }
+  .tabs-table-price-brand-glass{
+    padding-top: 5px;
+    .nav-tabs {
+      .nav-item{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: calc( 33% - 2px);
+        margin: 3px 1px;
+        .nav-link{
+          white-space: pre-line;
+          color: #000000;
+          font-size: 7px;
+          line-height: 10px;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          text-align: left;
+          &:before{
+            margin-right: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+.section-bank.brand-windows{
+  padding: 25px 0;
+  .title-section{
+    padding-bottom: 10px;
+  }
+  .profile-type-preferences {
+    .block-right-specif {
+      width: 100%;
+    }
+    li .progress {
+      width: 60%;
+      background-color: #7ED32D;
+      font-size: 17px;
+      span {
+        font-size: 11px;
+        font-weight: 500;
+      }
+    }
+    .progress-bar {
+      height: 17px;
+      background-color: #1152B2;
+      line-height: normal;
+    }
+  }
+  .block-left{
+    flex-direction: column;
+    .block-img{
+      position: relative;
+      margin: 0 auto;
+    }
+    .info-bank.brand{
+      margin-bottom: 0;
+      line-height: 15px;
+      border-radius: 5px;
+      padding: 5px 7px;
+      &:nth-child(odd){
+        background-color: #E8F7FF;
+      }
+      dt{
+        font-size: 11px;
+        width: 70%;
+        font-weight: 500;
+      }
+      dd{
+        font-size: 11px;
+        font-weight: 700;
+        width: 30%;
+        display: flex;
+        align-items: center;
+      }
+    }
+    img {
+      width: auto;
+      min-width: auto;
+      height: 240px;
+      margin: 0 0 15px 0;
+    }
+    dl.specifications {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0;
+      margin-top: 10px;
+      width: 100%;
+      dt{
+        font-size: 11px;
+        width: 70%;
+      }
+      dd {
+        font-size: 11px;
+        font-weight: 700;
+        padding-left: 7px;
+        width: 30%;
+      }
+    }
+  }
+}
+.section-calc-link{
+  img{
+    width: 210px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    image-rendering: auto;
+  }
+  .link-calc{
+    display: flex;
+    color: #ffffff;
+    height: 45px;
+    justify-content: center;
+    margin-bottom: 25px;
+    &:before{
+      content: '';
+      background-image: url("../images/icon/calculate.svg");
+      width: 60px;
+      height: 58px;
+      display: block;
+      background-repeat: no-repeat;
+      transform: rotate(-15deg);
+      margin-right: -25px;
+      margin-top: -5px;
+    }
+  }
+  .block-link-calc{
+    display: flex;
+    flex-direction: column;
+    background-color: #EB4E08;
+    justify-content: center;
+    padding: 0 25px;
+    border-radius: 6px;
+    .top-title{
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .small-title{
+      font-size: 13px;
+      padding: 0;
+    }
+  }
+}
+
+.page-brand-windows{
+  .read-more {
+    color: #081A44;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: 400;
+  }
+  .section-top{
+    padding-top: 25px;
+  }
+  .section-welcome-page{
+    .bg-brand-windows{
+      background-image: url('../images/metalloplastikovye-okna-rehau-header.jpg');
+      background-size: auto 125%;
+      background-position-y: bottom;
+    }
+    .img-brand{
+      width: 120px;
+      height: 44px;
+      margin: 10px auto;
+    }
+  }
+  .section-buy-our-company.mosquito {
+    padding: 30px 0;
+    .block-buy-our-company {
+    }
+    .list-buy-our-company li {
+      align-items: baseline;
+      font-size: 13px;
+      &:before {
+        width: 12px;
+        height: 12px;
+        min-width: 10px;
+        min-height: 10px;
+      }
+    }
+  }
+}
+
+
+.section-certificate{
+  .block-text-sertificate{
+
+  }
+  .list-certificate{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      width: 33%;
+      padding: 4px;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.section-other-section.brand-link{
+  border-bottom: none;
+  .item-catalog{
+    .block-img{
+      height: 100px;
+      z-index: 10;
+      img {
+        width: auto;
+        height: 100px;
+        padding: 15px;
+        margin: 0 auto;
+      }
+    }
+      .footer-item-catalog .price {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        margin-top: -1px;
+        width: 100%;
+        padding: 0 25px;
+        z-index: 0;
+      }
+    }
+  }
+
+@media (max-width: 767px) {
+  .bg-one-glass:before{
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 25%, white 40%, white 60%, rgba(255, 255, 255, 0.7) 75%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+@media (min-width: 768px) {
+  .section-calc-link{
+    .block-img-text{
+      display: flex;
+    }
+     img {
+       min-width: 260px;
+       margin-right: 15px;
+    }
+    .link-calc {
+      justify-content: left;
+    }
+  }
+  .section-bank.brand-windows .block-left {
+    flex-direction: row;
+    img {
+      width: 200px;
+      min-width: 200px;
+      height: auto;
+      margin: 15px;
+    }
+  }
+  .tabs-table-price-brand-glass{
+    .block-content {
+      display: flex;
+      .block-img{
+        margin: 15px auto;
+      }
+    }
+
+  }
+}
+
+@media (min-width: 992px) {
+  .section-table-price-brand{
+    .block-content{
+      display: flex;
+      .block-img{
+        width: 140px;
+        margin: 25px 15px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .tabs-table-price-brand-glass{
+      .button-table{
+        height: 49px;
+      }
+      table.table-windows {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+      }
+      .nav-tabs {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        .nav-item {
+          height: 130px;
+          margin: 0 -3px;
+          min-width: 80px;
+          .nav-link.active {
+            height: 135px;
+            margin: 0 -3px;
+            z-index: 1;
+          }
+          .nav-link {
+            font-size: 15px;
+            line-height: 17px;
+            font-weight: 400;
+            height: 80px;
+            color: #000000;
+            min-width: 110px;
+            flex-direction: column;
+            text-align: center;
+            >span{
+              min-height: 20px;
+            }
+            &:before{
+              margin: -15px 0 7px;
+             }
+          }
+        }
+      }
+    }
+  }
+  .page-brand-windows{
+    .read-more {
+      font-size: 18px;
+      font-weight: 500;
+      justify-content: start;
+    }
+    .section-welcome-page .img-brand {
+      width: 210px;
+      height: 75px;
+      margin: 17px 0;
+    }
+    .section-top {
+      padding-top: 5px;
+      padding-bottom: 35px ;
+    }
+    .bg-one-glass {
+      background-position-y: bottom;
+    }
+    .section-buy-our-company.mosquito {
+      background-image: url('../images/top_slide_window.png'),
+      linear-gradient(119deg, #2894e1 0%, #247bca 29%, #1a4296 45%, #193f93 61%, #193e92 80%, #193c91 100%);
+      background-size: 43% , 100%;
+      .block-buy-our-company {
+        width: 50%;
+      }
+      .title-section{
+        width: 73%;
+        padding-left: 15px;
+      }
+      .list-buy-our-company li {
+        align-items: baseline;
+        font-size: 19px;
+        &:before {
+          width: 16px;
+          height: 12px;
+          min-width: 16px;
+          min-height: 12px;
+        }
+      }
+    }
+    .block-portfolio{
+      padding: 10px 0 40px;
+    }
+    .section-other-section.brand-link{
+      padding: 30px 0 25px;
+      .title-section{
+        padding-bottom: 25px;
+      }
+    }
+    section.section-like-type {
+      padding: 40px 0;
+      .title-section{
+        padding-bottom: 25px;
+      }
+    }
+  }
+  .section-certificate{
+    .block-text-sertificate{
+      display: flex;
+    }
+    .list-certificate{
+      min-width: 37%;
+      margin-left: 25px;
+      margin-bottom: 0;
+      li{
+        padding: 10px;
+        img{
+        }
+      }
+    }
+  }
+  .section-other-section.brand-link{
+    .item-catalog{
+      .block-img{
+        height: 190px;
+        img {
+          height: 190px;
+        }
+      }
+      .footer-item-catalog .price {
+      }
+    }
+  }
+  .section-bank.brand-windows {
+    padding: 35px 0 45px;
+    .title-section{
+      padding-bottom: 20px;
+    }
+    .block {
+      padding: 15px 10px 5px;
+    }
+    .block-left{
+      .info-bank.brand{
+        dd {
+          font-size: 13px;
+          font-weight: 700;
+          width: 25%;
+        }
+        dt{
+          width: 75%;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .section-calc-link .link-calc{
+    margin-top: 25px;
+    &:before {
+      width: 100px;
+      height: 88px;
+      margin-right: -55px;
+    }
+  }
+  .section-calc-link{
+    padding: 40px 0;
+    .title-section{
+      padding-bottom: 20px;
+    }
+    img {
+      min-width: 320px;
+      margin-right: 25px;
+    }
+    .block-link-calc{
+      &:before{
+        content: '';
+        background-image: url("../images/icon-calc-arrow.png");
+        display: block;
+        width: 20px;
+        height: 15px;
+        background-repeat: no-repeat;
+      }
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: #EB4E08;
+      justify-content: space-between;
+      border-radius: 6px;
+      align-items: center;
+      padding: 0 25px 0 65px;
+      width: 370px;
+      height: 70px;
+      .top-title{
+        font-size: 18px;
+        display: block;
+        padding-bottom: 5px;
+      }
+      .small-title{
+        font-size: 18px;
+        padding-bottom: 5px;
+        display: block;
+      }
+    }
+  }
+  .section-certificate{
+    padding: 40px 0;
+    .title-section{
+      padding-bottom: 15px;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .page-brand-windows .title-post-top{
+    margin-bottom: 11px;
+  }
+  .section-bank.brand-windows{
+    .profile-type-preferences {
+      .block-right-specif {
+        width: 100%;
+      }
+      li .progress {
+        width: 60%;
+        background-color: #7ED32D;
+        font-size: 17px;
+        span {
+          font-size: 11px;
+          font-weight: 500;
+        }
+      }
+      .progress-bar {
+        height: 17px;
+        background-color: #1152B2;
+        line-height: normal;
+      }
+    }
+    .block-left{
+
+      .block-text-info{
+        //display: flex;
+      }
+      .list-specific{
+        width: 45%;
+        min-width: 45%;
+        margin: 0 25px;
+        float: left;
+      }
+      img {
+        width: auto;
+        min-width: 250px;
+        height: 380px;
+        margin: 0 50px;
+      }
+      .info-bank.brand dt,dd {
+        font-size: 13px;
+        line-height: normal;
+      }
+      ul.profile-type-list {
+        padding-left: 7px;
+      }
+      dl.specifications dt, dd {
+        font-size: 13px;
+        line-height: normal;
+      }
+      dl.specifications dd {
+       padding-left: 10px;
+        font-size: 13px;
+      }
+    }
+    dl.specifications {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+      width: 60%;
+    }
+  }
+  .section-table-price-brand {
+    .nav-tabs .nav-item .nav-link {
+      padding: 7px 9px;
+    }
+    .block-content {
+      .block-img{
+        width: 162px;
+        margin: 35px auto;
+        &.type-windows-3{
+          margin: 65px auto 35px;
+          width: 227px;
+            }
+        &.type-windows-2T {
+          margin: 26px auto 35px;
+          width: 210px;
+        }
+        &.type-windows-2 {
+          margin: 26px auto 35px;
+          width: 180px;
+        }
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,521 @@
+.page-glass-balcony{
+  font-size: 11px;
+  line-height: 17px;
+  .list-item-catalog{
+    margin-bottom: 0;
+    .item-catalog:last-child{
+      margin-bottom: 10px;
+    }
+  }
+  .section-other-section {
+    padding-top: 45px;
+    padding-bottom: 30px;
+    box-shadow: none;
+  }
+  &.page-partitions-plastic{
+    .section-top-page{
+      .small-text{
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      .title-block{
+        font-weight: 700;
+      }
+    }
+    .button-table {
+      padding: 7px 10px;
+    }
+  }
+  .tab-content {
+    .table-tab {
+      .block-img {
+        width: 80%;
+        margin: 15px auto;
+        .img-table-prev{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .type-glass-balcony{
+    >li{
+      margin-bottom: 35px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+  .slider-color-lamination .slick-list {
+    margin: 0 8px;
+  }
+}
+.page-glass-balcony.page-partitions-plastic .section-post.section-post-windows {
+  border-bottom: 8px solid #2792de;
+}
+.bg-glass-balcony{
+  background-image: url("../images/bg-glass-balcony.jpg");
+  &:before {
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 25%, white 40%, white 60%, rgba(255, 255, 255, 0.7) 75%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+.page-servises-glass{
+  .section-top-page{
+    padding-top: 25px;
+  }
+  .bg-servises-glass{
+    background-image: url('../images/osteklenie-fasadov-header.jpg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: auto 138%;
+    &.bg-terraces{
+      background-image: url('../images/osteklenie-verand-i-terras-header.jpg');
+      background-size: auto 109%;
+    }
+    &.bg-glassing-coteg{
+      background-image: url('../images/bg-glassing-coteg.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-laminaciya-okon-header{
+      background-image: url('../images/bg-laminaciya-okon-header.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-armored-windows{
+      background-image: url('../images/bg-armored-windows.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-protection{
+      background-image: url('../images/bg-protection.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-protection-kids{
+      background-image: url('../images/bg-protection-kids.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-frameless-glazing{
+      background-image: url('../images/bg-frameless-glazing.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-railing-balcony{
+      background-image: url('../images/bg-railing-balcony.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-installation-window-sills{
+      background-image: url('../images/bg-installation-window-sills.jpg');
+      background-size: auto 125%;
+      background-position-y: center ;
+    }
+    &.bg-finishing-slopes{
+      background-image: url('../images/otdelka-otkosov-header.jpg');
+      background-size: auto 145%;
+      background-position-y: center ;
+    }
+    &.bg-toning-windows{
+      background-image: url('../images/tonirovanie-okon.jpg');
+      background-size: auto 125%;
+      background-position-y: bottom ;
+    }
+    &:before {
+      background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 25%, white 40%, white 60%, rgba(255, 255, 255, 0.7) 75%, rgba(255, 255, 255, 0) 100%);
+    }
+  }
+  .section-scheme-works .list-scheme-works.partitions {
+    background-image: url('../images/arrow-partition-plastic.png');
+    background-size: 135px;
+  }
+  .section-other-section{
+    padding-bottom: 1px;
+    .item-catalog .footer-item-catalog .price {
+      margin-top: -5px;
+      width: 100%;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      display: block;
+      .name-block{
+        display: block;
+      }
+    }
+  }
+  .section-post-windows.bg-post-glass-balcony{
+    &:before {
+      background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.95) 100%, transparent 10%), url('../images/bg-post-glass-balcony.png') no-repeat left center;
+      left: 0;
+    }
+  }
+  .slider-brand-glass-fasad{
+    align-items: center;
+      .item{
+        padding: 0 5px;
+        .block-img{
+          display: flex;
+          align-items: center;
+          min-height: 48px;
+          img{
+            margin: 0 auto;
+          }
+        }
+      }
+    .slick-list {
+      margin: 0 8px;
+    }
+    .slick-prev {
+      left: -7px;
+    }
+    .slick-next {
+      right: -19px;
+    }
+  }
+  .list-type-glass-fasad{
+    .item-catalog {
+      margin-bottom: 12px;
+      .block-item-catalog {
+        margin: 0;
+      }
+    }
+  }
+  .block-portfolio{
+    padding-bottom: 25px;
+  }
+  .slider-color-lamin-windows{
+    .slick-prev {
+      left: -13px;
+    }
+    .slick-prev,
+    .slick-next{
+      top: 40%;
+    }
+    li{
+      text-align: center;
+    }
+    .title-color{
+      color: #707070;
+      font-size: 9px;
+      text-align: center;
+      padding-top: 5px;
+    }
+    .block-color-edd{
+      width: 60px;
+      height: 60px;
+      display: block;
+      border-radius: 5px;
+      margin: 0 auto;
+      &.color-c1b8b3{
+        background-color: #c1b8b3;
+      }
+      &.color-B7B79F{
+        background-color: #B7B79F;
+      }
+      &.color-695851{
+        background-color: #695851;
+      }
+      &.color-A7967A{
+        background-color: #A7967A;
+      }
+      &.color-EBE5CF{
+        background-color: #EBE5CF;
+      }
+      &.color-A7967A{
+        background-color: #A7967A;
+      }
+      &.color-EBE5CF{
+        background-color: #EBE5CF;
+      }
+    }
+  }
+  .section-scheme-works {
+    .list-scheme-works.windowsill{
+        width: 271px;
+      li .title {
+        padding: 0 10px 5px;
+      }
+    }
+    .list-scheme-works-lg.windowsill {
+      background-position-y: 150px;
+      padding: 0 25px;
+      li:nth-child(even) {
+        margin-top: 200px;
+      }
+      li p.big-container {
+        margin: 0 -80px;
+        margin-bottom: 5px;
+      }
+      li p.big-container-2 {
+        margin: 0 -300px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .page-glass-balcony{
+    font-size: 15px;
+    line-height: 25px;
+    .title-post.title-post-top{
+      text-align: center;
+    }
+  }
+   .bg-glass-balcony{
+     background-repeat: no-repeat;
+     background-position-x: right;
+     background-position-y: center;
+     background-size: auto 138%;
+     &:before {
+       content: "";
+       background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.41) 55%, rgba(255, 255, 255, 0.19) 57%, rgba(255, 255, 255, 0) 100%);
+       display: block;
+       position: absolute;
+       left: 0;
+       top: 0;
+       max-width: 85%;
+       width: 85%;
+       height: 100%;
+     }
+  }
+  .page-servises-glass{
+    .bg-servises-glass:before {
+      content: "";
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.41) 55%, rgba(255, 255, 255, 0.39) 65%, rgba(255, 255, 255, 0) 70%);
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      max-width: 85%;
+      width: 85%;
+      height: 100%;
+    }
+    .section-scheme-works .list-scheme-works.partitions {
+      background-image: url('../images/arrow-partition-plastic.png');
+      background-size: 135px;
+    }
+    .section-preference .list-preference li {
+      width: 25%;
+    }
+    .section-other-section.section-other-type-windows{
+      padding-top: 25px;
+      .title-section{
+        padding-bottom: 20px;
+      }
+      .item-catalog .footer-item-catalog .price {
+        font-size: 18px;
+        line-height: 21px;
+        height: 48px;
+      }
+    }
+    .section-post-windows.bg-post-glass-balcony::before {
+      background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.65) 100%, transparent 10%), url('../images/bg-post-glass-balcony.png') no-repeat left center;
+      left: 61%;
+    }
+   .section-welcome-page.bg-protection:before {
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.41) 55%, rgba(255, 255, 255, 0.39) 65%, rgba(255, 255, 255, 0) 82%);
+  }
+    .slider-brand-glass-fasad .item .block-img {
+      min-height: 90px;
+    }
+    .slider-color-lamin-windows{
+      .title-color {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 12px;
+        display: block;
+      }
+      .block-color-edd {
+        width: 90px;
+        height: 80px;
+      }
+    }
+    .section-preference.sills{
+      .list-preference{
+        justify-content: center;
+        li {
+          width: 33%;
+          padding-bottom: 20px;
+          p{
+            max-width: 300px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  .page-servises-glass .section-preference .list-preference.kids li {
+    width: 33%;
+    p {
+      max-width: 300px;
+    }
+  }
+}
+
+@media (min-width: 992px){
+  .page-glass-balcony .section-scheme-works.page-partitions-plastic{
+    .list-scheme-works-lg{
+      background-position-y: 169px;
+      .title {
+        margin: 0 -73px 5px;
+      }
+      li:nth-child(even) {
+        margin-top: 210px;
+      }
+    }
+  }
+  .page-glass-balcony{
+    .tab-content .table-tab .block-img {
+      max-width: 300px;
+      margin-right: 15px;
+    }
+    .block-info-lamination .slider-color-lamination .slick-prev {
+      left: -2px;
+    }
+    section.section-scheme-works.page-partitions-plastic{
+      padding-bottom: 0;
+    }
+    .section-lamination .slider-color-lamination .slick-prev,
+    .section-lamination .slider-color-lamination .slick-next {
+      top: calc(50% - 7px);
+    }
+  }
+  .page-servises-glass{
+    .section-top-page{
+      padding-top: 5px;
+      padding-bottom: 40px;
+    }
+    .block-portfolio {
+      padding-bottom: 40px;
+    }
+    .section-other-section.section-other-type-windows{
+      padding-top: 45px;
+      .title-section{
+        padding-bottom: 25px;
+      }
+    }
+    .section-other-section .item-catalog .footer-item-catalog .price {
+      height: 75px;
+      display: flex;
+
+    }
+    .slider-brand-glass-fasad .slick-prev {
+      left: -14px;
+    }
+    .slider-color-lamin-windows {
+      margin: 20px;
+      .block-color-edd {
+        width: 135px;
+        height: 95px;
+      }
+      .slick-prev {
+        left: -20px;
+      }
+      .slick-prev, .slick-next {
+        top: 35%;
+      }
+      .title-color {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .section-scheme-works {
+      .list-scheme-works-lg.windowsill {
+        li:nth-child(even) {
+          margin-top: 230px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px){
+  .page-glass-balcony{
+    font-size: 18px;
+    line-height: 28px;
+    .section-other-section .item-catalog .footer-item-catalog .price {
+      height: 46px;
+      font-size: 23px;
+      line-height: 28px;
+      margin-top: -23px;
+      font-weight: 400;
+      width: 87%;
+      padding: 0 25px;
+    }
+    .button-table {
+      padding: 12px;
+    }
+  }
+  .page-glass-balcony{
+    .tab-content{
+      table.table-windows tr td {
+        padding: 6px 0 6px 25px;
+      }
+      table.table-windows thead tr td {
+        padding: 12px 5px;
+      }
+      .table-tab {
+        .block-img{
+          width: 350px;
+        }
+        .img-table-prev {
+          //padding-top: 30px;
+          width: 90%;
+          height: auto;
+        }
+        .table-price-windows {
+          width: 100%;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+  .tabs-glass-balcony{
+    margin-top: 24px;
+  }
+  .content-tabs-glass-balcony{
+    padding-bottom: 7px;
+  }
+  .page-servises-glass{
+    .list-item-catalog.colum-4{
+      padding-top: 25px;
+      .item-catalog .block-img {
+        height: 215px;
+      }
+    }
+    .slider-brand-glass-fasad{
+      margin: 0 15px;
+      .item .block-img{
+        margin: 0 15px;
+        img {
+          margin: 0 auto;
+          height: 117px;
+        }
+      }
+    }
+    .section-other-section.section-other-type-windows .item-catalog .footer-item-catalog .price {
+      font-size: 26px;
+      line-height: 27px;
+      height: 82px;
+      padding: 0 45px;
+      flex-direction: column;
+    }
+  }
+  .page-glass-balcony{
+    .list-item-catalog .item-catalog:last-child {
+      margin-bottom: 30px;
+    }
+    .section-post.section-post-windows{
+      padding-top: 40px;
+    }
+  }
+}
+
+@media (min-width: 1440px){
+  .page-servises-glass .bg-servises-glass.bg-finishing-slopes {
+    background-size: auto 200%;
+  }
+}
+
+
+

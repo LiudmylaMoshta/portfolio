@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+</head>
+<body>
+<div class="page-header">
+    <%=require('html-loader?!./fragment/_header.html')%>
+</div>
+<%=require('html-loader?!./fragment/_sprite.html')%>
+<div class="main-page page-basket">
+    <nav aria-label="breadcrumb" class="container block-breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Головна сторіка </a></li>
+            <li class="breadcrumb-item active" aria-current="page">Кошик</li>
+        </ol>
+    </nav>
+    <section class="section-cart">
+        <div class="container">
+            <h1 class="title-section">Кошик</h1>
+            <div class="block-wrapper-card">
+                <ul class="list-card-product">
+                    <li class="item-card-product item-card-product-grid ">
+                        <span class="block-title-product">Ваше замовлення</span>
+                        <span class="price">Ціна</span>
+                        <span class="block-add-product">Кількість</span>
+                    </li>
+                    <li class="item-card-product item-card-product-grid">
+                        <div class="block-title-product">
+                            <span class="title-product fw-500"><a href="#">Apple iPhone 12 128GB Black (MGJA3) UA</a></span>
+                            <span class="article">Артікул: 01234567891011</span>
+                        </div>
+                        <div class="wrapper-icon-close">
+                            <span class="icon-close-card"></span>
+                        </div>
+                        <a href="#" class="block-img">
+                            <img src="<%=require('./images/product-card.webp')%>" alt="photo-product" class="img">
+                        </a>
+                        <div class="label-product sale"></div>
+                        <div class="price">
+                            <span class="price-product fw-700">8555 грн.</span>
+                            <span class="quantity-price"><span class="quantity"> 1 </span> X <span class="item-price"> 8200 грн.</span></span>
+                        </div>
+                        <div class="block-add-product">
+                            <div class="add-product">
+                                <span class="minus">-</span><input value="1"><span class="plus">+</span>
+                            </div>
+                        </div>
+<!--                        <span class="icon icon-delete"></span>-->
+                    </li>
+                    <li class="item-card-product item-card-product-grid">
+                        <div class="block-title-product">
+                            <span class="title-product fw-500"><a href="#">Apple iPhone 12 128GB Black (MGJA3) UA</a></span>
+                            <span class="article">Артікул: 01234567891011</span>
+                        </div>
+                        <div class="wrapper-icon-close">
+                            <span class="icon-close-card"></span>
+                        </div>
+                        <a href="#" class="block-img">
+                            <img src="<%=require('./images/product-card.webp')%>" alt="photo-product" class="img">
+                        </a>
+                        <div class="label-product sale"><span class="icon-percent">-38%</span></div>
+                        <div class="price">
+                            <span class="price-product fw-700">8555 грн.</span>
+                            <span class="quantity-price"><span class="quantity"> 1 </span> X <span class="item-price"> 8200 грн.</span></span>
+                        </div>
+                        <div class="block-add-product">
+                            <div class="add-product">
+                                <span class="minus">-</span><input value="1"><span class="plus">+</span>
+                            </div>
+                        </div>
+<!--                        <span class="icon icon-delete"></span>-->
+                    </li>
+                </ul>
+                <div class="total">
+                    <div class="block-total">
+                        <div class="block-number">
+                            <span>Загалом</span>
+                            <span class="line-dotted"></span>
+                            <span class="number">39 998 <span>грн</span></span>
+                        </div>
+                        <div class="block-sale">
+                            <span class="">Скидка</span>
+                            <span class="line-dotted"></span>
+                            <span class="number"> 200 <span>грн</span></span>
+                        </div>
+                        <span class="total-sum"><span>Загальна сума:</span><span class="sum fw-700">39 798<span>грн</span></span></span>
+                        <button class="btn-custom-project"> Оформити замовлення </button>
+                        <button class="btn-custom-project-2"> Купити в 1 клік </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-product">
+        <div class="container">
+            <span class="title-section">Товари, які ви переглянули</span>
+            <ul class="list-product">
+                <li class="item-product">
+                    <div class="wrapper-item-product">
+                        <div  class="wrapper-img-product">
+                            <a href="https://google.com" class="block-img">
+                                <img src="<%=require('./images/item-slider-1.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            </a>
+                            <div class="icon icon-like active"></div>
+                        </div>
+                        <div><a href="#" class="name-product">iPhone 7 128GB black mate</a></div>
+                        <div class="item-product-bottom-wrapper">
+                            <div class="block-price">
+                                <span>Ціна</span>
+                                <div class="old-price"><span>750$</span><span>20 250 ₴</span></div>
+                                <div class="new-price"><span>719 $</span><span>19 999 ₴</span></div>
+                            </div>
+                            <div class="block-bottom-buy">
+                                <button class="btn-buy-product">Купити</button>
+                                <a href="#" class="btn-buy-one-click">Купити в 1 клік</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="item-product">
+                    <div class="wrapper-item-product">
+                        <div  class="wrapper-img-product">
+                            <a href="https://google.com" class="block-img">
+                                <img src="<%=require('./images/item-slider-1.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            </a>
+                            <div class="icon icon-like"></div>
+                        </div>
+                        <div><a href="#" class="name-product">iPhone 7 128GB black mate</a></div>
+                        <div class="item-product-bottom-wrapper">
+                            <div class="block-price">
+                                <span>Ціна</span>
+                                <div class="old-price"><span>750$</span><span>20 250 ₴</span></div>
+                                <div class="new-price"><span>719 $</span><span>19 999 ₴</span></div>
+                            </div>
+                            <div class="block-bottom-buy">
+                                <button class="btn-buy-product">Купити</button>
+                                <a href="#" class="btn-buy-one-click">Купити в 1 клік</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="item-product">
+                    <div class="wrapper-item-product">
+                        <div  class="wrapper-img-product">
+                            <a href="https://google.com" class="block-img">
+                                <img src="<%=require('./images/item-slider-1.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            </a>
+                            <div class="icon icon-like"></div>
+                        </div>
+                        <div><a href="#" class="name-product">iPhone 7 128GB black mate</a></div>
+                        <div class="item-product-bottom-wrapper">
+                            <div class="block-price">
+                                <span>Ціна</span>
+                                <div class="old-price"><span>750$</span><span>20 250 ₴</span></div>
+                                <div class="new-price"><span>719 $</span><span>19 999 ₴</span></div>
+                            </div>
+                            <div class="block-bottom-buy">
+                                <button class="btn-buy-product">Купити</button>
+                                <a href="#" class="btn-buy-one-click">Купити в 1 клік</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="item-product">
+                    <div class="wrapper-item-product">
+                        <div  class="wrapper-img-product">
+                            <a href="https://google.com" class="block-img">
+                                <img src="<%=require('./images/item-slider-1.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            </a>
+                            <div class="icon icon-like"></div>
+                        </div>
+                        <div><a href="#" class="name-product">iPhone 7 128GB black mate</a></div>
+                        <div class="item-product-bottom-wrapper">
+                            <div class="block-price">
+                                <span>Ціна</span>
+                                <div class="old-price"><span>750$</span><span>20 250 ₴</span></div>
+                                <div class="new-price"><span>719 $</span><span>19 999 ₴</span></div>
+                            </div>
+                            <div class="block-bottom-buy">
+                                <button class="btn-buy-product">Купити</button>
+                                <a href="#" class="btn-buy-one-click">Купити в 1 клік</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="item-product">
+                    <div class="wrapper-item-product">
+                        <div  class="wrapper-img-product">
+                            <a href="https://google.com" class="block-img">
+                                <img src="<%=require('./images/item-product.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            </a>
+                            <div class="icon icon-like"></div>
+                        </div>
+                        <div><a href="#" class="name-product">iPhone 7 128GB black mate</a></div>
+                        <div class="item-product-bottom-wrapper">
+                            <div class="block-price">
+                                <span>Ціна</span>
+                                <div class="old-price"><span>750$</span><span>20 250 ₴</span></div>
+                                <div class="new-price"><span>719 $</span><span>19 999 ₴</span></div>
+                            </div>
+                            <div class="block-bottom-buy">
+                                <button class="btn-buy-product">Купити</button>
+                                <a href="#" class="btn-buy-one-click">Купити в 1 клік</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+
+
+
+<%=require('html-loader?!./fragment/_footer.html')%>
+</body>
+</html>

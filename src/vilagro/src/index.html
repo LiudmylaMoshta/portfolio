@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=description content="Put your description here.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>Title</title>
+</head>
+<body>
+<%=require('html-loader?!./fragment/_header.html')%>
+<section class="section-welcome page-main">
+    <div class="container">
+        <div class="left-block-welcome">
+            <span class="title-welcome">Бесплатный замер и установка</span>
+            <span>Изготовление по индивидуальным заказам</span>
+            <span>Большой выбор тканей</span>
+            <button class="btn custom-button fw-700">Детальнее</button>
+        </div>
+        <div class="block-welcome-info">
+            <ul class="list-card-welcome">
+                <li>
+                    <div class="card-welcome">
+                        <span class="icon icon-measure-tape"></span>
+                        <div class="info-text">
+                            <span class="title">Бесплатный выезд мастера</span>
+                            <p>Наш специалист приедет к Вам в удобное время с каталогами образцов</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-welcome">
+                        <span class="icon icon-fast-time"></span>
+                        <div class="info-text">
+                            <span class="title">Скорость выполнения заказа 3-4 дня </span>
+                            <p>Собственное производство позволяет нам в точные сроки изготовить продукцию</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-welcome">
+                        <span class="icon icon-sketch"></span>
+                        <div class="info-text ml-lg-1">
+                            <span class="title">Индивидуальный размер изделия </span>
+                            <p>Наша продукция изготавливается в точности под ваши окна, до мм</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="section-catalog">
+    <div class="container">
+        <span class="title-section">Каталог продукции</span>
+        <ul class="list-item-catalog">
+            <li class="item-catalog">
+                <div class="card-item-catalog">
+                    <span class="percent-sale">-31%</span>
+                    <div class="wrapper-img">
+                        <img src="<%=require('./images/item-catalog-1.png')%>" alt="image" class="img-fluid" data-fancybox="">
+                    </div>
+                    <span class="title">Рулонные шторы
+                        <span class="title-small">(тканевые роллеты)</span>
+                    </span>
+
+                    <span class="info-price">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    <p class="text-item-catalog ">
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <div class="block-price">
+                        <span class="name">Цена изделия</span>
+                        <span class="block-sum">от <span class="sum">120</span> грн</span>
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn custom-button background-white ">Подробнее</button>
+                        <button class="btn custom-button">Заказать замер</button>
+                    </div>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="card-item-catalog">
+                    <div class="wrapper-img">
+                        <img src="<%=require('./images/item-catalog-2.png')%>" alt="image" class="img-fluid">
+                    </div>
+                    <span class="title">Жалюзи день-ночь</span>
+                    <span class="info-price">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    <p class="text-item-catalog text-col-3">
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    </p>
+                    <div class="block-price">
+                        <span class="name">Цена изделия</span>
+                        <span class="block-sum">от <span class="sum">120</span> грн</span>
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn custom-button background-white ">Подробнее</button>
+                        <button class="btn custom-button">Заказать замер</button>
+                    </div>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="card-item-catalog">
+                    <span class="percent-sale">-31%</span>
+                    <div class="wrapper-img">
+                        <img src="<%=require('./images/item-catalog-3.png')%>" alt="image" class="img-fluid">
+                    </div>
+                    <span class="title">Римские шторы</span>
+                    <span class="info-price">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    <p class="text-item-catalog text-col-3">
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <div class="block-price">
+                        <span class="name">Цена изделия</span>
+                        <span class="block-sum">от <span class="sum">120</span> грн</span>
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn custom-button background-white ">Подробнее</button>
+                        <button class="btn custom-button">Заказать замер</button>
+                    </div>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="card-item-catalog">
+                    <span class="percent-sale">-30%</span>
+                    <div class="wrapper-img">
+                        <img src="<%=require('./images/item-catalog-4.png')%>" alt="image" class="img-fluid">
+                    </div>
+                    <span class="title">Горизонтальные жалюзи</span>
+                    <span class="info-price">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    <p class="text-item-catalog text-col-3">
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    </p>
+                    <div class="block-price">
+                        <span class="name">Цена изделия</span>
+                        <span class="block-sum">от <span class="sum">120</span> грн</span>
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn custom-button background-white ">Подробнее</button>
+                        <button class="btn custom-button">Заказать замер</button>
+                    </div>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="card-item-catalog">
+                    <div class="wrapper-img">
+                        <img src="<%=require('./images/item-catalog-55.png')%>" alt="image" class="img-fluid">
+                    </div>
+                    <span class="title">Вертикальные жалюзи</span>
+                    <span class="info-price">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    <p class="text-item-catalog text-col-3">
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <div class="block-price">
+                        <span class="name">Цена изделия</span>
+                        <span class="block-sum">от <span class="sum">120</span> грн</span>
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn custom-button background-white ">Подробнее</button>
+                        <button class="btn custom-button">Заказать замер</button>
+                    </div>
+                </div>
+            </li>
+            <li class="item-catalog">
+                <div class="card-item-catalog">
+                    <div class="wrapper-img">
+                        <img src="<%=require('./images/item-catalog-6.png')%>" alt="image" class="img-fluid">
+                    </div>
+                    <span class="title">Жалюзи - плиссе</span>
+                    <span class="info-price">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    <p class="text-item-catalog  text-col-3">
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <div class="block-price">
+                        <span class="name">Цена изделия</span>
+                        <span class="block-sum">от <span class="sum">120</span> грн</span>
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn custom-button background-white ">Подробнее</button>
+                        <button class="btn custom-button">Заказать замер</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="section-info-orders">
+    <div class="container">
+        <span class="title-section">Как заказать жалюзи?</span>
+        <div class="wrapper-info-orders">
+            <div class="img-info-orders">
+
+            </div>
+            <ul class="list-info-orders">
+                <li>
+                    <span class="number-info">01</span>
+                    <div>
+                        <span class="title fw-700 d-block">Выбор на сайте</span>
+                        <span>Выбрать систему и материалы на сайте</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="number-info">02</span>
+                    <div>
+                        <button class="btn custom-button"  data-toggle="modal" data-target="#zamerModal">Вызвать замерщика</button>
+                    </div>
+                </li>
+                <li>
+                    <span class="number-info">03</span>
+                    <div>
+                        <span class="title fw-700 d-block">Консультация специалиста</span>
+                        <span>Определиться с материалами и фурнитурой</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="number-info">04</span>
+                    <div>
+                        <span class="title fw-700 d-block">Договор</span>
+                        <span>Получить детальный расчет и подписать договор</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="number-info">05</span>
+                    <div>
+                        <span class="title fw-700 d-block">Установка</span>
+                        <span>Через 2-3 дня заказ привезут и установят</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="section-idea ">
+    <span class="title-section">Идеи для вашего интерьера</span>
+    <div class="slider-interior-wrapper">
+        <div class="slider-number-item">
+            <div class="block-number"><span>0</span><span class="number3">1</span></div>
+            <span class="border-custom"></span>
+            <span>08</span>
+        </div>
+        <ul class="slider-idea">
+        <li>
+            <div class="card-post">
+                <span class="title-post d-lg-none">Жалюзи в веранду и беседку</span>
+                <div class="wrapper-post">
+                    <div class="block-img ">
+                        <img src="<%=require('./images/img-post-1.jpg')%>" alt="image" class="img-fluid">
+                    </div>
+                    <div class="post">
+                        <div class="text-post">
+                            <span class="title-post ">Жалюзи в веранду и беседку</span>
+                            <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                        </div>
+                        <span class="more">Читать статью</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="card-post">
+                <span class="title-post d-lg-none">Рулонные шторы и жалюзи для кухни</span>
+                <div class="wrapper-post">
+                    <div class="block-img">
+                        <img src="<%=require('./images/img-post-2.jpg')%>" alt="image" class="img-fluid">
+                    </div>
+                    <div class="post">
+                        <div class="text-post">
+                            <span class="title-post">Рулонные шторы и жалюзи для кухни</span>
+                            <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                        </div>
+                        <span class="more">Читать статью</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="card-post">
+                <span class="title-post d-lg-none">Рулонные шторы и жалюзи для кухни</span>
+                <div class="wrapper-post">
+                    <div class="block-img">
+                        <img src="<%=require('./images/img-post-3.jpg')%>" alt="image" class="img-fluid">
+                    </div>
+                    <div class="post">
+                        <div class="text-post">
+                            <span class="title-post">Рулонные шторы и жалюзи для кухни</span>
+                            <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                        </div>
+                        <span class="more">Читать статью</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    </div>
+    <button class="btn custom-button">Посмотреть все статьи</button>
+</section>
+<section class="section-form">
+    <span class="title-section container">Оставьте заявку на расчет  стоимости жалюзи</span>
+        <div class="wrapper-form">
+            <div class="container block-form">
+                <span class="img-form-girl"></span>
+                <form class="form-ordering">
+                    <div class="form-row">
+                        <div class="form-group col-6 icon icon-width">
+                            <input type="text" class="form-control" placeholder="Ширина">
+                        </div>
+                        <div class="form-group col-6 icon icon-height">
+                            <input type="text" class="form-control" placeholder="Высота">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Введите количество">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <div class="wrapper-select">
+                                <select id="inputState" class="form-control select-custom">
+                                    <option selected>Выбор системы</option>
+                                    <option>Римские шторы</option>
+                                    <option>День-ночь</option>
+                                    <option>Ролетты</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Как к Вам обращаться ?">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Ваш номер телефона">
+                        </div>
+                    </div>
+                    <button class="btn custom-button">Отправить заявку</button>
+                    <div class="form-check-custom">
+                        <div class="form-group form-check form-check-custom">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                            <label class="form-check-label" for="exampleCheck2"><span><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+</section>
+<section class="section-portfolio">
+    <span class="title-section">Наши работы в интерьере</span>
+    <ul class="list-portfolio">
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio.png')%>">
+                <img src="<%=require('./images/portfolio.png')%>" alt="image" class="img-fluid" data-fancybox="">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-1.png')%>">
+                <img src="<%=require('./images/portfolio-1.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-4.png')%>">
+                <img src="<%=require('./images/portfolio-4.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-5.png')%>">
+                <img src="<%=require('./images/portfolio-5.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-6.png')%>">
+                <img src="<%=require('./images/portfolio-6.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-7.png')%>">
+                <img src="<%=require('./images/portfolio-7.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-8.png')%>">
+                <img src="<%=require('./images/portfolio-8.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-9.png')%>">
+                <img src="<%=require('./images/portfolio-9.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-11.png')%>">
+                <img src="<%=require('./images/portfolio-11.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="block-portfolio" data-fancybox data-src="<%=require('./images/portfolio-12.png')%>">
+                <img src="<%=require('./images/portfolio-12.png')%>" alt="image" class="img-fluid">
+                <div class="block-portfolio-hover">
+                    <div class="wrapper-hover">
+                        <span class="title-portfolio">Горизонтальные шторы</span>
+                        <span class="price-portfolio">Замер  + Доставка + Монтаж = 0 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <button class="btn custom-button">Больше наших работ</button>
+</section>
+<section class="section-questions">
+    <div class="container">
+        <span class="title-section">Популярные вопросы наших клиентов</span>
+        <div class="accordion" id="accordionExample">
+            <div class="item-questions">
+                <div class="" id="headingOne">
+                    <button class="btn btn-link btn-block text-left " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="icon checkmark"></span>
+                        Сроки изготовления и установка?
+                    </button>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <p class="text-questions">
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+                        type specimen book. It has survived not only five centuries, but also the
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-2">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                        <span class="icon checkmark"></span>
+                        Можно ли оплатить заказ по безналичному расчету?
+                    </button>
+                </div>
+
+                <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordionExample">
+                    <p class="text-questions">
+                        2e
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-3">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
+                        <span class="icon checkmark"></span>
+                        Можно ли заменить ткань на рулонных шторах / вертикальных жалюзи?
+                    </button>
+                </div>
+
+                <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordionExample">
+                    <p class="text-questions">
+                        3
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-4">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
+                        <span class="icon checkmark"></span>
+                        У вас есть оптовые скидки на большой заказ?
+                    </button>
+                </div>
+
+                <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordionExample">
+                    <p class="text-questions">
+                       4
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-5">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-5" aria-expanded="true" aria-controls="collapse-5">
+                        <span class="icon checkmark"></span>
+                        Можно ли оплатить заказ по безналичному расчету?
+                    </button>
+                </div>
+
+                <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#accordionExample">
+                    <p class="text-questions">
+                        5
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-6">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6">
+                        <span class="icon checkmark"></span>
+                        Можно ли заменить ткань на рулонных шторах / вертикальных жалюзи?
+                    </button>
+                </div>
+
+                <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#accordionExample">
+                    <p class="text-questions">
+                        6
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-7">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-7" aria-expanded="true" aria-controls="collapse-7">
+                        <span class="icon checkmark"></span>
+                        У вас есть оптовые скидки на большой заказ?
+                    </button>
+                </div>
+
+                <div id="collapse-7" class="collapse" aria-labelledby="heading-7" data-parent="#accordionExample">
+                    <p class="text-questions">
+                        7
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-8">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-8" aria-expanded="true" aria-controls="collapse-8">
+                        <span class="icon checkmark"></span>
+                        Можно ли оплатить заказ по безналичному расчету?
+                    </button>
+                </div>
+
+                <div id="collapse-8" class="collapse" aria-labelledby="heading-8" data-parent="#accordionExample">
+                    <p class="text-questions">
+                        8
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-9">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-9" aria-expanded="true" aria-controls="collapse-9">
+                        <span class="icon checkmark"></span>
+                        Можно ли заменить ткань на рулонных шторах / вертикальных жалюзи?
+                    </button>
+                </div>
+
+                <div id="collapse-9" class="collapse" aria-labelledby="heading-9" data-parent="#accordionExample">
+                    <p class="text-questions">
+                       9
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-10">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-10" aria-expanded="true" aria-controls="collapse-10">
+                        <span class="icon checkmark"></span>
+                        У вас есть оптовые скидки на большой заказ?
+                    </button>
+                </div>
+
+                <div id="collapse-10" class="collapse" aria-labelledby="heading-10" data-parent="#accordionExample">
+                    <p class="text-questions">
+                       10
+                    </p>
+                </div>
+            </div>
+            <div class="item-questions">
+                <div class="" id="heading-11">
+                    <button class="btn btn-link btn-block text-left checkmark-orange" type="button"  data-toggle="modal" data-target="#questionsModal">
+                        <span class="icon checkmark-orange"></span>
+                        Задать вопрос
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-form-order">
+    <div class="container">
+        <span class="title-section">Заказать бесплатный замер</span>
+        <p>Наш специалист по каталогу и материалами поможет определиться с выбором и выполнит точные замеры по вашему желанию.</p>
+    </div>
+    <div class="background-form wrapper-form">
+        <div class="container">
+            <span class="img-form-mob"></span>
+            <form class="form-order">
+                <div class="">
+                    <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                    <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                    <textarea class="form-control" placeholder="Коментарий"></textarea>
+                    <button class="btn custom-button fw-700">Отправить заявку</button>
+                    <div class="form-check-custom">
+                        <div class="form-group form-check form-check-custom">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+<section class="section-idea interior ">
+    <div class="container">
+        <span class="title-section">Жалюзи в интерьере</span>
+        <div class="slider-interior-wrapper">
+            <div class="slider-number-item">
+                <div class="block-number"><span>0</span><span class="number2">1</span></div>
+                <span class="border-custom"></span>
+                <span>08</span>
+            </div>
+            <ul class="slider-interior">
+                <li>
+                    <div class="card-post interior">
+                        <div class="wrapper-post interior">
+                            <div class="block-img interior">
+                                <img src="<%=require('./images/interior.jpg')%>" alt="image" class="img-fluid">
+                            </div>
+                            <div class="post">
+                                <div class="text-post">
+                                    <span class="title-post">Жалюзи в веранду и беседку</span>
+                                    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                                </div>
+                                <span class="more">Читать статью</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-post interior">
+                        <div class="wrapper-post interior">
+                            <div class="block-img interior">
+                                <img src="<%=require('./images/interior-1.png')%>" alt="image" class="img-fluid">
+                            </div>
+                            <div class="post">
+                                <div class="text-post">
+                                    <span class="title-post">Жалюзи в веранду и беседку</span>
+                                    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                                </div>
+                                <span class="more">Читать статью</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-post interior">
+                        <div class="wrapper-post interior">
+                            <div class="block-img interior">
+                                <img src="<%=require('./images/interior-2.png')%>" alt="image" class="img-fluid">
+                            </div>
+                            <div class="post">
+                                <div class="text-post">
+                                    <span class="title-post">Жалюзи в веранду и беседку</span>
+                                    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                                </div>
+                                <span class="more">Читать статью</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-post interior">
+                        <div class="wrapper-post interior">
+                            <div class="block-img interior">
+                                <img src="<%=require('./images/interior.jpg')%>" alt="image" class="img-fluid">
+                            </div>
+                            <div class="post">
+                                <div class="text-post">
+                                    <span class="title-post">Жалюзи в веранду и беседку</span>
+                                    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                                </div>
+                                <span class="more">Читать статью</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-post interior">
+                        <div class="wrapper-post interior">
+                            <div class="block-img interior">
+                                <img src="<%=require('./images/interior-1.png')%>" alt="image" class="img-fluid">
+                            </div>
+                            <div class="post">
+                                <div class="text-post">
+                                    <span class="title-post">Жалюзи в веранду и беседку</span>
+                                    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                                </div>
+                                <span class="more">Читать статью</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-post interior">
+                        <div class="wrapper-post interior">
+                            <div class="block-img interior">
+                                <img src="<%=require('./images/interior-2.png')%>" alt="image" class="img-fluid">
+                            </div>
+                            <div class="post">
+                                <div class="text-post">
+                                    <span class="title-post">Жалюзи в веранду и беседку</span>
+                                    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .</p>
+                                </div>
+                                <span class="more">Читать статью</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button class="btn custom-button">Посмотреть все статьи</button>
+    </div>
+</section>
+<section class="section-reviews">
+    <div class="container">
+        <span class="title-section">Отзывы о нашей работе</span>
+        <div class="wrapper-reviews">
+            <ul class="list-rating">
+                <li class="item-rating">
+                    <span class="icon icon-google"></span>
+                    <div class="mt-lg-3">
+                        <div class="stars-rating">
+                            <span class="number px-1">4</span>
+                            <ul class="block-stars">
+                                <li class="icon icon-star"></li>
+                                <li class="icon icon-star-active"></li>
+                                <li class="icon icon-star-active"></li>
+                                <li class="icon icon-star-active"></li>
+                                <li class="icon icon-star-active"></li>
+                            </ul>
+                        </div>
+                        <span class="sum-rating">18 отзывов</span>
+                    </div>
+                    <button class="btn custom-button">Все отзывы</button>
+                </li>
+                <li class="item-rating">
+                    <span class="icon icon-facebook-rating"></span>
+                    <div class="mt-lg-3">
+                        <div class="stars-rating">
+                            <span class="number px-1">5</span>
+                            <ul class="block-stars">
+                                <li class="icon icon-star-active"></li>
+                                <li class="icon icon-star-active"></li>
+                                <li class="icon icon-star-active"></li>
+                                <li class="icon icon-star-active"></li>
+                                <li class="icon icon-star-active"></li>
+                            </ul>
+                        </div>
+                        <span class="sum-rating">68 отзывов</span>
+                    </div>
+                    <button class="btn custom-button">Все отзывы</button>
+                </li>
+            </ul>
+            <div class="slider-reviews-wrapper">
+                <div class="slider-number-item">
+                    <div class="block-number"><span>0</span><span class="number">1</span></div>
+                    <span class="border-custom"></span>
+                    <span>08</span>
+                </div>
+                <ul class="slider-list-reviews">
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-google"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-facebook-rating"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-google"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-facebook-rating"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-google"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-facebook-rating"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-google"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-review">
+                            <span class="icon icon-facebook-rating"></span>
+                            <span class="name-user">Имя Фамилия</span>
+                            <span class="data-review">02.02.21</span>
+                            <p class="text-review">Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-post container">
+    <h3 class="title-section">Длинное название для статьи</h3>
+    <p>
+        <span class="fw-700 d-block">Консультация специалиста</span>
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</section>
+<%=require('html-loader?!./fragment/_footer.html')%>
+<a id="button" class="show icon button-top"></a>
+
+<!-- Modal Вызвать замерщика-->
+<div class="modal fade" id="zamerModal" tabindex="-1" aria-labelledby="zamerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <span class="title-modal">Вызвать замерщика</span>
+                <p>Наш специалист с каталогом  и материалами поможет определиться с выбором и выполнит точные замеры.</p>
+                <form class="form-order">
+                    <div class="">
+                        <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                        <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                        <textarea class="form-control" placeholder="Коментарий"></textarea>
+                        <button class="btn custom-button fw-700">Отправить заявку</button>
+                        <div class="form-check-custom">
+                            <div class="form-group form-check form-check-custom">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                <label class="form-check-label" for="exampleCheck3"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Задать вопрос-->
+<div class="modal fade" id="questionsModal" tabindex="-1" aria-labelledby="questionsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <span class="title-modal">Задать вопрос</span>
+                <p>Если у Вас остались вопросы, наш специалист перезвонит вам для консультации.</p>
+                <form class="form-order">
+                    <div class="">
+                        <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                        <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                        <textarea class="form-control" placeholder="Коментарий"></textarea>
+                        <button class="btn custom-button fw-700">Отправить вопрос</button>
+                        <div class="form-check-custom">
+                            <div class="form-group form-check form-check-custom">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                <label class="form-check-label" for="exampleCheck4"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Заказать звонок-->
+<div class="modal fade" id="callmeModal" tabindex="-1" aria-labelledby="callmeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <span class="title-modal">Заказать звонок</span>
+                <form class="form-order">
+                    <div class="">
+                        <input class="form-control" type="text" placeholder="Как к Вам обращаться ?">
+                        <input class="form-control" type="number" placeholder="Ваш номер телефона">
+                        <button class="btn custom-button fw-700">Заказать звонок</button>
+                        <div class="form-check-custom">
+                            <div class="form-group form-check form-check-custom">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                <label class="form-check-label" for="exampleCheck5"><span class="ml-2"><span>Согласен с условиями политики конфиденциальности</span></span></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

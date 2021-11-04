@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page-header-404">
+    <%=require('html-loader?!./fragment/_header.html')%>
+</div>
+<%=require('html-loader?!./fragment/_sprite.html')%>
+
+<div class="main-page page-404 ">
+    <div class="block-404">
+        <div class="wrapper-404"><div class="bg-404"></div></div>
+        <div class="wrapper-text-404">
+            <span class="title-404">404</span>
+            <span class="info-404">Упс, сторінки не знайдено!</span>
+            <p class="text-404">Ви знаходитесь тут тому, що запитувана сторінка не існує або була переміщена за іншою адресою.</p>
+            <div class="btn-group-block">
+                <button class="btn btn-custom-project-2">Назад</button>
+                <button class="btn btn-custom-project">Зареєструватися / Увійти</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<%=require('html-loader?!./fragment/_footer.html')%>
+</body>
+</html>

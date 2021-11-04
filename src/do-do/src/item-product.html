@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<%=require('html-loader?!./fragment/_header.html')%>
+<div class="block-ask-me-container">
+    <div class="block-ask-me container">
+        <button class="btn ask-me icon icon-ask-me"></button>
+    </div>
+</div>
+   <div class="main main-item-product">
+       <section class="section-item">
+           <div class="container">
+               <div class="title-page">
+                   АВСDerm Шанж Интенсив
+                   75г Bioderma (Биодерма)
+               </div>
+               <span class="article">
+                   Артикул: 030791
+               </span>
+               <div class="block-product">
+                   <div class="block-img">
+                       <img src="<%=require('./images/item-product.png')%>" class="img-fluid"  alt="photo-product"><div class="per-cent-sales"><span>-10%</span></div>
+                   </div>
+                   <div class="info-item-product">
+                       <div class="top-block-info-item">
+                           <div class="price-product">
+                               <span class="old-price">269,00 грн</span>
+                               <span class="new-price">230,00 грн</span>
+                               <div class="block-stepper">
+                                   <div class="stepper stepper--style-2 js-spinner">
+                                       <input autofocus type="number" min="0" max="100" step="1" value="0" class="stepper__input">
+                                       <div class="stepper__controls">
+                                           <button type="button" spinner-button="up">+</button>
+                                           <button type="button" spinner-button="down">−</button>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <button class="btn-success d-flex align-items-center justify-content-center  my-3">У кошик<span class="icon icon-buy ml-2"></span></button>
+
+                           <div class="accordion" id="accordionExample" >
+                               <div class="z-depth-0 bordered">
+                                   <button class="btn-secondary" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                           aria-expanded="true" aria-controls="collapseOne">Купити в один клік</button>
+<!--                                   <div id="headingOne">-->
+<!--                                       -->
+<!--                                   </div>-->
+                                   <div id="collapseOne" class="collapse" aria-labelledby="headingOne"  data-parent="#accordionExample">
+                                       <div class="block-call-me mt-3">
+                                           <span class="text-center">Менеджер передзвонить Вам, уточнить деталі замовлення</span>
+                                           <div class="form-group">
+                                               <label for="phone"></label>
+                                               <input class="form-control" id="phone"  placeholder="+380">
+                                           </div>
+                                           <button class="btn-success">Відправити</button>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+
+
+
+
+                       </div>
+                       <div class="text">
+                           <span class="title-text">Опис товару</span>
+                           <p>Біодерма АВСDerm Шанже Інтенсив заспокоює почервоніння і попрілості під підгузником, швидко повертає відчуття комфорту завдяки D-пантенол і допомагає відновити крихкий захисний бар'єр шкіри немовлят.
+                           Створює ефективний неокклюзівний (без жирної плівки) захисний шар, який оздоровлює і ізолює шкіру від подразнюючих речовин в стільці дитини.</p>
+                           <p> Розроблено відповідно до вимог дерматологічної безпеки ABCDerm:
+                               Оптимальне дозування і контроль ефективності інгредієнтів
+                               Не містить дерматологічні небезпечних інгредієнтів
+                               Продукт високої безпеки і високої толерантності, 100% адаптований до чутливій шкірі немовлят та дітей.
+                               Без парабенів і аромату
+                               Протестовано під дерматологічних контролем
+                               гіпоалергенний</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <section class="section-new-review">
+           <div class="container">
+               <h4 class="title-page">Відгуки</h4>
+               <form class="reviews">
+                   <div class="form-group">
+                       <label for="first-name"></label>
+                       <input type="text" class="form-control" id="first-name" placeholder="Ім’я">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputEmail1"></label>
+                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleFormControlTextarea1"></label>
+                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Ваш коментар"></textarea>
+                   </div>
+                   <button class="btn-success">Відправити</button>
+               </form>
+           </div>
+       </section>
+       <section class="section-reviews">
+           <div class="container">
+               <div class="block-reviews">
+                   <div class="header-reviews">
+                       <div>
+                           <div><span class="name">Olga</span></div>
+                           <div class="my-3"><span>10.11.2018</span></div>
+
+                       </div>
+                       <div class="block-stars">
+                           <ul class="list-stars">
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="text">
+                       <p>Гель Bioderma купила в аптеке, в основном для подмывания малыша, взяла большую упаковку в 1 литр, поставила у раковины, чтоб всегда был под рукой. Использовали так же для мытья тела, головы.</p>
+                       <p>Вот такая большая бутылка, симпатично оформлена, с милым пингвиненком. Написано, что это мягкий, пенящийся, увлажняющий гель.
+                           Подходит для мытья тела, головы, лица, волос. Предназначен для младенцев и детей. Без парабенов, не раздражает глаза.</p>
+                   </div>
+                </div>
+               <div class="block-reviews">
+                   <div class="header-reviews">
+                       <div>
+                           <div><span class="name">Виктор</span></div>
+                           <div class="my-3"><span>08.11.2018</span></div>
+
+                       </div>
+                       <div class="block-stars">
+                           <ul class="list-stars">
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                               <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <p class="text">
+                       Упаковка симпатично оформлена. Написано, что это мягкий, пенящийся, увлажняющий гель. Предназначен для младенцев и детей. Без парабенов.</p>
+               </div>
+           </div>
+       </section>
+   </div>
+<%=require('html-loader?!./fragment/_footer.html')%>
+
+<!--<script src="js/stepper.min.js"></script>-->
+</body>
+</html>

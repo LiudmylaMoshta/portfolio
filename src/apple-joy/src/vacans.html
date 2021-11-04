@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page-header">
+    <%=require('html-loader?!./fragment/_header.html')%>
+</div>
+<%=require('html-loader?!./fragment/_sprite.html')%>
+
+<div class="main-page page-vacancies">
+    <nav aria-label="breadcrumb" class="container block-breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Головна сторіка </a></li>
+            <li class="breadcrumb-item active" aria-current="page">Блог</li>
+        </ol>
+    </nav>
+    <section class="section-vacancies">
+        <div class="container">
+            <h1 class="title-section">Актуальні вакансії від магазину Apple Joy</h1>
+            <div class="vacancies-wrapper">
+                <div class="pills-wrapper">
+                    <ul class="nav nav-pills sliders-vacancies" id="vacancies-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="true">
+                                <span class="title-tab">Продавець</span>
+                                <span class="d-block">місто: Київ</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="maneger-tab" data-toggle="tab" href="#maneger" role="tab" aria-controls="maneger" aria-selected="false">
+                                <span class="title-tab">SMM менеджер</span>
+                                <span class="d-block">місто: Київ</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="new-tab" data-toggle="tab" href="#new" role="tab" aria-controls="new" aria-selected="false">
+                                <span class="title-tab">Нова вакансія</span>
+                                <span class="d-block">місто: Київ</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="customer" role="tabpanel" aria-labelledby="customer-tab">
+                        <img src="<%=require('./images/blog-present-apple.webp')%>" alt="image-post" class="img-vacans">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the </p>
+                    </div>
+                    <div class="tab-pane fade" id="maneger" role="tabpanel" aria-labelledby="maneger-tab">
+                        <img src="<%=require('./images/blog-macbooks.webp')%>" alt="image-post" class="img-vacans">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the </p>
+                    </div>
+                    <div class="tab-pane fade" id="new" role="tabpanel" aria-labelledby="new-tab">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-anketa">
+        <div class="container">
+            <span class="title-section">Відправляйте онлайн анкету щоб зв’язатися з Вами</span>
+            <form class="form-anketa row">
+                <div class="mb-3 col-md-6">
+                    <label for="nameInput1" class="form-label">Ваше ім'я та Прізвище</label>
+                    <input type="text" class="form-control" id="nameInput1" placeholder="Ваше ім'я та Прізвище">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="mailInput1" class="form-label">Ваші контактні дані</label>
+                    <input type="text" class="form-control" id="mailInput1" placeholder="Телефон або e-mail">
+                </div>
+                <div class="mb-3 col-md-12">
+                    <label for="Textarea1" class="form-label">Ваш коментар</label>
+                    <textarea class="form-control" id="Textarea1" rows="4" placeholder="Яка вакансія Вас цікавить і чому? Коротко про себе."></textarea>
+                </div>
+                <button class="btn btn-custom-project">Відправити</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+<%=require('html-loader?!./fragment/_footer.html')%>
+</body>
+</html>

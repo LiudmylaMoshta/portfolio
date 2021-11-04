@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+<div class="page-header">
+    <%=require('html-loader?!./fragment/_header.html')%>
+</div>
+<%=require('html-loader?!./fragment/_sprite.html')%>
+<div class="main page-repair active-category">
+    <nav aria-label="breadcrumb" class="container block-breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Головна сторіка </a></li>
+            <li class="breadcrumb-item"><a href="#">Ремонт </a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ремонт iPhone</li>
+        </ol>
+    </nav>
+    <h1 class="title-section text-lg-left container">Сервісний центр Apple</h1>
+    <section class="section-category ">
+        <div class="bg-section-category">
+            <div class="container">
+                <p>Сервісний центр Apple - розбите скло екрану iPhone, iPad, AppleWatch або пошкоджений корпус MacBook - серйозні поломки, що вимагають негайного виправлення. Але немає таких поломок, які не можна було б полагодити.Ми пропонуємо ремонт Apple для виправлення технічних і механічних несправностей даної продукції. Знайдемо і відремонтуємо технічні і механічні помилки.</p>
+                <span class="title-section text-center">Оберіть категорію девайсу</span>
+                <ul class="nav nav-tabs list-category-repair" id="myTab" role="tablist">
+                    <li class="nav-item item-list-category-repair" role="presentation">
+                        <a id="iphone-tab" class="nav-link active block-img" data-toggle="tab" href="#phone" role="tab" aria-controls="phone" aria-selected="true">
+                            <img src="<%=require('./images/ihpone-category-repair.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            <span class="name-category-repair"><span class="name">iPhone</span></span>
+                        </a>
+                    </li>
+                    <li class="nav-item item-list-category-repair" role="presentation">
+                        <a class="nav-link block-img" id="ipad-tab" data-toggle="tab" href="#ipad" role="tab" aria-controls="ipad" aria-selected="false" >
+                            <img src="<%=require('./images/ipad-category-repair.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            <span class="name-category-repair"><span class="name">iPad</span></span>
+                        </a>
+                    </li>
+                    <li class="nav-item item-list-category-repair" role="presentation">
+                        <a class="block-img nav-link block-img"  id="watch-tab" data-toggle="tab" href="#watch" role="tab" aria-controls="watch" aria-selected="false" >
+                            <img src="<%=require('./images/watch-category-repair.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            <span class="name-category-repair"><span class="name">Apple Watch</span></span>
+                        </a>
+                    </li>
+                    <li class="nav-item item-list-category-repair" role="presentation">
+                        <a class="block-img nav-link block-img"  id="mac-tab" data-toggle="tab" href="#mac" role="tab" aria-controls="mac" aria-selected="false" >
+                            <img src="<%=require('./images/macbook-category-repair.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            <span class="name-category-repair"><span class="name">Mac</span></span>
+                        </a>
+                    </li>
+                    <li class="nav-item item-list-category-repair" role="presentation">
+                        <a class="block-img nav-link block-img"  id="other-tab" data-toggle="tab" href="#other" role="tab" >
+                            <span data-toggle="modal" data-target="#Modal-repair-other">
+                                <img src="<%=require('./images/other-category-repair.webp')%>" alt="image-phone" class="img-product img-fluid">
+                            <span class="name-category-repair"><span class="name">Інший гаджет</span></span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tab-content container" id="myTabContent">
+            <div class="tab-pane fade show active" id="phone" role="tabpanel" aria-labelledby="phone-tab">
+                <div class="section-list-model">
+                    <span class="title-section text-center">Оберіть модель iPhone</span>
+                    <ul class="list-model">
+                        <li>
+                            <a href="remont-3-iphone.html">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-12-pro-max.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 12 Pro Max</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-12-pro.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 12 Pro</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-12.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 12</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-12-mini.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 12 Mini</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-11-pro-max.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 11 Pro Max</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-11-pro.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 11 Pro </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-11.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 11</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-se.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone SE</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-xs-max.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone Xs Max</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-xr.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone Xr</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-xs.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone Xs</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-8.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 8</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-8-plus.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 8 Plus</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-7.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 7</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-7-plus.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPhone 7 Plus</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/iphone-other.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">Минулі моделі</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="ipad" role="tabpanel" aria-labelledby="ipad-tab">
+                <div class="section-list-model">
+                    <span class="title-section text-center">Оберіть модель iPad</span>
+                    <ul class="list-model">
+                        <li>
+                            <a href="remont-3-ipad.html">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/ipad-air-10-9.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPad Air 10.9''</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/ipad-air-10-5.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPad Air 10.5''</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/ipad-pro-12-9.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPad Pro 12.9''</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/ipad-pro-11.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPad Pro 11''</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/ipad-mini.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">iPad Mini 5''</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="watch" role="tabpanel" aria-labelledby="watch-tab">
+                <div class="section-list-model">
+                    <span class="title-section text-center">Оберіть модель Apple Watch</span>
+                    <ul class="list-model">
+                        <li>
+                            <a href="remont-3-iwatch.html">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/series-se.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">Series  SE</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/series-6.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">Series  6</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/series-5.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">Series 5</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/series-4.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">Series 4</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/series-3.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">Series 3</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab">
+                <div class="section-list-model">
+                    <span class="title-section text-center">Оберіть модель Mac</span>
+                    <ul class="list-model">
+                        <li>
+                            <a href="remont-3-macbook.html">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/macbook-pro-16.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">Macbook Pro 16"</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/macbook-pro-15.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">MacBook Pro 15"</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/macbook-pro-13.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">MacBook Pro 13"</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/macbook-air-13.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">MacBook Air 13"</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="wrapper-img">
+                                    <img src="<%=require('./images/macbook-pro-12.webp')%>" alt="image-phone" class="img-product img-fluid">
+                                </div>
+                                <span class="name-product">MacBook 12"</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab"></div>
+        </div>
+    </section>
+    <section class="section-text container">
+        <h3 class="title-section text-center">Найпоширеніші запитання</h3>
+        <div id="accordion-1">
+            <div class="card card-order">
+                <div class="card-header" id="headingOne">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                             <span class="block-header-order">
+                                Скільки часу займає ремонт ?
+                            </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-1">
+                    <p class="card-body">
+                        Ремонт займає від 2 годин до 4-5 днів. Все залежить від поломки і пристрої. Терміни ремонту можна дізнатися в розділах ремонту або вже у менеджера.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="accordion-2">
+            <div class="card card-order">
+                <div class="card-header" id="heading-2">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                         <span class="block-header-order">
+                           Яку гарантію на ремонт надає магазин ?
+                        </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-2">
+                    <p class="card-body">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="accordion-3">
+            <div class="card card-order">
+                <div class="card-header" id="heading-3">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                         <span class="block-header-order">
+                            Які пристрої ремонтує сервіс ?
+                        </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-3">
+                    <p class="card-body">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="accordion-4">
+            <div class="card card-order">
+                <div class="card-header" id="heading-4">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                         <span class="block-header-order">
+                           Де знаходиться Сервісний центр?
+                        </span>
+                        <span class="icon icon-arrow-down"></span>
+                    </button>
+                </div>
+                <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordion-4">
+                    <p class="card-body">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h3 class="title-text mt-4">Ремонт техніки Apple</h3>
+        <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </section>
+</div>
+<%=require('html-loader?!./fragment/_footer.html')%>
+<!-- Modal Замовити ремонт-->
+<div class="modal fade modal-delivery" id="Modal-repair-other" tabindex="-1" role="dialog" aria-labelledby="repair-ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="icon-close"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span class="modal-title">Залиште дані і ми зв’яжемось з Вами</span>
+                <span class="small-title">У меня інший Гаджет</span>
+                <form class="">
+                    <div class="row p-0">
+                        <label class="col-lg-6 pr-lg-1">
+                            <input type="text" class="form-control" placeholder="Ім'я*">
+                        </label>
+                        <label class="col-lg-6 pl-lg-1">
+                            <input type="number" class="form-control" placeholder="Телефон*">
+                        </label>
+                    </div>
+                    <label>
+                        <input type="text" class="form-control" placeholder="Модель пристрою*">
+                    </label>
+                    <label>
+                        <textarea class="form-control" rows="4" placeholder="Опишіть несправність*"></textarea>
+                    </label>
+                    <button class="btn-custom-project">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

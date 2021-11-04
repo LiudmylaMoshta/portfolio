@@ -1,0 +1,189 @@
+.page-vacancies{
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  .title-section{
+    text-align: center;
+  }
+
+  .pills-wrapper{
+    padding-bottom: 25px;
+    .slick-initialized .slick-slide {
+      margin: 0 12px;
+    }
+    .nav-item{
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 150%;
+      border-top: 0.5px solid #919090;
+      margin:  0 5px;
+      &:before{
+        content: '';
+        display: block;
+        height: 0;
+        border-top: 3px solid #393177;
+        width: 50%;
+        margin-top: -2px;
+      }
+      a{
+        color: #868B91;
+        padding: 7.5px 0;
+      }
+      .title-tab{
+        font-weight: 500;
+      }
+    }
+    .nav-pills,
+    .nav-tabs {
+      .nav-link {
+        border: none !important;
+      }
+      .nav-link.active,
+      .show > .nav-link {
+        color: #000;
+        background-color: transparent;
+      }
+    }
+  }
+  .tab-content{
+    color: #2B2D2C;
+    img{
+      margin-bottom: 25px;
+    }
+  }
+
+}
+.section-anketa{
+  background-image: url($images-path + "bg-phone-pieces.webp") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 0;
+}
+.form-anketa{
+  width: 200px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+  label{
+    margin-left: 12px;
+  }
+  .form-control{
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+    border: none;
+    &::placeholder{
+      font-size: 13px;
+      font-weight: 300;
+      color: #919090;
+    }
+  }
+  .btn-custom-project{
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+  }
+}
+
+@media (max-width: 359px){
+  .sliders-vacancies{
+    .slick-list {
+      margin: 0 15px;
+    }
+  }
+}
+@media (min-width: 768px){
+  .vacancies-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .page-vacancies{
+    .title-section{
+      text-align: left;
+    }
+    .tab-content{
+      width: 65%;
+      margin-left: auto;
+    }
+    .pills-wrapper {
+      width: 30%;
+      .nav-item{
+        font-size: 16px;
+      }
+    }
+    .nav-item {
+      width: 100%;
+    }
+
+  }
+  .form-anketa {
+    width: 575px;
+    .btn-custom-project{
+      width: 216px;
+      margin: 25px auto 0;
+    }
+  }
+}
+
+@media (min-width:992px){
+  .page-vacancies{
+    .tab-content {
+      width: 75%;
+      margin-left: auto;
+      .img-vacans{
+        float: left;
+        width: 320px;
+        height: auto;
+        margin-right: 25px;
+      }
+    }
+    .pills-wrapper{
+      width: 20%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+//@media (max-width: 767px){
+// .burger-info .hfe-nav-menu-icon{
+//   display: none;
+// }
+//  .burger-info .hfe-nav-menu__breakpoint-mobile .hfe-nav-menu__layout-horizontal{
+//    visibility: inherit;
+//    opacity: 1;
+//  }
+//  .burger-info .hfe-nav-menu__breakpoint-mobile .hfe-nav-menu__layout-horizontal #menu-1-1a961e8{
+//    opacity: 1;
+//    display: flex;
+//    flex-direction: row;
+//    width: 100%;
+//  }
+//  .burger-info .hfe-nav-menu__breakpoint-mobile .hfe-nav-menu__layout-horizontal #menu-1-1a961e8 .menu-item .hfe-menu-item{
+//    padding-left: 5px ;
+//    padding-right: 5px ;
+//    font-size: 14px;
+//  }
+//  .burger-info .hfe-nav-menu__breakpoint-mobile .hfe-nav-menu__layout-horizontal #menu-1-1a961e8 .menu-item{
+//    width: auto;
+//  }
+//}
+//@media (min-width: 1300px){
+//  .menu-catalog-desktop .menu-item-type-custom .hfe-menu-item  .sub-menu {
+//    display: flex;
+//    flex-wrap: wrap;
+//    width: 500px;
+//  }
+//  .menu-catalog-desktop .menu-item-type-custom .hfe-menu-item  .sub-menu .menu-item{
+//    width: 50%;
+//  }
+//}

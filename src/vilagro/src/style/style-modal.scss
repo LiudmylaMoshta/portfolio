@@ -1,0 +1,63 @@
+
+.modal{
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  .modal-dialog{
+    margin: 0.7rem;
+  }
+  .title-modal{
+    font-size: 20px;
+    line-height: 120%;
+    display: block;
+    font-family: 'Bitter', sans-serif;
+    margin-bottom: 22px;
+  }
+  form{
+    margin-top: 22px;
+  }
+  .form-control{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 0;
+    &::placeholder{
+      color: #303030;
+      font-size: 14px;
+    }
+  }
+  .modal-content {
+    padding: 25px 20px;
+  }
+  .custom-button{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .form-group label{
+    &:before {
+      border: 1px solid #B2B2B2;
+    }
+  }
+  .form-check-custom .form-group label {
+    text-align: left;
+  }
+  @include media-breakpoint-up (xs){
+    .modal-dialog{
+      max-width: 370px;
+      margin: 0 auto;
+    }
+  }
+  @include media-breakpoint-up (md){
+    font-size: 15px;
+    line-height: 130%;
+    .modal-dialog{
+      max-width: 470px;
+      margin: 40px auto;
+    }
+    .title-modal{
+      font-size: 30px;
+    }
+    .modal-content {
+      padding: 55px 45px;
+    }
+  }
+}

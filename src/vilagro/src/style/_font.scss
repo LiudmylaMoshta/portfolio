@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+html,
+body {
+  font-family: $default-font-family, sans-serif;
+  font-size: $default-font-size;
+  line-height: $default-line-height;
+  font-weight: 300;
+  min-height: 100vh;
+  color: $black;
+}

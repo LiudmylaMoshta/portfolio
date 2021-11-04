@@ -1,0 +1,124 @@
+footer{
+  background-color: #303030;
+  font-size: 11px;
+  line-height: 190%;
+  font-weight: 400;
+  color: #fff;
+  padding: 37px 80px;
+  .logo-footer{
+    width: 215px;
+    height: 46px;
+    margin-bottom: 30px;
+    margin-left: -25px;
+    svg{
+      width: 100%;
+      height: auto;
+    }
+  }
+  a{
+    color: #fff;
+    &:hover{
+      color: #FFD971;
+      text-decoration: none;
+    }
+  }
+  .title-footer{
+    font-family: 'Bitter', serif;
+    font-size: 12px;
+    line-height: 170%;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .block-1, .block-2, .block-3, .block-4, {
+    margin-bottom: 30px;
+  }
+  .custom-button{
+    margin: 0;
+    margin-top: 15px;
+    width: 145px;
+    font-size: 11px;
+    padding: 9px 5px;
+
+  }
+  .list-icon-contact{
+    display: block;
+    color: #fff;
+    >li{
+      display: block;
+      .link-icon-contact{
+        color: #fff;
+      }
+      .icon:before{
+        color: #fff;
+      }
+    }
+  }
+  .item-contact-footer{
+    display: flex;
+    align-items: baseline;
+    *{
+      display: block;
+    }
+    .icon:before{
+      margin-right: 7px;
+    }
+  }
+  .wrapper-footer{
+    max-width: 230px;
+    margin: 0 auto;
+  }
+  @include media-breakpoint-up (md){
+    font-size: 12px;
+    .logo-footer {
+      margin-left: 0;
+    }
+    .wrapper-footer{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+    .title-footer{
+      font-size: 17px;
+    }
+    .block-1, .block-2, .block-3, .block-4 {
+      margin-right: 20px;
+    }
+
+    .custom-button {
+      margin-top: 15px;
+      width: 200px;
+      font-size: 14px;
+      padding: 9px 25px;
+    }
+  }
+  @include media-breakpoint-up (lg){
+    font-size: 14px;
+    .logo-footer {
+      width: 246px;
+      height: 54px;
+      margin-right: 0;
+    }
+    .wrapper-footer{
+      //display: flex;
+      justify-content: space-between;
+      //align-items: baseline;
+    }
+    .block-1, .block-2, .block-3, .block-4 {
+      margin-right: 0;
+    }
+    .title-footer{
+      font-size: 20px;
+    }
+    .block-5 .title-footer{
+      text-align: center;
+    }
+    .contact-footer{
+      margin-left: 30px;
+    }
+    .block-3{
+      padding-left: 15px;
+    }
+  }
+}

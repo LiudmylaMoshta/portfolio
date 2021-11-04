@@ -1,0 +1,572 @@
+@media(max-width: 767px){
+  .page-windowsill.brand.wds{
+    .list-type-windowsill .item-type-windowsill .block-imgv{
+      height: 130px;
+    }
+  }
+  .page-windowsill.brand{
+    .table-windows.table-price-windowsill.colum-2{
+      tr{
+        padding: 0 35px;
+      }
+    }
+    .section-price-windowsill .table-price-windowsill tbody tr td:first-child,
+    .section-price-windowsill .table-price-windowsill thead tr td:first-child {
+      width: 70%;
+      text-align: left;
+      padding: 8px 8px 8px 10px;
+    }
+    .table-price-windowsill {
+      width: 100%;
+      max-width: 300px;
+    }
+    table.table-windows tr {
+      height: auto;
+    }
+    .section-top-page-windowsill{
+      padding-top: 20px;
+    }
+    .section-installation-kiev .block-installation-kiev .footer-item-catalog .price {
+      margin: 0;
+    }
+  }
+  .list-type-windowsill.max-hight .item-type-windowsill .block-img{
+    height: 120px;
+  }
+  .page-windowsill.brand.werzalit{
+    table.table-windows tr td {
+      min-width: 52px;
+    }
+  }
+}
+.page-windowsill.brand{
+  .section-form-page-windowsill{
+    border-bottom: none;
+    padding: 0;
+    &:before {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin-bottom: 25px;
+
+    }
+    &:after {
+      box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16);
+      content: '';
+      display: block;
+      width: 100%;
+      height: 7px;
+      margin-top: 25px;
+    }
+  }
+  .section-buy-our-company .list-buy-our-company li {
+    line-height: 20px;
+    align-items: end;
+  }
+  .img-brand{
+    width: 170px;
+    height: 50px;
+    margin: 10px auto;
+  }
+  .section-like-type .block-like-type .list-scheme-works li {
+    align-items: center;
+  }
+  .section-installation-kiev {
+    padding: 0;
+    .block-installation-kiev {
+      padding: 150px 0 25px;
+      background-image: url("../images/img-section-installation-2.png"),
+      linear-gradient(-60deg, rgba(#fff, .23) 0, rgba(#fff, 1) 30%, rgba(#7EBEEB, 1) 50%, rgba(#2792DE, 1) 100%),
+      linear-gradient(60deg, rgba(#fff, .23) 0, rgba(#fff, .23) 30%, rgba(#BDE7FF, .23) 75%, rgba(#E5ECEA, .23) 100%);
+      //background-position: left, left, right;
+      background-repeat: no-repeat, no-repeat, no-repeat;
+      //background-size: 50%, 40%, 50%;
+      background-position: top left, top left, bottom right;
+      background-repeat: no-repeat, no-repeat, no-repeat;
+      background-size: auto 50%, 40% 30%, 50% 100%;
+      &:before{
+        content: none;
+      }
+    }
+    .title-section{
+      text-align: left;
+    }
+  }
+  .section-other-section.brand-link{
+    .item-catalog{
+      .block-img {
+        position: relative;
+      }
+      .price{
+        border-top: none;
+      }
+    }
+  }
+  .list-type-windowsill.img-notall .item-type-windowsill{
+    padding: 15px 10px;
+    margin-top: -10px;
+    .title-type-windowsill {
+      //min-height: 55px;
+    }
+    .block-img{
+      height: auto;
+      img {
+        width: 100%;
+        height: auto;
+        min-width: auto;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+}
+.icon-checkmark-2{
+  display: flex;
+  align-items: unset;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  &:before{
+    content: '';
+    background-image: url("../images/icon/checkmark-2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+}
+
+.list-type-windowsill{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  .item-type-windowsill{
+    width: 50%;
+    padding: 10px;
+    .block-img{
+      height: 100px;
+      width: 100%;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+        min-width: 123%;
+      }
+    }
+    .title-type-windowsill{
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      width: 57%;
+      text-align: left;
+      margin-top: 10px;
+      min-height: 35px;
+      &.n-3{
+        width: 70%;
+      }
+    }
+    .article{
+      color: #AAAAAA;
+      font-size: 10px;
+    }
+    p{
+      font-size: 9px;
+      line-height: 11px;
+    }
+  }
+}
+@media(max-width: 767px) {
+  .page-windowsill.brand.wds {
+    .list-type-windowsill .item-type-windowsill .block-img {
+      height: 130px;
+    }
+  }
+}
+@media(min-width: 414px){
+  .list-type-windowsill .item-type-windowsill{
+    .block-img img {
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+    }
+    .title-type-windowsill {
+      width: 100%;
+      &.n-3{
+        width: 100%;
+      }
+    }
+  }
+  .list-type-windowsill .item-type-windowsill .title-type-windowsill {
+    min-height: auto;
+  }
+}
+@media(min-width: 768px){
+  .list-type-windowsill{
+    .item-type-windowsill{
+      width: 25%;
+      padding: 10px;
+      .title-type-windowsill {
+        font-size: 15px;
+      }
+       p {
+        font-size: 12px;
+        line-height: 15px;
+      }
+      .block-img {
+        height: 96px;
+        width: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+  .section-price-windowsill .table-price-windowsill {
+    width: 90%;
+  }
+  .page-windowsill.brand{
+    .table-price-windowsill thead tr td:first-child {
+      justify-content: center;
+    }
+    .table-price-windowsill tbody tr td,
+    .table-price-windowsill thead tr td{
+      width: 25%;
+    }
+    .section-price-windowsill .table-price-windowsill tbody tr td:first-child,
+    .section-price-windowsill .table-price-windowsill thead tr td:first-child {
+      text-align: center;
+      padding: 8px 10px;
+    }
+    .section-scheme-works.roller{
+      padding-top: 30px;
+      padding-bottom: 20px;
+      .title-section{
+        width: 55%;
+        margin: 0 auto;
+      }
+    }
+    .img-brand {
+      width: 250px;
+      height: auto;
+      margin: 0 0 7px 0;
+    }
+    .section-top-page-windowsill,
+    .section-type-windowsill,
+    .section-price-windowsill,
+    .section-like-type {
+      padding: 30px 0;
+    }
+    .section-other-section.brand-link{
+      .list-item-catalog {
+        justify-content: left;
+        .item-catalog{
+          margin: 10px;
+        }
+      }
+    }
+    .section-installation-kiev{
+      padding: 0;
+      .block-installation-kiev{
+        padding: 0;
+        display: flex;
+        //background-image: url("../images/img-section-installation-2.png"),
+        //  linear-gradient(-60deg, rgba(#fff, .23) 0, rgba(#fff, 1) 30%, rgba(#7EBEEB, 1) 50%, rgba(#2792DE, 1) 100%),
+        //  linear-gradient(60deg, rgba(#fff, .23) 0, rgba(#fff, .23) 30%, rgba(#BDE7FF, .23) 75%, rgba(#E5ECEA, .23) 100%);
+        background-position: left, left, right;
+        //background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: 50%, 40%, 50%;
+        flex-direction: row;
+        &:before {
+          display: none;
+        }
+        .info-installation-kiev {
+          width: 50%;
+          margin-left: auto;
+          padding: 25px 0;
+          .title-section {
+            margin-top: 0;
+            text-align: left;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .bg-welcome-page-windowsill{
+      background-size: 72% 100%;
+      background-position-y: center;
+      background-position-x: right;
+      &:before{
+        background: linear-gradient(to right, #ffffff 0%, #ffffff 40%, rgba(255, 255, 255, 0.41) 55%, rgba(255, 255, 255, 0.39) 65%, rgba(255, 255, 255, 0) 70%);
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-width: 85%;
+        width: 85%;
+        height: 100%;
+      }
+    }
+  }
+  .page-windowsill.brand.plastolit{
+    .table-windows.table-price-windowsill{
+      width: 80%;
+      margin: 0 auto;
+      tbody,
+      thead {
+        tr td {
+          width: 33%;
+        }
+      }
+    }
+  }
+  .page-windowsill.brand{
+    .table-windows.table-price-windowsill.colum-3{
+      width: 70%;
+       tbody, thead{
+         tr td {
+           width: 33%;
+         }
+       }
+    }
+    .table-windows.table-price-windowsill.colum-4{
+      width: 90%;
+      tbody, thead{
+        tr td {
+          width: 25%;
+        }
+      }
+    }
+    .table-windows.table-price-windowsill.colum-2{
+      width: 60%;
+      tbody, thead{
+        tr td {
+          width: 50%;
+        }
+      }
+    }
+  }
+  .page-windowsill.brand.werzalit{
+    .table-windows.table-price-windowsill.3-colum{
+      width: 70%;
+      margin: 0 auto;
+      tbody, thead{
+        tr td{
+          width: 33%;
+        }
+      }
+    }
+  }
+  .page-windowsill.brand.werzalit{
+    .table-windows.table-price-windowsill{
+      width: 100%;
+    }
+  }
+}
+
+@media(min-width: 992px){
+  .list-type-windowsill{
+    .item-type-windowsill{
+      width: 25%;
+      padding: 15px;
+      .block-img {
+        height: 151px;
+        img{
+          min-width: 134%;
+          height: auto;
+        }
+      }
+      .title-type-windowsill {
+        font-size: 16px;
+      }
+      p {
+        font-size: 13px;
+        line-height: 17px;
+      }
+      .article{
+        font-size: 12px;
+      }
+    }
+  }
+  .page-windowsill.brand{
+    .section-installation-kiev{
+      padding: 0;
+      .block-installation-kiev{
+        padding: 0;
+        display: flex;
+        //background-image: url("../images/img-section-installation-2.png"),
+        //  linear-gradient(-60deg, rgba(#fff, .23) 0, rgba(#fff, 1) 30%, rgba(#7EBEEB, 1) 50%, rgba(#2792DE, 1) 100%),
+        //  linear-gradient(60deg, rgba(#fff, .23) 0, rgba(#fff, .23) 30%, rgba(#BDE7FF, .23) 75%, rgba(#E5ECEA, .23) 100%);
+        background-position: left, left, right;
+        //background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: 50%, 40%, 50%;
+
+        flex-direction: row;
+        .title-section {
+          font-size: 25px;
+          text-align: center;
+        }
+        &:before {
+          display: none;
+        }
+        .info-installation-kiev {
+          width: 50%;
+          margin-left: auto;
+          padding: 50px 0;
+          .title-section {
+            margin-top: 0;
+          }
+        }
+        .footer-item-catalog .price {
+          font-size: 27px;
+          align-items: baseline;
+          .text{
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .section-other-section.brand-link{
+      .list-item-catalog {
+        .item-catalog{
+          width: calc(25% - 20px);
+        }
+      }
+    }
+    .section-type-windowsill,
+    .section-price-windowsill,
+    .section-like-type {
+      padding: 40px 0;
+    }
+    .section-top-page-windowsill{
+      padding-top: 5px;
+    }
+    .section-buy-our-company .list-buy-our-company li {
+      line-height: 30px;
+      align-items: baseline;
+      font-size: 19px;
+    }
+    .block-portfolio {
+      padding-bottom: 35px;
+    }
+  }
+
+  .icon-checkmark-2{
+    font-size: 18px;
+    line-height: 30px;
+    align-items: flex-end;
+    &:before {
+      content: '';
+      background-image: url("../images/icon/checkmark-2.svg");
+      background-repeat: no-repeat;
+      display: block;
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+    }
+  }
+  .page-windowsill.brand.werzalit{
+    .section-price-windowsill .table-price-windowsill tbody tr td:first-child,
+    .section-price-windowsill .table-price-windowsill thead tr td:first-child {
+      min-width: 275px;
+    }
+  }
+}
+
+
+@media(min-width: 1300px){
+  .list-type-windowsill{
+    .item-type-windowsill{
+      .block-img {
+        height: 183px;
+        img{
+          min-width: auto;
+          width: auto;
+          height: 183px;
+        }
+      }
+      .title-type-windowsill {
+        font-size: 20px;
+        line-height: 25px;
+        width: 40%;
+        font-weight: 500;
+        margin-bottom: 7px;
+        min-height: 50px;
+        &.n-3{
+          width: 60%;
+        }
+      }
+      p {
+        font-size: 17px;
+        line-height: 22px;
+      }
+      .article{
+        font-size: 14px;
+      }
+    }
+  }
+  .page-windowsill.brand{
+    .section-perfect-windowsill .list-perfect-windowsill{
+      margin-bottom: 20px;
+    }
+    .section-price-windowsill .table-price-windowsill{
+      margin-bottom: 0;
+      thead tr {
+        height: 88px;
+      }
+    }
+    .table-price-windowsill{
+      tbody,thead {
+        tr{
+          //padding: 0 45px 0 80px;
+          padding: 0;
+          td{
+            width: 25%;
+            height: auto;
+            font-size: 18px;
+            &:first-child{
+              padding: 8px 15px 0 10px;
+            }
+          }
+        }
+      }
+      thead tr td {
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 24px;
+      }
+    }
+    .section-type-windowsill{
+      padding-bottom: 0;
+      .title-section {
+        padding-bottom: 10px;
+      }
+    }
+    .list-type-windowsill.img-notall {
+      .item-type-windowsill{
+        padding: 30px 10px 15px;
+        .title-type-windowsill {
+          min-height: 45px;
+        }
+      }
+    }
+  }
+  .section-like-type .block-like-type .list-scheme-works li{
+    margin-bottom: 20px;
+    .title {
+      font-size: 17px;
+      line-height: 25px;
+    }
+  }
+  .page-windowsill.brand.werzalit{
+    tbody,
+    thead{
+      tr{
+        padding: 0 35px 0 0;
+      }
+    }
+  }
+}

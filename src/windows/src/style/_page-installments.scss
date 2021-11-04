@@ -1,0 +1,974 @@
+.bg-welcome-page-installments{
+  background-image: url($images-path +'bg-welcome-credit.jpg');
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  min-height: 480px;
+  &:before{
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 25%, white 40%, white 60%, rgba(255, 255, 255, 0.7) 75%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
+.page-installments{
+  font-size: 11px;
+  line-height: 15px;
+  section{
+    padding: 25px 0;
+  }
+  .section-top{
+    padding: 25px 0 0;
+  }
+  .title-section{
+    padding-bottom: 15px;
+    .small-title{
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+  .section-welcome-page .text-welcome {
+    position: relative;
+    text-align: left;
+    padding:  15px 20px 0;
+    .text-custom-page{
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 500;
+    }
+    .big-title{
+      line-height: 21px;
+      text-transform: uppercase;
+    }
+    .title-hot-credit{
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      padding-bottom: 0;
+    }
+    .text-custom-page{
+      display: block;
+    }
+    ul{
+      margin-bottom: 0;
+    }
+    .color-grey{
+      color: #707070;
+      font-weight: 400;
+    }
+    .img-percent {
+      li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .cycle-percen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        color:#EB4E08;
+        border-radius: 50%;
+        font-size: 23px;
+        font-weight: 700;
+        width: 53px;
+        min-width: 53px;
+        height: 53px;
+        background-color: #fff;
+        z-index: 10;
+        .price{
+          font-size: 11px;
+        }
+      }
+      .title-percent{
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #EB4E08;
+        border-radius: 6px;
+        color: #ffffff;
+        padding: 8px 25px;
+        margin-left: -10px;
+      }
+
+    }
+  }
+}
+.list-present{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+  .item{
+    width: calc(50% - 7px);
+    text-align: center;
+    margin-bottom: 12px;
+    .title-present{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: #EB4E08;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      color: #ffffff;
+      padding: 10px;
+    }
+    .img-block{
+      width: 100%;
+      height: 120px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .footer-item{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 0 5px;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 12px;
+      text-align: left;
+      min-height: 37px;
+      .price{
+        font-size: 12px;
+        font-weight: 700;
+        white-space: nowrap;
+        width: 55%;
+        text-align: right;
+      }
+      .cross-text {
+        position: relative;
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: calc(50% - .75px);
+          left: 0;
+          right: 0;
+          border: .75px solid orangered;
+        }
+      }
+    }
+  }
+}
+
+//.bg-price{
+//  content: '';
+//  background: url($images-path + "bg-price.png") no-repeat;
+//  position: absolute;
+//  //background-size: contain;
+//  //background-position-y: 60%;
+//}
+.section-catalog.installments{
+  box-shadow: none;
+  .slick-track{
+    display: flex;
+    align-items: baseline;
+    margin-top: -60px;
+    padding-top: 25px;
+  }
+  .list-item-catalog{
+      .item-catalog{
+        width: 100%;
+        .header-item-catalog{
+          font-size: 15px;
+          line-height: 17px;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          padding: 0 25px;
+          height: 51px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0;
+        }
+        .block-img {
+          width: 100%;
+          height: 210px;
+          display: flex;
+          align-items: center;
+          margin: 0 auto;
+          min-width: auto;
+          img{
+            height: 180px;
+            width: auto;
+            min-width: auto;
+            margin: 0 auto;
+          }
+        }
+      .footer-item-catalog{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 10px;
+        padding-bottom: 10px;
+        .price, .btn{
+          margin: 0;
+          width: calc(50% - 5px);
+          height: 32px;
+        }
+        .btn{
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+}
+
+.section-installments-form.bg-welcome-page-installments-form{
+  background: url($images-path + "bg-welcome-page-installments.jpg") no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.section-installments-form{
+  .list-presents-pref{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    .item{
+      width: 50%;
+      text-align: center;
+      margin-bottom: 20px;
+      .icon{
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+      .title{
+        display: block;
+        margin: 5px 13px;
+        font-weight: 400;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+.section-img.installments{
+  background-image: none;
+  color: #000000;
+  .block-imgs .block-2{
+    background-image: linear-gradient(64deg, #2894e1 0%, #1f5daf 48%, #193c91 100%);
+    right: 0;
+    width: 70%;
+    top: 0;
+    position: relative;
+    img {
+      width: 68%;
+      display: block;
+      position: absolute;
+      left: 18%;
+    }
+  }
+  .block-imgs .block-3 {
+    width: 30%;
+    margin: 0;
+    //border: 1px solid #707070;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    .block-pref {
+      width: 100%;
+    }
+  }
+}
+
+
+.section-bank{
+  background-color: #F0F0F0;
+  .block{
+    background-color: #ffffff;
+    padding: 5px 10px;
+    .title-block-bank{
+      font-size: 20px;
+      text-align: center;
+      font-weight: 700;
+      line-height: 22px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  .title-tab{
+    display: flex;
+    align-items: center;
+  }
+  .nav-justified .nav-link {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .block-left{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 15px;
+    img {
+      width: 106px;
+      min-width: 106px;
+      height: 97px;
+    }
+    .title-block{
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    .info-bank{
+      display: flex;
+      flex-wrap: wrap;
+
+      dl{
+        dt,dd{
+          font-size: 9px;
+          line-height: 10px;
+        }
+      }
+      dt{
+        width: 50%;
+        display: block;
+        font-weight: 400;
+
+      }
+      dd{
+        font-weight: 500;
+        margin-bottom: 2px;
+        width: 50%;
+      }
+    }
+  }
+}
+.section-img{
+  .block-conditions{
+    background-color: #F4F9FC;
+    padding: 10px;
+    .list-conditions{
+      font-weight: 400;
+      li{
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 9px;
+        &:before{
+          content: '';
+          background-image: url("../images/icon/icon-list-done.svg");
+          width: 16px;
+          min-width: 16px;
+          height: 11px;
+          display: block;
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-right: 7px;
+        }
+        .bold-text{
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+.list-item-installments{
+  display: flex;
+  flex-wrap: wrap;
+  .item-installments{
+    width: calc(50% - 6px);
+    margin: 3px;
+    .header-item-catalog{
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 400;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      padding: 0 5px;
+      height: 37px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0;
+      color: #ffffff;
+      text-align: center;
+      &.color-2894E1{
+        background-image: linear-gradient(to bottom, #2894E1, #193C91);
+      }
+      &.color-CCCC3E{
+        background-image: linear-gradient(to bottom, #FFF700, #CCCC3E );
+      }
+      &.color-5A9523{
+        background-image: linear-gradient(to bottom, #7ED32D, #5A9523);
+      }
+      &.color-2792DE{
+        background-color: #2792DE;
+      }
+    }
+    .block-img {
+      width: 100%;
+      height: 110px;
+      overflow: hidden;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      img{
+        height: auto;
+        width: 100%;
+        image-rendering: auto;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+    .title-item-installments{
+      text-align: center;
+      font-size: 9px;
+      line-height: 12px;
+      font-weight: 400;
+      margin-top: 10px;
+      .bold-text{
+        font-weight: 700;
+        display: block;
+      }
+    }
+  }
+}
+
+
+.section-credit-terms{
+  padding-bottom: 10px;
+  .list-item-installments .item-installments {
+    margin-bottom: 0;
+  }
+}
+
+.section-installments-form{
+  .list-info-bank{
+    .item-info-bank{
+      .block-item-info-bank{
+        width: 235px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        color: #000000;
+        .title{
+          font-size: 15px;
+          font-weight: 700;
+          text-align: center;
+        }
+        .list-start-credit{
+          li:nth-child(odd){
+              background-color: #F4F9FC;
+          }
+          li{
+            font-size: 11px;
+            line-height: 28px;
+            font-weight: 400;
+            padding: 0 30px;
+            border-radius: 5px;
+          }
+        }
+      }
+      .btn-custom-project{
+        margin: 10px  auto 30px;
+      }
+    }
+  }
+}
+
+.section-text {
+  position: relative;
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 56%, rgba(255, 255, 255, 0.91) 84%, rgba(255, 255, 255, 0.8) 100%),
+      url($images-path + 'rightmove-founders-lending-platform-secures.jpg') no-repeat right center;
+  background-size: 100%, auto 100%;
+  font-size: 11px;
+  line-height: 17px;
+  .title-post{
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 425px){
+  .list-item-installments .item-installments{
+    .block-img {
+      height: 140px;
+    }
+    .title-item-installments {
+      font-size: 11px;
+      line-height: 15px;
+    }
+  }
+}
+@media (max-width: 767px){
+  .section-img.installments{
+    p {
+      font-size: 13px;
+      font-weight: 300;
+      margin-top: 10px;
+      line-height: 17px;
+    }
+    &:before{
+      content: none;
+    }
+    .block-imgs{
+      padding-top: 0;
+      .block-2 img{
+        position: relative;
+      }
+      .block-3, .block-2{
+        width: 290px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .page-installments .section-welcome-page .text-welcome{
+    .big-title {
+      line-height: 21px;
+      text-transform: inherit;
+    }
+    .big-title {
+      line-height: 35px;
+      text-transform: inherit;
+      margin-right: 20px;
+    }
+    .img-percent {
+      li{
+        margin-bottom: 24px;
+      }
+      .title-percent {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color:rgba(235, 78, 8, 0.8) ;
+        border-radius: 6px;
+        color: #ffffff;
+        padding: 14px 25px;
+        margin-left: -10px;
+        width: auto;
+        white-space: nowrap;
+      }
+      .cycle-percen{
+      font-size: 29px;
+        width: 80px;
+        min-width: 80px;
+        height: 80px;
+      .price{
+        font-size: 15px;
+      }
+    }
+    }
+  }
+  .bg-welcome-page-installments{
+    background-image: url($images-path +'bg-welcome-installments.jpg');
+    background-size: cover;
+    background-position-x: right;
+    &:before{
+      background: linear-gradient(to right, #ffffff 0%, #ffffff 25%, rgba(255, 255, 255, 0.81) 55%, rgba(255, 255, 255, 0.39) 65%, rgba(255, 255, 255, 0) 100%);
+  }
+    .section-welcome-page .text-welcome {
+    }
+  }
+  .page-installments {
+    font-size: 13px;
+    line-height: 18px;
+    .section-welcome-page .text-welcome{
+      display: flex;
+    }
+  }
+  .section-catalog.installments{
+    .list-item-catalog .item-catalog {
+      width: calc(50% - 10px);
+    }
+    .slider-brand img {
+      width: 130px;
+      margin: 0 auto;
+    }
+  }
+  .section-installments-form {
+    .list-presents-pref{
+      .item {
+        width: 20%;
+        margin-bottom: 0;
+      }
+    }
+    .list-present{
+      margin-top: 0;
+      margin-left: 35px;
+    }
+  }
+
+  .section-img.installments .block-imgs .block-2 {
+    width: 100%;
+    left: 0;
+    img{
+      width: 80%;
+    }
+  }
+  .section-img.installments .block-imgs .block-2 {
+    width: 100%;
+    margin: 0;
+  }
+  .section-img.installments .block-imgs .block-3{
+    width: 290px;
+    margin: 0;
+  }
+  .section-bank{
+    .nav-justified .nav-link {
+      height: 70px;
+      display: flex;
+      justify-content: center;
+    }
+    .block-left{
+      img {
+        width: 237px;
+        min-width: 237px;
+        height: 218px;
+      }
+      .title-block {
+        font-size: 16px;
+      }
+    }
+  }
+  .list-item-installments{
+    justify-content: space-between;
+    .item-installments {
+      width: calc(33% - 10px);
+      margin: 0;
+    }
+  }
+
+  .section-installments-form{
+    .list-info-bank {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0;
+      .item-info-bank{
+        width: calc( 33% - 15px);
+      }
+    }
+  }
+  .section-text {
+    font-size: 15px;
+    line-height: 25px;
+    .title-post {
+      font-size: 17px;
+      line-height: 25px;
+    }
+  }
+}
+
+
+@media (min-width: 992px){
+  .page-installments {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .section-catalog.installments{
+    .list-item-catalog .item-catalog {
+      width: calc(33% - 7px);
+      margin-bottom: 40px;
+      .header-item-catalog {
+        padding: 0 45px;
+        font-size: 18px;
+        line-height: 22px;
+        height: 61px;
+      }
+      .footer-item-catalog{
+        flex-direction: column;
+        padding-bottom: 18px;
+        .btn, .price {
+          height: 42px;
+          padding: 5px;
+        }
+        .price{
+          width: 228px;
+          margin-bottom: 12px;
+          .text{
+            font-weight: 500;
+          }
+        }
+        .btn{
+          width: 208px;
+        }
+      }
+    }
+    .slider-brand img {
+      width: 190px;
+    }
+  }
+  .section-installments-form{
+    .title-section{
+      font-size: 32px;
+      line-height: 36px;
+      padding: 20px 0;
+      .small-title{
+        font-size: 24px;
+        line-height: 28px;
+      }
+    }
+    .list-presents-pref{
+      padding: 0 35px;
+      .item .title {
+        display: block;
+        margin: 10px auto 0 ;
+        width: 140px;
+        line-height: 19px;
+        font-size: 17px;
+      }
+    }
+    .block-form{
+      .form{
+        padding: 30px 38px;
+      }
+    }
+    .list-present .item {
+      width: calc(50% - 17px);
+      margin-bottom: 20px;
+      .title-present{
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px;
+      }
+      .img-block {
+        height: 140px;
+      }
+      .footer-item {
+        padding: 0 15px;
+        font-size: 15px;
+        line-height: 17px;
+        min-height: 51px;
+        span{
+          width: 45%;
+          font-weight: 500;
+        }
+        .price{
+          font-size: 18px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .section-bank .block-left {
+    min-width: 60%;
+    padding-top: 0;
+    .info-bank{
+      dt{
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 500;
+      }
+      dd{
+        font-size: 14px;
+        line-height: 13px;
+        font-weight: 700;
+      }
+    }
+  }
+  .section-img .block-conditions .list-conditions {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 50%;
+      padding: 0 20px;
+    }
+  }
+  .list-item-installments .item-installments{
+    .header-item-catalog {
+      font-size: 20px;
+      line-height: 25px;
+      height: 51px;
+    }
+    .title-item-installments {
+      //padding-top: 10px;
+      font-size: 15px;
+      line-height: 19px;
+      .bold-text {
+        display: inline-block;
+      }
+    }
+    .block-img {
+      height: 225px;
+    }
+  }
+  .list-present .item .img-block {
+    height: 140px;
+  }
+  .section-installments-form{
+    .list-info-bank{
+      padding: 15px 25px;
+      .item-info-bank{
+        width: calc( 33% - 5px);
+        .block-item-info-bank {
+          width: 100%;
+          max-width: 300px;
+          .list-start-credit li {
+            font-size: 15px;
+            line-height: 28px;
+            font-weight: 500;
+            padding: 3px 30px;
+          }
+          .title {
+            font-size: 20px;
+          }
+        }
+        .btn-custom-project {
+          width: 100%;
+          max-width: 300px;
+          font-size: 17px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  .section-img.installments .block-imgs .block-2 img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1300px){
+  .section-catalog.installments .slider-brand img.img-logo-kbe {
+    width: 130px;
+    height: auto;
+  }
+  .bg-welcome-page-installments {
+    background-size: contain;
+    min-height: 435px;
+  }
+  .section-text {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .page-installments {
+    font-size: 18px;
+    line-height: 27px;
+    .section-top{
+      padding-top: 5px;
+    }
+    .section-welcome-page .text-welcome{
+      width: 72%;
+      max-width: 95%;
+      .big-title {
+        line-height: 40px;
+        font-size: 32px;
+      }
+      .title-hot-credit {
+        font-size: 19px;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        &:before{
+          margin-right: 7px;
+          margin-bottom: 3px;
+        }
+      }
+      .color-grey{
+        font-size: 12px;
+        line-height: 18px;
+        width: 90%;
+      }
+    }
+  }
+  .section-bank{
+    .block-left{
+      .info-bank dd,dt {
+        font-size: 13px;
+        line-height: 17px;
+      }
+      img {
+        width: 294px;
+        min-width: 294px;
+        height: 250px;
+        margin-top: -25px;
+      }
+    }
+  }
+  .section-installments-form{
+    .block-form{
+      padding: 0 55px;
+      .form{
+        width: 450px;
+        padding: 30px 38px;
+        .title-form {
+          width: 55%;
+          margin: 0 auto 8px;
+        }
+      }
+    }
+    .list-presents-pref{
+      padding: 0 95px;
+      .item .icon{
+        width: 78px;
+        height: 78px;
+      }
+    }
+    .list-present .item{
+      .footer-item {
+        min-height: 55px;
+      }
+    }
+  }
+  .list-item-installments .item-installments{
+    width: calc(33% - 18px);
+    .header-item-catalog {
+      font-size: 23px;
+      line-height: 26px;
+      height: 60px;
+    }
+    .title-item-installments {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .block-img {
+      height: 290px;
+    }
+  }
+  .section-credit-terms{
+    .list-item-installments{
+      .item-installments{
+        .block-img{
+          height: 220px;
+        }
+      }
+    }
+  }
+  .section-bank .block .title-block-bank {
+    font-size: 24px;
+  }
+  .section-img.installments{
+    .block-imgs{
+      padding-top: 0;
+      .block-2 img {
+        width: 65%;
+      }
+    }
+    p{
+      font-weight: 400;
+      margin-top: 35px;
+    }
+  }
+  .section-img .block-conditions {
+    padding: 30px 30px 20px;
+    margin-bottom: 20px;
+  }
+  .section-text {
+    position: relative;
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 56%, rgba(255, 255, 255, 0.91) 84%, rgba(255, 255, 255, 0.8) 100%),
+    url($images-path +"rightmove-founders-lending-platform-secures.jpg") no-repeat right center;
+    background-size: 100%, auto 100%;
+    p{
+      padding-right: 115px;
+    }
+  }
+}

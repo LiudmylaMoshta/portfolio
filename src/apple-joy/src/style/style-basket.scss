@@ -1,0 +1,289 @@
+
+.page-basket{
+  .icon-percent {
+    padding: 5px 11px;
+  }
+  .title-section{
+    padding: 25px 0 0;
+  }
+  .block-total{
+    color: #868B91;
+    font-weight: 400;
+    padding: 20px 25px;
+    margin-bottom: 7px;
+    .line-dotted{
+      border-bottom: 1px dotted #919090;
+      flex: 1 0 auto;
+      margin: 0 5px 8px;
+    }
+    .number{
+      color: #000;
+    }
+    .block-sale{
+      border-bottom: 1px solid #919090;
+      width: 100%;
+      display: flex;
+      margin-bottom: 28px;
+    }
+    .block-sale,
+    .block-number{
+      width: 100%;
+      display: flex;
+      padding-bottom: 28px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .total-sum{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: #000;
+      font-weight: 400;
+      font-size: 15px;
+      padding-bottom: 20px;
+    }
+    .btn-custom-project,
+    .btn-custom-project-2{
+      min-height: 39px;
+      height: 39px;
+      width: 90%;
+      font-size: 13px;
+    }
+  }
+}
+
+.page-basket, .page-ordering{
+  .item-card-product-grid {
+    border-bottom: 1px solid #919090;
+    padding: 25px 0 15px;
+    display: grid;
+    grid-template-areas:
+          "img title icon-close"
+          "img title ."
+          "persent-sale addproduct ."
+          ". addproduct ."
+          " . summa ."
+          ". summa .";
+    grid-template-columns: 80px auto;
+    grid-gap: 7px;
+    &:first-child {
+      display: none;
+    }
+    .label-product.sale{
+      grid-area: persent-sale;
+    }
+    .block-img {
+      grid-area: img;
+      width: 84px;
+      height: 80px;
+      display: block;
+      img{
+        height: 80px;
+        width: auto;
+      }
+    }
+    .block-title-product {
+      grid-area: title;
+      font-weight: 300;
+      .title-product{
+        font-size: 15px;
+        display: block;
+        a{
+          color: #000;
+        }
+      }
+      .article{
+        color: #919090;
+        font-size: 14px;
+      }
+    }
+    .wrapper-icon-close{
+      grid-area: icon-close;
+      //width: 20px;
+      //height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .icon-close-card{
+        padding-left: 10px;
+        width: 25px;
+      }
+    }
+    .price {
+      grid-area: summa;
+      font-size: 17px;
+      line-height: 150%;
+      display: flex;
+      flex-direction: column;
+      .quantity-price{
+        font-size: 13px;
+        line-height: 150%;
+        font-weight: 400;
+        color: #868B91;
+      }
+    }
+    .block-add-product{
+      grid-area: addproduct;
+    }
+  }
+
+}
+.add-product{
+  background-color: #FFFFFF;
+  border: 1px solid #D2CDCD;
+  border-radius: 7px;
+  width: 83px;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  line-height: 30px;
+  padding: 0px 7px;
+  span{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    font-size: 16px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  input{
+    border: none;
+    width: 100%;
+    text-align: center;
+    border-radius: 7px;
+  }
+}
+
+
+
+
+@media(min-width: 768px){
+  .page-basket {
+    .block-wrapper-card {
+      display: grid;
+      grid-template-columns: 2fr 1.2fr;
+      grid-gap: 25px;
+      .total{
+      }
+      .block-total{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        .btn-custom-project,
+        .btn-custom-project-2{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .page-basket, .page-ordering{
+    .item-card-product-grid {
+      grid-template-areas:
+          "img title icon-close"
+          "img title ."
+          "persent-sale addproduct summa"
+          ". addproduct summa";
+      grid-template-columns: 80px auto;
+      grid-gap: 7px;
+    }
+  }
+}
+
+
+@media(min-width: 1300px){
+  .page-basket {
+    .block-wrapper-card {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 40px;
+      .total{
+      }
+      .block-total{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 37px;
+        .total-sum {
+          display: flex;
+          flex-direction: column;
+          font-size: 18px;
+          .sum{
+            font-size: 24px;
+            padding-top: 12px;
+            font-weight: 500;
+          }
+        }
+        .btn-custom-project,
+        .btn-custom-project-2 {
+          min-height: 41px;
+          height: 41px;
+          font-size: 16px;
+        }
+        .btn-custom-project{
+          box-shadow: 0 6px 8px rgba(170,120,209, 0.5);
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  }
+  .page-basket, .page-ordering{
+    .item-card-product-grid {
+      padding: 30px 0 20px;
+      grid-template-areas:
+          "img title addproduct summa icon-close"
+          "img title . summa ."
+          "img persent-sale . . .";
+      grid-template-columns: 100px  2.2fr  .8fr  .8fr  .3fr;
+      grid-gap: 20px;
+      &:first-child {
+        display: grid;
+        grid-template-areas: "title title addproduct summa summa";
+        border-bottom: none;
+        padding-bottom: 0;
+        .block-add-product, .block-title-product , .price{
+          color: #919090;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .block-img {
+        grid-area: img;
+        width: unset;
+        height: auto;
+        display: block;
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+      .block-title-product{
+        .article {
+          font-size: 15px;
+        }
+        .title-product {
+          font-size: 20px;
+          line-height: 150%;
+        }
+      }
+      .wrapper-icon-close {
+        align-items: baseline;
+      }
+      .price {
+        font-size: 20px;
+        .quantity-price {
+          font-size: 15px;
+          padding-top: 5px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+
+
