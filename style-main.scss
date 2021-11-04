@@ -229,6 +229,9 @@ section{
   }
 }
 @media(min-width: 1300px) {
+  .section-welcome p {
+    font-size: 70px;
+  }
   .list-portfolio li{
     .img-fluid{
       min-height: 250px;
