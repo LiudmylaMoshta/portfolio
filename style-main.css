@@ -188,6 +188,7 @@ section {
   display: flex;
   justify-content: start;
   align-items: center;
+  margin-bottom: 10px;
 }
 .section-contact .list-contact li .icon {
   margin-right: 5px;
